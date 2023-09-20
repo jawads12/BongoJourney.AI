@@ -2,7 +2,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 1280px;
+  width: 1440px;
   height: 720px;
   object-fit: cover;
 }
@@ -193,8 +193,8 @@
   height: 585.91px;
 }
 .signup-inner {
-  top: 57px;
-  left: 671px;
+  top: 82px;
+  left: 735px;
   width: 549px;
   height: 591px;
 }

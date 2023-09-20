@@ -1,210 +1,211 @@
 .dash-sabbir-rahaman-paxuttf3bv-icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1440px;
-    height: 1024px;
-    object-fit: cover;
-  }
-  .dash-group-36630,
-  .dash-group-36630-child {
-    position: absolute;
-    top: 0;
-    width: 1092px;
-    height: 79px;
-  }
-  .dash-group-36630-child {
-    left: 0;
-    border-radius: 100px;
-    background-color: rgba(91, 91, 91, 0.45);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
-  }
-  .dash-group-36630 {
-    left: 32px;
-  }
-  .dash-glass-1-icon {
-    position: absolute;
-    top: 15px;
-    left: 41px;
-    width: 47px;
-    height: 49px;
-    object-fit: cover;
-  }
-  .dash-text {
-    position: absolute;
-    top: 12px;
-    left: 106px;
-    letter-spacing: 0.02em;
-    display: inline-block;
-    width: 694px;
-    height: 52px;
-  }
-  .dash-frame3 {
-    position: absolute;
-    top: 195px;
-    left: 154px;
-    width: 1139px;
-    height: 79px;
-    color: rgba(255, 255, 255, 0.36);
-    font-family: "Hi Melody";
-  }
-  .dash-rectangle-13 {
-    position: absolute;
-    top: 203px;
-    left: 1119px;
-    border-radius: 100px;
-    background-color: #d6eaee;
-    width: 155px;
-    height: 63px;
-  }
-  .dash-search {
-    position: absolute;
-    top: 204px;
-    left: 1113px;
-    font-size: 35px;
-    letter-spacing: 0.02em;
-    font-family: "Hind Siliguri";
-    color: #000;
-    text-align: center;
-    display: inline-block;
-    width: 158px;
-    height: 61px;
-  }
-  .pxl-20230420-0511079402-1-icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-  .pxl-20230420-0511079402-1-wrapper {
-    position: absolute;
-    top: 17px;
-    left: 1317px;
-    border-radius: 60px;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  .discover {
-    top: 26px;
-    left: 168px;
-    width: 151px;
-  }
-  .community,
-  .discover,
-  .my-plan,
-  .trips {
-    position: absolute;
-    letter-spacing: 0.02em;
-    display: inline-block;
-    height: 53px;
-  }
-  .trips {
-    top: 27px;
-    left: 369px;
-    width: 151px;
-    cursor: pointer;
-  }
-  .community,
-  .my-plan {
-    top: 26px;
-    left: 814px;
-    width: 194px;
-  }
-  .my-plan {
-    top: 27px;
-    left: 570px;
-  }
-  .dash-frame2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.29);
-    width: 1440px;
-    height: 133px;
-    text-align: center;
-  }
-  .dash-build-a-trip,
-  .dash-in-minuites {
-    position: absolute;
-    letter-spacing: 0.02em;
-    width: 318px;
-    height: 100px;
-  }
-  .dash-in-minuites {
-    top: 28px;
-    left: 44px;
-    display: flex;
-    align-items: center;
-  }
-  .dash-build-a-trip {
-    top: -52px;
-    left: 43px;
-    display: inline-block;
-  }
-  .dash-get-a-personalized,
-  .dash-guided-by-traveler {
-    position: absolute;
-    top: 100px;
-    left: 43px;
-    font-size: 50px;
-    letter-spacing: 0.02em;
-    color: #7d5dd8;
-    display: flex;
-    align-items: center;
-    width: 1009px;
-    height: 93px;
-  }
-  .dash-guided-by-traveler {
-    top: 147px;
-    left: 44px;
-    width: 879px;
-    height: 65px;
-  }
-  .dash-rectangle-14 {
-    position: absolute;
-    top: 299px;
-    left: 24px;
-    border-radius: 60px;
-    background-color: rgba(217, 217, 217, 0.18);
-    width: 393px;
-    height: 73px;
-  }
-  .dash-start-a-trip {
-    position: absolute;
-    top: 290px;
-    left: 44px;
-    font-size: 60px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 351px;
-    height: 88px;
-    cursor: pointer;
-  }
-  .dash-frame1 {
-    position: absolute;
-    top: 373px;
-    left: 0;
-    width: 1440px;
-    height: 651px;
-    overflow: hidden;
-    font-size: 80px;
-  }
-  .dashboard {
-    position: relative;
-    background-color: rgba(1, 15, 3, 0.45);
-    width: 100%;
-    height: 1024px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 50px;
-    color: #fff;
-    font-family: Gurajada;
-  }
-  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1024px;
+  object-fit: cover;
+}
+.dash-group-36630,
+.dash-group-36630-child {
+  position: absolute;
+  top: 0;
+  width: 1092px;
+  height: 79px;
+}
+.dash-group-36630-child {
+  left: 0;
+  border-radius: 100px;
+  background-color: rgba(91, 91, 91, 0.45);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+.dash-group-36630 {
+  left: 32px;
+}
+.dash-glass-1-icon {
+  position: absolute;
+  top: 15px;
+  left: 41px;
+  width: 47px;
+  height: 49px;
+  object-fit: cover;
+}
+.dash-text {
+  position: absolute;
+  top: 12px;
+  left: 106px;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  width: 694px;
+  height: 52px;
+}
+.dash-frame3 {
+  position: absolute;
+  top: 195px;
+  left: 154px;
+  width: 1139px;
+  height: 79px;
+  color: rgba(255, 255, 255, 0.36);
+  font-family: "Hi Melody";
+}
+.dash-rectangle-13 {
+  position: absolute;
+  top: 203px;
+  left: 1119px;
+  border-radius: 100px;
+  background-color: #d6eaee;
+  width: 155px;
+  height: 63px;
+}
+.dash-search {
+  position: absolute;
+  top: 204px;
+  left: 1113px;
+  font-size: 35px;
+  letter-spacing: 0.02em;
+  font-family: "Hind Siliguri";
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  width: 158px;
+  height: 61px;
+}
+.pxl-20230420-0511079402-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.pxl-20230420-0511079402-1-wrapper {
+  position: absolute;
+  top: 17px;
+  left: 1317px;
+  border-radius: 60px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.discover {
+  top: 26px;
+  left: 168px;
+  width: 151px;
+}
+.community,
+.discover,
+.my-plan,
+.trips {
+  position: absolute;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  height: 53px;
+}
+.trips {
+  top: 27px;
+  left: 369px;
+  width: 151px;
+  cursor: pointer;
+}
+.community,
+.my-plan {
+  top: 26px;
+  left: 814px;
+  width: 194px;
+}
+.my-plan {
+  top: 27px;
+  left: 570px;
+}
+.dash-frame2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.29);
+  width: 1440px;
+  height: 133px;
+  text-align: center;
+}
+.dash-build-a-trip,
+.dash-in-minuites {
+  position: absolute;
+  letter-spacing: 0.02em;
+  width: 318px;
+  height: 100px;
+}
+.dash-in-minuites {
+  top: 28px;
+  left: 44px;
+  display: flex;
+  align-items: center;
+}
+.dash-build-a-trip {
+  top: -52px;
+  left: 43px;
+  display: inline-block;
+}
+.dash-get-a-personalized,
+.dash-guided-by-traveler {
+  position: absolute;
+  top: 100px;
+  left: 43px;
+  font-size: 50px;
+  letter-spacing: 0.02em;
+  color: #7d5dd8;
+  display: flex;
+  align-items: center;
+  width: 1009px;
+  height: 93px;
+}
+.dash-guided-by-traveler {
+  top: 147px;
+  left: 44px;
+  width: 879px;
+  height: 65px;
+}
+.dash-rectangle-14 {
+  position: absolute;
+  top: 299px;
+  left: 24px;
+  border-radius: 60px;
+  background-color: rgba(217, 217, 217, 0.18);
+  width: 393px;
+  height: 73px;
+}
+.dash-start-a-trip {
+  position: absolute;
+  top: 290px;
+  left: 44px;
+  font-size: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 351px;
+  height: 88px;
+  cursor: pointer;
+}
+.dash-frame1 {
+  position: absolute;
+  top: 373px;
+  left: 0;
+  width: 1440px;
+  height: 651px;
+  overflow: hidden;
+  font-size: 80px;
+}
+.dashboard {
+  position: relative;
+  background-color: rgba(1, 15, 3, 0.45);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 50px;
+  color: #fff;
+  font-family: Gurajada;
+}
+
+
