@@ -1,0 +1,247 @@
+.frame-item {
+  position: relative;
+  width: 911px;
+  height: 1036px;
+  object-fit: cover;
+}
+.frame {
+  position: absolute;
+  top: -93px;
+  left: -21px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 925px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.welcome-back {
+  position: relative;
+  letter-spacing: -0.06em;
+  line-height: 51.9px;
+  display: inline-block;
+  width: 363px;
+}
+.frame1 {
+  position: absolute;
+  top: 171px;
+  left: 68px;
+  width: 370px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.email {
+  position: relative;
+  line-height: 19px;
+  font-weight: 500;
+}
+.email-wrapper {
+  flex-direction: row;
+}
+.email-wrapper,
+.enter-your-email-wrapper,
+.frame-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.enter-your-email-wrapper {
+  border-radius: 8px;
+  border: 1px solid #5b5b5b;
+  box-sizing: border-box;
+  width: 340px;
+  flex-direction: row;
+  padding: 14px 20px;
+  font-size: 14px;
+  color: #5b5b5b;
+}
+.frame-container {
+  flex-direction: column;
+  gap: 6px;
+}
+.enter-your-password {
+  position: relative;
+  line-height: 25px;
+  font-weight: 500;
+  display: inline-block;
+  width: 151px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.bxhide-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.enter-your-password-parent {
+  border-radius: 8px;
+  border: 1px solid #5b5b5b;
+  box-sizing: border-box;
+  width: 340px;
+  height: 47px;
+  display: flex;
+  flex-direction: row;
+  padding: 14px 20px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 143px;
+  text-align: left;
+  font-size: 14px;
+  color: #5b5b5b;
+}
+.frame-inner {
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+}
+.remember-me {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.rectangle-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.forgot-password {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.frame-parent1,
+.password1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent1 {
+  flex-direction: row;
+  gap: 141px;
+  font-size: 12px;
+  color: #000;
+}
+.password1 {
+  flex-direction: column;
+  gap: 12px;
+}
+.sign-in {
+  position: relative;
+  line-height: 19px;
+  font-weight: 600;
+}
+.button-sign-in {
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  border: 1px solid rgba(91, 91, 91, 0.5);
+  box-sizing: border-box;
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  padding: 14px 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.icon,
+.or {
+  position: relative;
+}
+.or {
+  line-height: 19px;
+  font-weight: 600;
+  color: #000;
+}
+.icon {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.button-sign-in1 {
+  border-radius: 8px;
+  border: 1px solid #5b5b5b;
+  box-sizing: border-box;
+  width: 340px;
+  height: 47px;
+  display: flex;
+  flex-direction: row;
+  padding: 14px 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+  color: #1a1c1e;
+}
+.form,
+.sign-in-an-sign-up {
+  display: flex;
+  flex-direction: column;
+}
+.sign-in-an-sign-up {
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #fcfcfc;
+}
+.form {
+  position: absolute;
+  top: 281px;
+  left: 51px;
+  width: 403px;
+  height: 365px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 21px;
+  text-align: center;
+  font-size: 16px;
+}
+.frame-icon,
+.frame2 {
+  position: absolute;
+  top: 742px;
+  left: 257px;
+  width: 427px;
+  height: 282px;
+  overflow: hidden;
+}
+.frame-icon {
+  top: 646px;
+  left: 255px;
+  width: 281px;
+  height: 294px;
+}
+.frame-group,
+.signin {
+  background-color: #fff;
+  height: 940px;
+  overflow: hidden;
+}
+.frame-group {
+  position: absolute;
+  top: 0;
+  left: 904px;
+  width: 536px;
+}
+.signin {
+  position: relative;
+  border-radius: 8px;
+  box-shadow: -9px 4px 76px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  text-align: left;
+  font-size: 52px;
+  color: #1e1e1e;
+  font-family: Inter;
+}

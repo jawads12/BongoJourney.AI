@@ -1,0 +1,166 @@
+.bangladeshs-first-ai {
+  position: relative;
+  display: inline-block;
+  width: 905px;
+  height: 31px;
+  flex-shrink: 0;
+}
+.frame3 {
+  position: absolute;
+  top: 241px;
+  left: 0;
+  width: 959px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.bongojourneyai1 {
+  position: relative;
+  display: inline-block;
+  width: 755px;
+  height: 104px;
+  flex-shrink: 0;
+}
+.frame-child1,
+.frame4 {
+  position: absolute;
+  left: 0;
+}
+.frame4 {
+  top: 124px;
+  width: 800px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 100px;
+  color: #002c6e;
+  font-family: Itim;
+}
+.frame-child1 {
+  top: 122px;
+  width: 1440px;
+  height: 2px;
+}
+.help-center,
+.home {
+  justify-content: center;
+  width: 165px;
+}
+.help-center {
+  position: absolute;
+  top: 0;
+  left: 518px;
+  display: flex;
+  align-items: center;
+  height: 51px;
+}
+.home {
+  position: relative;
+  flex-shrink: 0;
+}
+.frame7,
+.home,
+.join {
+  height: 51px;
+  display: flex;
+  align-items: center;
+}
+.join {
+  position: relative;
+  justify-content: center;
+  width: 165px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.frame7 {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.refer-1-icon {
+  position: relative;
+  width: 49px;
+  height: 51px;
+  object-fit: cover;
+}
+.frame8,
+.sign-in1 {
+  height: 51px;
+  display: flex;
+  align-items: center;
+}
+.sign-in1 {
+  position: relative;
+  justify-content: center;
+  width: 165px;
+  flex-shrink: 0;
+  cursor: pointer;
+  margin-left: -14px;
+}
+.frame8 {
+  position: absolute;
+  top: 0;
+  left: 1165px;
+  width: 200px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 30px;
+  font-family: "Jockey One";
+}
+.frame6 {
+  position: relative;
+  width: 1365px;
+  height: 53px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame5 {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  width: 1410px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+  font-family: Inder;
+}
+.frame-parent2,
+.landingpage {
+  position: relative;
+  overflow: hidden;
+}
+.frame-parent2 {
+  width: 1440px;
+  height: 1024px;
+  flex-shrink: 0;
+  background-image: url(/public/frame-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.landingpage {
+  border-radius: 18px;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 30px;
+  color: #010609;
+  font-family: Imprima;
+}
