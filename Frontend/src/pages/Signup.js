@@ -1,7 +1,7 @@
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Signup.css";
-
+import axios from 'axios'
 const Signup = () => {
   const navigate = useNavigate();
 
@@ -21,6 +21,17 @@ const Signup = () => {
     navigate("/signin");
   }, [navigate]);
 
+
+  const [name, setName] = useState()
+  const [email, setEmail] = useState()
+  const [password, setPassword] = useState()
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    axios.post('',{name,email,password})
+    .then(result=>console.log(result))
+    .catch(err=>console.log(err))
+  }
   return (
     <div className="signup">
       <img
@@ -28,6 +39,7 @@ const Signup = () => {
         alt=""
         src="/simonbergertwukn12en7cunsplash-1@2x.png"
       />
+      <form onSubmit={handleSubmit}>
       <div className="signup-inner">
         <div className="bxshide-parent">
           <img className="bxshide-icon" alt="" src="/bxshide.svg" />
@@ -45,7 +57,23 @@ const Signup = () => {
           <div className="group-inner" />
           <div className="line-div" />
           <div className="group-child1" />
-          <div className="full-name">Full Name</div>
+          <div className="full-name">
+          <input
+                type="text"
+                placeholder="Name"
+                name ="name"
+                onChange={(e)=>setName(e.target.value)}
+                style={{
+                  background: "transparent",
+                  border: "none",
+                  borderBottom: "1px solid transparent", // Optional: Add a transparent bottom border if needed
+                  outline: "none", // Optional: Remove the default outline when focused
+                  color: "yourTextColorHere", // Set the text color
+                  fontSize : "20px"
+                }}
+              />
+
+          </div>
           <div
             className="already-have-an-container"
             onClick={onAlreadyHaveAnClick}
@@ -54,8 +82,45 @@ const Signup = () => {
             <span className="span">{` `}</span>
             <span className="log-in">Log in</span>
           </div>
-          <div className="email-address">Email Address</div>
-          <div className="password">Password</div>
+          <div className="email-address">
+          <input
+                type="text"
+                placeholder="Email"
+                name="email"
+                onChange={(e)=>setEmail(e.target.value)}
+
+                style={{
+                  background: "transparent",
+                  border: "none",
+                  borderBottom: "1px solid transparent", // Optional: Add a transparent bottom border if needed
+                  outline: "none", // Optional: Remove the default outline when focused
+                  color: "yourTextColorHere", // Set the text color
+                  fontSize : "20px"
+                }}
+              />
+
+          
+          
+          </div>
+          <div className="password">
+          <input
+                type="password"
+                placeholder="Password"
+                name ="password"
+                onChange={(e)=>setPassword(e.target.value)}
+
+                style={{
+                  background: "transparent",
+                  border: "none",
+                  borderBottom: "1px solid transparent", // Optional: Add a transparent bottom border if needed
+                  outline: "none", // Optional: Remove the default outline when focused
+                  color: "yourTextColorHere", // Set the text color
+                  fontSize : "20px"
+                }}
+              />
+
+          </div>
+          
           <div className="rectangle-div" onClick={onRectangle2Click} />
           <b className="create-account1">Create Account</b>
           <div className="line-parent">
@@ -65,6 +130,7 @@ const Signup = () => {
           </div>
         </div>
       </div>
+      </form>
       <div className="frame-parent">
         <div className="vector-parent">
           <img className="vector-icon" alt="" src="/vector.svg" />
