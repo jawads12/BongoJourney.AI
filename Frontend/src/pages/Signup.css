@@ -139,18 +139,17 @@
   top: 322px;
   left: 0;
   border-radius: 8px;
-  background-color: #12610b;
+  background-color: #1d7216;
   width: 547px;
   height: 51px;
   cursor: pointer;
 }
 .create-account1 {
-  position: absolute;
   top: 336px;
   left: 195px;
   letter-spacing: 0.02em;
   line-height: 122.69%;
-  color: #f9fbff;
+  color: #000308;
 }
 .group-child2,
 .line-icon {

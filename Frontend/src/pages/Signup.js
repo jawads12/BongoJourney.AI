@@ -144,8 +144,8 @@ const Signup = () => {
 
           </div>
           
-          <div className="rectangle-div" onClick={onRectangle2Click} />
-          <b className="create-account1">Create Account</b>
+          <button type="submit" className="rectangle-div" onClick={onRectangle2Click}>
+          <b className="create-account1">Create Account</b></button>
           <div className="line-parent">
             <img className="line-icon" alt="" src="/line-4.svg" />
             <div className="group-child2" />
