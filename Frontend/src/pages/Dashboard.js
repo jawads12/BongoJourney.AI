@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
- import Frame from "./user_profile.js";
+import Frame from "./user_profile.js";
 import PortalPopup from "../components/PortalPopup.js";
 import Mytrip from "../components/Mytrip.js";
 import "./Dashboard.css";
@@ -7,6 +7,7 @@ import "./Dashboard.css";
 const Dashboard = () => {
   const [isFrameOpen, setFrameOpen] = useState(false);
   const [isMytripOpen, setMytripOpen] = useState(false);
+  const [placesText, setPlacesText] = useState("");
 
   const openFrame = useCallback(() => {
     setFrameOpen(true);
@@ -28,6 +29,10 @@ const Dashboard = () => {
     // Please sync "dashboard" to the project
   }, []);
 
+  const handlePlacesTextChange = (event) => {
+    setPlacesText(event.target.value);
+  };
+
   return (
     <>
       <div className="dashboard">
@@ -45,10 +50,17 @@ const Dashboard = () => {
             alt=""
             src="/dash-glass-1@2x.png"
           />
-          <div className="dash-text">PLaces to go, things to do</div>
+          <input
+            type="text"
+            placeholder="Places to go, things to do"
+            className="dash-text" // Add a new class
+            value={placesText}
+            onChange={handlePlacesTextChange}
+          />
+
         </div>
         <div className="dash-rectangle-13" />
-        <div className="dash-search">Search</div>
+        <button className="dash-rectangle-13">Search</button>
         <div className="dash-frame2">
           <div
             className="pxl-20230420-0511079402-1-wrapper"

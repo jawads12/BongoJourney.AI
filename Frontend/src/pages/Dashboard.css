@@ -37,8 +37,9 @@
   letter-spacing: 0.02em;
   display: inline-block;
   width: 694px;
-  height: 52px;
+  height: 52px; background-color: transparent; border :none; outline:none;font-size : 20px ; color : whitesmoke
 }
+
 .dash-frame3 {
   position: absolute;
   top: 195px;
@@ -56,6 +57,8 @@
   background-color: #d6eaee;
   width: 155px;
   height: 63px;
+  font-size:22px;
+  cursor: pointer;
 }
 .dash-search {
   position: absolute;
