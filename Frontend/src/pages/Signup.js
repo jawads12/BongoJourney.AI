@@ -22,16 +22,39 @@ const Signup = () => {
   }, [navigate]);
 
 
-  const [name, setName] = useState()
-  const [email, setEmail] = useState()
-  const [password, setPassword] = useState()
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    axios.post('',{name,email,password})
-    .then(result=>console.log(result))
-    .catch(err=>console.log(err))
-  }
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    // Create an object with the user's registration data
+    const userData = {
+      name,
+      email,
+      password,
+    };
+
+    try {
+      // Make an HTTP POST request to your backend endpoint for registration
+      const response = await axios.post('http://localhost:5000/api/auth/signup', userData);
+
+      // Handle the response from the backend
+      console.log(response.data);
+
+      // Optionally, you can provide feedback to the user based on the response
+      if (response.data.userCreated) {
+        alert('Registration successful!');
+      } else {
+        alert('Registration failed. Please try again.');
+      }
+
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
+  
   return (
     <div className="signup">
       <img

@@ -4,10 +4,10 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Landingpage from "./pages/Landingpage";
-import Signup from "./pages/Signup";
-import Signin from "./pages/Signin";
-import Dashboard from "./pages/Dashboard"
+import Landingpage from "./pages/Landingpage.js";
+import Signup from "./pages/Signup.js";
+import Signin from "./pages/Signin.js";
+import Dashboard from "./pages/Dashboard.js"
 import { useEffect } from "react";
 
 function App() {
