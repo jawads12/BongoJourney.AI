@@ -4,14 +4,17 @@ const userSchema = new mongoose.Schema({
         type: String,
         require: true,
     },
-    email: {
+    phone: {
         type:String,
         require: true,
     },
     password:{
         type:String,
         require: true,
-    }
+    },
+    dateOfBirth:Date,
+    verified: Boolean,
+    
 });
 const User= mongoose.model("User",userSchema);
 module.exports=User;

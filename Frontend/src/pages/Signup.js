@@ -23,37 +23,15 @@ const Signup = () => {
 
 
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Create an object with the user's registration data
-    const userData = {
-      name,
-      email,
-      password,
-    };
-
-    try {
-      // Make an HTTP POST request to your backend endpoint for registration
-      const response = await axios.post('http://localhost:5000/api/auth/signup', userData);
-
-      // Handle the response from the backend
-      console.log(response.data);
-
-      // Optionally, you can provide feedback to the user based on the response
-      if (response.data.userCreated) {
-        alert('Registration successful!');
-      } else {
-        alert('Registration failed. Please try again.');
-      }
-
-    } catch (error) {
-      console.error('Error:', error);
-    }
-  };
+    axios.post('http://localhost:3001/register',{name, phone, password})
+    .then(result=>console.log(result))
+    .catch(err=>console.log(err))
+  }
   
   return (
     <div className="signup">
@@ -108,9 +86,9 @@ const Signup = () => {
           <div className="email-address">
           <input
                 type="text"
-                placeholder="Email"
+                placeholder="Phone"
                 name="email"
-                onChange={(e)=>setEmail(e.target.value)}
+                onChange={(e)=>setPhone(e.target.value)}
 
                 style={{
                   background: "transparent",
@@ -144,7 +122,7 @@ const Signup = () => {
 
           </div>
           
-          <button type="submit" className="rectangle-div" onClick={onRectangle2Click}>
+          <button type="submit" className="rectangle-div">
           <b className="create-account1">Create Account</b></button>
           <div className="line-parent">
             <img className="line-icon" alt="" src="/line-4.svg" />

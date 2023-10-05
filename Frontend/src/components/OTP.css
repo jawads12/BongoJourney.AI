@@ -1,0 +1,74 @@
+.enter-otp-sent {
+  position: absolute;
+  top: 175px;
+  left: 150px;
+  display: inline-block;
+  width: 401px;
+  height: 39px;
+}
+.encrypted-1-icon,
+.group-child {
+  position: absolute;
+  object-fit: cover;
+}
+.group-child {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 95px;
+  height: 95px;
+}
+.encrypted-1-icon {
+  top: 8px;
+  left: 3px;
+  width: 87.4px;
+  height: 88px;
+}
+.ellipse-parent,
+.group-item {
+  position: absolute;
+  top: 52px;
+  left: 303px;
+  width: 95px;
+  height: 96px;
+}
+.group-item {
+  top: 0;
+  left: 0;
+  border-radius: 49px;
+  width: 489px;
+  height: 105px;
+}
+.sdfxgdfsgfsdgdsfgsdgsdfg {
+  border: 0;
+  font-family: Inter;
+  font-size: 32px;
+  background-color: transparent;
+  position: absolute;
+  top: 23px;
+  left: 29px;
+  color: #000;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 431px;
+  height: 59px;
+}
+.vector-parent {
+  position: absolute;
+  top: 241px;
+  left: 105px;
+  width: 489px;
+  height: 105px;
+}
+.otp {
+  border-radius: 29px;
+  background-color: #000;
+  width: 700px;
+  height: 428px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  font-family: Inter;
+}

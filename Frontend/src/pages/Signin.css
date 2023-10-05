@@ -36,11 +36,20 @@
 }
 .email {
   position: relative;
-  line-height: 19px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.password {
+  position: relative;
+  line-height: 25px;
   font-weight: 500;
 }
 .email-wrapper {
-  flex-direction: row;
+  flex-direction: column;
+  
+}
+.password-wrapper {
+  flex-direction: column;
 }
 .email-wrapper,
 .enter-your-email-wrapper,
@@ -48,6 +57,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+
 }
 .enter-your-email-wrapper {
   border-radius: 8px;
@@ -62,13 +72,14 @@
 .frame-container {
   flex-direction: column;
   gap: 6px;
+  
 }
 .enter-your-password {
   position: relative;
-  line-height: 25px;
-  font-weight: 500;
+  line-height:600 px;
+  font-weight: 500px;
   display: inline-block;
-  width: 151px;
+  width: 500px;
   height: 27px;
   flex-shrink: 0;
 }
@@ -87,7 +98,7 @@
   height: 47px;
   display: flex;
   flex-direction: row;
-  padding: 14px 20px;
+  padding: 20px 20px;
   align-items: center;
   justify-content: flex-start;
   gap: 143px;
@@ -95,14 +106,7 @@
   font-size: 14px;
   color: #5b5b5b;
 }
-.frame-inner {
-  position: relative;
-  border-radius: 4px;
-  border: 1px solid #000;
-  box-sizing: border-box;
-  width: 14px;
-  height: 14px;
-}
+
 .remember-me {
   position: relative;
   line-height: 20px;
@@ -132,10 +136,12 @@
   gap: 141px;
   font-size: 12px;
   color: #000;
+  
 }
 .password1 {
   flex-direction: column;
   gap: 12px;
+  
 }
 .sign-in {
   position: relative;
@@ -245,3 +251,42 @@
   color: #1e1e1e;
   font-family: Inter;
 }
+.enter-your-email-wrapper {
+  border-radius: 8px;
+  border: 1px solid #5b5b5b;
+  box-sizing: border-box;
+  width: 800px; /* Adjust the width as needed */
+  flex-direction: row;
+  padding: 14px 20px;
+  font-size: 14px;
+  color: #5b5b5b;
+}
+
+.enter-your-password-parent {
+  border-radius: 8px;
+  border: 1px solid #5b5b5b;
+  box-sizing: border-box;
+  width: 800px; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: left;
+  font-size: 14px;
+  color: #5b5b5b;
+}
+.email-wrapper .input-field::placeholder {
+  color: #999; /* Change the color of the placeholder text */
+  font-style: italic; 
+  width: 100%;
+/* Add italic style to the placeholder text (optional) */
+}
+.email-wrapper .input-field {
+  width: 330px; /* Set the width for the password input box */
+  height: 40px; /* Set the height for the password input box */
+  /* Add other styles as needed */
+}
+
