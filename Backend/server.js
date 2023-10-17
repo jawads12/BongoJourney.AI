@@ -44,7 +44,7 @@ function generate5DigitRandomNumber() {
 const request = require('request');
 
 function sendOTP(phoneNumber, otp, name) {
-  const apiKey = 'zwhT6qyo7538IqtuBPMZ5GI43WM4AIgB7ZPlps1M'; // Replace with your actual API key
+  const apiKey = '0pH9MfrhnXF32Dcf0t0qnG4KD0OwA08i5qNHvbJ8'; // Replace with your actual API key
   const message = `Hi ${name},  Welcome to BongoJourney.AI. Your OTP is: ${otp}`;
   
   const options = {

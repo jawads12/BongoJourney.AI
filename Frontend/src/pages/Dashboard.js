@@ -1,4 +1,5 @@
-import { useState, useCallback } from "react";
+import React, { useState, useCallback, useRef, useEffect } from "react";
+import loadGoogleMapsScript from "./googleMaps";
 import Frame from "./user_profile.js";
 import PortalPopup from "../components/PortalPopup.js";
 import Mytrip from "../components/Mytrip.js";
@@ -8,6 +9,7 @@ const Dashboard = () => {
   const [isFrameOpen, setFrameOpen] = useState(false);
   const [isMytripOpen, setMytripOpen] = useState(false);
   const [placesText, setPlacesText] = useState("");
+  const autocompleteInputRef = useRef(null);
 
   const openFrame = useCallback(() => {
     setFrameOpen(true);
@@ -27,6 +29,22 @@ const Dashboard = () => {
 
   const onDashStartATripClick = useCallback(() => {
     // Please sync "dashboard" to the project
+  }, []);
+
+  useEffect(() => {
+    loadGoogleMapsScript(() => {
+      if (window.google) {
+        // Initialize the Places Autocomplete service with componentRestrictions
+        const autocomplete = new window.google.maps.places.Autocomplete(autocompleteInputRef.current, {
+          componentRestrictions: { country: "BD" }, // "BD" represents Bangladesh
+        });
+
+        autocomplete.addListener("place_changed", function () {
+          const place = autocomplete.getPlace();
+          console.log(place); // You can handle the selected place as needed
+        });
+      }
+    });
   }, []);
 
   const handlePlacesTextChange = (event) => {
@@ -53,11 +71,11 @@ const Dashboard = () => {
           <input
             type="text"
             placeholder="Places to go, things to do"
-            className="dash-text" // Add a new class
+            className="dash-text"
             value={placesText}
             onChange={handlePlacesTextChange}
+            ref={autocompleteInputRef}
           />
-
         </div>
         <div className="dash-rectangle-13" />
         <button className="dash-rectangle-13">Search</button>
