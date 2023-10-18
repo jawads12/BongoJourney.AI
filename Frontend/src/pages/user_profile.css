@@ -18,12 +18,12 @@
 .uf-md-jawadur-rahman {
   position: absolute;
   top: 46px;
-  left: 135px;
+  left: 90px;
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 439px;
+  width: 90%;
   height: 67px;
 }
 .uf-line-14-icon {
@@ -172,8 +172,9 @@
 }
 .user-profile {
   position: relative;
+  left: 9em;
   background-color: #011714;
-  width: 563px;
+  width: 30rem;
   height: 1024px;
   overflow: auto;
   max-width: 100%;

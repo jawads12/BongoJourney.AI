@@ -144,8 +144,8 @@ const Signup = () => {
           />
           <div className="bongojourneyai">BongoJourney.AI</div>
           <div className="lorem-ipsum-dolor">
-            Lorem ipsum dolor sit amet, consect adipiscing elit. Duis cursus
-            gravida ac.
+          Discover Bangladesh with Us.                
+           Your Journey, Our Expertise!
           </div>
         </div>
         <div className="frame-child" />
