@@ -108,7 +108,7 @@ const Dashboard = () => {
           </div>
           <div className="dash-rectangle-14" />
           <div className="dash-start-a-trip" onClick={onDashStartATripClick}>
-            Start a trip with AI
+          Start a trip with AI
           </div>
         </div>
       </div>
