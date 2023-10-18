@@ -5,7 +5,7 @@ const cors = require('cors');
 const User = require('./models/userModel');
 const jwt = require('jsonwebtoken');
 const secretKey = 'JHJHJHjhfjhjheoanmknjK';
-
+const { sendTestEmail } = require("./mailer");   ///function to send mail
 
 
 
@@ -143,4 +143,21 @@ app.post('/login', async (req, res) => {
   }
 });
 
+
+///send mail to user
+const SENDER_EMAIL_ID = "jawadrahman483@gmail.com";
+
+app.get("/send-email", async (_, res) => {
+  try {
+    if (SENDER_EMAIL_ID === "EMAIL_ID") {
+      throw new Error(
+        "Please update SENDER_EMAIL_ID with your email id in server.js"
+      );
+    }
+    const info = await sendTestEmail(SENDER_EMAIL_ID);
+    res.send(info);
+  } catch (error) {
+    res.send(error);
+  }
+});
 
