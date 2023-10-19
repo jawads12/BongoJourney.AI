@@ -4,8 +4,6 @@ import App from "./App.js";
 import reportWebVitals from "./reportWebVitals.js";
 import { BrowserRouter } from "react-router-dom";
 import "./global.css";
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-
 
 const container = document.getElementById("root");
 const root = createRoot(container);
