@@ -7,6 +7,7 @@ import {
 import Landingpage from "./pages/Landingpage.js";
 import Signup from "./pages/Signup.js";
 import Signin from "./pages/Signin.js";
+import MyPlan from "./pages/MyPlan";
 import Dashboard from "./pages/Dashboard.js"
 import { useEffect } from "react";
 
@@ -64,6 +65,8 @@ function App() {
       <Route path="/signup" element={<Signup />} />
       <Route path="/signin" element={<Signin />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/my-plan" element={<MyPlan />} />
+
     </Routes>
   );
 }

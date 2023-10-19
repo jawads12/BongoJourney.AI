@@ -3,21 +3,22 @@ import loadGoogleMapsScript from "./googleMaps";
 import Frame from "./user_profile.js";
 import PortalPopup from "../components/PortalPopup.js";
 import Mytrip from "../components/Mytrip.js";
+import StartPopup from "../components/StartPopup.js";
+import { useNavigate } from "react-router-dom";
+
 import "./Dashboard.css";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
+
   const [isFrameOpen, setFrameOpen] = useState(false);
   const [isMytripOpen, setMytripOpen] = useState(false);
   const [placesText, setPlacesText] = useState("");
+  const [isStartPopupOpen, setStartPopupOpen] = useState(false);
+
   const autocompleteInputRef = useRef(null);
 
-  const openFrame = useCallback(() => {
-    setFrameOpen(true);
-  }, []);
-
-  const closeFrame = useCallback(() => {
-    setFrameOpen(false);
-  }, []);
+  
 
   const openMytrip = useCallback(() => {
     setMytripOpen(true);
@@ -26,6 +27,20 @@ const Dashboard = () => {
   const closeMytrip = useCallback(() => {
     setMytripOpen(false);
   }, []);
+
+
+  const openStartPopup = () => {
+    setStartPopupOpen(true);
+  };
+
+  const closeStartPopup = () => {
+    setStartPopupOpen(false);
+  };
+  
+  const onMyPlanClick = useCallback(() => {
+    navigate("/my-plan");
+  }, [navigate]);
+  
 
   const onDashStartATripClick = useCallback(() => {
     // Please sync "dashboard" to the project
@@ -82,7 +97,6 @@ const Dashboard = () => {
         <div className="dash-frame2">
           <div
             className="pxl-20230420-0511079402-1-wrapper"
-            onClick={openFrame}
           >
             <img
               className="pxl-20230420-0511079402-1-icon"
@@ -95,7 +109,7 @@ const Dashboard = () => {
             Trips
           </div>
           <div className="community">Community</div>
-          <div className="my-plan">My Plan</div>
+          <div className="my-plan" onClick={onMyPlanClick}>My Plan</div>
         </div>
         <div className="dash-frame1">
           <div className="dash-in-minuites">in minutes</div>
@@ -108,7 +122,7 @@ const Dashboard = () => {
           </div>
           <div className="dash-rectangle-14" />
           <div className="dash-start-a-trip" onClick={onDashStartATripClick}>
-            Start a trip with AI
+            Start a trip
           </div>
         </div>
       </div>
@@ -130,6 +144,15 @@ const Dashboard = () => {
           <Mytrip onClose={closeMytrip} />
         </PortalPopup>
       )}
+      {isStartPopupOpen && (
+  <PortalPopup
+    overlayColor="rgba(113, 113, 113, 0.3)"
+    placement="Centered"
+    onOutsideClick={closeStartPopup}
+  >
+    <StartPopup onClose={closeStartPopup} />
+  </PortalPopup>
+)}
     </>
   );
 };

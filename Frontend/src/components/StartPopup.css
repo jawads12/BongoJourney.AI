@@ -1,0 +1,48 @@
+.i-want-to {
+  border: 0;
+  font-family: Inter;
+  font-size: 35px;
+  background-color: transparent;
+  top: 100px;
+  left: 17px;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  width: 629px;
+  height: 59px;
+}
+.go,
+.i-want-to,
+.pop {
+  position: absolute;
+}
+.go {
+  top: 3px;
+  left: 51px;
+  font-size: 35px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 51px;
+  height: 53px;
+}
+.pop {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #000;
+  top: 190px;
+  left: 427px;
+  border-radius: 20px;
+  width: 153px;
+  height: 56px;
+  overflow: hidden;
+}
+.start-popup {
+  background-color: #c4c4c4;
+  width: 662px;
+  height: 267px;
+  overflow: hidden;
+}
