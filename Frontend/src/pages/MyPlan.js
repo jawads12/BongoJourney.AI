@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
-import Frame from "../components/Frame";
 import PortalPopup from "../components/PortalPopup";
 import Mytrip from "../components/Mytrip";
+
 import "./MyPlan.css";
 
 const MyPlan = () => {

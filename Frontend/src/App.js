@@ -61,7 +61,8 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
+    <div>
+       <Routes>
       <Route path="/" element={<Landingpage />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/signin" element={<Signin />} />
@@ -69,6 +70,9 @@ function App() {
 
       <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
+    </div>
+      
+ 
   );
 }
 export default App;
