@@ -2,6 +2,7 @@ import React, { useState, useCallback, useRef, useEffect } from "react";
 import loadGoogleMapsScript from "./googleMaps";
 import Frame from "./user_profile.js";
 import PortalPopup from "../components/PortalPopup.js";
+import { useNavigate } from "react-router-dom";
 import Mytrip from "../components/Mytrip.js";
 import "./Dashboard.css";
 
@@ -10,6 +11,8 @@ const Dashboard = () => {
   const [isMytripOpen, setMytripOpen] = useState(false);
   const [placesText, setPlacesText] = useState("");
   const autocompleteInputRef = useRef(null);
+  const navigate = useNavigate();
+
 
   const openFrame = useCallback(() => {
     setFrameOpen(true);
@@ -30,6 +33,10 @@ const Dashboard = () => {
   const onDashStartATripClick = useCallback(() => {
     // Please sync "dashboard" to the project
   }, []);
+
+  const onMyPlanClick = useCallback(() => {
+    navigate("/my-plan");
+  }, [navigate]);
 
   useEffect(() => {
     loadGoogleMapsScript(() => {
@@ -95,7 +102,7 @@ const Dashboard = () => {
             Trips
           </div>
           <div className="community">Community</div>
-          <div className="my-plan">My Plan</div>
+          <div className="my-plan" onClick={onMyPlanClick}>My Plan</div>
         </div>
         <div className="dash-frame1">
           <div className="dash-in-minuites">in minutes</div>

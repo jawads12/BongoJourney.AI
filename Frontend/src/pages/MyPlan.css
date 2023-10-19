@@ -1,0 +1,474 @@
+.plan-your-trip,
+.where-to {
+  position: absolute;
+  top: 8.31rem;
+  left: 27.81rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34.56rem;
+  height: 6.19rem;
+}
+.where-to {
+  top: 18.94rem;
+  left: 9.19rem;
+  width: 24.63rem;
+  height: 5.56rem;
+}
+.chittagong,
+.dhaka {
+  border: 0;
+  font-family: Inter;
+  font-size: 3.13rem;
+  background-color: transparent;
+  color: #000;
+  text-align: center;
+  height: 5.5rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+}
+.chittagong {
+  position: absolute;
+  top: 24.5rem;
+  left: 2.44rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35rem;
+}
+.dhaka {
+  top: 24.13rem;
+  left: 57.38rem;
+  width: 31.5rem;
+}
+.day-11,
+.dhaka,
+.starts-from {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.starts-from {
+  top: 18.19rem;
+  left: 60.63rem;
+  width: 26.19rem;
+  height: 5.94rem;
+}
+.day-11 {
+  top: 1.31rem;
+  left: 0;
+  width: 13.31rem;
+  height: 4.06rem;
+}
+.ellipse-div,
+.group-child,
+.group-child1,
+.group-inner,
+.group-item {
+  position: absolute;
+  top: 1.88rem;
+  left: 5.75rem;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 3.13rem;
+  height: 3.13rem;
+}
+.ellipse-div,
+.group-child1,
+.group-inner,
+.group-item {
+  left: 21.69rem;
+}
+.ellipse-div,
+.group-child1,
+.group-inner {
+  left: 37.63rem;
+}
+.ellipse-div,
+.group-child1 {
+  left: 53.56rem;
+}
+.group-child1 {
+  left: 69.5rem;
+}
+.arrow-icon,
+.group-child2,
+.group-child3,
+.group-child4 {
+  position: absolute;
+  top: 2.9rem;
+  left: 8.63rem;
+  width: 13.25rem;
+  height: 1.08rem;
+}
+.group-child2,
+.group-child3,
+.group-child4 {
+  left: 24.63rem;
+}
+.group-child3,
+.group-child4 {
+  left: 40.31rem;
+  width: 13.5rem;
+}
+.group-child4 {
+  left: 56.5rem;
+  width: 13.44rem;
+}
+.hour,
+.marine-drive,
+.mermaid-beach-resort,
+.pousheee-restaurant,
+.sonadia-island,
+.stone-forest {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12.88rem;
+  height: 3.25rem;
+}
+.pousheee-restaurant {
+  top: 5.75rem;
+  left: 0;
+}
+.hour,
+.marine-drive,
+.mermaid-beach-resort,
+.sonadia-island,
+.stone-forest {
+  top: 6.19rem;
+  left: 16.81rem;
+}
+.hour,
+.marine-drive,
+.sonadia-island,
+.stone-forest {
+  top: 6.56rem;
+  left: 32.75rem;
+}
+.hour,
+.sonadia-island,
+.stone-forest {
+  left: 48.69rem;
+}
+.hour,
+.stone-forest {
+  left: 64.63rem;
+}
+.hour {
+  top: 0.44rem;
+  left: 10.81rem;
+  width: 8.88rem;
+  height: 1.44rem;
+}
+.minuite {
+  top: 0.19rem;
+  left: 27.25rem;
+}
+.minuite,
+.minuite1,
+.minuite2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.88rem;
+  height: 1.44rem;
+}
+.minuite1 {
+  top: 0.44rem;
+  left: 43.69rem;
+}
+.minuite2 {
+  top: 0;
+  left: 58.88rem;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 11.56rem;
+  left: 3.19rem;
+  width: 77.5rem;
+  height: 9.81rem;
+  font-size: 1.56rem;
+  font-family: Galdeano;
+}
+.amjad-rana-mrkpi-yajc0-unsplas-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 74.19rem;
+  height: 7.94rem;
+  object-fit: cover;
+}
+.amjad-rana-mrkpi-yajc0-unsplas-wrapper {
+  position: absolute;
+  top: 0;
+  left: 12.06rem;
+  border-radius: 34px;
+  width: 74.19rem;
+  height: 7.94rem;
+  overflow: hidden;
+}
+.day-1,
+.day-2 {
+  position: absolute;
+}
+.day-1 {
+  top: 1.69rem;
+  left: 1.81rem;
+  border-radius: 34px;
+  background-color: #000;
+  width: 86.25rem;
+  height: 25rem;
+  overflow: hidden;
+}
+.day-2 {
+  top: 1.06rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13.31rem;
+  height: 4.06rem;
+}
+.group-child14,
+.group-child15,
+.group-child16 {
+  position: absolute;
+  top: 1.69rem;
+  left: 5.75rem;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 3.13rem;
+  height: 3.13rem;
+}
+.group-child15,
+.group-child16 {
+  left: 21.69rem;
+}
+.group-child16 {
+  left: 37.63rem;
+}
+.group-child17,
+.group-child18 {
+  position: absolute;
+  top: 2.71rem;
+  left: 8.63rem;
+  width: 13.25rem;
+  height: 1.08rem;
+}
+.group-child18 {
+  left: 24.63rem;
+}
+.patenga-sea-beach {
+  position: absolute;
+  top: 5.56rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12.88rem;
+  height: 3.25rem;
+}
+.naval-beach {
+  top: 6rem;
+  left: 16.81rem;
+  width: 12.88rem;
+  height: 3.25rem;
+}
+.hour2,
+.minuite6,
+.naval-beach,
+.vatiary-lake {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vatiary-lake {
+  top: 6.38rem;
+  left: 32.75rem;
+  width: 12.88rem;
+  height: 3.25rem;
+}
+.hour2,
+.minuite6 {
+  width: 8.88rem;
+  height: 1.44rem;
+}
+.hour2 {
+  top: 0.25rem;
+  left: 10.81rem;
+}
+.minuite6 {
+  top: 0;
+  left: 27.25rem;
+}
+.ellipse-group,
+.group-child22 {
+  position: absolute;
+  top: 2.71rem;
+  left: 9.56rem;
+  width: 13.25rem;
+  height: 1.08rem;
+}
+.ellipse-group {
+  top: 12.5rem;
+  left: 19rem;
+  width: 45.63rem;
+  height: 9.63rem;
+  font-size: 1.56rem;
+  font-family: Galdeano;
+}
+.mt-aditya-das-o2e8q09kzsi-unsp-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 74.13rem;
+  height: 7.94rem;
+  object-fit: cover;
+}
+.mt-aditya-das-o2e8q09kzsi-unsp-wrapper {
+  position: absolute;
+  top: 0;
+  left: 11.94rem;
+  border-radius: 34px;
+  width: 74.13rem;
+  height: 7.94rem;
+  overflow: hidden;
+}
+.day-container,
+.days2 {
+  position: absolute;
+  overflow: hidden;
+}
+.day-container {
+  top: 28.44rem;
+  left: 2rem;
+  border-radius: 34px;
+  background-color: #000;
+  width: 86.06rem;
+  height: 25rem;
+}
+.days2 {
+  top: 37.5rem;
+  left: 0;
+  border-radius: 26px;
+  background-color: #bfbcbc;
+  width: 90rem;
+  height: 55.25rem;
+  color: #fff;
+}
+.destination-1-icon {
+  position: absolute;
+  top: 18.94rem;
+  left: 8.38rem;
+  width: 4.31rem;
+  height: 4.81rem;
+  object-fit: cover;
+}
+.pxl-20230420-0511079402-1-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6.25rem;
+  height: 6.25rem;
+  object-fit: cover;
+}
+.pxl-20230420-0511079402-1-container {
+  position: absolute;
+  top: 1.06rem;
+  left: 82.31rem;
+  border-radius: 60px;
+  width: 6.25rem;
+  height: 6.25rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.discover1 {
+  top: 1.63rem;
+  left: 10.5rem;
+  width: 9.44rem;
+}
+.community1,
+.discover1,
+.my-plan2,
+.trips1 {
+  position: absolute;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  height: 3.31rem;
+}
+.trips1 {
+  top: 1.69rem;
+  left: 23.06rem;
+  width: 9.44rem;
+  cursor: pointer;
+}
+.community1,
+.my-plan2 {
+  top: 1.63rem;
+  left: 50.88rem;
+  width: 12.13rem;
+}
+.my-plan2 {
+  top: 1.69rem;
+  left: 35.63rem;
+}
+.dash-frame21,
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dash-frame21 {
+  background-color: #000;
+  width: 90rem;
+  height: 8.31rem;
+  color: #fff;
+  font-family: Gurajada;
+}
+.rectangle-div {
+  border-radius: 16px;
+  background-color: #004b90;
+  width: 17.69rem;
+  height: 4.75rem;
+}
+.add-day {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0.81rem;
+  left: 2rem;
+  font-size: 3.13rem;
+  font-family: Inter;
+  color: #08f9cd;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13.69rem;
+  height: 3.06rem;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 34.44rem;
+  left: 36.94rem;
+  width: 17.69rem;
+  height: 4.75rem;
+}
+.my-plan1 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 92.75rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 3.13rem;
+  color: #000;
+  font-family: Inter;
+}
