@@ -1,25 +1,25 @@
+/* Navbar */
 .navbar {
     position: relative;
-    width: 98vw;
+    width: 100%;
     height: 8.3125rem;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 0 20px;
     overflow: hidden;
-}
-
-.navbar .nav-buttons {
-    position: relative;
+  }
+  
+  .nav-buttons {
     display: flex;
     height: 100%;
     width: 30%;
     align-items: center;
     justify-content: space-between;
-}
-
-.nav-buttons .navbar-button {
+  }
+  
+  .navbar-button {
     all: unset;
     position: relative;
     background-color: transparent;
@@ -31,13 +31,13 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.0625rem;
-}
-
-.nav-buttons .navbar-button:hover {
+  }
+  
+  .navbar-button:hover {
     cursor: pointer;
-}
-
-.nav-buttons .navbar-button::before {
+  }
+  
+  .navbar-button::before {
     content: "";
     position: absolute;
     height: 2px;
@@ -47,13 +47,47 @@
     margin: 0;
     box-sizing: border-box;
     top: 90%;
-    transition: ease 0.8s;
-}
-
-.nav-buttons .navbar-button:hover::before {
+    transition: width 0.3s ease;
+  }
+  
+  .navbar-button:hover::before {
     width: 100%;
-}
-
-.navbar .nav-image {
+  }
+  
+  .nav-image {
     cursor: pointer;
-}
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px; 
+    width: 300px;
+    height: 100%;
+    background-color: #111; 
+    transition: right 0.3s; 
+    z-index: 1; 
+    overflow-x: hidden; 
+  }
+  
+  .sidebar.open {
+    right: 0; 
+  }
+  
+  .sidebar-content {
+    padding: 20px;
+  }
+  
+  .sidebar-item {
+    padding: 20px;
+    color: #FFF;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .sidebar-item:hover {
+    color: #FF5733;
+  }
+  
