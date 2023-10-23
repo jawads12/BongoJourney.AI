@@ -8,8 +8,9 @@ import Landingpage from "./pages/Landingpage.js";
 import Signup from "./pages/Signup.js";
 import Signin from "./pages/Signin.js";
 import MyPlan from "./pages/MyPlan";
-
-import Dashboard from "./pages/Dashboard.js"
+//import Dashboard from "./pages/Dashboard.js"
+import Navbar from "./components/Navbar.js";
+import Dashboard from "./pages/Dashboardnew.js";
 import { useEffect } from "react";
 
 function App() {
