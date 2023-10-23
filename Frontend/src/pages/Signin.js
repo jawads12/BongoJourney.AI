@@ -25,7 +25,7 @@ const Signin = () => {
 
       // Check the API response for authentication success
       if (response.data.authenticated) {
-        navigate("/dashboard"); // Navigate to the dashboard on success
+        navigate("/dashboard/ashol-dashboard"); // Navigate to the dashboard on success
       } else {
         alert("Wrong password"); // Show an alert for wrong password
       }

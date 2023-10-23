@@ -1,9 +1,9 @@
 import React, { useState, useCallback, useRef, useEffect } from "react";
-import loadGoogleMapsScript from "./googleMaps";
-import Frame from "./user_profile.js";
-import PortalPopup from "../components/PortalPopup.js";
+import loadGoogleMapsScript from "../pages/googleMaps";
+import Frame from "../pages/user_profile.js";
+import PortalPopup from "./PortalPopup.js";
 import { useNavigate } from "react-router-dom";
-import Mytrip from "../components/Mytrip.js";
+import Mytrip from "./Mytrip.js";
 import "./Dashboard.css";
 
 
@@ -88,24 +88,7 @@ const Dashboard = () => {
         </div>
         <div className="dash-rectangle-13" />
         <button className="dash-rectangle-13">Search</button>
-        <div className="dash-frame2">
-          <div
-            className="pxl-20230420-0511079402-1-wrapper"
-            onClick={openFrame}
-          >
-            <img
-              className="pxl-20230420-0511079402-1-icon"
-              alt=""
-              src="/pxl-20230420-0511079402-1@2x.png"
-            />
-          </div>
-          <div className="discover">Discover</div>
-          <div className="trips" onClick={openMytrip}>
-            Trips
-          </div>
-          <div className="community">Community</div>
-          <div className="my-plan" onClick={onMyPlanClick}>My Plan</div>
-        </div>
+        
         <div className="dash-frame1">
           <div className="dash-in-minuites">in minutes</div>
           <div className="dash-build-a-trip">Build a trip</div>
