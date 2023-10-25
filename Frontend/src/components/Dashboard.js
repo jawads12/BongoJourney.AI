@@ -2,12 +2,19 @@ import React, { useState, useCallback, useRef, useEffect } from "react";
 import loadGoogleMapsScript from "../pages/googleMaps";
 import Frame from "../pages/user_profile.js";
 import PortalPopup from "./PortalPopup.js";
+import Modal from "react-modal";
+import Pop1 from "./Pop1.js";
 import { useNavigate } from "react-router-dom";
 import Mytrip from "./Mytrip.js";
+
 import "./Dashboard.css";
 
 
 const Dashboard = () => {
+
+
+  
+  const [isPop1Open, setPop1Open] = useState(false);
   const [isFrameOpen, setFrameOpen] = useState(false);
   const [isMytripOpen, setMytripOpen] = useState(false);
   const [placesText, setPlacesText] = useState("");
@@ -21,6 +28,14 @@ const Dashboard = () => {
 
   const closeFrame = useCallback(() => {
     setFrameOpen(false);
+  }, []);
+
+  const openPop1 = useCallback(() => {
+    setPop1Open(true);
+  }, []);
+
+  const closePop1 = useCallback(() => {
+    setPop1Open(false);
   }, []);
 
   const openMytrip = useCallback(() => {
@@ -99,8 +114,8 @@ const Dashboard = () => {
             guided by traveler tips and reviews.
           </div>
           <div className="dash-rectangle-14" />
-          <div className="dash-start-a-trip" onClick={onDashStartATripClick}>
-            Start a trip with AI
+          <div className="dash-start-a-trip" onClick={openPop1}>
+            Start a trip
           </div>
         </div>
       </div>
@@ -122,6 +137,17 @@ const Dashboard = () => {
           <Mytrip onClose={closeMytrip} />
         </PortalPopup>
       )}
+      {isPop1Open && (
+        <PortalPopup
+          overlayColor="rgba(113, 113, 113, 0.3)"
+          placement="Centered"
+          onOutsideClick={closePop1}
+        >
+          <Pop1 closePop1={closePop1} />
+        </PortalPopup>
+      )}
+
+
     </>
   );
 };

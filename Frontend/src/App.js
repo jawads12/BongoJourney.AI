@@ -10,6 +10,7 @@ import Signin from "./pages/Signin.js";
 import MyPlan from "./pages/MyPlan";
 import Dashboard from "./components/Dashboard.js"
 import DashboardNew from "./pages/Dashboardnew.js";
+import Pop1 from "./components/Pop1.js";
 import { useEffect } from "react";
 
 function App() {

@@ -5,6 +5,8 @@ const cors = require('cors');
 const User = require('./models/userModel');
 const jwt = require('jsonwebtoken');
 const secretKey = 'JHJHJHjhfjhjheoanmknjK';
+const Plan = require('./models/planModel');
+
 
 
 
@@ -144,3 +146,21 @@ app.post('/login', async (req, res) => {
 });
 
 
+
+app.post('/create-plan', async (req, res) => {
+  try {
+    const { phone, PlanSrc, startDate} = req.body;
+
+    const newPlan = new Plan({
+      phone,
+      PlanSrc,
+      startDate
+    });
+
+    const savedPlan = await newPlan.save();
+    res.status(200).json(savedPlan);
+  } catch (error) {
+    console.error('Error creating a plan:', error);
+    res.status(500).json({ error: 'Failed to create a plan' });
+  }
+});

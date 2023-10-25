@@ -1,33 +1,30 @@
 import React, { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Signin.css";
-import axios from 'axios'; // Import axios for API calls
+import axios from 'axios';
 
 const Signin = () => {
   const navigate = useNavigate();
   const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
-  const [rememberMe, setRememberMe] = useState(false); // State for the "Remember me" checkbox
+  const [rememberMe, setRememberMe] = useState(false);
 
-  const togglePasswordVisibility = () => {
-    setShowPassword(!showPassword);
-  };
-
+  // Function to handle sign-in
   const onButtonSignInClick = useCallback(async () => {
     try {
-      // Make an API call to the login endpoint
       const response = await axios.post('http://localhost:3001/login', {
         phone,
         password
       });
-      console.log(phone)
 
-      // Check the API response for authentication success
       if (response.data.authenticated) {
-        navigate("/dashboard/ashol-dashboard"); // Navigate to the dashboard on success
+        // Save the phone number to local storage only if login is successful
+        const formattedPhone = phone.startsWith("88") ? phone : `88${phone}`;
+        localStorage.setItem("phone", formattedPhone);
+        navigate("/dashboard/ashol-dashboard");
       } else {
-        alert("Wrong password"); // Show an alert for wrong password
+        alert("Wrong password");
       }
     } catch (error) {
       console.error("Error signing in:", error);
