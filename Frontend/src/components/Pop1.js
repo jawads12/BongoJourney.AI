@@ -1,10 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+<<<<<<< Updated upstream
 import './Pop1.css'; // Import the CSS file
+=======
+import { useNavigate } from 'react-router-dom';
+>>>>>>> Stashed changes
 
 const Pop1 = ({ closePop1 }) => {
   const [selectedOption, setSelectedOption] = useState('AI');
   const [phone, setPhone] = useState('');
+  const navigate = useNavigate();
+
 
   useEffect(() => {
     // Retrieve the phone number from local storage when the component mounts
@@ -53,6 +59,7 @@ const Pop1 = ({ closePop1 }) => {
     }
 
     closePop1();
+    navigate("/dashboard/build_plan_myself");
   };
 
   return (

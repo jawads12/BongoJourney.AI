@@ -10,6 +10,7 @@ import Signin from "./pages/Signin.js";
 import MyPlan from "./pages/MyPlan";
 import Dashboard from "./components/Dashboard.js"
 import DashboardNew from "./pages/Dashboardnew.js";
+import BuildPlanMyself from "./components/BuildPlanMyself.js";
 import Pop1 from "./components/Pop1.js";
 import { useEffect } from "react";
 
@@ -71,6 +72,7 @@ function App() {
 
         <Route path="/dashboard" element={<DashboardNew />} >
           <Route path="ashol-dashboard" element={<Dashboard />} />
+          <Route path="build_plan_myself" element={<BuildPlanMyself/>}/>
         </Route>
       </Routes>
     </div>
