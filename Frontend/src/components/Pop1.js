@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 import './Pop1.css'; // Import the CSS file
 
 const Pop1 = ({ closePop1 }) => {
+  const navigate = useNavigate();
+
   const [selectedOption, setSelectedOption] = useState('AI');
   const [phone, setPhone] = useState('');
 
@@ -36,6 +39,7 @@ const Pop1 = ({ closePop1 }) => {
       PlanSrc: selectedOption,
       startDate: formattedDate,
       // Fill in the other fields (upcoming, past, numberOfDays, withFriends, withFamily) as needed
+    
     };
 
     try {
@@ -51,8 +55,9 @@ const Pop1 = ({ closePop1 }) => {
     } catch (error) {
       console.error('Error creating a plan:', error);
     }
-
+    navigate("/dashboard/myself-design");
     closePop1();
+    
   };
 
   return (
