@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './Pop1.css'; // Import the CSS file
 
 const Pop1 = ({ closePop1 }) => {
   const [selectedOption, setSelectedOption] = useState('AI');
@@ -34,7 +35,6 @@ const Pop1 = ({ closePop1 }) => {
       phone,
       PlanSrc: selectedOption,
       startDate: formattedDate,
-      
       // Fill in the other fields (upcoming, past, numberOfDays, withFriends, withFamily) as needed
     };
 
@@ -56,14 +56,14 @@ const Pop1 = ({ closePop1 }) => {
   };
 
   return (
-    <div>
-      <div>I want to start with...</div>
-      <div>
-        <select value={selectedOption} onChange={handleSelectChange}>
+    <div className="pop-up-container">
+      <div className="pop-up-title">I want to start with...</div>
+      <div className="select-container">
+        <select className="select-box" value={selectedOption} onChange={handleSelectChange}>
           <option value="AI">AI</option>
           <option value="Myself">Myself</option>
         </select>
-        <button onClick={handleSubmit}>Submit</button>
+        <button className="submit-button" onClick={handleSubmit}>Submit</button>
       </div>
     </div>
   );
