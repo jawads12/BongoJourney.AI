@@ -59,6 +59,15 @@
   width: 31.06rem;
   height: 5.06rem;
 }
+.to {
+  top: 1.5rem;
+  left: 50.25rem;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  width: 31.06rem;
+  height: 5.06rem;
+}
 .date,
 .from,
 .with {
@@ -100,25 +109,10 @@
 .to,
 .uppper-div {
   position: absolute;
+  
 }
-.to {
-  top: 1.5rem;
-  left: 50.25rem;
-  letter-spacing: 0.02em;
-  display: flex;
-  align-items: center;
-  width: 31.06rem;
-  height: 5.06rem;
-}
-.uppper-div {
-  top: 3.25rem;
-  left: 2.19rem;
-  border-radius: 46px;
-  background-color: #000;
-  width: 83.81rem;
-  height: 26.06rem;
-  overflow: hidden;
-}
+
+
 .build-plan-myself {
   position: relative;
   background-color: #fff;
@@ -130,8 +124,20 @@
   color: #fff;
   font-family: Gurajada;
 }
+.upper-div {
+  background-color: #8d7979;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 3%;
+  top: 8em;
+  left: 26rem;
+  border-radius: 46px;
+  width: 83.81rem;
+  height: 25rem;
+  overflow: hidden;
+}
 @media screen and (max-width: 1200px) {
   .label {
-    width: 73%;
+    width: 100%;
   }
 }
