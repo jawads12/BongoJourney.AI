@@ -125,7 +125,7 @@
   font-family: Gurajada;
 }
 .upper-div {
-  background-color: #8d7979;
+  background-color: black;
   margin-top: 1%;
   margin-left: 2%;
   margin-right: 3%;
@@ -136,6 +136,25 @@
   height: 25rem;
   overflow: hidden;
 }
+
+.node{
+  width: 76.5rem;
+  height: 17.625rem;
+  flex-shrink: 0;
+}
+.node-circle{
+  width: 6.25rem;
+  height: 6.25rem;
+  flex-shrink: 0;
+  
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  background-color: purple;
+  border-radius: 50%; /* Makes the square div a circle */
+
+}
+
+
 @media screen and (max-width: 1200px) {
   .label {
     width: 100%;
