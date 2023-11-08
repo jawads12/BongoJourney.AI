@@ -1,6 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { v4 as uuidv4 } from 'uuid'; // You need to install 'uuid' to use this
-
 import loadGoogleMapsScript from '../pages/googleMaps';
 
 import './BuildPlanMyself.css';
@@ -10,12 +8,10 @@ const BuildPlanMyself = () => {
   const [placesTextTo, setPlacesTextTo] = useState('');
   const [date, setDate] = useState('');
   const [numberOfDays, setNumberOfDays] = useState('');
-  const [travelingWith, setTravelingWith] = useState('couple');
+  const [travelingWith, setTravelingWith] = useState('couple'); // Default value
   const [selectedDay, setSelectedDay] = useState(1);
   const [placeToAdd, setPlaceToAdd] = useState('');
-  const [nodes, setNodes] = useState([]); // State to keep track of nodes
 
-  // Refs for Google Places autocomplete
   const autocompleteInputFromRef = useRef(null);
   const autocompleteInputToRef = useRef(null);
   const autocompleteInputAddPlaceRef = useRef(null);
@@ -108,17 +104,6 @@ const BuildPlanMyself = () => {
     setTravelingWith(event.target.value);
   };
 
-  const addPlaceNode = () => {
-    setNodes(prevNodes => [
-      ...prevNodes,
-      {
-        id: uuidv4(), // Unique identifier for each node
-        name: placeToAdd,
-      }
-    ]);
-    setPlaceToAdd(''); // Clear the input after adding a place
-  };
-
   // Generate an array of numbers from 1 to the value of numberOfDays
   const dayOptions = Array.from({ length: parseInt(numberOfDays) }, (_, index) => index + 1);
 
@@ -200,7 +185,6 @@ const BuildPlanMyself = () => {
           />
 
         <button className="button-node">Add</button>
-        
         </div>
       </div>
 
