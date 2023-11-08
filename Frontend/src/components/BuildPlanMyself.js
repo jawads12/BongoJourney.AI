@@ -11,6 +11,8 @@ const BuildPlanMyself = () => {
   const [travelingWith, setTravelingWith] = useState('couple'); // Default value
   const [selectedDay, setSelectedDay] = useState(1);
   const [placeToAdd, setPlaceToAdd] = useState('');
+  const [nodes, setNodes] = useState([]); // State to keep track of nodes
+
 
   const autocompleteInputFromRef = useRef(null);
   const autocompleteInputToRef = useRef(null);
@@ -103,6 +105,15 @@ const BuildPlanMyself = () => {
   const handleTravelingWithChange = (event) => {
     setTravelingWith(event.target.value);
   };
+  const handleAddPlaceNode = () => {
+    if (placeToAdd.trim() !== '') {
+      setNodes(prevNodes => [
+        ...prevNodes,
+        { name: placeToAdd.trim() }
+      ]);
+      setPlaceToAdd('');
+    }
+  };
 
   // Generate an array of numbers from 1 to the value of numberOfDays
   const dayOptions = Array.from({ length: parseInt(numberOfDays) }, (_, index) => index + 1);
@@ -171,25 +182,35 @@ const BuildPlanMyself = () => {
 
 
         </div>
+        <div className="node-part">
         
-        <div className="node">
-          <div className="node-circle"></div>
-          
-          <input
-            className="add-place"
-            type="text"
-            placeholder="Type here to add place"
-            value={placeToAdd}
-            onChange={handlePlaceToAddChange}
-            ref={autocompleteInputAddPlaceRef}
-          />
-
-        <button className="button-node">Add</button>
+        <div className='button-part'>
+        <input
+          className="add-place"
+          type="text"
+          placeholder="Type here to add place"
+          value={placeToAdd}
+          onChange={e => setPlaceToAdd(e.target.value)}
+          ref={autocompleteInputAddPlaceRef}
+        />
+        <button className="button-node" onClick={handleAddPlaceNode}>
+          Add
+        </button>
         </div>
+        <div className="node-container">
+          {nodes.map((node, index) => (
+            <div key={index} className="node">
+              <div className="node-circle"></div>
+              <div className="node-name">{node.name}</div>
+            </div>
+          ))}
+        </div>
+
+
+        </div>
+
       </div>
-
-
-
+      <button>Save</button>
     </div>
   );
 };

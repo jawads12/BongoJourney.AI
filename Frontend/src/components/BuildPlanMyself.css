@@ -144,9 +144,9 @@
 
 .node{
   width: 76.5rem;
-  height: 17.625rem;
+  height: 10.625rem;
   flex-shrink: 0;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 .node-circle{
   width: 6.25rem;
@@ -174,31 +174,47 @@
   height: 15%;
 }
 
+.button-part {
+  /* Ensure this does not move when adding nodes */
+  position: relative; /* Or position it as needed */
+}
 
 .node-container {
-  position: relative;
-  height: 100px; /* Adjust as necessary */
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 10px;
+  padding-bottom: 10px; /* Adds some space at the bottom if needed */
 }
 
 .node {
-  position: absolute;
-  top: 0; /* Adjust as necessary */
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .node-circle {
-  width: 50px; /* Adjust as necessary */
+  width: 50px; /* Adjust as needed */
   height: 50px;
-  background-color: purple;
   border-radius: 50%;
-  /* More styles as needed */
+  background-color: purple;
+  display: block; /* Ensure circles are always displayed */
 }
-
+.node-part{
+  position: relative;
+  display: inline;
+  
+}
+.button-part{
+  position: relative;
+  display: inline;
+}
 .node-name {
-  position: absolute;
-  top: 60px; /* Adjust as necessary */
-  width: 100px; /* Adjust as necessary */
+  color: white;
   text-align: center;
-  /* More styles as needed */
+  margin-top: 5px; /* Adjust space between the circle and the name */
 }
 
 
