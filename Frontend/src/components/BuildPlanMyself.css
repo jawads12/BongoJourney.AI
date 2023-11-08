@@ -175,32 +175,36 @@
 }
 
 
-.node-container {
-  position: relative;
-  height: 100px; /* Adjust as necessary */
-}
+
 
 .node {
   position: absolute;
   top: 0; /* Adjust as necessary */
 }
 
+
 .node-circle {
-  width: 50px; /* Adjust as necessary */
-  height: 50px;
+  display: none; /* Nodes are hidden by default */
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
   background-color: purple;
-  border-radius: 50%;
-  /* More styles as needed */
+  border-radius: 50%; /* Makes the square div a circle */
+}
+
+/* Styles for node container and node names */
+.node-container {
+  /* Add styles for the container that holds nodes */
+}
+
+.node {
+  margin-top: 20px; /* Space out the nodes */
+  text-align: center; /* Align the text in the center */
 }
 
 .node-name {
-  position: absolute;
-  top: 60px; /* Adjust as necessary */
-  width: 100px; /* Adjust as necessary */
-  text-align: center;
-  /* More styles as needed */
+  margin-top: 10px; /* Space between the node and its name */
+  color: #fff; /* Adjust the color as needed */
 }
-
 
 @media screen and (max-width: 1200px) {
   .label {
