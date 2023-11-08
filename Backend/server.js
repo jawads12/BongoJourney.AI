@@ -6,8 +6,10 @@ const User = require('./models/userModel');
 const jwt = require('jsonwebtoken');
 const secretKey = 'JHJHJHjhfjhjheoanmknjK';
 const Plan = require('./models/planModel');
-
-
+const cloudinary = require('cloudinary').v2;
+const bcrypt = require('bcrypt');
+const multer = require('multer');
+CLOUDINARY_URL='cloudinary://479132786495542:i3rLj08hpR0OK6VCoqLFA5tMkDE@djc8eum1x'
 
 
 
@@ -72,7 +74,6 @@ function sendOTP(phoneNumber, otp, name) {
 
 
 
-const bcrypt = require('bcrypt');
 
 app.post('/register', async (req, res) => {
   try {
@@ -164,3 +165,57 @@ app.post('/create-plan', async (req, res) => {
     res.status(500).json({ error: 'Failed to create a plan' });
   }
 });
+
+
+cloudinary.config({
+  cloud_name: 'djc8eum1x',
+  api_key: '479132786495542',
+  api_secret: 'i3rLj08hpR0OK6VCoqLFA5tMkDE'
+});
+
+
+
+const storage = multer.memoryStorage();
+const upload = multer({ storage: storage });
+
+app.post('/update-profile', upload.single('profilePicture'), async (req, res) => {
+  const { email, password } = req.body;
+  const phone = req.body.phone.startsWith('88') ? req.body.phone : `88${req.body.phone}`;
+
+  try {
+    const user = await User.findOne({ phone });
+    if (!user) {
+      return res.status(404).json({ success: false, message: 'User not found' });
+    }
+
+    // Update email and password if provided
+    if (email) user.email = email;
+    if (password) {
+      const salt = await bcrypt.genSalt(10);
+      user.password = await bcrypt.hash(password, salt);
+    }
+
+    // Handle profile picture upload
+    if (req.file) {
+      // Upload image to Cloudinary
+      cloudinary.uploader.upload_stream({ resource_type: 'auto' }, 
+      async (error, result) => {
+        if (error) return res.status(500).json({ success: false, message: 'Failed to upload image' });
+
+        // Update user profile picture with the Cloudinary URL
+        user.profilePicture = result.secure_url;
+
+        // Save the updated user
+        await user.save();
+        res.json({ success: true, message: 'Profile updated successfully', user });
+      }).end(req.file.buffer);
+    } else {
+      // Save the user if there's no profile picture to update
+      await user.save();
+      res.json({ success: true, message: 'Profile updated successfully', user });
+    }
+  } catch (error) {
+    res.status(500).json({ success: false, message: 'Error updating profile', error });
+  }
+});
+

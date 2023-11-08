@@ -12,6 +12,7 @@ import Dashboard from "./components/Dashboard.js"
 import DashboardNew from "./pages/Dashboardnew.js";
 import Pop1 from "./components/Pop1.js";
 import BuildPlanMyself from "./components/BuildPlanMyself.js";
+import Profile from "./pages/Profile.js"
 import { useEffect } from "react";
 
 function App() {
@@ -73,6 +74,7 @@ function App() {
         <Route path="/dashboard" element={<DashboardNew />} >
           <Route path="ashol-dashboard" element={<Dashboard />} />
           <Route path="myself-design" element={<BuildPlanMyself />} />
+          <Route path="profile" element={<Profile/>}/>
         </Route>
       </Routes>
     </div>

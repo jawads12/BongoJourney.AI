@@ -1,0 +1,61 @@
+.profile-update-page {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-update-page h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: .5rem;
+    color: #666;
+  }
+  
+  .form-group input[type="tel"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group input[type="file"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Makes sure padding doesn't affect overall width */
+  }
+  
+  .form-group input[type="file"] {
+    padding: 0.25rem;
+  }
+  
+  .form-group img {
+    width: 100%; /* Adjust width as necessary, could also be max-width: 100px for a thumbnail */
+    margin-top: 1rem;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: #5cb85c; /* A nice green color */
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4cae4c; /* A slightly darker green color */
+  }
+  

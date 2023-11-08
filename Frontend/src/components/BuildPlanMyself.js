@@ -118,6 +118,45 @@ const BuildPlanMyself = () => {
   // Generate an array of numbers from 1 to the value of numberOfDays
   const dayOptions = Array.from({ length: parseInt(numberOfDays) }, (_, index) => index + 1);
 
+  const renderDayPlans = () => {
+    let plans = [];
+    for (let i = 0; i < numberOfDays; i++) {
+      plans.push(
+        <div key={i} className="day-plan">
+          <div className="day-label">Day {i + 1}</div>
+          <div className="node-container">
+            {nodes
+              .filter(node => node.day === i)
+              .map((node, index) => (
+                <div key={index} className="node">
+                  <div className="node-circle"></div>
+                  <div className="node-name">{node.name}</div>
+                </div>
+              ))}
+          </div>
+          <div className='button-part'>
+            <input
+              className="add-place"
+              type="text"
+              placeholder="Type here to add place"
+              value={placeToAdd}
+              onChange={e => setPlaceToAdd(e.target.value)}
+              ref={autocompleteInputAddPlaceRef}
+            />
+            <button className="button-node" onClick={() => handleAddPlaceNode(i)}>
+              Add
+            </button>
+          </div>
+        </div>
+      );
+    }
+    return plans;
+  };
+
+
+
+  
+
   return (
     <div className="build-plan-myself">
       <div className="upper-div">
@@ -162,55 +201,8 @@ const BuildPlanMyself = () => {
           ref={autocompleteInputToRef}
         />
       </div>
-      <div className="lower-div">
-      <div classname="upore">
-      <label className="daywise-plan">Daywise Plan</label>
-        <input className="day" placeholder="Day" type="text" />
-        <div className='day-select'>
-        <select className="label" 
-        value={selectedDay}
-        onChange={(e) => setSelectedDay(parseInt(e.target.value))}
-      >
-                  {dayOptions.map((day, index) => (
-                    <option key={index} value={day}>
-                      {day}
-                    </option>
-                  ))}
-        </select>
-      </div>
-       
-
-
-        </div>
-        <div className="node-part">
-        
-        <div className='button-part'>
-        <input
-          className="add-place"
-          type="text"
-          placeholder="Type here to add place"
-          value={placeToAdd}
-          onChange={e => setPlaceToAdd(e.target.value)}
-          ref={autocompleteInputAddPlaceRef}
-        />
-        <button className="button-node" onClick={handleAddPlaceNode}>
-          Add
-        </button>
-        </div>
-        <div className="node-container">
-          {nodes.map((node, index) => (
-            <div key={index} className="node">
-              <div className="node-circle"></div>
-              <div className="node-name">{node.name}</div>
-            </div>
-          ))}
-        </div>
-
-
-        </div>
-
-      </div>
-      <button>Save</button>
+      
+      {renderDayPlans()}
     </div>
   );
 };
