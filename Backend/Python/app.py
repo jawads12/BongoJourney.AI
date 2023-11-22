@@ -1,20 +1,29 @@
 from flask import Flask, request
-from place1 import printy  # Importing the function
+from place1 import predict_place  # Importing the function
 
 app = Flask(__name__)
 
-@app.route('/printty', methods=['POST'])
-def printty():
+@app.route('/predict', methods=['POST'])
+def predict():
     # Extract parameters from the request
     data = request.json
-    param1 = data["param1"]
+    param1 = data["budget"]
+    param2 = data["days"]
+    param3 = data["gender"]
+    param4 = data["child"]
+    param5 = data["withs"]
+    param6 = data["season"]
+    param7 = data["num_places"]
   
 
     # Call the function
-    result1 = printy(param1)
+    top_places = predict_place(param1, param2,param3,param4,param5,param6, param7)
 
     # Return the results
-    return {'result1': result1}
+    return {'top_predicted_places': top_places}
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

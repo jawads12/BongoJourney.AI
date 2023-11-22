@@ -1,0 +1,1001 @@
+userID,days,place 1,place 2,place 3,place 4,place 5,place 6,place 7,place 8,place 9,place 10,gender,children,with,season,budget
+1,2,Mohamaya Lake,Chandranath Hill and Temple,Bhatiari,Guliakhali Sea Beach,Abhay Mitra Ghat,Karnaphuli River,Bashbaria Sea Beach,Khoiyachora Waterfall,,,Male,No,Friends,Winter,3183.0
+2,8,Foy's Lake,Guliakhali Sea Beach,Patenga Sea Beach,Napittachora Waterfalls,,,,,,,Male,Yes,Solo,Monsoon,10143.0
+3,9,Khoiyachora Waterfall,Mohamaya Lake,Karnaphuli River,Guliakhali Sea Beach,Chandranath Hill and Temple,Bhatiari,Foy's Lake,Napittachora Waterfalls,Naval Beach,Chittagong Circuit House,Male,Yes,Family,Autumn,19455.0
+4,1,Abhay Mitra Ghat,Patenga Sea Beach,Chandranath Hill and Temple,Bhatiari,Mohamaya Lake,Karnaphuli River,Guliakhali Sea Beach,,,,Male,Yes,Solo,Summer,7036.0
+5,2,Chandranath Hill and Temple,Naval Beach,Karnaphuli River,Khoiyachora Waterfall,Chittagong Circuit House,Abhay Mitra Ghat,Napittachora Waterfalls,,,,Male,No,Solo,Summer,17310.0
+6,7,Naval Beach,Chandranath Hill and Temple,Patenga Sea Beach,Guliakhali Sea Beach,Foy's Lake,Bhatiari,Napittachora Waterfalls,Karnaphuli River,Mohamaya Lake,Chittagong Circuit House,Female,Yes,Friends,Summer,16411.0
+7,7,Guliakhali Sea Beach,Bashbaria Sea Beach,Karnaphuli River,,,,,,,,Female,No,Family,Summer,12580.5
+8,10,Bhatiari,Karnaphuli River,Patenga Sea Beach,Abhay Mitra Ghat,Chandranath Hill and Temple,Bashbaria Sea Beach,Napittachora Waterfalls,Foy's Lake,Naval Beach,Chittagong Circuit House,Male,Yes,Friends,Monsoon,17403.0
+9,2,Naval Beach,Foy's Lake,Mohamaya Lake,Bhatiari,Karnaphuli River,Khoiyachora Waterfall,Guliakhali Sea Beach,Patenga Sea Beach,,,Female,Yes,Couple,Monsoon,20000.0
+10,7,Chittagong Circuit House,Napittachora Waterfalls,Mohamaya Lake,Chandranath Hill and Temple,Guliakhali Sea Beach,Abhay Mitra Ghat,,,,,Male,No,Friends,Autumn,17023.0
+11,7,Karnaphuli River,Naval Beach,Chittagong Circuit House,Abhay Mitra Ghat,Patenga Sea Beach,Guliakhali Sea Beach,,,,,Female,No,Solo,Monsoon,9450.0
+12,8,Mohamaya Lake,Khoiyachora Waterfall,Patenga Sea Beach,Bhatiari,Karnaphuli River,Chandranath Hill and Temple,Bashbaria Sea Beach,Chittagong Circuit House,Abhay Mitra Ghat,Naval Beach,Male,No,Friends,Summer,7851.0
+13,5,Patenga Sea Beach,Naval Beach,Chandranath Hill and Temple,Bhatiari,Chittagong Circuit House,Guliakhali Sea Beach,Abhay Mitra Ghat,,,,Male,Yes,Solo,Autumn,13476.0
+14,3,Guliakhali Sea Beach,Karnaphuli River,Khoiyachora Waterfall,Mohamaya Lake,Bashbaria Sea Beach,Patenga Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,,,Male,No,Friends,Summer,15221.0
+15,2,Napittachora Waterfalls,Guliakhali Sea Beach,Mohamaya Lake,Karnaphuli River,Khoiyachora Waterfall,Bashbaria Sea Beach,Chittagong Circuit House,Abhay Mitra Ghat,,,Male,Yes,Family,Winter,16713.0
+16,9,Khoiyachora Waterfall,Naval Beach,Karnaphuli River,Mohamaya Lake,,,,,,,Male,No,Friends,Monsoon,18052.0
+17,3,Bhatiari,Chittagong Circuit House,Bashbaria Sea Beach,Khoiyachora Waterfall,Naval Beach,Patenga Sea Beach,Mohamaya Lake,Karnaphuli River,,,Male,No,Family,Winter,20000.0
+18,9,Abhay Mitra Ghat,Napittachora Waterfalls,Bashbaria Sea Beach,Khoiyachora Waterfall,Bhatiari,Chandranath Hill and Temple,,,,,Male,No,Couple,Autumn,20000.0
+19,9,Abhay Mitra Ghat,Khoiyachora Waterfall,,,,,,,,,Female,Yes,Couple,Autumn,8642.4
+20,1,Foy's Lake,Napittachora Waterfalls,Patenga Sea Beach,Naval Beach,Bhatiari,,,,,,Female,Yes,Couple,Winter,20000.0
+21,9,Napittachora Waterfalls,Karnaphuli River,Abhay Mitra Ghat,Bashbaria Sea Beach,Chittagong Circuit House,,,,,,Male,No,Couple,Autumn,10448.4
+22,7,Bashbaria Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,Foy's Lake,,,,,,,Male,No,Family,Monsoon,20000.0
+23,1,Khoiyachora Waterfall,Naval Beach,Chandranath Hill and Temple,Patenga Sea Beach,Abhay Mitra Ghat,Chittagong Circuit House,Foy's Lake,Bashbaria Sea Beach,Guliakhali Sea Beach,Bhatiari,Female,No,Solo,Autumn,16358.0
+24,5,Foy's Lake,Chittagong Circuit House,Abhay Mitra Ghat,Napittachora Waterfalls,Chandranath Hill and Temple,Bashbaria Sea Beach,Bhatiari,Patenga Sea Beach,Naval Beach,Mohamaya Lake,Male,Yes,Couple,Monsoon,10321.199999999999
+25,4,Chittagong Circuit House,Khoiyachora Waterfall,Karnaphuli River,,,,,,,,Male,No,Family,Monsoon,20000.0
+26,2,Abhay Mitra Ghat,Bashbaria Sea Beach,Chittagong Circuit House,Bhatiari,Karnaphuli River,Naval Beach,Mohamaya Lake,Napittachora Waterfalls,Foy's Lake,Chandranath Hill and Temple,Male,Yes,Solo,Summer,13944.0
+27,5,Bhatiari,Mohamaya Lake,Bashbaria Sea Beach,Naval Beach,Patenga Sea Beach,Khoiyachora Waterfall,Chandranath Hill and Temple,Abhay Mitra Ghat,Napittachora Waterfalls,,Male,No,Couple,Summer,8086.799999999999
+28,9,Mohamaya Lake,Abhay Mitra Ghat,Chandranath Hill and Temple,Napittachora Waterfalls,Foy's Lake,Patenga Sea Beach,Khoiyachora Waterfall,Chittagong Circuit House,Guliakhali Sea Beach,Bhatiari,Female,No,Family,Autumn,20000.0
+29,7,Patenga Sea Beach,Bashbaria Sea Beach,Bhatiari,Napittachora Waterfalls,,,,,,,Male,No,Family,Winter,20000.0
+30,10,Naval Beach,Bhatiari,Chandranath Hill and Temple,Chittagong Circuit House,Bashbaria Sea Beach,Foy's Lake,Khoiyachora Waterfall,Guliakhali Sea Beach,,,Female,No,Couple,Winter,19706.399999999998
+31,10,Bashbaria Sea Beach,Karnaphuli River,Naval Beach,Guliakhali Sea Beach,,,,,,,Female,Yes,Couple,Winter,7062.0
+32,1,Naval Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,Mohamaya Lake,Foy's Lake,Napittachora Waterfalls,Patenga Sea Beach,Bashbaria Sea Beach,,,Female,No,Solo,Autumn,12128.0
+33,1,Chandranath Hill and Temple,Karnaphuli River,Chittagong Circuit House,,,,,,,,Female,No,Family,Monsoon,6208.5
+34,4,Chandranath Hill and Temple,Chittagong Circuit House,Guliakhali Sea Beach,Bashbaria Sea Beach,Naval Beach,,,,,,Female,No,Friends,Summer,14749.0
+35,9,Foy's Lake,Chandranath Hill and Temple,Bhatiari,Chittagong Circuit House,Karnaphuli River,Mohamaya Lake,Khoiyachora Waterfall,,,,Male,No,Solo,Autumn,9366.0
+36,4,Naval Beach,Chandranath Hill and Temple,Abhay Mitra Ghat,Patenga Sea Beach,Khoiyachora Waterfall,,,,,,Male,No,Family,Summer,15613.5
+37,2,Karnaphuli River,Bashbaria Sea Beach,,,,,,,,,Female,Yes,Solo,Winter,5020.0
+38,3,Bashbaria Sea Beach,Chittagong Circuit House,Bhatiari,Naval Beach,Karnaphuli River,Patenga Sea Beach,,,,,Female,Yes,Couple,Summer,16984.8
+39,10,Karnaphuli River,Chandranath Hill and Temple,Foy's Lake,Chittagong Circuit House,Guliakhali Sea Beach,Patenga Sea Beach,Naval Beach,Abhay Mitra Ghat,Bashbaria Sea Beach,Khoiyachora Waterfall,Female,No,Friends,Winter,10157.0
+40,4,Bhatiari,Chittagong Circuit House,Naval Beach,Guliakhali Sea Beach,Abhay Mitra Ghat,Mohamaya Lake,Bashbaria Sea Beach,,,,Female,Yes,Friends,Winter,16083.0
+41,3,Khoiyachora Waterfall,Naval Beach,Chittagong Circuit House,Bashbaria Sea Beach,Napittachora Waterfalls,,,,,,Male,No,Family,Summer,20000.0
+42,3,Napittachora Waterfalls,Abhay Mitra Ghat,Bhatiari,Khoiyachora Waterfall,Karnaphuli River,Chandranath Hill and Temple,Foy's Lake,Patenga Sea Beach,Mohamaya Lake,,Female,No,Solo,Summer,12215.0
+43,9,Bashbaria Sea Beach,Naval Beach,Bhatiari,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,,Male,No,Couple,Autumn,7167.599999999999
+44,10,Napittachora Waterfalls,Naval Beach,Bashbaria Sea Beach,,,,,,,,Female,No,Solo,Monsoon,15144.0
+45,4,Naval Beach,Karnaphuli River,Guliakhali Sea Beach,,,,,,,,Female,No,Family,Monsoon,17424.0
+46,5,Foy's Lake,Bhatiari,Chandranath Hill and Temple,Bashbaria Sea Beach,Khoiyachora Waterfall,Guliakhali Sea Beach,Abhay Mitra Ghat,Naval Beach,Napittachora Waterfalls,Karnaphuli River,Male,Yes,Family,Winter,20000.0
+47,10,Khoiyachora Waterfall,Naval Beach,Karnaphuli River,,,,,,,,Male,No,Couple,Winter,17601.6
+48,4,Karnaphuli River,Abhay Mitra Ghat,Patenga Sea Beach,Naval Beach,Chandranath Hill and Temple,Bashbaria Sea Beach,Napittachora Waterfalls,,,,Male,Yes,Couple,Monsoon,15436.8
+49,6,Foy's Lake,,,,,,,,,,Female,Yes,Family,Summer,18466.5
+50,5,Abhay Mitra Ghat,Bhatiari,Khoiyachora Waterfall,Guliakhali Sea Beach,Patenga Sea Beach,Naval Beach,,,,,Female,Yes,Couple,Winter,17096.399999999998
+51,9,Abhay Mitra Ghat,Karnaphuli River,Chandranath Hill and Temple,Bashbaria Sea Beach,Guliakhali Sea Beach,Naval Beach,,,,,Male,No,Couple,Summer,20000.0
+52,1,Chittagong Circuit House,Chandranath Hill and Temple,Mohamaya Lake,Naval Beach,Napittachora Waterfalls,Abhay Mitra Ghat,Guliakhali Sea Beach,Patenga Sea Beach,,,Male,No,Couple,Summer,6391.2
+53,1,Khoiyachora Waterfall,Chittagong Circuit House,Napittachora Waterfalls,Bhatiari,Naval Beach,Bashbaria Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,Abhay Mitra Ghat,,Male,Yes,Couple,Monsoon,6224.4
+54,7,Bhatiari,Mohamaya Lake,Naval Beach,Chittagong Circuit House,Khoiyachora Waterfall,,,,,,Male,Yes,Solo,Autumn,10851.0
+55,7,Naval Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,,Male,No,Couple,Winter,8388.0
+56,8,Bashbaria Sea Beach,Mohamaya Lake,Naval Beach,Karnaphuli River,Bhatiari,Khoiyachora Waterfall,Patenga Sea Beach,,,,Female,Yes,Solo,Summer,3710.0
+57,4,Khoiyachora Waterfall,Foy's Lake,Naval Beach,Chandranath Hill and Temple,Chittagong Circuit House,Abhay Mitra Ghat,Karnaphuli River,Patenga Sea Beach,Napittachora Waterfalls,Mohamaya Lake,Male,Yes,Solo,Monsoon,12740.0
+58,8,Karnaphuli River,Chandranath Hill and Temple,Patenga Sea Beach,Napittachora Waterfalls,Naval Beach,Bhatiari,Abhay Mitra Ghat,,,,Female,Yes,Friends,Autumn,16846.0
+59,8,Abhay Mitra Ghat,Foy's Lake,Karnaphuli River,Patenga Sea Beach,Chittagong Circuit House,Bashbaria Sea Beach,Guliakhali Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,,Male,No,Family,Summer,5626.5
+60,4,Mohamaya Lake,Foy's Lake,Patenga Sea Beach,Bashbaria Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,Abhay Mitra Ghat,Khoiyachora Waterfall,Bhatiari,,Male,Yes,Family,Monsoon,19177.5
+61,8,Naval Beach,Karnaphuli River,Chandranath Hill and Temple,Guliakhali Sea Beach,,,,,,,Female,No,Family,Winter,14991.0
+62,2,Foy's Lake,Napittachora Waterfalls,Mohamaya Lake,Chittagong Circuit House,Chandranath Hill and Temple,Naval Beach,Karnaphuli River,Abhay Mitra Ghat,Bhatiari,Khoiyachora Waterfall,Male,Yes,Family,Monsoon,11850.0
+63,2,Khoiyachora Waterfall,Bhatiari,Napittachora Waterfalls,,,,,,,,Male,No,Family,Summer,20000.0
+64,7,Foy's Lake,Bhatiari,Chittagong Circuit House,Khoiyachora Waterfall,Karnaphuli River,Naval Beach,Bashbaria Sea Beach,,,,Female,No,Solo,Summer,19033.0
+65,7,Patenga Sea Beach,,,,,,,,,,Female,Yes,Couple,Summer,11476.8
+66,4,Karnaphuli River,Napittachora Waterfalls,Abhay Mitra Ghat,Bhatiari,Chandranath Hill and Temple,,,,,,Male,No,Couple,Winter,14882.4
+67,6,Napittachora Waterfalls,Mohamaya Lake,Karnaphuli River,Bhatiari,Chandranath Hill and Temple,Chittagong Circuit House,Naval Beach,,,,Female,No,Family,Winter,20000.0
+68,5,Karnaphuli River,Khoiyachora Waterfall,Guliakhali Sea Beach,Napittachora Waterfalls,Mohamaya Lake,Patenga Sea Beach,Bashbaria Sea Beach,,,,Male,No,Couple,Autumn,9876.0
+69,1,Chandranath Hill and Temple,Mohamaya Lake,Chittagong Circuit House,Bashbaria Sea Beach,Patenga Sea Beach,Bhatiari,Foy's Lake,Khoiyachora Waterfall,Karnaphuli River,Guliakhali Sea Beach,Male,Yes,Friends,Winter,6803.0
+70,10,Bashbaria Sea Beach,Guliakhali Sea Beach,,,,,,,,,Female,No,Family,Winter,14014.5
+71,6,Abhay Mitra Ghat,Chittagong Circuit House,Napittachora Waterfalls,Naval Beach,,,,,,,Female,No,Friends,Monsoon,6387.0
+72,5,Foy's Lake,Abhay Mitra Ghat,Bhatiari,Bashbaria Sea Beach,Patenga Sea Beach,Guliakhali Sea Beach,Karnaphuli River,Mohamaya Lake,Naval Beach,,Female,No,Friends,Summer,7642.0
+73,4,Chittagong Circuit House,Chandranath Hill and Temple,Guliakhali Sea Beach,Mohamaya Lake,Abhay Mitra Ghat,,,,,,Female,No,Friends,Monsoon,5384.0
+74,5,Guliakhali Sea Beach,Bashbaria Sea Beach,Napittachora Waterfalls,Abhay Mitra Ghat,,,,,,,Female,No,Solo,Winter,10076.0
+75,5,Chandranath Hill and Temple,Khoiyachora Waterfall,Mohamaya Lake,Bhatiari,Chittagong Circuit House,Patenga Sea Beach,Naval Beach,,,,Female,Yes,Couple,Monsoon,16690.8
+76,7,Napittachora Waterfalls,Guliakhali Sea Beach,Karnaphuli River,Abhay Mitra Ghat,Foy's Lake,Bashbaria Sea Beach,Patenga Sea Beach,,,,Female,Yes,Family,Winter,20000.0
+77,8,Karnaphuli River,,,,,,,,,,Male,Yes,Solo,Summer,18824.0
+78,5,Napittachora Waterfalls,Chittagong Circuit House,Foy's Lake,Karnaphuli River,Mohamaya Lake,Bhatiari,Naval Beach,Guliakhali Sea Beach,Khoiyachora Waterfall,Chandranath Hill and Temple,Male,Yes,Couple,Autumn,19053.6
+79,7,Khoiyachora Waterfall,Bashbaria Sea Beach,Abhay Mitra Ghat,Patenga Sea Beach,Foy's Lake,Bhatiari,Naval Beach,Guliakhali Sea Beach,,,Male,No,Family,Winter,8622.0
+80,3,Naval Beach,Bashbaria Sea Beach,,,,,,,,,Female,Yes,Couple,Winter,7653.599999999999
+81,1,Napittachora Waterfalls,Khoiyachora Waterfall,Bhatiari,Karnaphuli River,Patenga Sea Beach,Chittagong Circuit House,,,,,Male,Yes,Couple,Monsoon,13622.4
+82,7,Chittagong Circuit House,Khoiyachora Waterfall,Chandranath Hill and Temple,Bashbaria Sea Beach,Napittachora Waterfalls,,,,,,Male,No,Solo,Autumn,18184.0
+83,7,Naval Beach,Mohamaya Lake,,,,,,,,,Male,No,Friends,Monsoon,8411.0
+84,9,Naval Beach,Mohamaya Lake,Napittachora Waterfalls,Guliakhali Sea Beach,Chittagong Circuit House,Karnaphuli River,Bhatiari,Khoiyachora Waterfall,Abhay Mitra Ghat,,Female,No,Couple,Summer,20000.0
+85,7,Foy's Lake,Abhay Mitra Ghat,Chittagong Circuit House,Chandranath Hill and Temple,Bhatiari,Khoiyachora Waterfall,Karnaphuli River,Guliakhali Sea Beach,,,Female,No,Solo,Summer,12895.0
+86,3,Bhatiari,Foy's Lake,Napittachora Waterfalls,,,,,,,,Male,Yes,Friends,Summer,12200.0
+87,1,Chandranath Hill and Temple,Guliakhali Sea Beach,Patenga Sea Beach,Napittachora Waterfalls,Abhay Mitra Ghat,,,,,,Male,No,Solo,Summer,19038.0
+88,4,Chittagong Circuit House,Guliakhali Sea Beach,Khoiyachora Waterfall,Patenga Sea Beach,Napittachora Waterfalls,Naval Beach,,,,,Female,Yes,Couple,Winter,11856.0
+89,10,Bashbaria Sea Beach,Bhatiari,Chandranath Hill and Temple,Mohamaya Lake,Chittagong Circuit House,Naval Beach,Karnaphuli River,Patenga Sea Beach,Foy's Lake,Guliakhali Sea Beach,Male,Yes,Family,Monsoon,18241.5
+90,8,Abhay Mitra Ghat,Chittagong Circuit House,Bashbaria Sea Beach,Guliakhali Sea Beach,Bhatiari,Karnaphuli River,Khoiyachora Waterfall,Patenga Sea Beach,,,Male,Yes,Friends,Autumn,18461.0
+91,8,Mohamaya Lake,Foy's Lake,Bashbaria Sea Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Abhay Mitra Ghat,Chandranath Hill and Temple,,,,Male,Yes,Family,Monsoon,20000.0
+92,10,Khoiyachora Waterfall,Napittachora Waterfalls,Chandranath Hill and Temple,,,,,,,,Male,No,Solo,Summer,4693.0
+93,8,Chandranath Hill and Temple,Karnaphuli River,Abhay Mitra Ghat,Patenga Sea Beach,Napittachora Waterfalls,Naval Beach,Bashbaria Sea Beach,Guliakhali Sea Beach,,,Male,No,Solo,Winter,18118.0
+94,7,Abhay Mitra Ghat,Guliakhali Sea Beach,Patenga Sea Beach,Foy's Lake,Chittagong Circuit House,Karnaphuli River,Bhatiari,Naval Beach,,,Female,No,Family,Monsoon,16731.0
+95,5,Foy's Lake,Chandranath Hill and Temple,Naval Beach,Karnaphuli River,Guliakhali Sea Beach,,,,,,Female,No,Solo,Summer,5643.0
+96,5,Bhatiari,Naval Beach,Chandranath Hill and Temple,Napittachora Waterfalls,Patenga Sea Beach,,,,,,Female,Yes,Family,Autumn,16942.5
+97,9,Chandranath Hill and Temple,Patenga Sea Beach,Naval Beach,Guliakhali Sea Beach,Bashbaria Sea Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Karnaphuli River,Mohamaya Lake,Abhay Mitra Ghat,Male,Yes,Family,Monsoon,20000.0
+98,7,Guliakhali Sea Beach,Foy's Lake,Patenga Sea Beach,Bashbaria Sea Beach,,,,,,,Female,No,Family,Monsoon,19657.5
+99,1,Chandranath Hill and Temple,Khoiyachora Waterfall,Bashbaria Sea Beach,Naval Beach,,,,,,,Male,Yes,Solo,Winter,5694.0
+100,9,Mohamaya Lake,Guliakhali Sea Beach,,,,,,,,,Female,No,Solo,Autumn,4787.0
+101,4,Bhatiari,Guliakhali Sea Beach,Abhay Mitra Ghat,Napittachora Waterfalls,Khoiyachora Waterfall,Mohamaya Lake,Chittagong Circuit House,,,,Male,No,Couple,Summer,5559.599999999999
+102,8,Bashbaria Sea Beach,Foy's Lake,Chittagong Circuit House,Karnaphuli River,Chandranath Hill and Temple,Patenga Sea Beach,Bhatiari,Naval Beach,Khoiyachora Waterfall,,Female,No,Couple,Autumn,20000.0
+103,6,Napittachora Waterfalls,Mohamaya Lake,Patenga Sea Beach,Khoiyachora Waterfall,,,,,,,Male,No,Solo,Summer,12674.0
+104,4,Mohamaya Lake,Guliakhali Sea Beach,Bhatiari,Chandranath Hill and Temple,Naval Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,,,Male,No,Solo,Winter,15987.0
+105,10,Naval Beach,Napittachora Waterfalls,Chandranath Hill and Temple,Bhatiari,Bashbaria Sea Beach,Patenga Sea Beach,,,,,Male,Yes,Couple,Monsoon,5895.599999999999
+106,3,Naval Beach,Bashbaria Sea Beach,Karnaphuli River,Guliakhali Sea Beach,Bhatiari,Chittagong Circuit House,,,,,Female,Yes,Friends,Autumn,12776.0
+107,1,Guliakhali Sea Beach,Naval Beach,,,,,,,,,Female,No,Family,Monsoon,9903.0
+108,9,Bhatiari,Bashbaria Sea Beach,,,,,,,,,Male,No,Couple,Summer,20000.0
+109,4,Karnaphuli River,Guliakhali Sea Beach,,,,,,,,,Female,Yes,Solo,Monsoon,5373.0
+110,9,Foy's Lake,Karnaphuli River,Chandranath Hill and Temple,,,,,,,,Male,No,Family,Summer,20000.0
+111,7,Naval Beach,Chittagong Circuit House,Foy's Lake,Chandranath Hill and Temple,Bashbaria Sea Beach,Patenga Sea Beach,Guliakhali Sea Beach,,,,Female,Yes,Solo,Autumn,18641.0
+112,4,Bashbaria Sea Beach,,,,,,,,,,Female,Yes,Friends,Autumn,15398.0
+113,5,Foy's Lake,Chandranath Hill and Temple,Bashbaria Sea Beach,Guliakhali Sea Beach,Naval Beach,Bhatiari,Napittachora Waterfalls,,,,Male,No,Couple,Summer,20000.0
+114,1,Abhay Mitra Ghat,Mohamaya Lake,Chittagong Circuit House,Chandranath Hill and Temple,Khoiyachora Waterfall,Guliakhali Sea Beach,Bhatiari,Naval Beach,Patenga Sea Beach,,Male,Yes,Friends,Autumn,3427.0
+115,10,Mohamaya Lake,Abhay Mitra Ghat,Bashbaria Sea Beach,Patenga Sea Beach,Chandranath Hill and Temple,Foy's Lake,Karnaphuli River,Chittagong Circuit House,Napittachora Waterfalls,Bhatiari,Female,No,Friends,Monsoon,13337.0
+116,8,Karnaphuli River,Chandranath Hill and Temple,Khoiyachora Waterfall,Bashbaria Sea Beach,Mohamaya Lake,Foy's Lake,Patenga Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,,Male,No,Solo,Autumn,19540.0
+117,6,Guliakhali Sea Beach,Foy's Lake,Bhatiari,Chandranath Hill and Temple,Naval Beach,Bashbaria Sea Beach,,,,,Female,Yes,Couple,Winter,4893.599999999999
+118,3,Khoiyachora Waterfall,Mohamaya Lake,Abhay Mitra Ghat,Chandranath Hill and Temple,Napittachora Waterfalls,Karnaphuli River,Bashbaria Sea Beach,Foy's Lake,Patenga Sea Beach,Chittagong Circuit House,Male,Yes,Couple,Autumn,17330.399999999998
+119,6,Abhay Mitra Ghat,Karnaphuli River,Chittagong Circuit House,Bhatiari,Patenga Sea Beach,Napittachora Waterfalls,Bashbaria Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,,Male,Yes,Family,Autumn,5445.0
+120,10,Foy's Lake,Bashbaria Sea Beach,Guliakhali Sea Beach,Karnaphuli River,Abhay Mitra Ghat,Bhatiari,Chittagong Circuit House,Khoiyachora Waterfall,Napittachora Waterfalls,,Male,Yes,Solo,Summer,17188.0
+121,7,Karnaphuli River,Naval Beach,Bhatiari,Foy's Lake,Napittachora Waterfalls,Chandranath Hill and Temple,Chittagong Circuit House,Patenga Sea Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,Male,Yes,Friends,Monsoon,8576.0
+122,2,Bhatiari,Guliakhali Sea Beach,Khoiyachora Waterfall,Bashbaria Sea Beach,Chittagong Circuit House,Abhay Mitra Ghat,Karnaphuli River,Patenga Sea Beach,Napittachora Waterfalls,,Female,Yes,Solo,Winter,15175.0
+123,10,Khoiyachora Waterfall,Bhatiari,Napittachora Waterfalls,,,,,,,,Male,No,Family,Winter,20000.0
+124,5,Foy's Lake,Patenga Sea Beach,Napittachora Waterfalls,,,,,,,,Male,No,Couple,Monsoon,8890.8
+125,3,Chandranath Hill and Temple,Karnaphuli River,Bhatiari,Guliakhali Sea Beach,Patenga Sea Beach,Bashbaria Sea Beach,Chittagong Circuit House,,,,Male,No,Couple,Monsoon,9606.0
+126,7,Mohamaya Lake,Bashbaria Sea Beach,Guliakhali Sea Beach,Patenga Sea Beach,Abhay Mitra Ghat,Naval Beach,Khoiyachora Waterfall,Bhatiari,Karnaphuli River,,Male,Yes,Family,Winter,20000.0
+127,6,Karnaphuli River,,,,,,,,,,Male,Yes,Couple,Summer,20000.0
+128,7,Karnaphuli River,Napittachora Waterfalls,,,,,,,,,Male,Yes,Solo,Winter,11377.0
+129,1,Bashbaria Sea Beach,Guliakhali Sea Beach,Foy's Lake,Karnaphuli River,Patenga Sea Beach,,,,,,Female,Yes,Couple,Autumn,20000.0
+130,5,Mohamaya Lake,Guliakhali Sea Beach,Karnaphuli River,Napittachora Waterfalls,Khoiyachora Waterfall,Bhatiari,,,,,Female,No,Solo,Monsoon,15616.0
+131,7,Patenga Sea Beach,Bashbaria Sea Beach,,,,,,,,,Female,Yes,Family,Winter,20000.0
+132,10,Chandranath Hill and Temple,,,,,,,,,,Male,No,Friends,Autumn,8039.0
+133,2,Chittagong Circuit House,Naval Beach,Chandranath Hill and Temple,Karnaphuli River,Patenga Sea Beach,Abhay Mitra Ghat,Bashbaria Sea Beach,Bhatiari,,,Female,No,Couple,Monsoon,4627.2
+134,6,Bashbaria Sea Beach,Karnaphuli River,Abhay Mitra Ghat,Chandranath Hill and Temple,Patenga Sea Beach,Mohamaya Lake,Chittagong Circuit House,Guliakhali Sea Beach,,,Female,Yes,Couple,Monsoon,9253.199999999999
+135,1,Khoiyachora Waterfall,Guliakhali Sea Beach,Chittagong Circuit House,Karnaphuli River,Naval Beach,Mohamaya Lake,,,,,Female,Yes,Family,Summer,20000.0
+136,10,Napittachora Waterfalls,Naval Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,,Female,No,Solo,Autumn,18819.0
+137,7,Napittachora Waterfalls,Foy's Lake,Karnaphuli River,Chittagong Circuit House,Mohamaya Lake,,,,,,Male,Yes,Solo,Autumn,14771.0
+138,5,Mohamaya Lake,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,,,Male,No,Couple,Winter,20000.0
+139,10,Karnaphuli River,Naval Beach,Guliakhali Sea Beach,,,,,,,,Female,No,Couple,Summer,20000.0
+140,1,Bashbaria Sea Beach,Chandranath Hill and Temple,Chittagong Circuit House,Mohamaya Lake,Naval Beach,,,,,,Female,Yes,Friends,Monsoon,16436.0
+141,5,Patenga Sea Beach,Foy's Lake,Chittagong Circuit House,Khoiyachora Waterfall,Chandranath Hill and Temple,Bashbaria Sea Beach,Karnaphuli River,Napittachora Waterfalls,Mohamaya Lake,,Male,No,Family,Monsoon,20000.0
+142,5,Abhay Mitra Ghat,Karnaphuli River,Chandranath Hill and Temple,Foy's Lake,Chittagong Circuit House,Khoiyachora Waterfall,Bashbaria Sea Beach,,,,Female,Yes,Couple,Autumn,17169.6
+143,1,Chandranath Hill and Temple,Patenga Sea Beach,Khoiyachora Waterfall,Chittagong Circuit House,Mohamaya Lake,Karnaphuli River,Bashbaria Sea Beach,,,,Female,No,Friends,Winter,18396.0
+144,6,Bhatiari,Chandranath Hill and Temple,Foy's Lake,Karnaphuli River,Naval Beach,Guliakhali Sea Beach,Abhay Mitra Ghat,Chittagong Circuit House,Khoiyachora Waterfall,,Male,No,Family,Summer,20000.0
+145,4,Napittachora Waterfalls,Naval Beach,Patenga Sea Beach,,,,,,,,Female,No,Solo,Summer,10371.0
+146,2,Chittagong Circuit House,Mohamaya Lake,,,,,,,,,Male,No,Friends,Winter,8431.0
+147,3,Naval Beach,Foy's Lake,Patenga Sea Beach,,,,,,,,Female,Yes,Solo,Summer,3793.0
+148,6,Khoiyachora Waterfall,Mohamaya Lake,Patenga Sea Beach,Bashbaria Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,Foy's Lake,,,,Male,Yes,Family,Summer,9049.5
+149,2,Chandranath Hill and Temple,Napittachora Waterfalls,Abhay Mitra Ghat,Bashbaria Sea Beach,,,,,,,Male,Yes,Friends,Autumn,19743.0
+150,3,Karnaphuli River,Bashbaria Sea Beach,Patenga Sea Beach,Napittachora Waterfalls,Chittagong Circuit House,Chandranath Hill and Temple,Mohamaya Lake,Abhay Mitra Ghat,Foy's Lake,,Female,No,Friends,Summer,3471.0
+151,3,Mohamaya Lake,Chittagong Circuit House,Karnaphuli River,Abhay Mitra Ghat,Patenga Sea Beach,Bashbaria Sea Beach,Napittachora Waterfalls,,,,Male,Yes,Family,Winter,6454.5
+152,2,Guliakhali Sea Beach,Khoiyachora Waterfall,Foy's Lake,Chittagong Circuit House,Bashbaria Sea Beach,Abhay Mitra Ghat,Naval Beach,Napittachora Waterfalls,Mohamaya Lake,Chandranath Hill and Temple,Male,Yes,Family,Winter,17343.0
+153,3,Bashbaria Sea Beach,Bhatiari,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,,,Male,No,Family,Autumn,20000.0
+154,5,Patenga Sea Beach,Guliakhali Sea Beach,Khoiyachora Waterfall,Foy's Lake,Abhay Mitra Ghat,Bashbaria Sea Beach,,,,,Female,Yes,Solo,Monsoon,5648.0
+155,2,Chandranath Hill and Temple,Patenga Sea Beach,Bashbaria Sea Beach,Mohamaya Lake,Foy's Lake,Guliakhali Sea Beach,Napittachora Waterfalls,Naval Beach,,,Female,Yes,Couple,Winter,14113.199999999999
+156,1,Chandranath Hill and Temple,Foy's Lake,,,,,,,,,Male,No,Friends,Autumn,13400.0
+157,9,Napittachora Waterfalls,Bashbaria Sea Beach,,,,,,,,,Female,No,Friends,Autumn,7342.0
+158,5,Naval Beach,Bashbaria Sea Beach,,,,,,,,,Female,No,Family,Autumn,11802.0
+159,5,Foy's Lake,Chittagong Circuit House,Khoiyachora Waterfall,Guliakhali Sea Beach,Chandranath Hill and Temple,,,,,,Male,Yes,Solo,Monsoon,19295.0
+160,9,Khoiyachora Waterfall,Bashbaria Sea Beach,Naval Beach,,,,,,,,Female,No,Solo,Summer,19455.0
+161,1,Bhatiari,Foy's Lake,Chittagong Circuit House,Bashbaria Sea Beach,Khoiyachora Waterfall,Mohamaya Lake,Karnaphuli River,Abhay Mitra Ghat,Patenga Sea Beach,Chandranath Hill and Temple,Male,Yes,Solo,Autumn,4504.0
+162,5,Chandranath Hill and Temple,Patenga Sea Beach,,,,,,,,,Female,No,Solo,Winter,11726.0
+163,1,Napittachora Waterfalls,Bashbaria Sea Beach,Chittagong Circuit House,Bhatiari,,,,,,,Female,Yes,Friends,Summer,7256.0
+164,2,Naval Beach,Bhatiari,Abhay Mitra Ghat,Karnaphuli River,Patenga Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,Napittachora Waterfalls,,,Male,Yes,Family,Monsoon,20000.0
+165,4,Napittachora Waterfalls,Karnaphuli River,Guliakhali Sea Beach,,,,,,,,Male,No,Friends,Autumn,14843.0
+166,1,Abhay Mitra Ghat,Chandranath Hill and Temple,,,,,,,,,Male,Yes,Solo,Winter,13632.0
+167,1,Abhay Mitra Ghat,Karnaphuli River,Khoiyachora Waterfall,,,,,,,,Male,Yes,Couple,Summer,14804.4
+168,2,Napittachora Waterfalls,Guliakhali Sea Beach,Bhatiari,Naval Beach,,,,,,,Female,Yes,Couple,Winter,17182.8
+169,7,Chandranath Hill and Temple,Abhay Mitra Ghat,Karnaphuli River,Mohamaya Lake,Patenga Sea Beach,Chittagong Circuit House,Khoiyachora Waterfall,Napittachora Waterfalls,Guliakhali Sea Beach,,Male,Yes,Solo,Monsoon,11930.0
+170,2,Bashbaria Sea Beach,Abhay Mitra Ghat,Guliakhali Sea Beach,Chittagong Circuit House,Karnaphuli River,Patenga Sea Beach,Khoiyachora Waterfall,,,,Male,Yes,Family,Winter,9666.0
+171,10,Guliakhali Sea Beach,Khoiyachora Waterfall,,,,,,,,,Male,No,Family,Winter,20000.0
+172,5,Abhay Mitra Ghat,Guliakhali Sea Beach,Napittachora Waterfalls,Mohamaya Lake,Bhatiari,Patenga Sea Beach,,,,,Female,No,Solo,Autumn,3934.0
+173,10,Bhatiari,Guliakhali Sea Beach,,,,,,,,,Female,No,Family,Autumn,20000.0
+174,5,Bhatiari,Khoiyachora Waterfall,Foy's Lake,Abhay Mitra Ghat,Napittachora Waterfalls,,,,,,Male,No,Friends,Monsoon,16172.0
+175,4,Naval Beach,Napittachora Waterfalls,Mohamaya Lake,Chittagong Circuit House,Foy's Lake,Guliakhali Sea Beach,Karnaphuli River,Khoiyachora Waterfall,,,Male,No,Couple,Summer,16921.2
+176,4,Chittagong Circuit House,Bashbaria Sea Beach,Mohamaya Lake,Patenga Sea Beach,Abhay Mitra Ghat,Khoiyachora Waterfall,Bhatiari,Naval Beach,Guliakhali Sea Beach,Chandranath Hill and Temple,Male,No,Couple,Monsoon,13522.8
+177,10,Abhay Mitra Ghat,Bashbaria Sea Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Foy's Lake,,,,,,Female,No,Family,Summer,13602.0
+178,1,Chittagong Circuit House,Khoiyachora Waterfall,Guliakhali Sea Beach,Karnaphuli River,Mohamaya Lake,Bhatiari,Naval Beach,Patenga Sea Beach,Chandranath Hill and Temple,Foy's Lake,Male,No,Couple,Summer,19218.0
+179,5,Foy's Lake,Chittagong Circuit House,Patenga Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,Napittachora Waterfalls,Karnaphuli River,Naval Beach,Abhay Mitra Ghat,Khoiyachora Waterfall,Female,Yes,Family,Summer,20000.0
+180,2,Mohamaya Lake,Abhay Mitra Ghat,Khoiyachora Waterfall,Naval Beach,Guliakhali Sea Beach,,,,,,Female,Yes,Friends,Winter,8773.0
+181,1,Foy's Lake,Abhay Mitra Ghat,Karnaphuli River,Bhatiari,,,,,,,Male,No,Family,Monsoon,20000.0
+182,9,Mohamaya Lake,Patenga Sea Beach,Abhay Mitra Ghat,Khoiyachora Waterfall,Naval Beach,Bashbaria Sea Beach,,,,,Female,Yes,Solo,Monsoon,8045.0
+183,1,Mohamaya Lake,Foy's Lake,Guliakhali Sea Beach,Abhay Mitra Ghat,Karnaphuli River,Napittachora Waterfalls,,,,,Female,No,Solo,Autumn,15696.0
+184,6,Khoiyachora Waterfall,Mohamaya Lake,Napittachora Waterfalls,Chittagong Circuit House,Chandranath Hill and Temple,,,,,,Male,No,Couple,Monsoon,4978.8
+185,6,Patenga Sea Beach,Abhay Mitra Ghat,Chandranath Hill and Temple,Naval Beach,Chittagong Circuit House,Guliakhali Sea Beach,,,,,Male,No,Solo,Summer,10101.0
+186,5,Patenga Sea Beach,Khoiyachora Waterfall,Karnaphuli River,Bhatiari,Bashbaria Sea Beach,,,,,,Female,Yes,Solo,Autumn,5251.0
+187,2,Khoiyachora Waterfall,Naval Beach,Guliakhali Sea Beach,,,,,,,,Female,Yes,Friends,Winter,6490.0
+188,9,Mohamaya Lake,Bhatiari,Khoiyachora Waterfall,Chandranath Hill and Temple,Karnaphuli River,,,,,,Male,Yes,Family,Winter,20000.0
+189,4,Foy's Lake,Bashbaria Sea Beach,Guliakhali Sea Beach,Patenga Sea Beach,Napittachora Waterfalls,Chittagong Circuit House,Mohamaya Lake,Bhatiari,Naval Beach,,Female,Yes,Solo,Summer,6514.0
+190,5,Chandranath Hill and Temple,Bhatiari,Abhay Mitra Ghat,,,,,,,,Male,No,Friends,Winter,4101.0
+191,3,Karnaphuli River,Naval Beach,Khoiyachora Waterfall,Patenga Sea Beach,Chittagong Circuit House,Bashbaria Sea Beach,Chandranath Hill and Temple,Guliakhali Sea Beach,,,Female,Yes,Solo,Winter,8237.0
+192,4,Chittagong Circuit House,Foy's Lake,Patenga Sea Beach,Karnaphuli River,Mohamaya Lake,Naval Beach,Guliakhali Sea Beach,,,,Female,Yes,Family,Winter,20000.0
+193,4,Guliakhali Sea Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,Napittachora Waterfalls,Abhay Mitra Ghat,Naval Beach,Khoiyachora Waterfall,Bhatiari,Foy's Lake,Male,Yes,Couple,Autumn,20000.0
+194,2,Khoiyachora Waterfall,Napittachora Waterfalls,Mohamaya Lake,Chandranath Hill and Temple,,,,,,,Male,Yes,Solo,Summer,11122.0
+195,1,Khoiyachora Waterfall,Guliakhali Sea Beach,Naval Beach,Chittagong Circuit House,Bhatiari,Abhay Mitra Ghat,Foy's Lake,Patenga Sea Beach,Bashbaria Sea Beach,,Female,Yes,Solo,Monsoon,17951.0
+196,7,Bashbaria Sea Beach,Patenga Sea Beach,,,,,,,,,Female,Yes,Couple,Monsoon,10140.0
+197,3,Guliakhali Sea Beach,Abhay Mitra Ghat,Chandranath Hill and Temple,Patenga Sea Beach,Bashbaria Sea Beach,Foy's Lake,Naval Beach,Mohamaya Lake,Bhatiari,,Female,No,Friends,Autumn,17118.0
+198,10,Foy's Lake,Abhay Mitra Ghat,Patenga Sea Beach,Naval Beach,Mohamaya Lake,Chittagong Circuit House,Karnaphuli River,Guliakhali Sea Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Male,No,Couple,Summer,8611.199999999999
+199,6,Bhatiari,Chandranath Hill and Temple,Chittagong Circuit House,Foy's Lake,Khoiyachora Waterfall,Abhay Mitra Ghat,,,,,Male,Yes,Friends,Winter,10943.0
+200,3,Abhay Mitra Ghat,Chittagong Circuit House,Bashbaria Sea Beach,Napittachora Waterfalls,Foy's Lake,Patenga Sea Beach,Mohamaya Lake,Khoiyachora Waterfall,Naval Beach,Chandranath Hill and Temple,Female,No,Couple,Summer,9234.0
+201,4,Khoiyachora Waterfall,Patenga Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,Mohamaya Lake,Abhay Mitra Ghat,Bhatiari,Chandranath Hill and Temple,Guliakhali Sea Beach,Karnaphuli River,Male,Yes,Family,Summer,20000.0
+202,10,Guliakhali Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,,,,,,,,Female,No,Solo,Summer,4964.0
+203,3,Napittachora Waterfalls,Abhay Mitra Ghat,Naval Beach,Foy's Lake,Karnaphuli River,Mohamaya Lake,,,,,Male,No,Friends,Monsoon,13936.0
+204,2,Khoiyachora Waterfall,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,,,Female,Yes,Friends,Monsoon,5749.0
+205,2,Khoiyachora Waterfall,Foy's Lake,Karnaphuli River,Chandranath Hill and Temple,Guliakhali Sea Beach,Abhay Mitra Ghat,Bashbaria Sea Beach,,,,Male,Yes,Family,Monsoon,16620.0
+206,8,Naval Beach,Mohamaya Lake,Chandranath Hill and Temple,Patenga Sea Beach,Bashbaria Sea Beach,,,,,,Female,Yes,Solo,Monsoon,10592.0
+207,10,Patenga Sea Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,Guliakhali Sea Beach,,,,,,,Female,No,Friends,Winter,4222.0
+208,4,Khoiyachora Waterfall,Bhatiari,Naval Beach,,,,,,,,Female,Yes,Couple,Winter,11318.4
+209,5,Abhay Mitra Ghat,Mohamaya Lake,Bhatiari,,,,,,,,Female,Yes,Family,Winter,20000.0
+210,10,Bashbaria Sea Beach,Guliakhali Sea Beach,Napittachora Waterfalls,Chandranath Hill and Temple,Patenga Sea Beach,Foy's Lake,Abhay Mitra Ghat,Karnaphuli River,Khoiyachora Waterfall,Naval Beach,Female,Yes,Couple,Summer,19516.8
+211,4,Bashbaria Sea Beach,Chandranath Hill and Temple,,,,,,,,,Male,Yes,Friends,Summer,17497.0
+212,10,Naval Beach,Guliakhali Sea Beach,Napittachora Waterfalls,Patenga Sea Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Karnaphuli River,,,,Male,No,Friends,Autumn,7004.0
+213,10,Chandranath Hill and Temple,Chittagong Circuit House,Napittachora Waterfalls,Guliakhali Sea Beach,Bhatiari,Karnaphuli River,Naval Beach,Patenga Sea Beach,Mohamaya Lake,Bashbaria Sea Beach,Female,No,Couple,Autumn,14052.0
+214,1,Napittachora Waterfalls,Naval Beach,Mohamaya Lake,Bhatiari,Patenga Sea Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Guliakhali Sea Beach,Abhay Mitra Ghat,,Female,Yes,Family,Winter,20000.0
+215,4,Guliakhali Sea Beach,,,,,,,,,,Male,Yes,Couple,Monsoon,20000.0
+216,1,Bashbaria Sea Beach,Chittagong Circuit House,Patenga Sea Beach,Naval Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,Male,No,Family,Winter,20000.0
+217,7,Khoiyachora Waterfall,Chittagong Circuit House,Abhay Mitra Ghat,Naval Beach,Karnaphuli River,Foy's Lake,Patenga Sea Beach,,,,Female,No,Solo,Winter,17428.0
+218,6,Chandranath Hill and Temple,Guliakhali Sea Beach,Chittagong Circuit House,Bhatiari,Napittachora Waterfalls,,,,,,Male,No,Friends,Monsoon,13267.0
+219,6,Bhatiari,Napittachora Waterfalls,Karnaphuli River,Chittagong Circuit House,Bashbaria Sea Beach,Patenga Sea Beach,,,,,Female,Yes,Solo,Winter,18691.0
+220,10,Mohamaya Lake,Foy's Lake,Chittagong Circuit House,Guliakhali Sea Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,Khoiyachora Waterfall,,,Male,Yes,Couple,Monsoon,16059.599999999999
+221,7,Mohamaya Lake,Guliakhali Sea Beach,Bashbaria Sea Beach,Foy's Lake,Chandranath Hill and Temple,Karnaphuli River,,,,,Female,Yes,Solo,Monsoon,6118.0
+222,8,Guliakhali Sea Beach,Mohamaya Lake,Foy's Lake,Chittagong Circuit House,Bashbaria Sea Beach,Khoiyachora Waterfall,Naval Beach,,,,Female,Yes,Solo,Autumn,8589.0
+223,4,Chittagong Circuit House,Naval Beach,Patenga Sea Beach,,,,,,,,Female,No,Family,Monsoon,6327.0
+224,10,Foy's Lake,Bashbaria Sea Beach,Khoiyachora Waterfall,,,,,,,,Male,No,Solo,Autumn,6512.0
+225,2,Chittagong Circuit House,Patenga Sea Beach,Guliakhali Sea Beach,Bhatiari,Karnaphuli River,Napittachora Waterfalls,Naval Beach,Khoiyachora Waterfall,Foy's Lake,Chandranath Hill and Temple,Male,Yes,Friends,Monsoon,17023.0
+226,9,Chittagong Circuit House,Chandranath Hill and Temple,Karnaphuli River,Bhatiari,Bashbaria Sea Beach,Patenga Sea Beach,Khoiyachora Waterfall,Foy's Lake,Mohamaya Lake,,Female,No,Couple,Winter,12811.199999999999
+227,2,Foy's Lake,Chittagong Circuit House,Naval Beach,Napittachora Waterfalls,Bashbaria Sea Beach,Abhay Mitra Ghat,Bhatiari,,,,Female,No,Couple,Summer,20000.0
+228,2,Naval Beach,Chittagong Circuit House,Bashbaria Sea Beach,Khoiyachora Waterfall,,,,,,,Male,No,Solo,Autumn,14111.0
+229,1,Patenga Sea Beach,Chandranath Hill and Temple,Chittagong Circuit House,Bhatiari,Guliakhali Sea Beach,Khoiyachora Waterfall,Karnaphuli River,,,,Female,Yes,Family,Summer,20000.0
+230,3,Chandranath Hill and Temple,Foy's Lake,Abhay Mitra Ghat,Mohamaya Lake,Napittachora Waterfalls,,,,,,Male,Yes,Friends,Monsoon,5512.0
+231,9,Abhay Mitra Ghat,Karnaphuli River,Bashbaria Sea Beach,Bhatiari,Chandranath Hill and Temple,Guliakhali Sea Beach,Napittachora Waterfalls,Patenga Sea Beach,Chittagong Circuit House,,Male,Yes,Friends,Summer,11232.0
+232,1,Bhatiari,Karnaphuli River,Mohamaya Lake,Abhay Mitra Ghat,Khoiyachora Waterfall,Bashbaria Sea Beach,Chittagong Circuit House,,,,Female,No,Family,Autumn,6796.5
+233,1,Bhatiari,Khoiyachora Waterfall,,,,,,,,,Male,Yes,Friends,Autumn,16133.0
+234,4,Patenga Sea Beach,Karnaphuli River,Guliakhali Sea Beach,Bhatiari,Abhay Mitra Ghat,Mohamaya Lake,Napittachora Waterfalls,Khoiyachora Waterfall,Bashbaria Sea Beach,,Female,No,Couple,Monsoon,7102.8
+235,8,Patenga Sea Beach,Karnaphuli River,Chittagong Circuit House,Bashbaria Sea Beach,Chandranath Hill and Temple,Mohamaya Lake,,,,,Female,Yes,Solo,Monsoon,4850.0
+236,7,Bashbaria Sea Beach,Bhatiari,Naval Beach,Napittachora Waterfalls,Mohamaya Lake,Patenga Sea Beach,Foy's Lake,,,,Male,No,Solo,Summer,14772.0
+237,9,Naval Beach,Chittagong Circuit House,Mohamaya Lake,Foy's Lake,Khoiyachora Waterfall,Patenga Sea Beach,,,,,Female,Yes,Friends,Winter,19093.0
+238,9,Naval Beach,Karnaphuli River,Chittagong Circuit House,Bashbaria Sea Beach,Napittachora Waterfalls,Guliakhali Sea Beach,Khoiyachora Waterfall,,,,Male,No,Friends,Autumn,3410.0
+239,10,Mohamaya Lake,Naval Beach,Napittachora Waterfalls,Bashbaria Sea Beach,Foy's Lake,Bhatiari,,,,,Male,Yes,Solo,Summer,8066.0
+240,4,Chittagong Circuit House,Khoiyachora Waterfall,Abhay Mitra Ghat,Napittachora Waterfalls,Patenga Sea Beach,Guliakhali Sea Beach,Bhatiari,Chandranath Hill and Temple,Mohamaya Lake,,Male,No,Friends,Monsoon,17569.0
+241,10,Chandranath Hill and Temple,Bhatiari,Naval Beach,Foy's Lake,Bashbaria Sea Beach,Karnaphuli River,Chittagong Circuit House,,,,Female,No,Friends,Autumn,9416.0
+242,7,Patenga Sea Beach,Naval Beach,Chandranath Hill and Temple,,,,,,,,Male,Yes,Family,Summer,13366.5
+243,8,Chandranath Hill and Temple,Abhay Mitra Ghat,Naval Beach,Chittagong Circuit House,Foy's Lake,Napittachora Waterfalls,Khoiyachora Waterfall,Karnaphuli River,Guliakhali Sea Beach,,Female,No,Friends,Autumn,16017.0
+244,1,Bhatiari,Khoiyachora Waterfall,Chittagong Circuit House,Mohamaya Lake,Chandranath Hill and Temple,Karnaphuli River,Patenga Sea Beach,Foy's Lake,Abhay Mitra Ghat,Napittachora Waterfalls,Female,Yes,Solo,Autumn,15265.0
+245,10,Abhay Mitra Ghat,Napittachora Waterfalls,Bashbaria Sea Beach,Guliakhali Sea Beach,,,,,,,Female,No,Family,Autumn,7962.0
+246,3,Guliakhali Sea Beach,Karnaphuli River,Chittagong Circuit House,Bhatiari,Chandranath Hill and Temple,Abhay Mitra Ghat,Naval Beach,Khoiyachora Waterfall,Napittachora Waterfalls,Foy's Lake,Male,No,Solo,Autumn,16678.0
+247,3,Karnaphuli River,Khoiyachora Waterfall,Naval Beach,Patenga Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,,,,,Male,Yes,Friends,Autumn,8041.0
+248,4,Bashbaria Sea Beach,Napittachora Waterfalls,Mohamaya Lake,Karnaphuli River,Guliakhali Sea Beach,Chandranath Hill and Temple,,,,,Male,No,Solo,Autumn,8397.0
+249,7,Napittachora Waterfalls,Chittagong Circuit House,Mohamaya Lake,Naval Beach,Bhatiari,Foy's Lake,Guliakhali Sea Beach,,,,Male,Yes,Couple,Autumn,5670.0
+250,5,Patenga Sea Beach,Chandranath Hill and Temple,Mohamaya Lake,Napittachora Waterfalls,Bhatiari,Bashbaria Sea Beach,Abhay Mitra Ghat,Khoiyachora Waterfall,Karnaphuli River,Guliakhali Sea Beach,Female,Yes,Family,Winter,13725.0
+251,10,Guliakhali Sea Beach,Mohamaya Lake,Patenga Sea Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,Bashbaria Sea Beach,Naval Beach,Bhatiari,Napittachora Waterfalls,,Male,No,Family,Autumn,8248.5
+252,3,Bashbaria Sea Beach,Patenga Sea Beach,,,,,,,,,Female,Yes,Family,Monsoon,20000.0
+253,3,Abhay Mitra Ghat,Chittagong Circuit House,Mohamaya Lake,Napittachora Waterfalls,Guliakhali Sea Beach,Patenga Sea Beach,Naval Beach,,,,Female,No,Family,Winter,12289.5
+254,4,Chandranath Hill and Temple,Abhay Mitra Ghat,Bashbaria Sea Beach,Khoiyachora Waterfall,Guliakhali Sea Beach,Foy's Lake,Bhatiari,,,,Male,Yes,Friends,Winter,18306.0
+255,4,Bhatiari,Chittagong Circuit House,Karnaphuli River,Naval Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,Male,No,Couple,Autumn,4580.4
+256,3,Chittagong Circuit House,Bhatiari,Patenga Sea Beach,Guliakhali Sea Beach,Karnaphuli River,Bashbaria Sea Beach,Foy's Lake,Naval Beach,,,Female,Yes,Friends,Winter,18981.0
+257,7,Karnaphuli River,Foy's Lake,Chittagong Circuit House,Chandranath Hill and Temple,Patenga Sea Beach,Bhatiari,Mohamaya Lake,Abhay Mitra Ghat,Guliakhali Sea Beach,Naval Beach,Female,Yes,Friends,Autumn,14619.0
+258,3,Foy's Lake,Patenga Sea Beach,Karnaphuli River,Bhatiari,Bashbaria Sea Beach,Naval Beach,,,,,Female,No,Couple,Winter,10392.0
+259,7,Guliakhali Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,,,,Male,Yes,Friends,Winter,9374.0
+260,10,Chandranath Hill and Temple,Napittachora Waterfalls,Khoiyachora Waterfall,Bashbaria Sea Beach,,,,,,,Female,No,Family,Summer,19299.0
+261,6,Patenga Sea Beach,Napittachora Waterfalls,,,,,,,,,Male,Yes,Friends,Monsoon,7237.0
+262,4,Patenga Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,,,Male,No,Family,Autumn,8317.5
+263,8,Khoiyachora Waterfall,Bhatiari,Karnaphuli River,Chittagong Circuit House,Foy's Lake,Naval Beach,Abhay Mitra Ghat,Guliakhali Sea Beach,Patenga Sea Beach,,Male,No,Couple,Autumn,17280.0
+264,2,Chandranath Hill and Temple,Khoiyachora Waterfall,Abhay Mitra Ghat,,,,,,,,Female,Yes,Family,Monsoon,17200.5
+265,7,Naval Beach,Chandranath Hill and Temple,Bashbaria Sea Beach,Karnaphuli River,Napittachora Waterfalls,Chittagong Circuit House,Abhay Mitra Ghat,Patenga Sea Beach,Guliakhali Sea Beach,Foy's Lake,Female,Yes,Solo,Monsoon,16448.0
+266,7,Guliakhali Sea Beach,Naval Beach,Patenga Sea Beach,,,,,,,,Female,No,Couple,Winter,15384.0
+267,3,Bashbaria Sea Beach,Guliakhali Sea Beach,Patenga Sea Beach,Karnaphuli River,Naval Beach,Napittachora Waterfalls,Abhay Mitra Ghat,Chittagong Circuit House,,,Female,No,Friends,Monsoon,9091.0
+268,6,Abhay Mitra Ghat,Naval Beach,Khoiyachora Waterfall,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,,Male,No,Family,Autumn,20000.0
+269,7,Patenga Sea Beach,Abhay Mitra Ghat,Foy's Lake,Karnaphuli River,Mohamaya Lake,Khoiyachora Waterfall,,,,,Male,No,Solo,Winter,8003.0
+270,4,Chandranath Hill and Temple,Napittachora Waterfalls,Khoiyachora Waterfall,Mohamaya Lake,,,,,,,Male,No,Couple,Winter,8328.0
+271,1,Karnaphuli River,Bhatiari,Foy's Lake,,,,,,,,Male,No,Solo,Monsoon,10020.0
+272,1,Chandranath Hill and Temple,Bashbaria Sea Beach,Mohamaya Lake,Napittachora Waterfalls,Guliakhali Sea Beach,Chittagong Circuit House,Karnaphuli River,Patenga Sea Beach,Abhay Mitra Ghat,Khoiyachora Waterfall,Male,Yes,Solo,Autumn,6424.0
+273,1,Patenga Sea Beach,Chandranath Hill and Temple,Foy's Lake,Khoiyachora Waterfall,Abhay Mitra Ghat,Guliakhali Sea Beach,Napittachora Waterfalls,,,,Female,No,Solo,Winter,14296.0
+274,8,Foy's Lake,Chandranath Hill and Temple,Khoiyachora Waterfall,Bhatiari,Napittachora Waterfalls,Mohamaya Lake,,,,,Male,Yes,Solo,Monsoon,16379.0
+275,4,Bhatiari,Napittachora Waterfalls,Abhay Mitra Ghat,Foy's Lake,Chandranath Hill and Temple,Karnaphuli River,Khoiyachora Waterfall,Mohamaya Lake,Bashbaria Sea Beach,Patenga Sea Beach,Female,Yes,Friends,Monsoon,15102.0
+276,4,Naval Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Mohamaya Lake,Bhatiari,Chittagong Circuit House,Abhay Mitra Ghat,Guliakhali Sea Beach,Napittachora Waterfalls,,Male,Yes,Couple,Summer,18516.0
+277,3,Chandranath Hill and Temple,Naval Beach,,,,,,,,,Female,Yes,Solo,Autumn,8375.0
+278,7,Patenga Sea Beach,Foy's Lake,Guliakhali Sea Beach,,,,,,,,Female,No,Family,Summer,17503.5
+279,4,Bhatiari,,,,,,,,,,Male,Yes,Friends,Autumn,7645.0
+280,2,Mohamaya Lake,Naval Beach,Abhay Mitra Ghat,Patenga Sea Beach,Chittagong Circuit House,Guliakhali Sea Beach,,,,,Female,No,Solo,Monsoon,10344.0
+281,9,Bashbaria Sea Beach,Foy's Lake,Chittagong Circuit House,Guliakhali Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,Karnaphuli River,Chandranath Hill and Temple,Bhatiari,Mohamaya Lake,Female,Yes,Couple,Winter,20000.0
+282,10,Chittagong Circuit House,Napittachora Waterfalls,,,,,,,,,Male,No,Solo,Summer,13402.0
+283,5,Mohamaya Lake,Abhay Mitra Ghat,Bashbaria Sea Beach,Napittachora Waterfalls,Patenga Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,,,,Male,No,Family,Summer,20000.0
+284,7,Guliakhali Sea Beach,Mohamaya Lake,Foy's Lake,Patenga Sea Beach,Abhay Mitra Ghat,Khoiyachora Waterfall,Napittachora Waterfalls,Bashbaria Sea Beach,Naval Beach,,Female,Yes,Friends,Summer,9417.0
+285,1,Foy's Lake,Patenga Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,Bhatiari,Khoiyachora Waterfall,Chittagong Circuit House,Guliakhali Sea Beach,,,Female,Yes,Friends,Autumn,17493.0
+286,10,Karnaphuli River,Napittachora Waterfalls,Foy's Lake,Bashbaria Sea Beach,Naval Beach,Khoiyachora Waterfall,,,,,Male,No,Couple,Summer,9312.0
+287,6,Bhatiari,Chittagong Circuit House,Khoiyachora Waterfall,Mohamaya Lake,Abhay Mitra Ghat,Napittachora Waterfalls,Foy's Lake,Patenga Sea Beach,Guliakhali Sea Beach,Chandranath Hill and Temple,Male,No,Friends,Autumn,8544.0
+288,8,Bashbaria Sea Beach,Napittachora Waterfalls,Patenga Sea Beach,Guliakhali Sea Beach,Abhay Mitra Ghat,Naval Beach,,,,,Female,Yes,Solo,Monsoon,4321.0
+289,1,Bhatiari,Abhay Mitra Ghat,Foy's Lake,Mohamaya Lake,Napittachora Waterfalls,Chandranath Hill and Temple,,,,,Female,No,Friends,Summer,15970.0
+290,4,Chandranath Hill and Temple,Mohamaya Lake,Abhay Mitra Ghat,Patenga Sea Beach,,,,,,,Male,No,Solo,Monsoon,18279.0
+291,6,Patenga Sea Beach,Bhatiari,Karnaphuli River,Mohamaya Lake,Abhay Mitra Ghat,Foy's Lake,Chittagong Circuit House,Bashbaria Sea Beach,,,Female,No,Friends,Monsoon,18714.0
+292,7,Mohamaya Lake,Abhay Mitra Ghat,Khoiyachora Waterfall,Chandranath Hill and Temple,Napittachora Waterfalls,Bashbaria Sea Beach,Guliakhali Sea Beach,Foy's Lake,,,Female,Yes,Solo,Autumn,10344.0
+293,4,Bhatiari,Bashbaria Sea Beach,Foy's Lake,Naval Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,Karnaphuli River,Napittachora Waterfalls,,,Male,Yes,Couple,Monsoon,7599.599999999999
+294,4,Chittagong Circuit House,Bhatiari,Foy's Lake,Chandranath Hill and Temple,Patenga Sea Beach,Abhay Mitra Ghat,Mohamaya Lake,,,,Female,No,Friends,Monsoon,9043.0
+295,9,Guliakhali Sea Beach,Naval Beach,Patenga Sea Beach,Bhatiari,Mohamaya Lake,Foy's Lake,Khoiyachora Waterfall,Karnaphuli River,Chittagong Circuit House,Bashbaria Sea Beach,Male,No,Couple,Autumn,20000.0
+296,8,Abhay Mitra Ghat,Foy's Lake,Napittachora Waterfalls,Patenga Sea Beach,Bhatiari,Guliakhali Sea Beach,Naval Beach,Bashbaria Sea Beach,,,Female,No,Family,Winter,7269.0
+297,3,Chandranath Hill and Temple,Chittagong Circuit House,Bhatiari,Karnaphuli River,Naval Beach,,,,,,Male,Yes,Couple,Summer,12283.199999999999
+298,9,Chandranath Hill and Temple,Naval Beach,Foy's Lake,,,,,,,,Male,No,Couple,Monsoon,11020.8
+299,5,Mohamaya Lake,Foy's Lake,Guliakhali Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,,Male,Yes,Family,Autumn,20000.0
+300,8,Khoiyachora Waterfall,Chandranath Hill and Temple,Mohamaya Lake,Foy's Lake,Chittagong Circuit House,Patenga Sea Beach,Bhatiari,Napittachora Waterfalls,Karnaphuli River,Bashbaria Sea Beach,Female,Yes,Family,Winter,12655.5
+301,9,Khoiyachora Waterfall,Patenga Sea Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Bhatiari,Mohamaya Lake,Naval Beach,Guliakhali Sea Beach,,,Female,No,Friends,Autumn,13338.0
+302,3,Bashbaria Sea Beach,Naval Beach,,,,,,,,,Female,Yes,Couple,Summer,11562.0
+303,10,Bhatiari,Chittagong Circuit House,Guliakhali Sea Beach,,,,,,,,Female,Yes,Solo,Monsoon,5367.0
+304,5,Napittachora Waterfalls,Naval Beach,Patenga Sea Beach,Foy's Lake,Bashbaria Sea Beach,Karnaphuli River,,,,,Female,Yes,Family,Winter,16669.5
+305,1,Foy's Lake,Bhatiari,Karnaphuli River,Khoiyachora Waterfall,Mohamaya Lake,Chandranath Hill and Temple,Abhay Mitra Ghat,Guliakhali Sea Beach,,,Female,Yes,Couple,Autumn,15592.8
+306,6,Abhay Mitra Ghat,Patenga Sea Beach,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,,Female,Yes,Couple,Autumn,11420.4
+307,6,Bhatiari,Naval Beach,Bashbaria Sea Beach,Napittachora Waterfalls,Karnaphuli River,Guliakhali Sea Beach,,,,,Female,Yes,Couple,Autumn,18436.8
+308,9,Khoiyachora Waterfall,Patenga Sea Beach,Napittachora Waterfalls,Bashbaria Sea Beach,Foy's Lake,Mohamaya Lake,Karnaphuli River,Guliakhali Sea Beach,Abhay Mitra Ghat,,Female,No,Solo,Autumn,11385.0
+309,1,Foy's Lake,Naval Beach,Abhay Mitra Ghat,Chittagong Circuit House,Guliakhali Sea Beach,Mohamaya Lake,Patenga Sea Beach,Khoiyachora Waterfall,,,Male,Yes,Family,Summer,20000.0
+310,9,Guliakhali Sea Beach,Khoiyachora Waterfall,Chandranath Hill and Temple,Foy's Lake,Napittachora Waterfalls,Abhay Mitra Ghat,Chittagong Circuit House,Bashbaria Sea Beach,,,Female,Yes,Solo,Summer,17500.0
+311,6,Bhatiari,Guliakhali Sea Beach,Chittagong Circuit House,Bashbaria Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,Naval Beach,,,,Female,Yes,Solo,Autumn,14399.0
+312,4,Mohamaya Lake,Bhatiari,Khoiyachora Waterfall,Naval Beach,Chandranath Hill and Temple,Guliakhali Sea Beach,Napittachora Waterfalls,Foy's Lake,,,Female,Yes,Family,Autumn,15033.0
+313,10,Guliakhali Sea Beach,Mohamaya Lake,Patenga Sea Beach,Naval Beach,Bashbaria Sea Beach,,,,,,Female,No,Family,Winter,20000.0
+314,7,Patenga Sea Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,Chittagong Circuit House,,,,,,,Female,Yes,Friends,Autumn,16379.0
+315,5,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,,,,Female,No,Solo,Autumn,19713.0
+316,8,Mohamaya Lake,Bhatiari,Khoiyachora Waterfall,,,,,,,,Male,Yes,Friends,Winter,4095.0
+317,9,Mohamaya Lake,Bhatiari,Napittachora Waterfalls,Chandranath Hill and Temple,Chittagong Circuit House,Abhay Mitra Ghat,Patenga Sea Beach,,,,Female,No,Friends,Autumn,8738.0
+318,4,Bashbaria Sea Beach,,,,,,,,,,Female,No,Couple,Summer,20000.0
+319,7,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,,,,,Male,No,Friends,Autumn,13719.0
+320,4,Abhay Mitra Ghat,Naval Beach,Chittagong Circuit House,Khoiyachora Waterfall,Karnaphuli River,,,,,,Female,No,Friends,Summer,10537.0
+321,3,Chandranath Hill and Temple,Naval Beach,Mohamaya Lake,Karnaphuli River,Patenga Sea Beach,Bashbaria Sea Beach,,,,,Female,Yes,Solo,Autumn,9626.0
+322,6,Bashbaria Sea Beach,Karnaphuli River,Abhay Mitra Ghat,Khoiyachora Waterfall,Foy's Lake,Bhatiari,Chandranath Hill and Temple,Chittagong Circuit House,Mohamaya Lake,,Female,Yes,Family,Winter,20000.0
+323,9,Mohamaya Lake,Karnaphuli River,Napittachora Waterfalls,Chandranath Hill and Temple,Abhay Mitra Ghat,Guliakhali Sea Beach,Khoiyachora Waterfall,,,,Male,No,Solo,Summer,11873.0
+324,3,Patenga Sea Beach,,,,,,,,,,Female,Yes,Friends,Summer,11119.0
+325,8,Guliakhali Sea Beach,Abhay Mitra Ghat,Napittachora Waterfalls,Karnaphuli River,Bashbaria Sea Beach,,,,,,Female,No,Solo,Winter,15552.0
+326,5,Mohamaya Lake,Naval Beach,,,,,,,,,Female,No,Friends,Summer,13795.0
+327,7,Chandranath Hill and Temple,Naval Beach,Napittachora Waterfalls,Guliakhali Sea Beach,Foy's Lake,Abhay Mitra Ghat,Bashbaria Sea Beach,Patenga Sea Beach,,,Male,No,Friends,Monsoon,8834.0
+328,5,Mohamaya Lake,Guliakhali Sea Beach,,,,,,,,,Female,No,Solo,Monsoon,12367.0
+329,2,Abhay Mitra Ghat,Karnaphuli River,Khoiyachora Waterfall,Chittagong Circuit House,Guliakhali Sea Beach,,,,,,Female,No,Couple,Winter,9252.0
+330,7,Chittagong Circuit House,Karnaphuli River,Chandranath Hill and Temple,Naval Beach,,,,,,,Female,Yes,Solo,Autumn,14930.0
+331,9,Guliakhali Sea Beach,Chittagong Circuit House,Bhatiari,Foy's Lake,Patenga Sea Beach,Chandranath Hill and Temple,Abhay Mitra Ghat,Bashbaria Sea Beach,Napittachora Waterfalls,,Female,No,Family,Autumn,12963.0
+332,5,Chandranath Hill and Temple,Bhatiari,,,,,,,,,Male,Yes,Family,Summer,20000.0
+333,2,Khoiyachora Waterfall,Guliakhali Sea Beach,Chandranath Hill and Temple,Foy's Lake,Patenga Sea Beach,Bashbaria Sea Beach,Naval Beach,Bhatiari,Napittachora Waterfalls,,Male,Yes,Couple,Autumn,6039.599999999999
+334,3,Napittachora Waterfalls,Bashbaria Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,Guliakhali Sea Beach,,,,,,Female,Yes,Friends,Autumn,4768.0
+335,6,Khoiyachora Waterfall,,,,,,,,,,Male,Yes,Solo,Winter,11542.0
+336,7,Bashbaria Sea Beach,Chittagong Circuit House,Karnaphuli River,Guliakhali Sea Beach,Abhay Mitra Ghat,Mohamaya Lake,Patenga Sea Beach,Naval Beach,,,Female,No,Solo,Winter,4461.0
+337,5,Naval Beach,Karnaphuli River,Foy's Lake,Bashbaria Sea Beach,Abhay Mitra Ghat,Chittagong Circuit House,Chandranath Hill and Temple,,,,Male,Yes,Couple,Autumn,20000.0
+338,4,Guliakhali Sea Beach,Karnaphuli River,Chandranath Hill and Temple,Abhay Mitra Ghat,Bhatiari,Naval Beach,Patenga Sea Beach,,,,Female,No,Friends,Winter,15084.0
+339,1,Bashbaria Sea Beach,Guliakhali Sea Beach,Abhay Mitra Ghat,Naval Beach,Bhatiari,Patenga Sea Beach,Foy's Lake,Mohamaya Lake,Karnaphuli River,,Male,Yes,Friends,Summer,10681.0
+340,1,Karnaphuli River,Napittachora Waterfalls,,,,,,,,,Male,Yes,Solo,Summer,15110.0
+341,5,Foy's Lake,Patenga Sea Beach,Bashbaria Sea Beach,,,,,,,,Female,No,Family,Monsoon,5800.5
+342,6,Chandranath Hill and Temple,Khoiyachora Waterfall,Abhay Mitra Ghat,Bhatiari,Foy's Lake,Mohamaya Lake,Guliakhali Sea Beach,Napittachora Waterfalls,,,Male,No,Solo,Summer,3897.0
+343,4,Foy's Lake,Patenga Sea Beach,Chandranath Hill and Temple,Karnaphuli River,Mohamaya Lake,Guliakhali Sea Beach,Khoiyachora Waterfall,Naval Beach,Napittachora Waterfalls,Bhatiari,Female,Yes,Family,Winter,20000.0
+344,8,Chandranath Hill and Temple,Patenga Sea Beach,Naval Beach,,,,,,,,Female,No,Couple,Autumn,20000.0
+345,6,Patenga Sea Beach,Bashbaria Sea Beach,Napittachora Waterfalls,Chandranath Hill and Temple,Naval Beach,,,,,,Female,Yes,Couple,Autumn,6428.4
+346,6,Karnaphuli River,Foy's Lake,Khoiyachora Waterfall,Mohamaya Lake,Chittagong Circuit House,Patenga Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,,,Male,No,Friends,Monsoon,15150.0
+347,10,Karnaphuli River,Bhatiari,,,,,,,,,Female,Yes,Friends,Monsoon,15000.0
+348,10,Mohamaya Lake,Patenga Sea Beach,Guliakhali Sea Beach,,,,,,,,Female,Yes,Solo,Monsoon,6939.0
+349,9,Foy's Lake,,,,,,,,,,Male,Yes,Family,Autumn,13597.5
+350,9,Chittagong Circuit House,Bashbaria Sea Beach,Naval Beach,Guliakhali Sea Beach,,,,,,,Female,Yes,Couple,Monsoon,10798.8
+351,7,Khoiyachora Waterfall,Mohamaya Lake,Guliakhali Sea Beach,Patenga Sea Beach,Bashbaria Sea Beach,Napittachora Waterfalls,,,,,Male,No,Solo,Summer,18127.0
+352,2,Patenga Sea Beach,Naval Beach,,,,,,,,,Female,No,Couple,Summer,19118.399999999998
+353,2,Patenga Sea Beach,Abhay Mitra Ghat,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,,,Male,Yes,Family,Autumn,7306.5
+354,3,Mohamaya Lake,Naval Beach,Foy's Lake,,,,,,,,Female,Yes,Couple,Winter,7742.4
+355,6,Abhay Mitra Ghat,Mohamaya Lake,Bhatiari,Naval Beach,Bashbaria Sea Beach,,,,,,Female,No,Friends,Summer,6174.0
+356,1,Napittachora Waterfalls,Naval Beach,Bhatiari,Guliakhali Sea Beach,Mohamaya Lake,Patenga Sea Beach,Karnaphuli River,Abhay Mitra Ghat,Khoiyachora Waterfall,,Male,Yes,Couple,Winter,13215.6
+357,5,Patenga Sea Beach,Bhatiari,Guliakhali Sea Beach,Karnaphuli River,Abhay Mitra Ghat,Bashbaria Sea Beach,,,,,Female,Yes,Couple,Summer,5126.4
+358,4,Bashbaria Sea Beach,Karnaphuli River,Patenga Sea Beach,Napittachora Waterfalls,Chittagong Circuit House,Khoiyachora Waterfall,Naval Beach,Abhay Mitra Ghat,Chandranath Hill and Temple,,Male,No,Solo,Summer,16381.0
+359,2,Bashbaria Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,Chandranath Hill and Temple,Abhay Mitra Ghat,Foy's Lake,Guliakhali Sea Beach,Patenga Sea Beach,Mohamaya Lake,Naval Beach,Female,No,Couple,Autumn,16651.2
+360,9,Foy's Lake,Abhay Mitra Ghat,Khoiyachora Waterfall,Bhatiari,Chittagong Circuit House,Naval Beach,,,,,Female,No,Family,Monsoon,7375.5
+361,1,Naval Beach,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,,,Female,Yes,Solo,Summer,17978.0
+362,4,Guliakhali Sea Beach,Patenga Sea Beach,Bashbaria Sea Beach,Chittagong Circuit House,Khoiyachora Waterfall,Foy's Lake,Napittachora Waterfalls,Karnaphuli River,Abhay Mitra Ghat,,Male,No,Friends,Summer,17377.0
+363,10,Chittagong Circuit House,Patenga Sea Beach,,,,,,,,,Female,Yes,Family,Summer,17665.5
+364,4,Bashbaria Sea Beach,Chandranath Hill and Temple,Guliakhali Sea Beach,Karnaphuli River,Napittachora Waterfalls,Patenga Sea Beach,Chittagong Circuit House,Abhay Mitra Ghat,Naval Beach,Bhatiari,Female,Yes,Couple,Monsoon,20000.0
+365,4,Bashbaria Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,Naval Beach,Guliakhali Sea Beach,,,,,,Female,No,Couple,Monsoon,11980.8
+366,6,Chandranath Hill and Temple,Napittachora Waterfalls,Bashbaria Sea Beach,Patenga Sea Beach,Mohamaya Lake,Bhatiari,Abhay Mitra Ghat,Khoiyachora Waterfall,,,Male,Yes,Couple,Autumn,18736.8
+367,3,Patenga Sea Beach,Chittagong Circuit House,Naval Beach,Guliakhali Sea Beach,Khoiyachora Waterfall,Bashbaria Sea Beach,,,,,Female,No,Family,Summer,16359.0
+368,4,Mohamaya Lake,Bhatiari,Naval Beach,Karnaphuli River,Bashbaria Sea Beach,Patenga Sea Beach,Khoiyachora Waterfall,Foy's Lake,Chandranath Hill and Temple,,Male,No,Family,Monsoon,15297.0
+369,10,Karnaphuli River,Patenga Sea Beach,Naval Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Guliakhali Sea Beach,Chittagong Circuit House,,,,Male,Yes,Couple,Summer,20000.0
+370,8,Karnaphuli River,Naval Beach,Abhay Mitra Ghat,Napittachora Waterfalls,Bhatiari,Bashbaria Sea Beach,Chandranath Hill and Temple,Mohamaya Lake,Patenga Sea Beach,Khoiyachora Waterfall,Male,No,Family,Summer,20000.0
+371,5,Guliakhali Sea Beach,Patenga Sea Beach,Chandranath Hill and Temple,Karnaphuli River,Bhatiari,Mohamaya Lake,Napittachora Waterfalls,,,,Male,Yes,Solo,Winter,11414.0
+372,4,Mohamaya Lake,Chandranath Hill and Temple,Foy's Lake,Naval Beach,Khoiyachora Waterfall,Napittachora Waterfalls,Abhay Mitra Ghat,Guliakhali Sea Beach,Patenga Sea Beach,,Male,No,Solo,Autumn,14806.0
+373,4,Chittagong Circuit House,Karnaphuli River,Foy's Lake,Mohamaya Lake,,,,,,,Male,No,Friends,Winter,15417.0
+374,4,Bhatiari,Abhay Mitra Ghat,Foy's Lake,Naval Beach,Napittachora Waterfalls,,,,,,Male,No,Solo,Autumn,8281.0
+375,4,Abhay Mitra Ghat,Chandranath Hill and Temple,Naval Beach,,,,,,,,Female,Yes,Family,Monsoon,20000.0
+376,3,Foy's Lake,Naval Beach,Karnaphuli River,Bhatiari,Patenga Sea Beach,Abhay Mitra Ghat,Napittachora Waterfalls,Bashbaria Sea Beach,Chandranath Hill and Temple,,Male,No,Solo,Summer,8895.0
+377,10,Chittagong Circuit House,Bashbaria Sea Beach,,,,,,,,,Female,Yes,Friends,Summer,15910.0
+378,1,Karnaphuli River,Patenga Sea Beach,Foy's Lake,Naval Beach,Mohamaya Lake,Bashbaria Sea Beach,Chandranath Hill and Temple,Chittagong Circuit House,Khoiyachora Waterfall,Guliakhali Sea Beach,Female,No,Couple,Autumn,10304.4
+379,8,Karnaphuli River,Naval Beach,Foy's Lake,Chandranath Hill and Temple,Abhay Mitra Ghat,Guliakhali Sea Beach,Mohamaya Lake,Bashbaria Sea Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Female,Yes,Family,Summer,20000.0
+380,10,Chandranath Hill and Temple,Patenga Sea Beach,,,,,,,,,Female,Yes,Family,Autumn,20000.0
+381,5,Chandranath Hill and Temple,Abhay Mitra Ghat,Khoiyachora Waterfall,Bhatiari,,,,,,,Male,Yes,Family,Monsoon,10972.5
+382,6,Khoiyachora Waterfall,Chittagong Circuit House,Naval Beach,Guliakhali Sea Beach,,,,,,,Female,Yes,Family,Monsoon,20000.0
+383,4,Abhay Mitra Ghat,Khoiyachora Waterfall,Napittachora Waterfalls,Naval Beach,,,,,,,Male,Yes,Family,Winter,7611.0
+384,9,Bhatiari,Napittachora Waterfalls,,,,,,,,,Male,Yes,Solo,Summer,14662.0
+385,5,Bhatiari,Patenga Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,Karnaphuli River,Naval Beach,Khoiyachora Waterfall,Guliakhali Sea Beach,,,Female,No,Family,Monsoon,4672.5
+386,9,Khoiyachora Waterfall,Mohamaya Lake,Napittachora Waterfalls,Naval Beach,Karnaphuli River,,,,,,Male,No,Couple,Winter,11032.8
+387,6,Mohamaya Lake,,,,,,,,,,Female,No,Friends,Autumn,18933.0
+388,4,Karnaphuli River,Abhay Mitra Ghat,Napittachora Waterfalls,Mohamaya Lake,Chandranath Hill and Temple,Guliakhali Sea Beach,,,,,Female,Yes,Friends,Monsoon,17581.0
+389,3,Napittachora Waterfalls,Foy's Lake,Chandranath Hill and Temple,Khoiyachora Waterfall,Mohamaya Lake,Guliakhali Sea Beach,Bhatiari,Chittagong Circuit House,Patenga Sea Beach,,Female,No,Family,Monsoon,20000.0
+390,5,Abhay Mitra Ghat,Foy's Lake,Bashbaria Sea Beach,Chandranath Hill and Temple,Naval Beach,Napittachora Waterfalls,,,,,Male,Yes,Friends,Summer,3938.0
+391,5,Mohamaya Lake,Chittagong Circuit House,Bashbaria Sea Beach,Guliakhali Sea Beach,Napittachora Waterfalls,Foy's Lake,Karnaphuli River,Chandranath Hill and Temple,Naval Beach,Khoiyachora Waterfall,Male,Yes,Friends,Monsoon,19215.0
+392,2,Napittachora Waterfalls,Abhay Mitra Ghat,Naval Beach,Bashbaria Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,,,,,Male,No,Solo,Winter,5627.0
+393,4,Chittagong Circuit House,Naval Beach,Napittachora Waterfalls,Bhatiari,Patenga Sea Beach,Karnaphuli River,Bashbaria Sea Beach,Chandranath Hill and Temple,,,Male,Yes,Family,Winter,20000.0
+394,3,Karnaphuli River,Foy's Lake,Bashbaria Sea Beach,Napittachora Waterfalls,,,,,,,Male,No,Friends,Autumn,6039.0
+395,2,Mohamaya Lake,Bashbaria Sea Beach,Naval Beach,Napittachora Waterfalls,Chittagong Circuit House,Karnaphuli River,Chandranath Hill and Temple,,,,Female,Yes,Family,Monsoon,20000.0
+396,5,Mohamaya Lake,Guliakhali Sea Beach,Patenga Sea Beach,Bashbaria Sea Beach,Foy's Lake,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,Male,No,Family,Winter,20000.0
+397,2,Chandranath Hill and Temple,,,,,,,,,,Female,No,Solo,Monsoon,6994.0
+398,2,Guliakhali Sea Beach,Chandranath Hill and Temple,Foy's Lake,Abhay Mitra Ghat,Mohamaya Lake,Patenga Sea Beach,Napittachora Waterfalls,Chittagong Circuit House,Bhatiari,Bashbaria Sea Beach,Male,Yes,Solo,Winter,10400.0
+399,4,Chandranath Hill and Temple,,,,,,,,,,Male,No,Family,Monsoon,17215.5
+400,2,Khoiyachora Waterfall,Napittachora Waterfalls,Mohamaya Lake,Naval Beach,Bashbaria Sea Beach,Karnaphuli River,Bhatiari,Patenga Sea Beach,Chittagong Circuit House,Abhay Mitra Ghat,Female,Yes,Couple,Autumn,8846.4
+401,3,Abhay Mitra Ghat,Mohamaya Lake,Naval Beach,Karnaphuli River,Chandranath Hill and Temple,Foy's Lake,Guliakhali Sea Beach,Napittachora Waterfalls,Bashbaria Sea Beach,Patenga Sea Beach,Female,Yes,Friends,Monsoon,10163.0
+402,4,Mohamaya Lake,Napittachora Waterfalls,,,,,,,,,Male,No,Couple,Winter,7306.8
+403,6,Chandranath Hill and Temple,Napittachora Waterfalls,Bashbaria Sea Beach,Chittagong Circuit House,Mohamaya Lake,Bhatiari,,,,,Male,No,Solo,Autumn,9879.0
+404,3,Khoiyachora Waterfall,Bashbaria Sea Beach,Napittachora Waterfalls,Guliakhali Sea Beach,,,,,,,Male,Yes,Friends,Winter,11664.0
+405,9,Mohamaya Lake,Karnaphuli River,Foy's Lake,Bhatiari,Guliakhali Sea Beach,Patenga Sea Beach,Naval Beach,,,,Female,No,Solo,Autumn,19823.0
+406,7,Chittagong Circuit House,Bhatiari,Napittachora Waterfalls,Patenga Sea Beach,,,,,,,Male,Yes,Couple,Monsoon,15284.4
+407,8,Napittachora Waterfalls,Naval Beach,Bhatiari,Chittagong Circuit House,Abhay Mitra Ghat,Guliakhali Sea Beach,,,,,Female,Yes,Solo,Autumn,4832.0
+408,8,Napittachora Waterfalls,Guliakhali Sea Beach,Abhay Mitra Ghat,Bashbaria Sea Beach,Foy's Lake,,,,,,Male,No,Family,Winter,20000.0
+409,4,Bhatiari,Naval Beach,Bashbaria Sea Beach,,,,,,,,Female,Yes,Family,Winter,15124.5
+410,2,Naval Beach,Foy's Lake,Khoiyachora Waterfall,,,,,,,,Female,Yes,Solo,Autumn,3030.0
+411,1,Mohamaya Lake,Abhay Mitra Ghat,Guliakhali Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,,,,,,Female,Yes,Couple,Autumn,8647.199999999999
+412,7,Chittagong Circuit House,Guliakhali Sea Beach,Karnaphuli River,Mohamaya Lake,Bhatiari,Patenga Sea Beach,Naval Beach,Khoiyachora Waterfall,Foy's Lake,Bashbaria Sea Beach,Male,Yes,Couple,Autumn,6981.599999999999
+413,8,Foy's Lake,Chandranath Hill and Temple,,,,,,,,,Male,No,Friends,Autumn,5991.0
+414,4,Bashbaria Sea Beach,Guliakhali Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,Patenga Sea Beach,Khoiyachora Waterfall,,,,,Male,Yes,Family,Winter,9685.5
+415,5,Khoiyachora Waterfall,Chittagong Circuit House,Bhatiari,Patenga Sea Beach,Naval Beach,Guliakhali Sea Beach,,,,,Female,Yes,Friends,Summer,19165.0
+416,4,Khoiyachora Waterfall,Naval Beach,Patenga Sea Beach,Mohamaya Lake,Bhatiari,Bashbaria Sea Beach,Napittachora Waterfalls,Karnaphuli River,Chittagong Circuit House,Guliakhali Sea Beach,Female,No,Friends,Summer,11746.0
+417,4,Mohamaya Lake,Foy's Lake,Bhatiari,Chandranath Hill and Temple,Naval Beach,Abhay Mitra Ghat,Napittachora Waterfalls,Karnaphuli River,Chittagong Circuit House,Bashbaria Sea Beach,Male,No,Family,Winter,8757.0
+418,4,Patenga Sea Beach,Bhatiari,Chittagong Circuit House,Abhay Mitra Ghat,Guliakhali Sea Beach,Foy's Lake,Karnaphuli River,,,,Female,No,Couple,Winter,17942.399999999998
+419,5,Foy's Lake,,,,,,,,,,Female,No,Family,Winter,15901.5
+420,7,Naval Beach,Chittagong Circuit House,Bashbaria Sea Beach,Khoiyachora Waterfall,,,,,,,Male,Yes,Couple,Summer,19819.2
+421,6,Abhay Mitra Ghat,Bhatiari,Napittachora Waterfalls,Foy's Lake,Naval Beach,Khoiyachora Waterfall,Patenga Sea Beach,,,,Female,Yes,Family,Winter,16131.0
+422,5,Guliakhali Sea Beach,Patenga Sea Beach,Khoiyachora Waterfall,,,,,,,,Male,Yes,Solo,Summer,6368.0
+423,7,Naval Beach,,,,,,,,,,Male,No,Solo,Winter,19930.0
+424,3,Chandranath Hill and Temple,Abhay Mitra Ghat,Karnaphuli River,,,,,,,,Male,Yes,Couple,Autumn,14889.599999999999
+425,8,Chandranath Hill and Temple,Bhatiari,Chittagong Circuit House,Napittachora Waterfalls,,,,,,,Male,No,Family,Summer,13929.0
+426,7,Bashbaria Sea Beach,Patenga Sea Beach,Foy's Lake,Napittachora Waterfalls,Chittagong Circuit House,Naval Beach,Abhay Mitra Ghat,Guliakhali Sea Beach,,,Female,Yes,Friends,Winter,19491.0
+427,1,Guliakhali Sea Beach,Naval Beach,Karnaphuli River,Khoiyachora Waterfall,Napittachora Waterfalls,Patenga Sea Beach,Abhay Mitra Ghat,,,,Female,Yes,Family,Monsoon,20000.0
+428,5,Karnaphuli River,Napittachora Waterfalls,Abhay Mitra Ghat,Khoiyachora Waterfall,Bhatiari,Naval Beach,Chandranath Hill and Temple,,,,Male,Yes,Family,Winter,20000.0
+429,8,Patenga Sea Beach,Bashbaria Sea Beach,Mohamaya Lake,Bhatiari,Naval Beach,Chittagong Circuit House,Khoiyachora Waterfall,Napittachora Waterfalls,,,Male,Yes,Solo,Monsoon,12235.0
+430,9,Mohamaya Lake,Karnaphuli River,Naval Beach,Napittachora Waterfalls,Foy's Lake,,,,,,Female,No,Solo,Summer,15396.0
+431,5,Chittagong Circuit House,Patenga Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,Guliakhali Sea Beach,Karnaphuli River,Abhay Mitra Ghat,Naval Beach,Mohamaya Lake,,Female,No,Couple,Monsoon,10808.4
+432,8,Bhatiari,Guliakhali Sea Beach,,,,,,,,,Female,Yes,Couple,Winter,17013.6
+433,5,Chandranath Hill and Temple,Napittachora Waterfalls,Bashbaria Sea Beach,Abhay Mitra Ghat,Karnaphuli River,,,,,,Male,No,Family,Monsoon,15051.0
+434,7,Patenga Sea Beach,Chandranath Hill and Temple,Mohamaya Lake,Bashbaria Sea Beach,Karnaphuli River,Khoiyachora Waterfall,Abhay Mitra Ghat,,,,Female,Yes,Solo,Autumn,13147.0
+435,10,Khoiyachora Waterfall,Foy's Lake,Bhatiari,Abhay Mitra Ghat,,,,,,,Male,Yes,Family,Winter,19704.0
+436,4,Napittachora Waterfalls,Karnaphuli River,Foy's Lake,Patenga Sea Beach,Naval Beach,,,,,,Female,Yes,Friends,Summer,7421.0
+437,10,Guliakhali Sea Beach,Naval Beach,Patenga Sea Beach,,,,,,,,Female,No,Friends,Monsoon,13183.0
+438,2,Bashbaria Sea Beach,Chandranath Hill and Temple,Abhay Mitra Ghat,Guliakhali Sea Beach,Patenga Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,,,,Male,Yes,Couple,Autumn,5954.4
+439,5,Mohamaya Lake,Napittachora Waterfalls,Patenga Sea Beach,Abhay Mitra Ghat,Karnaphuli River,Khoiyachora Waterfall,Naval Beach,Chandranath Hill and Temple,,,Male,Yes,Solo,Summer,10245.0
+440,5,Chandranath Hill and Temple,Foy's Lake,Khoiyachora Waterfall,Karnaphuli River,Patenga Sea Beach,Naval Beach,,,,,Female,No,Family,Monsoon,16963.5
+441,4,Abhay Mitra Ghat,Bhatiari,Karnaphuli River,Guliakhali Sea Beach,Mohamaya Lake,Napittachora Waterfalls,Naval Beach,Khoiyachora Waterfall,Bashbaria Sea Beach,,Male,No,Solo,Summer,11979.0
+442,4,Bhatiari,Chandranath Hill and Temple,,,,,,,,,Male,No,Couple,Winter,19698.0
+443,4,Khoiyachora Waterfall,Bhatiari,Mohamaya Lake,Chittagong Circuit House,,,,,,,Male,Yes,Family,Summer,8341.5
+444,10,Mohamaya Lake,Patenga Sea Beach,,,,,,,,,Male,No,Friends,Summer,5970.0
+445,10,Guliakhali Sea Beach,Abhay Mitra Ghat,Bhatiari,Naval Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,Mohamaya Lake,Chandranath Hill and Temple,,,Male,No,Couple,Summer,6482.4
+446,3,Napittachora Waterfalls,Foy's Lake,Mohamaya Lake,Patenga Sea Beach,,,,,,,Male,Yes,Family,Monsoon,19833.0
+447,3,Patenga Sea Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Karnaphuli River,Foy's Lake,Khoiyachora Waterfall,,,,,Male,Yes,Family,Monsoon,20000.0
+448,9,Mohamaya Lake,Bhatiari,Guliakhali Sea Beach,Bashbaria Sea Beach,Foy's Lake,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,Male,Yes,Family,Monsoon,20000.0
+449,6,Napittachora Waterfalls,Chandranath Hill and Temple,Bhatiari,Naval Beach,,,,,,,Male,Yes,Solo,Monsoon,17652.0
+450,10,Chandranath Hill and Temple,Khoiyachora Waterfall,Bhatiari,Patenga Sea Beach,Karnaphuli River,Abhay Mitra Ghat,Chittagong Circuit House,Bashbaria Sea Beach,Guliakhali Sea Beach,,Male,Yes,Couple,Summer,13314.0
+451,10,Naval Beach,,,,,,,,,,Male,Yes,Friends,Summer,13581.0
+452,1,Napittachora Waterfalls,Bashbaria Sea Beach,,,,,,,,,Male,Yes,Friends,Monsoon,13021.0
+453,9,Naval Beach,Patenga Sea Beach,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,,Female,No,Solo,Summer,7350.0
+454,2,Napittachora Waterfalls,Bashbaria Sea Beach,Chittagong Circuit House,Bhatiari,Khoiyachora Waterfall,Foy's Lake,Patenga Sea Beach,Naval Beach,,,Female,Yes,Family,Monsoon,11101.5
+455,2,Bhatiari,Chittagong Circuit House,Foy's Lake,Mohamaya Lake,Guliakhali Sea Beach,Abhay Mitra Ghat,,,,,Male,No,Family,Summer,20000.0
+456,9,Chittagong Circuit House,Chandranath Hill and Temple,Patenga Sea Beach,Naval Beach,Guliakhali Sea Beach,Mohamaya Lake,Bashbaria Sea Beach,,,,Female,Yes,Solo,Winter,19855.0
+457,9,Guliakhali Sea Beach,,,,,,,,,,Female,No,Couple,Summer,20000.0
+458,9,Chittagong Circuit House,Patenga Sea Beach,Bhatiari,Bashbaria Sea Beach,Karnaphuli River,Chandranath Hill and Temple,Mohamaya Lake,,,,Male,No,Couple,Autumn,11847.6
+459,10,Napittachora Waterfalls,Chittagong Circuit House,Khoiyachora Waterfall,Patenga Sea Beach,Chandranath Hill and Temple,Abhay Mitra Ghat,Bhatiari,Naval Beach,,,Male,No,Couple,Winter,10257.6
+460,9,Napittachora Waterfalls,Khoiyachora Waterfall,Guliakhali Sea Beach,Bhatiari,,,,,,,Male,Yes,Couple,Autumn,10708.8
+461,5,Karnaphuli River,Guliakhali Sea Beach,Bhatiari,,,,,,,,Female,No,Family,Autumn,20000.0
+462,6,Khoiyachora Waterfall,Abhay Mitra Ghat,Bhatiari,Karnaphuli River,Bashbaria Sea Beach,Patenga Sea Beach,Guliakhali Sea Beach,,,,Male,No,Friends,Monsoon,15726.0
+463,7,Napittachora Waterfalls,Bashbaria Sea Beach,Khoiyachora Waterfall,Foy's Lake,Naval Beach,Mohamaya Lake,,,,,Female,No,Family,Autumn,20000.0
+464,9,Abhay Mitra Ghat,Chandranath Hill and Temple,Karnaphuli River,Bhatiari,Naval Beach,Foy's Lake,,,,,Female,Yes,Friends,Winter,9676.0
+465,10,Bashbaria Sea Beach,Chandranath Hill and Temple,Guliakhali Sea Beach,Khoiyachora Waterfall,Mohamaya Lake,Naval Beach,Patenga Sea Beach,,,,Female,Yes,Couple,Winter,12238.8
+466,9,Abhay Mitra Ghat,Foy's Lake,Chandranath Hill and Temple,Khoiyachora Waterfall,Mohamaya Lake,Bhatiari,,,,,Male,Yes,Friends,Autumn,13352.0
+467,7,Mohamaya Lake,Foy's Lake,Bhatiari,Patenga Sea Beach,Khoiyachora Waterfall,,,,,,Male,Yes,Solo,Monsoon,6890.0
+468,2,Napittachora Waterfalls,Abhay Mitra Ghat,Khoiyachora Waterfall,Chandranath Hill and Temple,,,,,,,Male,No,Friends,Winter,6912.0
+469,5,Karnaphuli River,Abhay Mitra Ghat,Guliakhali Sea Beach,Patenga Sea Beach,Mohamaya Lake,Khoiyachora Waterfall,Chittagong Circuit House,,,,Female,Yes,Family,Autumn,20000.0
+470,5,Chandranath Hill and Temple,Abhay Mitra Ghat,Patenga Sea Beach,Bhatiari,Chittagong Circuit House,Foy's Lake,,,,,Male,No,Friends,Monsoon,3413.0
+471,8,Chandranath Hill and Temple,Foy's Lake,Mohamaya Lake,Naval Beach,Napittachora Waterfalls,Bhatiari,Bashbaria Sea Beach,,,,Female,No,Solo,Monsoon,17762.0
+472,10,Napittachora Waterfalls,Chandranath Hill and Temple,Mohamaya Lake,Naval Beach,,,,,,,Female,Yes,Family,Winter,18355.5
+473,10,Patenga Sea Beach,Foy's Lake,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,,,Male,No,Family,Autumn,20000.0
+474,4,Chandranath Hill and Temple,Chittagong Circuit House,Patenga Sea Beach,,,,,,,,Female,Yes,Solo,Monsoon,4058.0
+475,8,Karnaphuli River,Chittagong Circuit House,Khoiyachora Waterfall,Bashbaria Sea Beach,Napittachora Waterfalls,Patenga Sea Beach,,,,,Male,Yes,Solo,Summer,8922.0
+476,1,Guliakhali Sea Beach,Karnaphuli River,Foy's Lake,Napittachora Waterfalls,Mohamaya Lake,Patenga Sea Beach,Chittagong Circuit House,Bhatiari,Chandranath Hill and Temple,Naval Beach,Male,No,Family,Summer,20000.0
+477,1,Khoiyachora Waterfall,Bashbaria Sea Beach,Chandranath Hill and Temple,Bhatiari,Naval Beach,Mohamaya Lake,Abhay Mitra Ghat,Guliakhali Sea Beach,Patenga Sea Beach,Foy's Lake,Male,No,Couple,Summer,12472.8
+478,9,Karnaphuli River,Mohamaya Lake,Naval Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,Male,Yes,Friends,Summer,8966.0
+479,7,Bashbaria Sea Beach,Patenga Sea Beach,,,,,,,,,Female,Yes,Family,Monsoon,6820.5
+480,7,Mohamaya Lake,Abhay Mitra Ghat,Chandranath Hill and Temple,Karnaphuli River,Bhatiari,Naval Beach,Guliakhali Sea Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Bashbaria Sea Beach,Female,Yes,Couple,Monsoon,13713.6
+481,5,Patenga Sea Beach,Chandranath Hill and Temple,Chittagong Circuit House,Khoiyachora Waterfall,Naval Beach,Bashbaria Sea Beach,,,,,Male,Yes,Couple,Monsoon,20000.0
+482,5,Napittachora Waterfalls,Guliakhali Sea Beach,,,,,,,,,Female,Yes,Solo,Monsoon,13007.0
+483,7,Chittagong Circuit House,Foy's Lake,Bashbaria Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,,Male,Yes,Friends,Summer,9785.0
+484,4,Napittachora Waterfalls,Karnaphuli River,Bhatiari,Patenga Sea Beach,Guliakhali Sea Beach,Chandranath Hill and Temple,Chittagong Circuit House,Abhay Mitra Ghat,Naval Beach,Mohamaya Lake,Female,Yes,Couple,Winter,12129.6
+485,7,Guliakhali Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,Napittachora Waterfalls,Naval Beach,Mohamaya Lake,Bhatiari,Khoiyachora Waterfall,Foy's Lake,,Male,Yes,Couple,Monsoon,19009.2
+486,6,Bashbaria Sea Beach,Guliakhali Sea Beach,Chittagong Circuit House,Mohamaya Lake,Khoiyachora Waterfall,Abhay Mitra Ghat,Naval Beach,,,,Female,Yes,Solo,Winter,12767.0
+487,2,Khoiyachora Waterfall,,,,,,,,,,Male,No,Family,Winter,19174.5
+488,7,Foy's Lake,Chittagong Circuit House,Patenga Sea Beach,Karnaphuli River,Chandranath Hill and Temple,Abhay Mitra Ghat,Guliakhali Sea Beach,Napittachora Waterfalls,Mohamaya Lake,Naval Beach,Male,Yes,Couple,Autumn,11560.8
+489,10,Bhatiari,Naval Beach,Bashbaria Sea Beach,Karnaphuli River,Chittagong Circuit House,Napittachora Waterfalls,Chandranath Hill and Temple,Abhay Mitra Ghat,Patenga Sea Beach,,Male,No,Family,Winter,14025.0
+490,10,Khoiyachora Waterfall,Guliakhali Sea Beach,,,,,,,,,Female,No,Couple,Summer,9894.0
+491,8,Foy's Lake,Bhatiari,Naval Beach,Guliakhali Sea Beach,,,,,,,Female,No,Family,Monsoon,15361.5
+492,8,Patenga Sea Beach,Napittachora Waterfalls,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,,Female,No,Family,Summer,14428.5
+493,7,Chittagong Circuit House,Khoiyachora Waterfall,Naval Beach,Chandranath Hill and Temple,,,,,,,Female,Yes,Solo,Monsoon,6374.0
+494,8,Mohamaya Lake,Khoiyachora Waterfall,Chittagong Circuit House,Napittachora Waterfalls,Abhay Mitra Ghat,Bhatiari,Karnaphuli River,Bashbaria Sea Beach,Naval Beach,Guliakhali Sea Beach,Female,No,Friends,Summer,11859.0
+495,3,Chittagong Circuit House,Abhay Mitra Ghat,Karnaphuli River,Bashbaria Sea Beach,Patenga Sea Beach,Khoiyachora Waterfall,Naval Beach,Foy's Lake,Mohamaya Lake,Napittachora Waterfalls,Male,No,Friends,Autumn,13960.0
+496,3,Bashbaria Sea Beach,Naval Beach,Foy's Lake,Guliakhali Sea Beach,Khoiyachora Waterfall,Patenga Sea Beach,Bhatiari,,,,Female,Yes,Couple,Winter,9456.0
+497,6,Karnaphuli River,Guliakhali Sea Beach,Bhatiari,Foy's Lake,Napittachora Waterfalls,Khoiyachora Waterfall,Chandranath Hill and Temple,Naval Beach,Patenga Sea Beach,,Male,No,Solo,Autumn,3476.0
+498,6,Foy's Lake,Napittachora Waterfalls,Bashbaria Sea Beach,Khoiyachora Waterfall,Chandranath Hill and Temple,Bhatiari,Patenga Sea Beach,Guliakhali Sea Beach,Abhay Mitra Ghat,,Female,No,Solo,Summer,13885.0
+499,8,Guliakhali Sea Beach,Naval Beach,Abhay Mitra Ghat,Chittagong Circuit House,Foy's Lake,Napittachora Waterfalls,Chandranath Hill and Temple,Karnaphuli River,,,Male,Yes,Couple,Monsoon,14862.0
+500,5,Abhay Mitra Ghat,Chandranath Hill and Temple,Naval Beach,Foy's Lake,Chittagong Circuit House,Khoiyachora Waterfall,Bashbaria Sea Beach,Napittachora Waterfalls,Guliakhali Sea Beach,Karnaphuli River,Female,No,Couple,Winter,20000.0
+501,1,Chandranath Hill and Temple,Bashbaria Sea Beach,Khoiyachora Waterfall,Karnaphuli River,Bhatiari,Guliakhali Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,,,Male,No,Solo,Winter,11131.0
+502,3,Napittachora Waterfalls,Guliakhali Sea Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Bhatiari,Karnaphuli River,Abhay Mitra Ghat,Naval Beach,Patenga Sea Beach,,Female,Yes,Couple,Monsoon,5410.8
+503,5,Khoiyachora Waterfall,Abhay Mitra Ghat,Napittachora Waterfalls,,,,,,,,Male,No,Family,Monsoon,13117.5
+504,4,Khoiyachora Waterfall,Mohamaya Lake,Chandranath Hill and Temple,Abhay Mitra Ghat,Guliakhali Sea Beach,Karnaphuli River,Chittagong Circuit House,,,,Female,Yes,Solo,Summer,4596.0
+505,3,Khoiyachora Waterfall,Naval Beach,Guliakhali Sea Beach,,,,,,,,Female,No,Friends,Summer,13550.0
+506,4,Foy's Lake,Karnaphuli River,Abhay Mitra Ghat,Guliakhali Sea Beach,Bhatiari,Khoiyachora Waterfall,Bashbaria Sea Beach,Patenga Sea Beach,Napittachora Waterfalls,Chandranath Hill and Temple,Male,Yes,Family,Monsoon,8106.0
+507,7,Chittagong Circuit House,Patenga Sea Beach,Guliakhali Sea Beach,Mohamaya Lake,Bhatiari,,,,,,Male,Yes,Solo,Monsoon,8461.0
+508,3,Bhatiari,Chandranath Hill and Temple,Bashbaria Sea Beach,Guliakhali Sea Beach,Karnaphuli River,Foy's Lake,Naval Beach,Patenga Sea Beach,,,Female,Yes,Couple,Summer,19302.0
+509,7,Karnaphuli River,Foy's Lake,,,,,,,,,Male,No,Couple,Monsoon,8226.0
+510,2,Karnaphuli River,Napittachora Waterfalls,,,,,,,,,Male,Yes,Family,Summer,17097.0
+511,5,Chandranath Hill and Temple,Patenga Sea Beach,Guliakhali Sea Beach,Mohamaya Lake,,,,,,,Female,Yes,Couple,Autumn,19144.8
+512,4,Chandranath Hill and Temple,Karnaphuli River,Bhatiari,Napittachora Waterfalls,Patenga Sea Beach,Foy's Lake,Guliakhali Sea Beach,,,,Female,No,Couple,Summer,17611.2
+513,10,Bashbaria Sea Beach,Patenga Sea Beach,Foy's Lake,Naval Beach,Mohamaya Lake,Bhatiari,Guliakhali Sea Beach,Abhay Mitra Ghat,,,Female,Yes,Solo,Autumn,15965.0
+514,2,Napittachora Waterfalls,Abhay Mitra Ghat,Bashbaria Sea Beach,Mohamaya Lake,Naval Beach,Patenga Sea Beach,Khoiyachora Waterfall,,,,Male,No,Solo,Autumn,12133.0
+515,2,Khoiyachora Waterfall,Bashbaria Sea Beach,Chittagong Circuit House,Guliakhali Sea Beach,Napittachora Waterfalls,Bhatiari,Chandranath Hill and Temple,,,,Male,Yes,Friends,Winter,10524.0
+516,6,Naval Beach,Guliakhali Sea Beach,Napittachora Waterfalls,Karnaphuli River,Khoiyachora Waterfall,Mohamaya Lake,Chittagong Circuit House,,,,Male,No,Friends,Autumn,10369.0
+517,6,Naval Beach,Bhatiari,Napittachora Waterfalls,Foy's Lake,Chandranath Hill and Temple,,,,,,Male,Yes,Couple,Winter,9468.0
+518,1,Patenga Sea Beach,Naval Beach,Guliakhali Sea Beach,Abhay Mitra Ghat,Mohamaya Lake,,,,,,Male,Yes,Couple,Monsoon,3634.7999999999997
+519,5,Patenga Sea Beach,Naval Beach,Napittachora Waterfalls,Chittagong Circuit House,Foy's Lake,,,,,,Female,Yes,Family,Autumn,20000.0
+520,7,Naval Beach,Foy's Lake,Bashbaria Sea Beach,Bhatiari,Patenga Sea Beach,Khoiyachora Waterfall,,,,,Male,No,Family,Monsoon,8590.5
+521,6,Chittagong Circuit House,Patenga Sea Beach,Naval Beach,,,,,,,,Female,Yes,Couple,Summer,16886.399999999998
+522,7,Karnaphuli River,Chittagong Circuit House,Chandranath Hill and Temple,Foy's Lake,Naval Beach,Abhay Mitra Ghat,Bhatiari,Bashbaria Sea Beach,Napittachora Waterfalls,,Male,No,Friends,Winter,12818.0
+523,2,Foy's Lake,Guliakhali Sea Beach,Abhay Mitra Ghat,Bashbaria Sea Beach,Chittagong Circuit House,Patenga Sea Beach,,,,,Female,No,Solo,Winter,7261.0
+524,5,Bhatiari,Bashbaria Sea Beach,Khoiyachora Waterfall,Karnaphuli River,Chandranath Hill and Temple,Guliakhali Sea Beach,Naval Beach,Mohamaya Lake,Patenga Sea Beach,,Female,Yes,Family,Monsoon,11634.0
+525,2,Chandranath Hill and Temple,,,,,,,,,,Female,Yes,Friends,Autumn,17961.0
+526,3,Abhay Mitra Ghat,Karnaphuli River,Mohamaya Lake,Bashbaria Sea Beach,Foy's Lake,Chandranath Hill and Temple,Khoiyachora Waterfall,Napittachora Waterfalls,,,Male,Yes,Solo,Summer,5432.0
+527,4,Mohamaya Lake,Khoiyachora Waterfall,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,,Female,No,Family,Autumn,20000.0
+528,10,Patenga Sea Beach,Abhay Mitra Ghat,Bashbaria Sea Beach,Naval Beach,Karnaphuli River,Bhatiari,Chandranath Hill and Temple,Guliakhali Sea Beach,,,Female,No,Couple,Autumn,20000.0
+529,7,Khoiyachora Waterfall,Chandranath Hill and Temple,Naval Beach,,,,,,,,Female,Yes,Solo,Autumn,8195.0
+530,4,Chittagong Circuit House,Patenga Sea Beach,Bhatiari,Khoiyachora Waterfall,,,,,,,Male,Yes,Family,Summer,17206.5
+531,4,Abhay Mitra Ghat,Chittagong Circuit House,Karnaphuli River,Naval Beach,Napittachora Waterfalls,Mohamaya Lake,Guliakhali Sea Beach,Patenga Sea Beach,,,Male,Yes,Couple,Summer,20000.0
+532,10,Naval Beach,Chandranath Hill and Temple,Foy's Lake,Khoiyachora Waterfall,,,,,,,Male,Yes,Friends,Summer,8174.0
+533,8,Patenga Sea Beach,Napittachora Waterfalls,,,,,,,,,Male,No,Solo,Summer,8616.0
+534,3,Naval Beach,Chittagong Circuit House,Patenga Sea Beach,Khoiyachora Waterfall,Mohamaya Lake,Chandranath Hill and Temple,Napittachora Waterfalls,,,,Male,No,Family,Monsoon,7252.5
+535,6,Chittagong Circuit House,Khoiyachora Waterfall,Chandranath Hill and Temple,Napittachora Waterfalls,Mohamaya Lake,Bhatiari,Bashbaria Sea Beach,Foy's Lake,Guliakhali Sea Beach,,Female,No,Couple,Summer,20000.0
+536,9,Abhay Mitra Ghat,Patenga Sea Beach,Bhatiari,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,Male,Yes,Couple,Autumn,6030.0
+537,6,Karnaphuli River,Naval Beach,Bhatiari,Guliakhali Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,,,Male,Yes,Friends,Summer,14636.0
+538,9,Karnaphuli River,Bashbaria Sea Beach,Guliakhali Sea Beach,Naval Beach,Mohamaya Lake,,,,,,Male,No,Couple,Winter,10095.6
+539,7,Bashbaria Sea Beach,Abhay Mitra Ghat,Khoiyachora Waterfall,Naval Beach,Guliakhali Sea Beach,,,,,,Female,No,Family,Winter,11013.0
+540,1,Bhatiari,Foy's Lake,Khoiyachora Waterfall,,,,,,,,Male,Yes,Solo,Winter,12610.0
+541,8,Patenga Sea Beach,Naval Beach,Karnaphuli River,Chittagong Circuit House,Napittachora Waterfalls,Bashbaria Sea Beach,Guliakhali Sea Beach,Khoiyachora Waterfall,Bhatiari,,Female,No,Couple,Autumn,12288.0
+542,4,Bhatiari,Napittachora Waterfalls,Khoiyachora Waterfall,Naval Beach,,,,,,,Female,No,Couple,Winter,19728.0
+543,7,Naval Beach,Patenga Sea Beach,Bashbaria Sea Beach,,,,,,,,Female,Yes,Couple,Monsoon,20000.0
+544,1,Mohamaya Lake,Chittagong Circuit House,Bashbaria Sea Beach,Patenga Sea Beach,Naval Beach,,,,,,Female,Yes,Friends,Winter,8410.0
+545,3,Chandranath Hill and Temple,Naval Beach,Foy's Lake,Mohamaya Lake,Guliakhali Sea Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,Patenga Sea Beach,Karnaphuli River,Abhay Mitra Ghat,Female,Yes,Family,Monsoon,14148.0
+546,5,Guliakhali Sea Beach,Patenga Sea Beach,Khoiyachora Waterfall,Chandranath Hill and Temple,Naval Beach,Bashbaria Sea Beach,,,,,Female,No,Family,Summer,20000.0
+547,8,Naval Beach,Bhatiari,Patenga Sea Beach,Abhay Mitra Ghat,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,Male,Yes,Family,Winter,12237.0
+548,10,Chandranath Hill and Temple,Khoiyachora Waterfall,Chittagong Circuit House,Patenga Sea Beach,Naval Beach,Abhay Mitra Ghat,Mohamaya Lake,Bashbaria Sea Beach,Foy's Lake,Guliakhali Sea Beach,Male,No,Family,Monsoon,5038.5
+549,5,Patenga Sea Beach,Mohamaya Lake,Naval Beach,Khoiyachora Waterfall,,,,,,,Male,Yes,Solo,Winter,5291.0
+550,7,Guliakhali Sea Beach,Chittagong Circuit House,Patenga Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,,Male,No,Family,Winter,11377.5
+551,1,Naval Beach,Karnaphuli River,Bhatiari,Mohamaya Lake,,,,,,,Male,No,Solo,Summer,13487.0
+552,5,Bhatiari,Khoiyachora Waterfall,Guliakhali Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,Mohamaya Lake,Chandranath Hill and Temple,,,,Male,No,Solo,Monsoon,8955.0
+553,9,Patenga Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,,Male,Yes,Couple,Autumn,20000.0
+554,2,Karnaphuli River,Napittachora Waterfalls,Chandranath Hill and Temple,Mohamaya Lake,Bashbaria Sea Beach,,,,,,Male,No,Family,Summer,20000.0
+555,4,Bashbaria Sea Beach,Patenga Sea Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,Napittachora Waterfalls,Foy's Lake,Naval Beach,Karnaphuli River,Guliakhali Sea Beach,Mohamaya Lake,Male,No,Couple,Autumn,16555.2
+556,4,Chittagong Circuit House,Mohamaya Lake,Khoiyachora Waterfall,Foy's Lake,Bhatiari,Abhay Mitra Ghat,Naval Beach,Guliakhali Sea Beach,,,Female,Yes,Friends,Summer,3046.0
+557,5,Guliakhali Sea Beach,Bhatiari,Naval Beach,Chandranath Hill and Temple,,,,,,,Male,Yes,Couple,Monsoon,20000.0
+558,10,Guliakhali Sea Beach,Bhatiari,Naval Beach,Foy's Lake,Mohamaya Lake,Chittagong Circuit House,Patenga Sea Beach,,,,Female,Yes,Couple,Monsoon,8256.0
+559,3,Bhatiari,Napittachora Waterfalls,Khoiyachora Waterfall,Abhay Mitra Ghat,Bashbaria Sea Beach,,,,,,Female,No,Couple,Winter,8308.8
+560,10,Foy's Lake,Guliakhali Sea Beach,Naval Beach,Chandranath Hill and Temple,Karnaphuli River,Khoiyachora Waterfall,Napittachora Waterfalls,,,,Male,Yes,Solo,Monsoon,8009.0
+561,9,Guliakhali Sea Beach,Napittachora Waterfalls,Bashbaria Sea Beach,Naval Beach,Patenga Sea Beach,Bhatiari,Foy's Lake,Chittagong Circuit House,Mohamaya Lake,,Male,Yes,Couple,Autumn,13413.6
+562,4,Napittachora Waterfalls,Khoiyachora Waterfall,,,,,,,,,Male,No,Family,Summer,20000.0
+563,10,Bashbaria Sea Beach,Napittachora Waterfalls,,,,,,,,,Male,No,Friends,Winter,14738.0
+564,8,Bashbaria Sea Beach,Karnaphuli River,Bhatiari,Mohamaya Lake,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,Male,No,Couple,Autumn,3645.6
+565,7,Khoiyachora Waterfall,Chittagong Circuit House,Chandranath Hill and Temple,Mohamaya Lake,Napittachora Waterfalls,Karnaphuli River,Bashbaria Sea Beach,Guliakhali Sea Beach,Naval Beach,Foy's Lake,Female,Yes,Solo,Monsoon,11573.0
+566,7,Foy's Lake,Guliakhali Sea Beach,Patenga Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,Karnaphuli River,Naval Beach,Bhatiari,Mohamaya Lake,,Female,No,Solo,Monsoon,7498.0
+567,8,Karnaphuli River,Mohamaya Lake,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,,Male,No,Family,Autumn,12480.0
+568,2,Karnaphuli River,Chittagong Circuit House,Chandranath Hill and Temple,Bashbaria Sea Beach,,,,,,,Male,Yes,Friends,Winter,13755.0
+569,1,Patenga Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,Khoiyachora Waterfall,Karnaphuli River,Abhay Mitra Ghat,Chandranath Hill and Temple,,,,Male,Yes,Couple,Autumn,9795.6
+570,10,Napittachora Waterfalls,Chittagong Circuit House,Foy's Lake,Abhay Mitra Ghat,Naval Beach,Guliakhali Sea Beach,,,,,Female,No,Friends,Autumn,15482.0
+571,8,Patenga Sea Beach,Foy's Lake,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,,,Male,Yes,Friends,Monsoon,14749.0
+572,7,Foy's Lake,Abhay Mitra Ghat,Khoiyachora Waterfall,Bashbaria Sea Beach,Bhatiari,Napittachora Waterfalls,Karnaphuli River,Chandranath Hill and Temple,,,Female,Yes,Friends,Monsoon,13710.0
+573,7,Chittagong Circuit House,Karnaphuli River,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,,,Male,Yes,Family,Winter,6183.0
+574,2,Bhatiari,Mohamaya Lake,,,,,,,,,Male,Yes,Solo,Autumn,3559.0
+575,7,Khoiyachora Waterfall,Chandranath Hill and Temple,Naval Beach,Karnaphuli River,Napittachora Waterfalls,Chittagong Circuit House,Patenga Sea Beach,Guliakhali Sea Beach,,,Male,Yes,Friends,Monsoon,7211.0
+576,10,Abhay Mitra Ghat,Foy's Lake,Bashbaria Sea Beach,Napittachora Waterfalls,Naval Beach,Bhatiari,Chandranath Hill and Temple,Mohamaya Lake,Guliakhali Sea Beach,Patenga Sea Beach,Female,Yes,Couple,Winter,10248.0
+577,9,Karnaphuli River,Abhay Mitra Ghat,Bashbaria Sea Beach,Mohamaya Lake,Khoiyachora Waterfall,Patenga Sea Beach,,,,,Female,No,Family,Summer,7594.5
+578,6,Naval Beach,Chandranath Hill and Temple,Abhay Mitra Ghat,Foy's Lake,Karnaphuli River,Mohamaya Lake,,,,,Male,No,Friends,Monsoon,19095.0
+579,3,Chittagong Circuit House,Karnaphuli River,Khoiyachora Waterfall,Mohamaya Lake,Abhay Mitra Ghat,Patenga Sea Beach,Naval Beach,,,,Female,Yes,Couple,Monsoon,19324.8
+580,9,Bashbaria Sea Beach,Naval Beach,Guliakhali Sea Beach,Napittachora Waterfalls,Bhatiari,Patenga Sea Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,,,Female,No,Family,Autumn,19986.0
+581,6,Naval Beach,,,,,,,,,,Female,Yes,Couple,Summer,20000.0
+582,9,Patenga Sea Beach,Karnaphuli River,Chittagong Circuit House,Napittachora Waterfalls,Chandranath Hill and Temple,,,,,,Male,No,Solo,Winter,9999.0
+583,6,Guliakhali Sea Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Naval Beach,Mohamaya Lake,Chandranath Hill and Temple,Patenga Sea Beach,Bhatiari,Bashbaria Sea Beach,,Female,No,Friends,Autumn,16290.0
+584,9,Foy's Lake,,,,,,,,,,Female,No,Family,Monsoon,12351.0
+585,8,Bashbaria Sea Beach,Karnaphuli River,Chittagong Circuit House,Chandranath Hill and Temple,Foy's Lake,Naval Beach,Guliakhali Sea Beach,,,,Male,Yes,Solo,Summer,10311.0
+586,2,Karnaphuli River,Patenga Sea Beach,Chandranath Hill and Temple,Mohamaya Lake,Bashbaria Sea Beach,Foy's Lake,,,,,Female,Yes,Couple,Autumn,10500.0
+587,5,Foy's Lake,Chittagong Circuit House,Mohamaya Lake,Guliakhali Sea Beach,Napittachora Waterfalls,Naval Beach,Bashbaria Sea Beach,,,,Female,Yes,Friends,Monsoon,18699.0
+588,3,Chandranath Hill and Temple,Bhatiari,Foy's Lake,Naval Beach,Napittachora Waterfalls,Mohamaya Lake,Chittagong Circuit House,Khoiyachora Waterfall,Guliakhali Sea Beach,Abhay Mitra Ghat,Female,Yes,Couple,Autumn,20000.0
+589,6,Guliakhali Sea Beach,,,,,,,,,,Male,Yes,Couple,Summer,11780.4
+590,5,Guliakhali Sea Beach,Chittagong Circuit House,Karnaphuli River,,,,,,,,Female,Yes,Family,Summer,5968.5
+591,5,Abhay Mitra Ghat,Napittachora Waterfalls,,,,,,,,,Male,No,Friends,Autumn,18834.0
+592,5,Abhay Mitra Ghat,Bhatiari,Patenga Sea Beach,Bashbaria Sea Beach,Karnaphuli River,Chandranath Hill and Temple,Mohamaya Lake,Guliakhali Sea Beach,Naval Beach,,Female,Yes,Friends,Winter,18769.0
+593,9,Mohamaya Lake,Bashbaria Sea Beach,Chittagong Circuit House,Guliakhali Sea Beach,,,,,,,Female,Yes,Solo,Autumn,7726.0
+594,3,Naval Beach,Napittachora Waterfalls,Chandranath Hill and Temple,Karnaphuli River,Khoiyachora Waterfall,,,,,,Male,Yes,Couple,Autumn,6534.0
+595,8,Bhatiari,Naval Beach,Mohamaya Lake,Bashbaria Sea Beach,,,,,,,Female,Yes,Solo,Monsoon,5168.0
+596,2,Bhatiari,Foy's Lake,Naval Beach,Patenga Sea Beach,Abhay Mitra Ghat,Napittachora Waterfalls,Mohamaya Lake,Khoiyachora Waterfall,,,Male,No,Solo,Monsoon,18198.0
+597,1,Chandranath Hill and Temple,Foy's Lake,Chittagong Circuit House,,,,,,,,Female,Yes,Family,Winter,20000.0
+598,9,Chittagong Circuit House,Guliakhali Sea Beach,Bashbaria Sea Beach,Patenga Sea Beach,Abhay Mitra Ghat,Naval Beach,Mohamaya Lake,Bhatiari,Napittachora Waterfalls,Khoiyachora Waterfall,Female,Yes,Family,Monsoon,13233.0
+599,4,Mohamaya Lake,Napittachora Waterfalls,Chandranath Hill and Temple,,,,,,,,Male,No,Couple,Monsoon,19520.399999999998
+600,7,Khoiyachora Waterfall,Patenga Sea Beach,Karnaphuli River,,,,,,,,Female,Yes,Solo,Autumn,17992.0
+601,3,Foy's Lake,Chittagong Circuit House,Khoiyachora Waterfall,Napittachora Waterfalls,Karnaphuli River,Naval Beach,Mohamaya Lake,Bhatiari,Chandranath Hill and Temple,Bashbaria Sea Beach,Male,Yes,Friends,Monsoon,18992.0
+602,9,Mohamaya Lake,Bhatiari,Chittagong Circuit House,Naval Beach,Napittachora Waterfalls,,,,,,Male,No,Friends,Autumn,11127.0
+603,9,Bhatiari,Chittagong Circuit House,Naval Beach,Guliakhali Sea Beach,Chandranath Hill and Temple,,,,,,Female,Yes,Couple,Autumn,4214.4
+604,7,Mohamaya Lake,Bhatiari,Abhay Mitra Ghat,Bashbaria Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,Foy's Lake,Guliakhali Sea Beach,Khoiyachora Waterfall,,Male,No,Solo,Monsoon,12626.0
+605,6,Abhay Mitra Ghat,Foy's Lake,Patenga Sea Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Bhatiari,Bashbaria Sea Beach,,,,Female,No,Solo,Autumn,11701.0
+606,9,Guliakhali Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,,,,Male,Yes,Friends,Autumn,10485.0
+607,8,Napittachora Waterfalls,Naval Beach,Mohamaya Lake,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,Male,Yes,Couple,Summer,5395.2
+608,8,Chandranath Hill and Temple,Napittachora Waterfalls,Khoiyachora Waterfall,Mohamaya Lake,Abhay Mitra Ghat,Karnaphuli River,Foy's Lake,Guliakhali Sea Beach,Patenga Sea Beach,Bhatiari,Male,No,Friends,Summer,11365.0
+609,8,Mohamaya Lake,Patenga Sea Beach,Abhay Mitra Ghat,Bhatiari,Guliakhali Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,,,,Male,No,Solo,Autumn,15178.0
+610,4,Khoiyachora Waterfall,Patenga Sea Beach,Guliakhali Sea Beach,Mohamaya Lake,Napittachora Waterfalls,Abhay Mitra Ghat,Naval Beach,Bhatiari,Chittagong Circuit House,,Female,Yes,Couple,Winter,7843.2
+611,5,Foy's Lake,,,,,,,,,,Female,No,Friends,Winter,9140.0
+612,1,Bashbaria Sea Beach,Bhatiari,Patenga Sea Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Chandranath Hill and Temple,,,,,Male,Yes,Solo,Autumn,15350.0
+613,8,Foy's Lake,Abhay Mitra Ghat,Mohamaya Lake,Chittagong Circuit House,Karnaphuli River,Khoiyachora Waterfall,Naval Beach,Chandranath Hill and Temple,,,Male,No,Friends,Autumn,7454.0
+614,6,Abhay Mitra Ghat,Khoiyachora Waterfall,Mohamaya Lake,Karnaphuli River,Patenga Sea Beach,Naval Beach,Guliakhali Sea Beach,Bashbaria Sea Beach,,,Female,Yes,Solo,Monsoon,16315.0
+615,2,Naval Beach,Khoiyachora Waterfall,Bashbaria Sea Beach,Mohamaya Lake,Guliakhali Sea Beach,Chandranath Hill and Temple,Abhay Mitra Ghat,Karnaphuli River,Napittachora Waterfalls,Patenga Sea Beach,Female,No,Couple,Autumn,20000.0
+616,7,Chandranath Hill and Temple,Bhatiari,Naval Beach,Khoiyachora Waterfall,Abhay Mitra Ghat,Napittachora Waterfalls,Karnaphuli River,Bashbaria Sea Beach,Foy's Lake,Patenga Sea Beach,Female,Yes,Solo,Monsoon,3396.0
+617,5,Bhatiari,Karnaphuli River,Chandranath Hill and Temple,Patenga Sea Beach,Abhay Mitra Ghat,Mohamaya Lake,,,,,Female,No,Solo,Autumn,3430.0
+618,5,Abhay Mitra Ghat,Bhatiari,Guliakhali Sea Beach,Chandranath Hill and Temple,,,,,,,Male,Yes,Friends,Monsoon,4765.0
+619,9,Mohamaya Lake,Naval Beach,Guliakhali Sea Beach,,,,,,,,Female,No,Family,Winter,20000.0
+620,5,Napittachora Waterfalls,Chittagong Circuit House,Khoiyachora Waterfall,Mohamaya Lake,Patenga Sea Beach,Abhay Mitra Ghat,,,,,Male,Yes,Friends,Autumn,11098.0
+621,4,Karnaphuli River,Naval Beach,Mohamaya Lake,Patenga Sea Beach,Napittachora Waterfalls,Chandranath Hill and Temple,Abhay Mitra Ghat,,,,Male,Yes,Family,Summer,12519.0
+622,5,Guliakhali Sea Beach,Foy's Lake,Patenga Sea Beach,Karnaphuli River,Mohamaya Lake,Napittachora Waterfalls,Khoiyachora Waterfall,Naval Beach,Bhatiari,Bashbaria Sea Beach,Male,No,Family,Autumn,20000.0
+623,6,Chittagong Circuit House,Chandranath Hill and Temple,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,,,Male,No,Family,Monsoon,20000.0
+624,9,Patenga Sea Beach,Foy's Lake,Bashbaria Sea Beach,Guliakhali Sea Beach,Khoiyachora Waterfall,,,,,,Male,No,Family,Monsoon,20000.0
+625,2,Napittachora Waterfalls,Naval Beach,Karnaphuli River,Mohamaya Lake,Khoiyachora Waterfall,Abhay Mitra Ghat,Chandranath Hill and Temple,Guliakhali Sea Beach,,,Female,Yes,Family,Winter,19072.5
+626,6,Patenga Sea Beach,,,,,,,,,,Female,No,Family,Autumn,20000.0
+627,5,Bhatiari,Bashbaria Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,,,,,,,Male,No,Friends,Monsoon,8410.0
+628,2,Bashbaria Sea Beach,Abhay Mitra Ghat,Mohamaya Lake,Bhatiari,Patenga Sea Beach,Napittachora Waterfalls,Naval Beach,Guliakhali Sea Beach,Chandranath Hill and Temple,,Female,No,Couple,Winter,19563.6
+629,8,Foy's Lake,,,,,,,,,,Female,No,Family,Autumn,16450.5
+630,5,Karnaphuli River,Abhay Mitra Ghat,Guliakhali Sea Beach,Naval Beach,Foy's Lake,Napittachora Waterfalls,,,,,Male,No,Friends,Autumn,12000.0
+631,4,Napittachora Waterfalls,Naval Beach,Khoiyachora Waterfall,,,,,,,,Male,No,Family,Winter,18745.5
+632,10,Mohamaya Lake,Napittachora Waterfalls,Patenga Sea Beach,Naval Beach,Guliakhali Sea Beach,,,,,,Female,No,Friends,Monsoon,4002.0
+633,6,Napittachora Waterfalls,Chittagong Circuit House,,,,,,,,,Male,No,Couple,Autumn,18967.2
+634,8,Chandranath Hill and Temple,Chittagong Circuit House,Napittachora Waterfalls,,,,,,,,Male,Yes,Friends,Autumn,6861.0
+635,8,Naval Beach,Chandranath Hill and Temple,Chittagong Circuit House,Khoiyachora Waterfall,,,,,,,Male,Yes,Solo,Summer,10819.0
+636,4,Khoiyachora Waterfall,Naval Beach,Abhay Mitra Ghat,Napittachora Waterfalls,Foy's Lake,Chandranath Hill and Temple,Guliakhali Sea Beach,Chittagong Circuit House,Bashbaria Sea Beach,,Female,Yes,Solo,Autumn,12286.0
+637,4,Foy's Lake,Mohamaya Lake,Chandranath Hill and Temple,Napittachora Waterfalls,Chittagong Circuit House,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,Female,No,Couple,Autumn,20000.0
+638,5,Foy's Lake,Naval Beach,Karnaphuli River,Chandranath Hill and Temple,,,,,,,Male,Yes,Family,Autumn,12904.5
+639,5,Chandranath Hill and Temple,Abhay Mitra Ghat,Bhatiari,Mohamaya Lake,Patenga Sea Beach,Foy's Lake,Khoiyachora Waterfall,,,,Male,Yes,Family,Summer,16941.0
+640,3,Guliakhali Sea Beach,Abhay Mitra Ghat,Bhatiari,Khoiyachora Waterfall,Mohamaya Lake,Naval Beach,Chittagong Circuit House,Napittachora Waterfalls,,,Female,Yes,Couple,Monsoon,20000.0
+641,9,Patenga Sea Beach,Khoiyachora Waterfall,Bhatiari,Chittagong Circuit House,Foy's Lake,Guliakhali Sea Beach,Abhay Mitra Ghat,Mohamaya Lake,,,Male,No,Solo,Autumn,6816.0
+642,1,Chittagong Circuit House,Naval Beach,Foy's Lake,,,,,,,,Female,No,Family,Autumn,17080.5
+643,4,Naval Beach,Bashbaria Sea Beach,Foy's Lake,Bhatiari,Chandranath Hill and Temple,Khoiyachora Waterfall,Mohamaya Lake,Patenga Sea Beach,,,Female,No,Friends,Monsoon,19857.0
+644,1,Foy's Lake,Karnaphuli River,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,,Male,No,Family,Autumn,20000.0
+645,8,Khoiyachora Waterfall,Napittachora Waterfalls,Abhay Mitra Ghat,Guliakhali Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,Bhatiari,,,,Male,Yes,Couple,Autumn,11485.199999999999
+646,2,Mohamaya Lake,Khoiyachora Waterfall,Abhay Mitra Ghat,Foy's Lake,Bashbaria Sea Beach,Karnaphuli River,Bhatiari,Guliakhali Sea Beach,Chittagong Circuit House,,Male,No,Solo,Winter,10398.0
+647,9,Mohamaya Lake,Napittachora Waterfalls,Chandranath Hill and Temple,Bhatiari,Chittagong Circuit House,Foy's Lake,Patenga Sea Beach,Karnaphuli River,Naval Beach,,Female,Yes,Solo,Monsoon,11844.0
+648,9,Chandranath Hill and Temple,Patenga Sea Beach,Abhay Mitra Ghat,Guliakhali Sea Beach,Bhatiari,Karnaphuli River,Naval Beach,Foy's Lake,Mohamaya Lake,Khoiyachora Waterfall,Male,Yes,Family,Summer,10900.5
+649,10,Khoiyachora Waterfall,Karnaphuli River,Patenga Sea Beach,Naval Beach,Mohamaya Lake,Chandranath Hill and Temple,Foy's Lake,Bhatiari,Guliakhali Sea Beach,Napittachora Waterfalls,Male,Yes,Couple,Autumn,17020.8
+650,6,Khoiyachora Waterfall,Napittachora Waterfalls,Mohamaya Lake,Bhatiari,Naval Beach,Karnaphuli River,Guliakhali Sea Beach,,,,Female,No,Friends,Autumn,15200.0
+651,3,Napittachora Waterfalls,Khoiyachora Waterfall,Mohamaya Lake,Naval Beach,Bashbaria Sea Beach,Abhay Mitra Ghat,Patenga Sea Beach,,,,Female,Yes,Couple,Summer,10172.4
+652,2,Patenga Sea Beach,Mohamaya Lake,Foy's Lake,Naval Beach,Chandranath Hill and Temple,Karnaphuli River,Napittachora Waterfalls,Abhay Mitra Ghat,,,Female,Yes,Solo,Winter,10767.0
+653,10,Napittachora Waterfalls,Guliakhali Sea Beach,Chandranath Hill and Temple,,,,,,,,Male,No,Couple,Summer,4596.0
+654,3,Patenga Sea Beach,Khoiyachora Waterfall,Bhatiari,Mohamaya Lake,Karnaphuli River,Napittachora Waterfalls,Chittagong Circuit House,Bashbaria Sea Beach,Chandranath Hill and Temple,Naval Beach,Male,No,Friends,Winter,10232.0
+655,3,Foy's Lake,Khoiyachora Waterfall,Bhatiari,Karnaphuli River,Guliakhali Sea Beach,,,,,,Female,Yes,Solo,Autumn,13044.0
+656,8,Karnaphuli River,Patenga Sea Beach,Mohamaya Lake,Bashbaria Sea Beach,,,,,,,Female,No,Couple,Autumn,13530.0
+657,9,Patenga Sea Beach,Khoiyachora Waterfall,Chandranath Hill and Temple,,,,,,,,Male,Yes,Friends,Summer,7913.0
+658,10,Khoiyachora Waterfall,Bhatiari,Bashbaria Sea Beach,Naval Beach,Chittagong Circuit House,Napittachora Waterfalls,Abhay Mitra Ghat,Karnaphuli River,,,Female,No,Solo,Winter,9330.0
+659,8,Khoiyachora Waterfall,Naval Beach,Bhatiari,Bashbaria Sea Beach,Chandranath Hill and Temple,Chittagong Circuit House,,,,,Male,No,Friends,Winter,3960.0
+660,8,Chandranath Hill and Temple,Khoiyachora Waterfall,Bashbaria Sea Beach,Foy's Lake,,,,,,,Male,Yes,Family,Autumn,20000.0
+661,9,Bhatiari,Patenga Sea Beach,Khoiyachora Waterfall,Bashbaria Sea Beach,Guliakhali Sea Beach,Napittachora Waterfalls,Mohamaya Lake,Chittagong Circuit House,Karnaphuli River,Foy's Lake,Male,No,Solo,Autumn,19444.0
+662,1,Bhatiari,Karnaphuli River,Bashbaria Sea Beach,Chandranath Hill and Temple,Chittagong Circuit House,Foy's Lake,Mohamaya Lake,Patenga Sea Beach,Guliakhali Sea Beach,Khoiyachora Waterfall,Male,No,Family,Winter,17133.0
+663,2,Karnaphuli River,Naval Beach,Chittagong Circuit House,Abhay Mitra Ghat,Foy's Lake,Chandranath Hill and Temple,Patenga Sea Beach,Napittachora Waterfalls,,,Female,Yes,Friends,Autumn,4567.0
+664,4,Bashbaria Sea Beach,Chittagong Circuit House,Guliakhali Sea Beach,Bhatiari,Naval Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,Male,Yes,Family,Winter,8529.0
+665,9,Khoiyachora Waterfall,Bashbaria Sea Beach,Chittagong Circuit House,Foy's Lake,Karnaphuli River,Napittachora Waterfalls,Patenga Sea Beach,Chandranath Hill and Temple,,,Male,No,Friends,Autumn,19080.0
+666,6,Abhay Mitra Ghat,Chittagong Circuit House,Mohamaya Lake,Patenga Sea Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,,,,,Female,Yes,Friends,Winter,13019.0
+667,6,Mohamaya Lake,Guliakhali Sea Beach,Bhatiari,Naval Beach,,,,,,,Female,Yes,Couple,Autumn,18799.2
+668,4,Bashbaria Sea Beach,Naval Beach,Bhatiari,Abhay Mitra Ghat,Khoiyachora Waterfall,Patenga Sea Beach,,,,,Female,Yes,Friends,Summer,5100.0
+669,4,Guliakhali Sea Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,Chandranath Hill and Temple,Patenga Sea Beach,,,,,,Female,Yes,Couple,Summer,18468.0
+670,1,Foy's Lake,Bashbaria Sea Beach,Bhatiari,Patenga Sea Beach,Guliakhali Sea Beach,Naval Beach,Khoiyachora Waterfall,Napittachora Waterfalls,,,Male,Yes,Solo,Winter,4564.0
+671,1,Napittachora Waterfalls,Khoiyachora Waterfall,,,,,,,,,Male,Yes,Solo,Winter,15288.0
+672,10,Mohamaya Lake,Patenga Sea Beach,,,,,,,,,Male,Yes,Couple,Winter,11586.0
+673,1,Karnaphuli River,Khoiyachora Waterfall,Bhatiari,Mohamaya Lake,Foy's Lake,Guliakhali Sea Beach,Patenga Sea Beach,Chandranath Hill and Temple,Naval Beach,Chittagong Circuit House,Male,No,Solo,Autumn,10241.0
+674,3,Guliakhali Sea Beach,Khoiyachora Waterfall,Abhay Mitra Ghat,Bashbaria Sea Beach,,,,,,,Female,No,Family,Winter,20000.0
+675,5,Napittachora Waterfalls,Foy's Lake,,,,,,,,,Male,Yes,Solo,Monsoon,15246.0
+676,2,Foy's Lake,Guliakhali Sea Beach,Bashbaria Sea Beach,Patenga Sea Beach,Naval Beach,Mohamaya Lake,Abhay Mitra Ghat,,,,Female,No,Couple,Monsoon,4273.2
+677,3,Chandranath Hill and Temple,Foy's Lake,Bhatiari,Naval Beach,Mohamaya Lake,Bashbaria Sea Beach,,,,,Female,Yes,Solo,Autumn,6776.0
+678,3,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,,,,,Male,Yes,Couple,Monsoon,20000.0
+679,3,Mohamaya Lake,Bashbaria Sea Beach,Abhay Mitra Ghat,Naval Beach,Chandranath Hill and Temple,,,,,,Female,No,Family,Autumn,12598.5
+680,10,Bashbaria Sea Beach,Foy's Lake,Patenga Sea Beach,Napittachora Waterfalls,Mohamaya Lake,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,Male,No,Friends,Monsoon,14547.0
+681,6,Abhay Mitra Ghat,Foy's Lake,Guliakhali Sea Beach,Patenga Sea Beach,,,,,,,Female,No,Friends,Summer,13538.0
+682,2,Mohamaya Lake,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,,,,Male,Yes,Family,Monsoon,6439.5
+683,3,Chandranath Hill and Temple,Khoiyachora Waterfall,Guliakhali Sea Beach,,,,,,,,Female,Yes,Family,Monsoon,7090.5
+684,10,Bashbaria Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,,,,Male,No,Solo,Winter,19338.0
+685,5,Guliakhali Sea Beach,Chandranath Hill and Temple,Abhay Mitra Ghat,Chittagong Circuit House,Khoiyachora Waterfall,,,,,,Male,No,Couple,Monsoon,16402.8
+686,10,Guliakhali Sea Beach,Abhay Mitra Ghat,Bashbaria Sea Beach,,,,,,,,Female,No,Solo,Monsoon,5874.0
+687,9,Naval Beach,Patenga Sea Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Karnaphuli River,Chittagong Circuit House,Guliakhali Sea Beach,,,,Female,No,Solo,Winter,11781.0
+688,6,Mohamaya Lake,Karnaphuli River,Chandranath Hill and Temple,Khoiyachora Waterfall,Abhay Mitra Ghat,,,,,,Male,Yes,Couple,Monsoon,7581.599999999999
+689,9,Bashbaria Sea Beach,Patenga Sea Beach,Naval Beach,Mohamaya Lake,Khoiyachora Waterfall,Abhay Mitra Ghat,Napittachora Waterfalls,Bhatiari,Foy's Lake,,Female,Yes,Family,Monsoon,18453.0
+690,8,Napittachora Waterfalls,Mohamaya Lake,Abhay Mitra Ghat,Naval Beach,,,,,,,Female,Yes,Couple,Summer,4560.0
+691,1,Chandranath Hill and Temple,Napittachora Waterfalls,Karnaphuli River,Foy's Lake,Khoiyachora Waterfall,,,,,,Male,No,Family,Monsoon,18588.0
+692,9,Foy's Lake,Bashbaria Sea Beach,Napittachora Waterfalls,Guliakhali Sea Beach,Naval Beach,Mohamaya Lake,Bhatiari,Karnaphuli River,Abhay Mitra Ghat,Patenga Sea Beach,Female,No,Family,Autumn,5964.0
+693,6,Chandranath Hill and Temple,Foy's Lake,Bhatiari,Karnaphuli River,Khoiyachora Waterfall,Naval Beach,Patenga Sea Beach,Guliakhali Sea Beach,,,Female,No,Friends,Monsoon,4388.0
+694,10,Chittagong Circuit House,Bashbaria Sea Beach,Patenga Sea Beach,,,,,,,,Female,No,Solo,Summer,8800.0
+695,2,Foy's Lake,Bashbaria Sea Beach,Patenga Sea Beach,Naval Beach,,,,,,,Female,Yes,Family,Monsoon,20000.0
+696,3,Mohamaya Lake,Foy's Lake,Bhatiari,Karnaphuli River,,,,,,,Male,Yes,Solo,Summer,10375.0
+697,5,Abhay Mitra Ghat,Karnaphuli River,Foy's Lake,Bhatiari,Napittachora Waterfalls,Mohamaya Lake,Khoiyachora Waterfall,Naval Beach,Guliakhali Sea Beach,,Female,Yes,Solo,Winter,18086.0
+698,1,Napittachora Waterfalls,Naval Beach,Mohamaya Lake,Bhatiari,Karnaphuli River,Patenga Sea Beach,Khoiyachora Waterfall,Abhay Mitra Ghat,,,Male,Yes,Solo,Summer,5422.0
+699,4,Mohamaya Lake,Naval Beach,Patenga Sea Beach,Abhay Mitra Ghat,Chittagong Circuit House,Napittachora Waterfalls,,,,,Male,No,Friends,Winter,6479.0
+700,2,Karnaphuli River,Mohamaya Lake,,,,,,,,,Male,Yes,Solo,Monsoon,17986.0
+701,6,Bhatiari,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,,,Female,No,Family,Monsoon,6790.5
+702,9,Khoiyachora Waterfall,Naval Beach,Guliakhali Sea Beach,,,,,,,,Female,Yes,Couple,Monsoon,5499.599999999999
+703,5,Bashbaria Sea Beach,Patenga Sea Beach,Chittagong Circuit House,Foy's Lake,Abhay Mitra Ghat,Guliakhali Sea Beach,,,,,Male,Yes,Couple,Summer,20000.0
+704,3,Naval Beach,Patenga Sea Beach,Bashbaria Sea Beach,Karnaphuli River,Foy's Lake,Khoiyachora Waterfall,Bhatiari,Napittachora Waterfalls,Mohamaya Lake,Abhay Mitra Ghat,Female,No,Friends,Summer,4238.0
+705,9,Foy's Lake,Karnaphuli River,Mohamaya Lake,Naval Beach,Guliakhali Sea Beach,,,,,,Female,No,Solo,Monsoon,9551.0
+706,9,Khoiyachora Waterfall,Karnaphuli River,Napittachora Waterfalls,,,,,,,,Male,No,Solo,Monsoon,12509.0
+707,8,Abhay Mitra Ghat,Napittachora Waterfalls,Mohamaya Lake,Chandranath Hill and Temple,,,,,,,Male,Yes,Couple,Winter,8709.6
+708,1,Naval Beach,Khoiyachora Waterfall,,,,,,,,,Male,No,Family,Autumn,7053.0
+709,8,Foy's Lake,Bhatiari,Naval Beach,Chandranath Hill and Temple,Abhay Mitra Ghat,Guliakhali Sea Beach,Khoiyachora Waterfall,Chittagong Circuit House,,,Male,No,Friends,Monsoon,10584.0
+710,1,Mohamaya Lake,Guliakhali Sea Beach,,,,,,,,,Female,Yes,Family,Autumn,15951.0
+711,6,Khoiyachora Waterfall,Bashbaria Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,Guliakhali Sea Beach,Foy's Lake,Patenga Sea Beach,Abhay Mitra Ghat,Chittagong Circuit House,Naval Beach,Female,Yes,Solo,Winter,17193.0
+712,4,Naval Beach,Bashbaria Sea Beach,Abhay Mitra Ghat,Patenga Sea Beach,,,,,,,Female,Yes,Friends,Summer,19525.0
+713,9,Napittachora Waterfalls,Khoiyachora Waterfall,Foy's Lake,Guliakhali Sea Beach,Bashbaria Sea Beach,Chittagong Circuit House,Karnaphuli River,Naval Beach,Patenga Sea Beach,,Male,No,Couple,Monsoon,16968.0
+714,4,Guliakhali Sea Beach,Chittagong Circuit House,Patenga Sea Beach,Khoiyachora Waterfall,Bhatiari,Napittachora Waterfalls,,,,,Male,Yes,Couple,Summer,9615.6
+715,8,Khoiyachora Waterfall,Chittagong Circuit House,Patenga Sea Beach,Abhay Mitra Ghat,Chandranath Hill and Temple,Foy's Lake,Naval Beach,Napittachora Waterfalls,,,Male,No,Couple,Winter,14156.4
+716,2,Mohamaya Lake,Napittachora Waterfalls,Chandranath Hill and Temple,Karnaphuli River,Bhatiari,Patenga Sea Beach,Bashbaria Sea Beach,Naval Beach,Abhay Mitra Ghat,,Male,Yes,Family,Autumn,16374.0
+717,1,Bhatiari,Chittagong Circuit House,Chandranath Hill and Temple,Naval Beach,Mohamaya Lake,,,,,,Male,No,Couple,Summer,14068.8
+718,4,Bhatiari,Khoiyachora Waterfall,Chandranath Hill and Temple,Naval Beach,Guliakhali Sea Beach,,,,,,Female,No,Couple,Winter,8872.8
+719,7,Karnaphuli River,,,,,,,,,,Female,Yes,Couple,Monsoon,14805.599999999999
+720,2,Chittagong Circuit House,Patenga Sea Beach,Guliakhali Sea Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,Abhay Mitra Ghat,Bhatiari,Naval Beach,Khoiyachora Waterfall,Female,Yes,Friends,Summer,17265.0
+721,2,Mohamaya Lake,Chittagong Circuit House,Patenga Sea Beach,Karnaphuli River,Bhatiari,Napittachora Waterfalls,,,,,Male,No,Couple,Winter,15206.4
+722,9,Naval Beach,Foy's Lake,Chandranath Hill and Temple,Abhay Mitra Ghat,,,,,,,Male,No,Couple,Autumn,20000.0
+723,6,Napittachora Waterfalls,Guliakhali Sea Beach,Bashbaria Sea Beach,Bhatiari,Abhay Mitra Ghat,Chittagong Circuit House,Khoiyachora Waterfall,Patenga Sea Beach,,,Female,Yes,Family,Winter,8146.5
+724,5,Chittagong Circuit House,Abhay Mitra Ghat,Bhatiari,Karnaphuli River,,,,,,,Male,No,Family,Autumn,14038.5
+725,10,Khoiyachora Waterfall,Napittachora Waterfalls,Guliakhali Sea Beach,Karnaphuli River,Foy's Lake,,,,,,Male,No,Couple,Winter,4176.0
+726,1,Foy's Lake,,,,,,,,,,Male,Yes,Family,Autumn,18010.5
+727,10,Karnaphuli River,Chandranath Hill and Temple,Chittagong Circuit House,Mohamaya Lake,Guliakhali Sea Beach,Khoiyachora Waterfall,Foy's Lake,Bashbaria Sea Beach,Napittachora Waterfalls,,Male,No,Friends,Monsoon,16263.0
+728,3,Bashbaria Sea Beach,Bhatiari,Karnaphuli River,Patenga Sea Beach,Abhay Mitra Ghat,Chittagong Circuit House,Mohamaya Lake,Foy's Lake,,,Male,Yes,Family,Winter,17476.5
+729,6,Abhay Mitra Ghat,Guliakhali Sea Beach,Mohamaya Lake,Napittachora Waterfalls,Bashbaria Sea Beach,Bhatiari,Chittagong Circuit House,Khoiyachora Waterfall,Chandranath Hill and Temple,Naval Beach,Male,No,Solo,Autumn,9139.0
+730,1,Bashbaria Sea Beach,Guliakhali Sea Beach,Patenga Sea Beach,Bhatiari,Naval Beach,,,,,,Female,No,Couple,Summer,6801.599999999999
+731,3,Karnaphuli River,Chandranath Hill and Temple,,,,,,,,,Male,No,Friends,Monsoon,15055.0
+732,7,Foy's Lake,Karnaphuli River,Khoiyachora Waterfall,Napittachora Waterfalls,Chandranath Hill and Temple,Naval Beach,Chittagong Circuit House,,,,Male,Yes,Solo,Summer,18338.0
+733,1,Bhatiari,Chandranath Hill and Temple,Khoiyachora Waterfall,Napittachora Waterfalls,Chittagong Circuit House,Patenga Sea Beach,Naval Beach,,,,Female,No,Solo,Summer,16517.0
+734,1,Khoiyachora Waterfall,Patenga Sea Beach,,,,,,,,,Female,Yes,Friends,Autumn,8195.0
+735,3,Guliakhali Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,Foy's Lake,Bhatiari,Napittachora Waterfalls,Khoiyachora Waterfall,,,,Male,Yes,Family,Summer,17700.0
+736,8,Chittagong Circuit House,Mohamaya Lake,Guliakhali Sea Beach,Patenga Sea Beach,Foy's Lake,Naval Beach,Napittachora Waterfalls,,,,Male,No,Family,Summer,12778.5
+737,1,Abhay Mitra Ghat,Chittagong Circuit House,Naval Beach,Patenga Sea Beach,Guliakhali Sea Beach,,,,,,Female,Yes,Couple,Autumn,15622.8
+738,3,Khoiyachora Waterfall,Napittachora Waterfalls,Bhatiari,Mohamaya Lake,Foy's Lake,Patenga Sea Beach,Naval Beach,Abhay Mitra Ghat,Chittagong Circuit House,Bashbaria Sea Beach,Female,Yes,Friends,Winter,8827.0
+739,10,Bashbaria Sea Beach,Abhay Mitra Ghat,Patenga Sea Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,Male,No,Couple,Winter,14631.6
+740,9,Mohamaya Lake,Chittagong Circuit House,Patenga Sea Beach,Naval Beach,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,Female,No,Solo,Monsoon,11852.0
+741,6,Bhatiari,Karnaphuli River,Abhay Mitra Ghat,Mohamaya Lake,Napittachora Waterfalls,Naval Beach,Chandranath Hill and Temple,Chittagong Circuit House,Khoiyachora Waterfall,,Male,No,Couple,Summer,16522.8
+742,4,Karnaphuli River,Khoiyachora Waterfall,Napittachora Waterfalls,Foy's Lake,Abhay Mitra Ghat,Mohamaya Lake,Guliakhali Sea Beach,Bhatiari,Bashbaria Sea Beach,,Female,No,Couple,Winter,5856.0
+743,2,Bashbaria Sea Beach,,,,,,,,,,Male,No,Solo,Summer,7478.0
+744,1,Mohamaya Lake,Karnaphuli River,Naval Beach,Chandranath Hill and Temple,,,,,,,Male,Yes,Solo,Monsoon,3513.0
+745,6,Mohamaya Lake,Chandranath Hill and Temple,Foy's Lake,Khoiyachora Waterfall,Bashbaria Sea Beach,Napittachora Waterfalls,Abhay Mitra Ghat,Chittagong Circuit House,Naval Beach,Guliakhali Sea Beach,Female,No,Solo,Winter,9521.0
+746,10,Abhay Mitra Ghat,Bhatiari,Karnaphuli River,Chittagong Circuit House,Naval Beach,Guliakhali Sea Beach,,,,,Female,No,Family,Summer,20000.0
+747,6,Napittachora Waterfalls,Abhay Mitra Ghat,Foy's Lake,Mohamaya Lake,Bashbaria Sea Beach,Khoiyachora Waterfall,Patenga Sea Beach,,,,Male,Yes,Family,Autumn,20000.0
+748,7,Naval Beach,Chandranath Hill and Temple,Karnaphuli River,Mohamaya Lake,Foy's Lake,Patenga Sea Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,Abhay Mitra Ghat,Chittagong Circuit House,Male,Yes,Friends,Summer,16369.0
+749,9,Karnaphuli River,Naval Beach,,,,,,,,,Female,Yes,Friends,Summer,9495.0
+750,5,Napittachora Waterfalls,Bashbaria Sea Beach,Foy's Lake,Chittagong Circuit House,Karnaphuli River,Khoiyachora Waterfall,,,,,Male,No,Friends,Monsoon,19443.0
+751,7,Abhay Mitra Ghat,Chandranath Hill and Temple,Khoiyachora Waterfall,Foy's Lake,Patenga Sea Beach,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,Female,No,Couple,Monsoon,16274.4
+752,2,Abhay Mitra Ghat,Bashbaria Sea Beach,Naval Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Chittagong Circuit House,Patenga Sea Beach,Guliakhali Sea Beach,,,Female,Yes,Solo,Winter,8333.0
+753,3,Khoiyachora Waterfall,Napittachora Waterfalls,Naval Beach,Chandranath Hill and Temple,Mohamaya Lake,Chittagong Circuit House,Bashbaria Sea Beach,Karnaphuli River,,,Female,No,Family,Monsoon,20000.0
+754,6,Naval Beach,Khoiyachora Waterfall,Foy's Lake,Napittachora Waterfalls,Mohamaya Lake,Bashbaria Sea Beach,,,,,Male,No,Family,Summer,16513.5
+755,8,Guliakhali Sea Beach,Naval Beach,Abhay Mitra Ghat,Chandranath Hill and Temple,Bhatiari,Bashbaria Sea Beach,Napittachora Waterfalls,Chittagong Circuit House,Mohamaya Lake,Khoiyachora Waterfall,Male,No,Family,Winter,18114.0
+756,6,Patenga Sea Beach,Naval Beach,Mohamaya Lake,Napittachora Waterfalls,Abhay Mitra Ghat,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,Male,Yes,Solo,Summer,19063.0
+757,2,Chittagong Circuit House,Naval Beach,Bashbaria Sea Beach,Foy's Lake,Karnaphuli River,Khoiyachora Waterfall,Bhatiari,Abhay Mitra Ghat,Chandranath Hill and Temple,Napittachora Waterfalls,Female,No,Couple,Winter,19525.2
+758,2,Mohamaya Lake,Khoiyachora Waterfall,Napittachora Waterfalls,Naval Beach,Abhay Mitra Ghat,Patenga Sea Beach,,,,,Male,No,Solo,Summer,17490.0
+759,3,Naval Beach,Abhay Mitra Ghat,Khoiyachora Waterfall,,,,,,,,Female,No,Solo,Summer,14247.0
+760,8,Khoiyachora Waterfall,Mohamaya Lake,Patenga Sea Beach,Bhatiari,Chandranath Hill and Temple,Naval Beach,Napittachora Waterfalls,Abhay Mitra Ghat,Karnaphuli River,Foy's Lake,Female,No,Solo,Winter,6806.0
+761,6,Foy's Lake,Abhay Mitra Ghat,Karnaphuli River,Napittachora Waterfalls,Naval Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,Mohamaya Lake,Patenga Sea Beach,Chandranath Hill and Temple,Male,Yes,Couple,Summer,20000.0
+762,2,Karnaphuli River,Naval Beach,,,,,,,,,Female,Yes,Family,Monsoon,20000.0
+763,6,Chittagong Circuit House,Abhay Mitra Ghat,Khoiyachora Waterfall,Bhatiari,Chandranath Hill and Temple,Bashbaria Sea Beach,Guliakhali Sea Beach,Mohamaya Lake,Patenga Sea Beach,,Male,No,Couple,Autumn,20000.0
+764,6,Bashbaria Sea Beach,Mohamaya Lake,Abhay Mitra Ghat,Foy's Lake,Naval Beach,,,,,,Female,Yes,Solo,Summer,7118.0
+765,6,Chittagong Circuit House,Patenga Sea Beach,Naval Beach,Bashbaria Sea Beach,,,,,,,Female,No,Couple,Monsoon,13383.6
+766,6,Foy's Lake,Guliakhali Sea Beach,Karnaphuli River,Naval Beach,Mohamaya Lake,Napittachora Waterfalls,Patenga Sea Beach,,,,Female,Yes,Solo,Winter,8727.0
+767,5,Bhatiari,Chandranath Hill and Temple,Naval Beach,Foy's Lake,,,,,,,Male,Yes,Couple,Summer,5869.2
+768,7,Bashbaria Sea Beach,Foy's Lake,Guliakhali Sea Beach,Naval Beach,Chandranath Hill and Temple,Karnaphuli River,Napittachora Waterfalls,Mohamaya Lake,Bhatiari,Abhay Mitra Ghat,Female,No,Couple,Winter,11182.8
+769,7,Guliakhali Sea Beach,Chittagong Circuit House,Karnaphuli River,Naval Beach,,,,,,,Female,Yes,Solo,Summer,9391.0
+770,5,Naval Beach,Patenga Sea Beach,Foy's Lake,Khoiyachora Waterfall,Napittachora Waterfalls,Abhay Mitra Ghat,Karnaphuli River,Bhatiari,Mohamaya Lake,,Male,Yes,Solo,Summer,17260.0
+771,2,Chittagong Circuit House,Patenga Sea Beach,,,,,,,,,Male,No,Couple,Winter,4226.4
+772,6,Chandranath Hill and Temple,Abhay Mitra Ghat,Foy's Lake,Guliakhali Sea Beach,Chittagong Circuit House,Karnaphuli River,Mohamaya Lake,Bhatiari,,,Male,No,Friends,Summer,18692.0
+773,8,Mohamaya Lake,Chittagong Circuit House,Chandranath Hill and Temple,Karnaphuli River,Abhay Mitra Ghat,Naval Beach,Khoiyachora Waterfall,,,,Male,No,Solo,Winter,6103.0
+774,5,Abhay Mitra Ghat,Chandranath Hill and Temple,Karnaphuli River,Foy's Lake,,,,,,,Male,No,Couple,Winter,13364.4
+775,3,Naval Beach,Napittachora Waterfalls,Foy's Lake,,,,,,,,Female,No,Family,Autumn,20000.0
+776,5,Guliakhali Sea Beach,Naval Beach,Napittachora Waterfalls,Karnaphuli River,Bashbaria Sea Beach,,,,,,Male,No,Family,Summer,9675.0
+777,7,Bashbaria Sea Beach,Naval Beach,Mohamaya Lake,Chittagong Circuit House,Guliakhali Sea Beach,Napittachora Waterfalls,,,,,Male,Yes,Solo,Summer,10984.0
+778,1,Chandranath Hill and Temple,Foy's Lake,Abhay Mitra Ghat,Patenga Sea Beach,Khoiyachora Waterfall,Bashbaria Sea Beach,Naval Beach,Guliakhali Sea Beach,,,Female,Yes,Solo,Summer,11429.0
+779,1,Chittagong Circuit House,Bashbaria Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,Guliakhali Sea Beach,,,,,,Female,No,Couple,Monsoon,13774.8
+780,3,Naval Beach,Bhatiari,Abhay Mitra Ghat,Karnaphuli River,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,Male,No,Couple,Monsoon,5761.2
+781,4,Naval Beach,Bashbaria Sea Beach,Abhay Mitra Ghat,Patenga Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,Chandranath Hill and Temple,,,,Male,Yes,Friends,Monsoon,12701.0
+782,7,Khoiyachora Waterfall,Abhay Mitra Ghat,Napittachora Waterfalls,Foy's Lake,Guliakhali Sea Beach,Patenga Sea Beach,Naval Beach,,,,Female,No,Family,Winter,12640.5
+783,3,Karnaphuli River,Foy's Lake,Guliakhali Sea Beach,Bhatiari,Naval Beach,Khoiyachora Waterfall,Mohamaya Lake,Chandranath Hill and Temple,,,Male,Yes,Solo,Summer,19917.0
+784,9,Chittagong Circuit House,Napittachora Waterfalls,Foy's Lake,Abhay Mitra Ghat,Karnaphuli River,Naval Beach,Patenga Sea Beach,,,,Female,No,Solo,Monsoon,7601.0
+785,4,Abhay Mitra Ghat,Chittagong Circuit House,Bashbaria Sea Beach,Khoiyachora Waterfall,Naval Beach,Bhatiari,Foy's Lake,Mohamaya Lake,Napittachora Waterfalls,Guliakhali Sea Beach,Male,Yes,Couple,Summer,12404.4
+786,9,Mohamaya Lake,Guliakhali Sea Beach,Bhatiari,Abhay Mitra Ghat,Khoiyachora Waterfall,,,,,,Male,No,Friends,Summer,12224.0
+787,5,Napittachora Waterfalls,Abhay Mitra Ghat,Mohamaya Lake,Bashbaria Sea Beach,Bhatiari,Patenga Sea Beach,Chittagong Circuit House,Karnaphuli River,Naval Beach,Guliakhali Sea Beach,Male,No,Couple,Autumn,20000.0
+788,5,Chandranath Hill and Temple,Khoiyachora Waterfall,Foy's Lake,Abhay Mitra Ghat,Napittachora Waterfalls,Bashbaria Sea Beach,Naval Beach,Karnaphuli River,Chittagong Circuit House,,Male,No,Friends,Summer,3318.0
+789,2,Abhay Mitra Ghat,Karnaphuli River,Chandranath Hill and Temple,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,,Male,Yes,Solo,Winter,15983.0
+790,7,Abhay Mitra Ghat,Bhatiari,Khoiyachora Waterfall,Mohamaya Lake,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,Female,No,Solo,Autumn,14711.0
+791,5,Foy's Lake,Guliakhali Sea Beach,Mohamaya Lake,Karnaphuli River,Bashbaria Sea Beach,Naval Beach,Khoiyachora Waterfall,,,,Female,Yes,Friends,Autumn,12269.0
+792,7,Foy's Lake,Guliakhali Sea Beach,Patenga Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,Bhatiari,Abhay Mitra Ghat,Mohamaya Lake,Naval Beach,Khoiyachora Waterfall,Female,Yes,Friends,Winter,19056.0
+793,5,Napittachora Waterfalls,Abhay Mitra Ghat,Bashbaria Sea Beach,,,,,,,,Female,Yes,Couple,Autumn,18487.2
+794,4,Guliakhali Sea Beach,Napittachora Waterfalls,Karnaphuli River,Chandranath Hill and Temple,Bhatiari,Abhay Mitra Ghat,Foy's Lake,Chittagong Circuit House,Patenga Sea Beach,Bashbaria Sea Beach,Female,Yes,Couple,Monsoon,9913.199999999999
+795,7,Abhay Mitra Ghat,Guliakhali Sea Beach,Chandranath Hill and Temple,Naval Beach,Khoiyachora Waterfall,Patenga Sea Beach,Bashbaria Sea Beach,,,,Female,No,Couple,Autumn,16297.199999999999
+796,4,Chittagong Circuit House,Khoiyachora Waterfall,Patenga Sea Beach,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,Female,Yes,Couple,Summer,18274.8
+797,6,Guliakhali Sea Beach,Abhay Mitra Ghat,Patenga Sea Beach,Foy's Lake,Napittachora Waterfalls,Chittagong Circuit House,Karnaphuli River,,,,Male,Yes,Family,Monsoon,20000.0
+798,5,Chittagong Circuit House,Patenga Sea Beach,Bashbaria Sea Beach,Foy's Lake,,,,,,,Male,No,Friends,Winter,16693.0
+799,2,Naval Beach,Guliakhali Sea Beach,Khoiyachora Waterfall,Bhatiari,Mohamaya Lake,Napittachora Waterfalls,Foy's Lake,Bashbaria Sea Beach,Chandranath Hill and Temple,,Male,Yes,Family,Summer,20000.0
+800,9,Patenga Sea Beach,Mohamaya Lake,Bashbaria Sea Beach,Napittachora Waterfalls,Bhatiari,Abhay Mitra Ghat,Karnaphuli River,Chandranath Hill and Temple,,,Male,No,Friends,Summer,12530.0
+801,5,Patenga Sea Beach,Mohamaya Lake,Bashbaria Sea Beach,Guliakhali Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,Foy's Lake,Karnaphuli River,Khoiyachora Waterfall,Abhay Mitra Ghat,Female,No,Family,Winter,20000.0
+802,2,Naval Beach,Guliakhali Sea Beach,Chandranath Hill and Temple,,,,,,,,Male,No,Couple,Monsoon,20000.0
+803,3,Naval Beach,Bhatiari,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,,Male,No,Friends,Monsoon,16250.0
+804,3,Guliakhali Sea Beach,Mohamaya Lake,Naval Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,,,,,,Female,Yes,Friends,Winter,6440.0
+805,2,Patenga Sea Beach,Bhatiari,Mohamaya Lake,Bashbaria Sea Beach,Chittagong Circuit House,Khoiyachora Waterfall,Foy's Lake,Karnaphuli River,,,Male,Yes,Family,Monsoon,20000.0
+806,1,Naval Beach,Guliakhali Sea Beach,Chittagong Circuit House,,,,,,,,Male,Yes,Family,Autumn,13153.5
+807,1,Chandranath Hill and Temple,Foy's Lake,Karnaphuli River,Naval Beach,Bashbaria Sea Beach,,,,,,Female,No,Family,Winter,10213.5
+808,6,Bashbaria Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,Foy's Lake,Khoiyachora Waterfall,Napittachora Waterfalls,Naval Beach,Patenga Sea Beach,,,Male,Yes,Couple,Autumn,20000.0
+809,6,Bhatiari,Naval Beach,Chittagong Circuit House,Mohamaya Lake,Guliakhali Sea Beach,Foy's Lake,Patenga Sea Beach,,,,Male,Yes,Friends,Autumn,10591.0
+810,5,Patenga Sea Beach,Napittachora Waterfalls,Foy's Lake,Khoiyachora Waterfall,Naval Beach,Abhay Mitra Ghat,Bhatiari,Chittagong Circuit House,Karnaphuli River,,Male,Yes,Friends,Monsoon,7955.0
+811,1,Naval Beach,Foy's Lake,Bashbaria Sea Beach,Guliakhali Sea Beach,,,,,,,Male,No,Solo,Summer,17201.0
+812,6,Napittachora Waterfalls,Bhatiari,Foy's Lake,Naval Beach,Mohamaya Lake,Karnaphuli River,Abhay Mitra Ghat,Khoiyachora Waterfall,Chandranath Hill and Temple,Chittagong Circuit House,Female,Yes,Family,Autumn,6079.5
+813,10,Bashbaria Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,Abhay Mitra Ghat,Naval Beach,Mohamaya Lake,Khoiyachora Waterfall,Patenga Sea Beach,Bhatiari,Chandranath Hill and Temple,Male,Yes,Solo,Winter,10472.0
+814,5,Chandranath Hill and Temple,Khoiyachora Waterfall,Bashbaria Sea Beach,Naval Beach,Guliakhali Sea Beach,,,,,,Female,Yes,Couple,Autumn,5148.0
+815,9,Karnaphuli River,Naval Beach,Chittagong Circuit House,Chandranath Hill and Temple,Bashbaria Sea Beach,,,,,,Male,No,Solo,Autumn,9525.0
+816,10,Bhatiari,Bashbaria Sea Beach,Napittachora Waterfalls,Naval Beach,Chittagong Circuit House,Karnaphuli River,Patenga Sea Beach,Chandranath Hill and Temple,Foy's Lake,,Male,No,Family,Summer,20000.0
+817,5,Chittagong Circuit House,Foy's Lake,Khoiyachora Waterfall,Chandranath Hill and Temple,Bhatiari,Patenga Sea Beach,Bashbaria Sea Beach,Napittachora Waterfalls,Guliakhali Sea Beach,Abhay Mitra Ghat,Female,Yes,Friends,Winter,11336.0
+818,2,Napittachora Waterfalls,Guliakhali Sea Beach,Karnaphuli River,Bashbaria Sea Beach,Naval Beach,Patenga Sea Beach,,,,,Female,Yes,Solo,Autumn,11802.0
+819,4,Guliakhali Sea Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,Mohamaya Lake,Patenga Sea Beach,,,,,,Female,Yes,Couple,Monsoon,15952.8
+820,1,Bhatiari,Napittachora Waterfalls,Naval Beach,Bashbaria Sea Beach,Guliakhali Sea Beach,Mohamaya Lake,Khoiyachora Waterfall,,,,Male,Yes,Family,Autumn,12246.0
+821,4,Chandranath Hill and Temple,Naval Beach,Chittagong Circuit House,Bashbaria Sea Beach,Patenga Sea Beach,Abhay Mitra Ghat,Khoiyachora Waterfall,Mohamaya Lake,Bhatiari,,Female,Yes,Friends,Summer,15910.0
+822,4,Khoiyachora Waterfall,Karnaphuli River,Chandranath Hill and Temple,Chittagong Circuit House,Abhay Mitra Ghat,Mohamaya Lake,Patenga Sea Beach,Napittachora Waterfalls,,,Male,Yes,Solo,Autumn,10293.0
+823,3,Bashbaria Sea Beach,Napittachora Waterfalls,Abhay Mitra Ghat,Khoiyachora Waterfall,,,,,,,Male,No,Couple,Monsoon,4756.8
+824,4,Patenga Sea Beach,Bhatiari,Karnaphuli River,Mohamaya Lake,Chittagong Circuit House,Khoiyachora Waterfall,Napittachora Waterfalls,Bashbaria Sea Beach,Abhay Mitra Ghat,Naval Beach,Male,No,Friends,Autumn,13987.0
+825,7,Chandranath Hill and Temple,Bhatiari,Naval Beach,Napittachora Waterfalls,,,,,,,Male,No,Friends,Winter,5541.0
+826,4,Chandranath Hill and Temple,Bhatiari,Chittagong Circuit House,Napittachora Waterfalls,Khoiyachora Waterfall,Patenga Sea Beach,Mohamaya Lake,Naval Beach,,,Female,No,Solo,Monsoon,15538.0
+827,10,Guliakhali Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,Naval Beach,Bashbaria Sea Beach,Mohamaya Lake,Bhatiari,Chittagong Circuit House,Napittachora Waterfalls,,Male,Yes,Solo,Autumn,11999.0
+828,10,Mohamaya Lake,Patenga Sea Beach,Bhatiari,Naval Beach,Napittachora Waterfalls,Chittagong Circuit House,Karnaphuli River,Bashbaria Sea Beach,Abhay Mitra Ghat,Guliakhali Sea Beach,Female,Yes,Friends,Summer,17268.0
+829,5,Chittagong Circuit House,Karnaphuli River,Napittachora Waterfalls,Naval Beach,,,,,,,Male,Yes,Friends,Monsoon,7947.0
+830,1,Abhay Mitra Ghat,Guliakhali Sea Beach,Naval Beach,Napittachora Waterfalls,Patenga Sea Beach,Bashbaria Sea Beach,,,,,Female,No,Friends,Summer,11947.0
+831,9,Chittagong Circuit House,Foy's Lake,Mohamaya Lake,Guliakhali Sea Beach,Chandranath Hill and Temple,Abhay Mitra Ghat,Bashbaria Sea Beach,Napittachora Waterfalls,,,Female,Yes,Friends,Summer,10637.0
+832,7,Khoiyachora Waterfall,Abhay Mitra Ghat,Mohamaya Lake,Guliakhali Sea Beach,Naval Beach,Chandranath Hill and Temple,Napittachora Waterfalls,,,,Male,No,Friends,Winter,17786.0
+833,10,Karnaphuli River,Khoiyachora Waterfall,,,,,,,,,Male,No,Family,Summer,9510.0
+834,2,Bhatiari,Khoiyachora Waterfall,Chandranath Hill and Temple,,,,,,,,Female,No,Couple,Autumn,9513.6
+835,6,Patenga Sea Beach,Chittagong Circuit House,Karnaphuli River,Bhatiari,Napittachora Waterfalls,Naval Beach,,,,,Female,Yes,Solo,Summer,13924.0
+836,7,Naval Beach,Mohamaya Lake,Foy's Lake,Chittagong Circuit House,Bashbaria Sea Beach,Abhay Mitra Ghat,Napittachora Waterfalls,,,,Female,Yes,Solo,Summer,13720.0
+837,6,Chandranath Hill and Temple,Abhay Mitra Ghat,Bhatiari,Foy's Lake,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,Male,Yes,Friends,Monsoon,5603.0
+838,8,Naval Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,Mohamaya Lake,Bhatiari,Chittagong Circuit House,Abhay Mitra Ghat,Guliakhali Sea Beach,,Female,No,Family,Summer,14499.0
+839,10,Mohamaya Lake,,,,,,,,,,Male,No,Couple,Autumn,19988.399999999998
+840,9,Naval Beach,Abhay Mitra Ghat,Patenga Sea Beach,Napittachora Waterfalls,Karnaphuli River,Guliakhali Sea Beach,Chandranath Hill and Temple,Bashbaria Sea Beach,,,Female,No,Couple,Autumn,7633.2
+841,5,Karnaphuli River,Abhay Mitra Ghat,Mohamaya Lake,Bashbaria Sea Beach,Naval Beach,Chandranath Hill and Temple,Bhatiari,Khoiyachora Waterfall,,,Male,No,Friends,Summer,3868.0
+842,3,Bashbaria Sea Beach,Abhay Mitra Ghat,Bhatiari,Naval Beach,Napittachora Waterfalls,Chandranath Hill and Temple,Karnaphuli River,Patenga Sea Beach,Khoiyachora Waterfall,Chittagong Circuit House,Female,Yes,Solo,Autumn,13146.0
+843,9,Chittagong Circuit House,Foy's Lake,Naval Beach,Chandranath Hill and Temple,,,,,,,Male,No,Couple,Summer,20000.0
+844,3,Karnaphuli River,Abhay Mitra Ghat,Chittagong Circuit House,Foy's Lake,,,,,,,Male,Yes,Solo,Winter,11738.0
+845,10,Khoiyachora Waterfall,Chandranath Hill and Temple,Foy's Lake,Guliakhali Sea Beach,Naval Beach,Mohamaya Lake,Chittagong Circuit House,Bhatiari,,,Female,No,Couple,Autumn,20000.0
+846,1,Patenga Sea Beach,Chittagong Circuit House,Mohamaya Lake,Naval Beach,Bashbaria Sea Beach,,,,,,Female,No,Friends,Winter,8885.0
+847,8,Patenga Sea Beach,Abhay Mitra Ghat,,,,,,,,,Female,Yes,Solo,Winter,4046.0
+848,8,Naval Beach,Bashbaria Sea Beach,Mohamaya Lake,Patenga Sea Beach,Khoiyachora Waterfall,Bhatiari,Guliakhali Sea Beach,Napittachora Waterfalls,Karnaphuli River,Chandranath Hill and Temple,Male,No,Family,Monsoon,20000.0
+849,2,Bhatiari,Patenga Sea Beach,Chittagong Circuit House,Naval Beach,Napittachora Waterfalls,Khoiyachora Waterfall,,,,,Male,No,Solo,Monsoon,6467.0
+850,8,Foy's Lake,Chittagong Circuit House,Karnaphuli River,Bashbaria Sea Beach,Naval Beach,Khoiyachora Waterfall,Chandranath Hill and Temple,Bhatiari,Guliakhali Sea Beach,Napittachora Waterfalls,Female,Yes,Friends,Winter,4022.0
+851,1,Patenga Sea Beach,Chandranath Hill and Temple,Guliakhali Sea Beach,Khoiyachora Waterfall,Naval Beach,,,,,,Female,Yes,Solo,Monsoon,18626.0
+852,3,Chittagong Circuit House,Khoiyachora Waterfall,Bhatiari,Karnaphuli River,Guliakhali Sea Beach,Abhay Mitra Ghat,Chandranath Hill and Temple,Foy's Lake,Bashbaria Sea Beach,,Male,No,Friends,Autumn,4794.0
+853,10,Foy's Lake,Naval Beach,Karnaphuli River,Bashbaria Sea Beach,,,,,,,Male,Yes,Couple,Winter,20000.0
+854,2,Napittachora Waterfalls,Karnaphuli River,Bashbaria Sea Beach,,,,,,,,Male,Yes,Family,Autumn,7762.5
+855,1,Napittachora Waterfalls,Chittagong Circuit House,Bashbaria Sea Beach,Patenga Sea Beach,Guliakhali Sea Beach,Naval Beach,Chandranath Hill and Temple,Karnaphuli River,Bhatiari,Khoiyachora Waterfall,Female,Yes,Family,Summer,11872.5
+856,6,Foy's Lake,Guliakhali Sea Beach,,,,,,,,,Female,Yes,Family,Summer,8908.5
+857,1,Abhay Mitra Ghat,Foy's Lake,Bashbaria Sea Beach,Patenga Sea Beach,Bhatiari,Guliakhali Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,,,Male,Yes,Solo,Monsoon,17435.0
+858,9,Bashbaria Sea Beach,Napittachora Waterfalls,Foy's Lake,Chandranath Hill and Temple,,,,,,,Male,No,Couple,Monsoon,15368.4
+859,3,Naval Beach,Guliakhali Sea Beach,Patenga Sea Beach,Karnaphuli River,Bhatiari,Khoiyachora Waterfall,Chandranath Hill and Temple,Foy's Lake,Mohamaya Lake,Abhay Mitra Ghat,Female,Yes,Solo,Summer,5057.0
+860,9,Naval Beach,Abhay Mitra Ghat,Chittagong Circuit House,Patenga Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,Male,No,Solo,Summer,5263.0
+861,8,Chandranath Hill and Temple,,,,,,,,,,Male,Yes,Couple,Autumn,3849.6
+862,3,Mohamaya Lake,Chandranath Hill and Temple,Bhatiari,Abhay Mitra Ghat,Patenga Sea Beach,Naval Beach,Karnaphuli River,Napittachora Waterfalls,,,Male,No,Solo,Summer,7436.0
+863,3,Chandranath Hill and Temple,,,,,,,,,,Male,Yes,Friends,Autumn,12837.0
+864,9,Bhatiari,Khoiyachora Waterfall,Chittagong Circuit House,Naval Beach,Patenga Sea Beach,Foy's Lake,Bashbaria Sea Beach,Guliakhali Sea Beach,Napittachora Waterfalls,,Male,Yes,Solo,Winter,11599.0
+865,2,Naval Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,,,Male,No,Solo,Monsoon,4344.0
+866,8,Guliakhali Sea Beach,Napittachora Waterfalls,Foy's Lake,Patenga Sea Beach,Naval Beach,Bashbaria Sea Beach,,,,,Female,No,Friends,Monsoon,4640.0
+867,10,Mohamaya Lake,,,,,,,,,,Male,No,Couple,Summer,4363.2
+868,3,Guliakhali Sea Beach,Naval Beach,Karnaphuli River,Napittachora Waterfalls,Mohamaya Lake,Chittagong Circuit House,Bashbaria Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,,Male,Yes,Couple,Summer,15484.8
+869,10,Bhatiari,Khoiyachora Waterfall,Abhay Mitra Ghat,Chittagong Circuit House,Guliakhali Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,,,,Female,No,Family,Winter,9787.5
+870,9,Bashbaria Sea Beach,Bhatiari,Chittagong Circuit House,Patenga Sea Beach,,,,,,,Male,Yes,Couple,Monsoon,12144.0
+871,10,Chittagong Circuit House,Bhatiari,Abhay Mitra Ghat,Napittachora Waterfalls,Khoiyachora Waterfall,Chandranath Hill and Temple,,,,,Male,Yes,Solo,Winter,13348.0
+872,9,Bashbaria Sea Beach,Chittagong Circuit House,Khoiyachora Waterfall,Napittachora Waterfalls,Guliakhali Sea Beach,Patenga Sea Beach,Naval Beach,,,,Female,Yes,Couple,Summer,20000.0
+873,8,Khoiyachora Waterfall,Abhay Mitra Ghat,Bhatiari,Patenga Sea Beach,Mohamaya Lake,Foy's Lake,Naval Beach,Guliakhali Sea Beach,,,Female,Yes,Friends,Winter,8017.0
+874,8,Napittachora Waterfalls,Naval Beach,Mohamaya Lake,Chandranath Hill and Temple,Bashbaria Sea Beach,Patenga Sea Beach,,,,,Female,Yes,Family,Autumn,20000.0
+875,1,Guliakhali Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,,,,Male,Yes,Friends,Monsoon,11361.0
+876,3,Guliakhali Sea Beach,Chandranath Hill and Temple,,,,,,,,,Male,Yes,Couple,Autumn,11554.8
+877,2,Naval Beach,Bhatiari,Chandranath Hill and Temple,Patenga Sea Beach,,,,,,,Female,Yes,Solo,Monsoon,16867.0
+878,1,Foy's Lake,Guliakhali Sea Beach,Patenga Sea Beach,Mohamaya Lake,,,,,,,Female,No,Family,Monsoon,20000.0
+879,3,Karnaphuli River,Napittachora Waterfalls,Guliakhali Sea Beach,,,,,,,,Male,Yes,Family,Monsoon,20000.0
+880,10,Napittachora Waterfalls,Abhay Mitra Ghat,Patenga Sea Beach,Naval Beach,Chandranath Hill and Temple,Karnaphuli River,Foy's Lake,Chittagong Circuit House,Bashbaria Sea Beach,,Female,No,Couple,Autumn,9198.0
+881,3,Naval Beach,Foy's Lake,Chittagong Circuit House,Abhay Mitra Ghat,Karnaphuli River,Khoiyachora Waterfall,Bhatiari,Chandranath Hill and Temple,,,Male,Yes,Family,Winter,15645.0
+882,4,Napittachora Waterfalls,Chandranath Hill and Temple,Abhay Mitra Ghat,Khoiyachora Waterfall,Mohamaya Lake,Bashbaria Sea Beach,Bhatiari,,,,Male,Yes,Solo,Monsoon,3036.0
+883,8,Mohamaya Lake,Abhay Mitra Ghat,Khoiyachora Waterfall,Chittagong Circuit House,Bhatiari,Guliakhali Sea Beach,,,,,Male,No,Solo,Autumn,9621.0
+884,1,Mohamaya Lake,Abhay Mitra Ghat,Foy's Lake,Chittagong Circuit House,Chandranath Hill and Temple,Patenga Sea Beach,Naval Beach,,,,Male,No,Couple,Monsoon,20000.0
+885,7,Abhay Mitra Ghat,Foy's Lake,Mohamaya Lake,Chandranath Hill and Temple,Bhatiari,,,,,,Male,Yes,Friends,Summer,18196.0
+886,10,Khoiyachora Waterfall,Napittachora Waterfalls,Chandranath Hill and Temple,Bashbaria Sea Beach,Bhatiari,Chittagong Circuit House,Mohamaya Lake,Guliakhali Sea Beach,,,Female,Yes,Friends,Autumn,5220.0
+887,7,Foy's Lake,Napittachora Waterfalls,Guliakhali Sea Beach,,,,,,,,Male,No,Couple,Summer,15112.8
+888,5,Mohamaya Lake,Khoiyachora Waterfall,Foy's Lake,Naval Beach,Bhatiari,Guliakhali Sea Beach,Abhay Mitra Ghat,,,,Female,No,Friends,Winter,17735.0
+889,9,Khoiyachora Waterfall,Guliakhali Sea Beach,Bhatiari,Karnaphuli River,Bashbaria Sea Beach,,,,,,Female,No,Solo,Winter,13854.0
+890,4,Bashbaria Sea Beach,Patenga Sea Beach,Mohamaya Lake,Chandranath Hill and Temple,Chittagong Circuit House,Foy's Lake,Bhatiari,Khoiyachora Waterfall,Napittachora Waterfalls,,Male,Yes,Solo,Monsoon,15404.0
+891,9,Naval Beach,Mohamaya Lake,Khoiyachora Waterfall,Bashbaria Sea Beach,Chittagong Circuit House,Patenga Sea Beach,Chandranath Hill and Temple,,,,Male,Yes,Couple,Winter,14160.0
+892,2,Chandranath Hill and Temple,Bashbaria Sea Beach,Khoiyachora Waterfall,Karnaphuli River,Napittachora Waterfalls,Guliakhali Sea Beach,,,,,Female,Yes,Couple,Winter,15286.8
+893,7,Foy's Lake,Chandranath Hill and Temple,Khoiyachora Waterfall,Karnaphuli River,Bashbaria Sea Beach,,,,,,Female,Yes,Family,Summer,20000.0
+894,8,Chittagong Circuit House,Chandranath Hill and Temple,Abhay Mitra Ghat,Guliakhali Sea Beach,Foy's Lake,Patenga Sea Beach,Bhatiari,,,,Female,Yes,Solo,Autumn,7862.0
+895,5,Mohamaya Lake,Patenga Sea Beach,Karnaphuli River,Chandranath Hill and Temple,,,,,,,Male,No,Couple,Summer,12411.6
+896,8,Patenga Sea Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,Karnaphuli River,Mohamaya Lake,Chittagong Circuit House,Abhay Mitra Ghat,Guliakhali Sea Beach,,,Male,No,Solo,Summer,19539.0
+897,8,Bhatiari,Bashbaria Sea Beach,Foy's Lake,Mohamaya Lake,Chandranath Hill and Temple,Abhay Mitra Ghat,Patenga Sea Beach,,,,Female,No,Couple,Autumn,5032.8
+898,5,Karnaphuli River,Guliakhali Sea Beach,Khoiyachora Waterfall,Patenga Sea Beach,,,,,,,Female,No,Family,Summer,15121.5
+899,3,Chandranath Hill and Temple,Khoiyachora Waterfall,Chittagong Circuit House,Napittachora Waterfalls,,,,,,,Male,No,Friends,Summer,14855.0
+900,9,Bhatiari,Foy's Lake,Patenga Sea Beach,Naval Beach,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,Male,Yes,Couple,Autumn,14774.4
+901,10,Napittachora Waterfalls,,,,,,,,,,Male,No,Family,Autumn,19233.0
+902,6,Mohamaya Lake,Abhay Mitra Ghat,Guliakhali Sea Beach,Bhatiari,Chandranath Hill and Temple,Chittagong Circuit House,Naval Beach,,,,Female,Yes,Couple,Autumn,5066.4
+903,2,Bhatiari,Abhay Mitra Ghat,Chandranath Hill and Temple,Mohamaya Lake,Naval Beach,Patenga Sea Beach,Karnaphuli River,Guliakhali Sea Beach,Khoiyachora Waterfall,Napittachora Waterfalls,Female,No,Solo,Summer,18281.0
+904,10,Bashbaria Sea Beach,Khoiyachora Waterfall,Karnaphuli River,Mohamaya Lake,Guliakhali Sea Beach,Foy's Lake,Abhay Mitra Ghat,Chandranath Hill and Temple,Chittagong Circuit House,,Male,No,Friends,Winter,7809.0
+905,4,Naval Beach,Mohamaya Lake,,,,,,,,,Female,Yes,Solo,Monsoon,18565.0
+906,9,Mohamaya Lake,Karnaphuli River,Napittachora Waterfalls,Chittagong Circuit House,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,Male,Yes,Couple,Autumn,19410.0
+907,9,Naval Beach,Karnaphuli River,Mohamaya Lake,Khoiyachora Waterfall,,,,,,,Male,Yes,Solo,Monsoon,5462.0
+908,4,Patenga Sea Beach,Chittagong Circuit House,Napittachora Waterfalls,Foy's Lake,Karnaphuli River,Chandranath Hill and Temple,Mohamaya Lake,Bashbaria Sea Beach,Khoiyachora Waterfall,,Male,Yes,Solo,Autumn,18276.0
+909,8,Bhatiari,Karnaphuli River,Patenga Sea Beach,Chittagong Circuit House,Khoiyachora Waterfall,Napittachora Waterfalls,,,,,Male,No,Friends,Monsoon,18451.0
+910,6,Abhay Mitra Ghat,Mohamaya Lake,Karnaphuli River,Patenga Sea Beach,Chittagong Circuit House,Bhatiari,Bashbaria Sea Beach,Chandranath Hill and Temple,Naval Beach,Guliakhali Sea Beach,Female,Yes,Solo,Winter,17435.0
+911,7,Chandranath Hill and Temple,Khoiyachora Waterfall,Guliakhali Sea Beach,Foy's Lake,,,,,,,Male,Yes,Friends,Monsoon,11129.0
+912,8,Foy's Lake,Khoiyachora Waterfall,Karnaphuli River,Chittagong Circuit House,Mohamaya Lake,Naval Beach,Chandranath Hill and Temple,Napittachora Waterfalls,,,Male,Yes,Friends,Winter,14551.0
+913,8,Karnaphuli River,Naval Beach,Khoiyachora Waterfall,Chittagong Circuit House,Napittachora Waterfalls,Guliakhali Sea Beach,Foy's Lake,Abhay Mitra Ghat,,,Male,Yes,Couple,Winter,19016.399999999998
+914,6,Mohamaya Lake,Foy's Lake,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,,Female,No,Friends,Monsoon,15796.0
+915,3,Abhay Mitra Ghat,Chittagong Circuit House,,,,,,,,,Male,Yes,Solo,Summer,12764.0
+916,7,Guliakhali Sea Beach,Khoiyachora Waterfall,Foy's Lake,Patenga Sea Beach,,,,,,,Female,Yes,Solo,Winter,8993.0
+917,3,Karnaphuli River,Bashbaria Sea Beach,Guliakhali Sea Beach,Khoiyachora Waterfall,Chittagong Circuit House,Patenga Sea Beach,Bhatiari,Chandranath Hill and Temple,,,Male,No,Family,Monsoon,5832.0
+918,10,Khoiyachora Waterfall,Mohamaya Lake,Chandranath Hill and Temple,Bhatiari,Naval Beach,Chittagong Circuit House,Bashbaria Sea Beach,Abhay Mitra Ghat,Napittachora Waterfalls,,Male,No,Solo,Winter,14565.0
+919,9,Patenga Sea Beach,Guliakhali Sea Beach,Foy's Lake,Karnaphuli River,Abhay Mitra Ghat,Naval Beach,Bashbaria Sea Beach,,,,Female,No,Family,Autumn,7722.0
+920,3,Patenga Sea Beach,Abhay Mitra Ghat,Chittagong Circuit House,Naval Beach,Bashbaria Sea Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,Female,No,Friends,Summer,6262.0
+921,1,Chandranath Hill and Temple,Napittachora Waterfalls,Mohamaya Lake,Karnaphuli River,Abhay Mitra Ghat,Bashbaria Sea Beach,Chittagong Circuit House,Patenga Sea Beach,Khoiyachora Waterfall,Guliakhali Sea Beach,Male,Yes,Solo,Summer,8468.0
+922,4,Khoiyachora Waterfall,Foy's Lake,Napittachora Waterfalls,Patenga Sea Beach,Naval Beach,,,,,,Female,No,Friends,Summer,4084.0
+923,3,Guliakhali Sea Beach,,,,,,,,,,Female,No,Family,Summer,6933.0
+924,10,Bashbaria Sea Beach,Abhay Mitra Ghat,Patenga Sea Beach,Guliakhali Sea Beach,Foy's Lake,Mohamaya Lake,,,,,Female,Yes,Solo,Summer,12463.0
+925,6,Naval Beach,Mohamaya Lake,Karnaphuli River,Bashbaria Sea Beach,Bhatiari,Napittachora Waterfalls,Guliakhali Sea Beach,Patenga Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,Male,No,Solo,Monsoon,8537.0
+926,8,Bashbaria Sea Beach,Abhay Mitra Ghat,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,,Male,Yes,Couple,Winter,5382.0
+927,4,Napittachora Waterfalls,Guliakhali Sea Beach,Karnaphuli River,Bashbaria Sea Beach,Foy's Lake,Naval Beach,Patenga Sea Beach,,,,Female,No,Friends,Autumn,9702.0
+928,1,Karnaphuli River,Napittachora Waterfalls,Mohamaya Lake,Bashbaria Sea Beach,Khoiyachora Waterfall,Bhatiari,Abhay Mitra Ghat,Patenga Sea Beach,,,Female,Yes,Friends,Summer,9271.0
+929,5,Napittachora Waterfalls,Abhay Mitra Ghat,Naval Beach,,,,,,,,Male,Yes,Couple,Monsoon,4261.2
+930,3,Foy's Lake,Patenga Sea Beach,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,,Female,No,Solo,Summer,19762.0
+931,1,Mohamaya Lake,Bhatiari,Naval Beach,,,,,,,,Female,Yes,Friends,Autumn,12219.0
+932,6,Guliakhali Sea Beach,,,,,,,,,,Male,No,Friends,Autumn,8176.0
+933,8,Abhay Mitra Ghat,Napittachora Waterfalls,Naval Beach,,,,,,,,Male,Yes,Couple,Winter,7456.799999999999
+934,5,Khoiyachora Waterfall,Naval Beach,Foy's Lake,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,Female,No,Couple,Autumn,4734.0
+935,9,Karnaphuli River,Naval Beach,Mohamaya Lake,Chittagong Circuit House,Foy's Lake,,,,,,Female,No,Friends,Monsoon,3566.0
+936,5,Chittagong Circuit House,,,,,,,,,,Male,Yes,Couple,Monsoon,7566.0
+937,10,Patenga Sea Beach,Naval Beach,,,,,,,,,Male,No,Family,Monsoon,16594.5
+938,7,Foy's Lake,Mohamaya Lake,Patenga Sea Beach,Chittagong Circuit House,Karnaphuli River,Khoiyachora Waterfall,,,,,Male,Yes,Couple,Winter,9892.8
+939,7,Naval Beach,Mohamaya Lake,Chandranath Hill and Temple,,,,,,,,Male,Yes,Family,Monsoon,18937.5
+940,9,Chittagong Circuit House,Bashbaria Sea Beach,Naval Beach,Karnaphuli River,Patenga Sea Beach,Chandranath Hill and Temple,,,,,Female,Yes,Friends,Monsoon,8182.0
+941,1,Abhay Mitra Ghat,Naval Beach,Chittagong Circuit House,Guliakhali Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,Bhatiari,,,,Male,Yes,Friends,Autumn,3768.0
+942,6,Chittagong Circuit House,Khoiyachora Waterfall,Bhatiari,Mohamaya Lake,Chandranath Hill and Temple,Foy's Lake,Karnaphuli River,Bashbaria Sea Beach,Naval Beach,,Female,No,Couple,Summer,20000.0
+943,10,Chandranath Hill and Temple,Chittagong Circuit House,Guliakhali Sea Beach,Foy's Lake,Naval Beach,Abhay Mitra Ghat,Bashbaria Sea Beach,Napittachora Waterfalls,Khoiyachora Waterfall,Patenga Sea Beach,Female,No,Solo,Winter,9691.0
+944,5,Karnaphuli River,Khoiyachora Waterfall,,,,,,,,,Male,No,Friends,Summer,5858.0
+945,2,Bashbaria Sea Beach,Patenga Sea Beach,Chittagong Circuit House,Foy's Lake,Napittachora Waterfalls,Karnaphuli River,,,,,Male,Yes,Friends,Summer,5207.0
+946,8,Chittagong Circuit House,Mohamaya Lake,Foy's Lake,Guliakhali Sea Beach,Chandranath Hill and Temple,Napittachora Waterfalls,Khoiyachora Waterfall,,,,Male,No,Friends,Summer,17025.0
+947,2,Naval Beach,Khoiyachora Waterfall,Bashbaria Sea Beach,Chandranath Hill and Temple,Chittagong Circuit House,Mohamaya Lake,Napittachora Waterfalls,,,,Female,Yes,Solo,Winter,10640.0
+948,7,Khoiyachora Waterfall,Patenga Sea Beach,Napittachora Waterfalls,,,,,,,,Male,Yes,Solo,Winter,19199.0
+949,7,Chandranath Hill and Temple,Patenga Sea Beach,Abhay Mitra Ghat,Guliakhali Sea Beach,Bashbaria Sea Beach,Naval Beach,Karnaphuli River,Chittagong Circuit House,Napittachora Waterfalls,Foy's Lake,Female,No,Family,Monsoon,17856.0
+950,10,Naval Beach,Chandranath Hill and Temple,Patenga Sea Beach,Guliakhali Sea Beach,Mohamaya Lake,Bhatiari,Khoiyachora Waterfall,Karnaphuli River,Bashbaria Sea Beach,,Female,Yes,Family,Summer,18580.5
+951,1,Guliakhali Sea Beach,Abhay Mitra Ghat,Naval Beach,Bhatiari,,,,,,,Male,No,Friends,Autumn,16596.0
+952,8,Khoiyachora Waterfall,Bashbaria Sea Beach,Abhay Mitra Ghat,Guliakhali Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,Bhatiari,Foy's Lake,Napittachora Waterfalls,,Male,Yes,Friends,Winter,18859.0
+953,2,Mohamaya Lake,Foy's Lake,Karnaphuli River,Chandranath Hill and Temple,Khoiyachora Waterfall,Napittachora Waterfalls,Bhatiari,Abhay Mitra Ghat,Patenga Sea Beach,Naval Beach,Male,No,Friends,Summer,10212.0
+954,4,Bashbaria Sea Beach,Foy's Lake,Chittagong Circuit House,Mohamaya Lake,,,,,,,Female,No,Friends,Autumn,17115.0
+955,2,Patenga Sea Beach,Mohamaya Lake,Bashbaria Sea Beach,,,,,,,,Female,Yes,Family,Winter,12852.0
+956,3,Bhatiari,Naval Beach,Abhay Mitra Ghat,Foy's Lake,Patenga Sea Beach,Guliakhali Sea Beach,Chittagong Circuit House,Chandranath Hill and Temple,Khoiyachora Waterfall,,Male,Yes,Friends,Autumn,5708.0
+957,8,Chandranath Hill and Temple,Guliakhali Sea Beach,,,,,,,,,Female,No,Friends,Summer,15906.0
+958,9,Bashbaria Sea Beach,Napittachora Waterfalls,Guliakhali Sea Beach,Patenga Sea Beach,Khoiyachora Waterfall,,,,,,Male,Yes,Couple,Winter,9979.199999999999
+959,6,Bashbaria Sea Beach,Abhay Mitra Ghat,Bhatiari,Chittagong Circuit House,Khoiyachora Waterfall,Guliakhali Sea Beach,Foy's Lake,Patenga Sea Beach,Karnaphuli River,,Male,No,Friends,Winter,19530.0
+960,6,Patenga Sea Beach,Bashbaria Sea Beach,Guliakhali Sea Beach,Mohamaya Lake,Karnaphuli River,Bhatiari,Napittachora Waterfalls,Naval Beach,Abhay Mitra Ghat,Chandranath Hill and Temple,Male,Yes,Family,Monsoon,20000.0
+961,10,Chittagong Circuit House,Chandranath Hill and Temple,Patenga Sea Beach,Naval Beach,Foy's Lake,Bhatiari,Napittachora Waterfalls,Khoiyachora Waterfall,Mohamaya Lake,Abhay Mitra Ghat,Male,Yes,Family,Winter,20000.0
+962,6,Napittachora Waterfalls,Abhay Mitra Ghat,,,,,,,,,Male,No,Solo,Monsoon,5738.0
+963,6,Abhay Mitra Ghat,Mohamaya Lake,Chittagong Circuit House,Khoiyachora Waterfall,Naval Beach,,,,,,Female,No,Friends,Winter,3067.0
+964,4,Abhay Mitra Ghat,Guliakhali Sea Beach,Bhatiari,Naval Beach,Chittagong Circuit House,Napittachora Waterfalls,,,,,Male,Yes,Solo,Autumn,12454.0
+965,1,Napittachora Waterfalls,Patenga Sea Beach,Khoiyachora Waterfall,Chandranath Hill and Temple,Abhay Mitra Ghat,Guliakhali Sea Beach,Naval Beach,,,,Female,No,Solo,Monsoon,8584.0
+966,9,Patenga Sea Beach,Guliakhali Sea Beach,Chittagong Circuit House,Foy's Lake,Chandranath Hill and Temple,Napittachora Waterfalls,,,,,Male,Yes,Family,Monsoon,11116.5
+967,9,Napittachora Waterfalls,,,,,,,,,,Female,Yes,Family,Summer,19923.0
+968,9,Patenga Sea Beach,,,,,,,,,,Male,Yes,Solo,Monsoon,3844.0
+969,5,Chittagong Circuit House,Guliakhali Sea Beach,Bashbaria Sea Beach,Naval Beach,,,,,,,Female,Yes,Solo,Monsoon,8183.0
+970,7,Bashbaria Sea Beach,Bhatiari,Guliakhali Sea Beach,Foy's Lake,Abhay Mitra Ghat,Patenga Sea Beach,Chandranath Hill and Temple,Karnaphuli River,Naval Beach,,Female,Yes,Couple,Winter,20000.0
+971,8,Bhatiari,Napittachora Waterfalls,Guliakhali Sea Beach,Chandranath Hill and Temple,Mohamaya Lake,Khoiyachora Waterfall,,,,,Male,Yes,Couple,Summer,10119.6
+972,10,Karnaphuli River,Chandranath Hill and Temple,Khoiyachora Waterfall,Bhatiari,Bashbaria Sea Beach,Foy's Lake,Mohamaya Lake,Guliakhali Sea Beach,,,Male,Yes,Couple,Monsoon,5349.599999999999
+973,3,Bashbaria Sea Beach,Khoiyachora Waterfall,,,,,,,,,Female,Yes,Solo,Monsoon,13820.0
+974,1,Napittachora Waterfalls,Naval Beach,Bashbaria Sea Beach,Khoiyachora Waterfall,,,,,,,Female,No,Friends,Monsoon,4673.0
+975,7,Patenga Sea Beach,Napittachora Waterfalls,Chandranath Hill and Temple,Mohamaya Lake,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,Male,Yes,Family,Monsoon,8889.0
+976,2,Patenga Sea Beach,Guliakhali Sea Beach,,,,,,,,,Male,Yes,Solo,Monsoon,4992.0
+977,10,Bhatiari,Bashbaria Sea Beach,Chittagong Circuit House,Mohamaya Lake,Napittachora Waterfalls,Karnaphuli River,Khoiyachora Waterfall,Chandranath Hill and Temple,,,Male,Yes,Couple,Summer,20000.0
+978,8,Naval Beach,Guliakhali Sea Beach,Bashbaria Sea Beach,,,,,,,,Female,Yes,Friends,Monsoon,11423.0
+979,1,Patenga Sea Beach,Guliakhali Sea Beach,,,,,,,,,Male,Yes,Solo,Winter,12610.0
+980,3,Abhay Mitra Ghat,Napittachora Waterfalls,Guliakhali Sea Beach,Mohamaya Lake,Bashbaria Sea Beach,Foy's Lake,,,,,Male,Yes,Solo,Summer,3104.0
+981,2,Bashbaria Sea Beach,Napittachora Waterfalls,Abhay Mitra Ghat,Bhatiari,Khoiyachora Waterfall,Mohamaya Lake,,,,,Male,No,Solo,Summer,4369.0
+982,5,Mohamaya Lake,Foy's Lake,Khoiyachora Waterfall,Chittagong Circuit House,Bhatiari,Bashbaria Sea Beach,,,,,Male,Yes,Family,Winter,8842.5
+983,9,Naval Beach,Napittachora Waterfalls,,,,,,,,,Male,No,Friends,Monsoon,3983.0
+984,7,Abhay Mitra Ghat,Mohamaya Lake,Guliakhali Sea Beach,Bashbaria Sea Beach,Karnaphuli River,Foy's Lake,Patenga Sea Beach,Naval Beach,,,Female,Yes,Family,Summer,19503.0
+985,9,Khoiyachora Waterfall,Bhatiari,Naval Beach,Guliakhali Sea Beach,Chandranath Hill and Temple,Patenga Sea Beach,Karnaphuli River,,,,Male,Yes,Friends,Autumn,6577.0
+986,7,Foy's Lake,Bhatiari,Abhay Mitra Ghat,Karnaphuli River,Patenga Sea Beach,Guliakhali Sea Beach,Khoiyachora Waterfall,Naval Beach,,,Male,Yes,Family,Monsoon,20000.0
+987,6,Abhay Mitra Ghat,Naval Beach,Guliakhali Sea Beach,,,,,,,,Female,Yes,Friends,Summer,19878.0
+988,7,Napittachora Waterfalls,Naval Beach,,,,,,,,,Female,No,Friends,Summer,18899.0
+989,3,Mohamaya Lake,Napittachora Waterfalls,Chandranath Hill and Temple,Abhay Mitra Ghat,,,,,,,Male,Yes,Solo,Autumn,14407.0
+990,3,Chandranath Hill and Temple,Patenga Sea Beach,Naval Beach,,,,,,,,Female,Yes,Solo,Winter,7897.0
+991,9,Mohamaya Lake,Naval Beach,Karnaphuli River,Abhay Mitra Ghat,Chittagong Circuit House,Guliakhali Sea Beach,,,,,Female,Yes,Couple,Autumn,18193.2
+992,1,Bhatiari,Bashbaria Sea Beach,Foy's Lake,Mohamaya Lake,Naval Beach,Patenga Sea Beach,Abhay Mitra Ghat,Karnaphuli River,Guliakhali Sea Beach,,Female,Yes,Couple,Monsoon,4306.8
+993,3,Chittagong Circuit House,Guliakhali Sea Beach,,,,,,,,,Female,Yes,Friends,Winter,18062.0
+994,6,Chittagong Circuit House,Bashbaria Sea Beach,,,,,,,,,Female,No,Couple,Winter,19130.399999999998
+995,8,Bashbaria Sea Beach,Chandranath Hill and Temple,Khoiyachora Waterfall,,,,,,,,Male,Yes,Family,Summer,11260.5
+996,1,Chittagong Circuit House,Foy's Lake,Mohamaya Lake,Bashbaria Sea Beach,Patenga Sea Beach,Napittachora Waterfalls,Bhatiari,,,,Male,Yes,Solo,Summer,8831.0
+997,10,Guliakhali Sea Beach,Patenga Sea Beach,Napittachora Waterfalls,Foy's Lake,Mohamaya Lake,Karnaphuli River,Abhay Mitra Ghat,Chittagong Circuit House,Khoiyachora Waterfall,Naval Beach,Female,No,Solo,Summer,17748.0
+998,6,Chittagong Circuit House,Napittachora Waterfalls,Abhay Mitra Ghat,Chandranath Hill and Temple,Karnaphuli River,Guliakhali Sea Beach,Foy's Lake,Bhatiari,Bashbaria Sea Beach,,Female,Yes,Couple,Summer,3906.0
+999,2,Abhay Mitra Ghat,Guliakhali Sea Beach,Karnaphuli River,Mohamaya Lake,Khoiyachora Waterfall,Bhatiari,Napittachora Waterfalls,Bashbaria Sea Beach,,,Female,No,Couple,Summer,7191.599999999999
+1000,5,Khoiyachora Waterfall,Abhay Mitra Ghat,Mohamaya Lake,Patenga Sea Beach,Naval Beach,,,,,,Female,No,Couple,Autumn,4930.8

@@ -231,11 +231,62 @@ def predict_place2(budget, day, gender, children, with_person, season, place1_pr
 predicted_place = predict_place2(15000, 3, 'Male', 'No', 'Friends', 'Summer',predicted_place)
 print(f"Predicted 'Place 2': {predicted_place}")
 
-predicted_place = predict_place1(5000, 4, 'Female', 'No', 'Friends', 'Winter')
-print(f"Predicted 'Place 1': {predicted_place}")
-predicted_place = predict_place2(5000, 4, 'Female', 'No', 'Friends', 'Winter',predicted_place)
-print(f"Predicted 'Place 2': {predicted_place}")
 
 
-def printy(n):
-    return f"I am printy {n}"
+
+#predict(10000,5,"Male","Yes", "Friends", "Winter")
+
+
+
+
+def predict_place(budget, days, gender, child, withs, season, num_places=1):
+    """
+    Predict the top N places based on the given parameters, excluding 'None'.
+
+    :param budget: Budget for the trip.
+    :param days: Number of days of the trip.
+    :param gender: Gender of the visitor.
+    :param child: Whether children are accompanying.
+    :param withs: Type of companion for the trip.
+    :param season: Season of the visit.
+    :param num_places: Number of top places to predict.
+    :return: A list of the top N predicted place names, excluding 'None'.
+    """
+    # Encode the input features
+    encoded_features = {
+        'Budget': budget,  # Assuming Budget is numeric and doesn't need encoding
+        'Day': days,        # Assuming Day is numeric and doesn't need encoding
+        'Gender': le_gender.transform([gender])[0],
+        'Children': le_children.transform([child])[0],
+        'with': le_with.transform([withs])[0],
+        'season': le_season.transform([season])[0]
+    }
+
+    # Convert encoded features to a DataFrame
+    feature_df = pd.DataFrame([encoded_features], columns=encoded_features.keys())
+
+    # Predict the probabilities for all places
+    probabilities = rf_classifier.predict_proba(feature_df)[0]
+
+    # Sort indices by probability, highest first
+    sorted_indices = np.argsort(probabilities)[::-1]
+
+    # Decode each index and check if it's 'None', exclude 'None' from top predictions
+    top_places = []
+    for index in sorted_indices:
+        place_name = le_place1.inverse_transform([index])[0]
+        if place_name != 'None' and len(top_places) < num_places:
+            top_places.append(place_name)
+
+    return top_places
+
+# Example usage of the function
+top_predicted_places = predict_place(10000, 5, "Male", "Yes", "Friends", "Winter", 3)
+print(f"Top Predicted Places: {top_predicted_places}")
+
+
+# Example usage of the function
+top_predicted_places = predict_place(10000, 5, "Male", "Yes", "Friends", "Winter", 6)
+print(f"Top Predicted Places: {top_predicted_places}")
+
+
