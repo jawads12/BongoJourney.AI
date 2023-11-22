@@ -1,0 +1,1001 @@
+User-ID,Budget,Day,Place 1,Place 2,Place 3,Place 4,Place 5,Place 6,Gender,Children,with,season
+202300101,23322,1,Patenga,Parkir Chor,Suptadhara,Satkania,,,Female,Yes,Alone,Summer
+202300102,24549,4,Parkir Chor,Satkania,Chandranath,Bashkhali,KhaiyaChora,,Other,Yes,Couple,Summer
+202300103,17541,1,Suptadhara,,,,,,Female,No,Friends,Autumn
+202300104,23667,1,Raojan,,,,,,Male,Yes,Alone,Autumn
+202300105,23833,3,Chittagong University,Parkir Chor,Bashkhali,Fatikchari,Chandranath,,Male,No,Couple,Autumn
+202300106,27478,4,Chandranath,Satkania,KhaiyaChora,Raojan,Chittagong University,Fatikchari,Other,No,Alone,Rainy
+202300107,15483,7,Guliakhali,Satkania,Suptadhara,Chandranath,Bashkhali,,Other,No,Family,Rainy
+202300108,17240,1,Raojan,Fatikchari,Chittagong University,Parkir Chor,Satkania,KhaiyaChora,Male,No,Friends,Rainy
+202300109,16589,4,Chittagong University,,,,,,Other,No,Couple,Autumn
+202300110,28597,2,Suptadhara,,,,,,Male,No,Alone,Summer
+202300111,20602,6,Chandranath,Fatikchari,Satkania,Chittagong University,Parkir Chor,Raojan,Female,Yes,Friends,Winter
+202300112,10553,5,Fatikchari,Parkir Chor,Patenga,,,,Other,Yes,Family,Rainy
+202300113,19377,5,Guliakhali,,,,,,Female,Yes,Family,Winter
+202300114,7906,2,Raojan,Satkania,Guliakhali,Bashkhali,,,Male,Yes,Family,Rainy
+202300115,23890,5,KhaiyaChora,,,,,,Male,No,Friends,Rainy
+202300116,27249,6,KhaiyaChora,Raojan,Patenga,Satkania,Suptadhara,,Female,No,Couple,Summer
+202300117,7111,1,Patenga,KhaiyaChora,Raojan,Fatikchari,Bashkhali,Suptadhara,Male,No,Family,Rainy
+202300118,29304,5,Fatikchari,,,,,,Female,No,Alone,Autumn
+202300119,17957,1,Raojan,Suptadhara,Satkania,,,,Male,Yes,Family,Rainy
+202300120,22967,1,Suptadhara,Satkania,,,,,Female,No,Couple,Winter
+202300121,19571,5,Patenga,Guliakhali,Suptadhara,Chandranath,,,Other,Yes,Friends,Autumn
+202300122,5742,7,KhaiyaChora,,,,,,Male,Yes,Friends,Autumn
+202300123,15565,4,Fatikchari,Parkir Chor,,,,,Other,No,Family,Autumn
+202300124,21032,6,Guliakhali,Parkir Chor,Fatikchari,Raojan,Patenga,Satkania,Other,Yes,Friends,Winter
+202300125,8092,2,Patenga,Chittagong University,KhaiyaChora,Guliakhali,,,Male,No,Alone,Rainy
+202300126,25191,6,Chandranath,Fatikchari,Parkir Chor,Guliakhali,,,Female,No,Family,Winter
+202300127,24799,4,Raojan,KhaiyaChora,Parkir Chor,Fatikchari,Satkania,,Female,No,Family,Summer
+202300128,27641,6,Parkir Chor,Suptadhara,Bashkhali,Patenga,Fatikchari,Raojan,Other,Yes,Alone,Winter
+202300129,9222,2,Guliakhali,,,,,,Female,No,Couple,Summer
+202300130,5729,4,Guliakhali,Raojan,KhaiyaChora,Chandranath,,,Male,No,Family,Winter
+202300131,15766,5,Guliakhali,Satkania,,,,,Other,Yes,Couple,Autumn
+202300132,9927,6,Raojan,Chittagong University,Satkania,,,,Male,No,Family,Winter
+202300133,10703,7,KhaiyaChora,Chandranath,,,,,Male,Yes,Couple,Winter
+202300134,29382,7,Patenga,,,,,,Female,No,Alone,Rainy
+202300135,17819,1,Fatikchari,,,,,,Other,Yes,Friends,Winter
+202300136,19246,3,KhaiyaChora,,,,,,Female,No,Family,Winter
+202300137,22398,3,Parkir Chor,Suptadhara,KhaiyaChora,Patenga,Chittagong University,,Female,Yes,Friends,Winter
+202300138,28582,2,Suptadhara,Guliakhali,Parkir Chor,Chittagong University,,,Male,No,Alone,Rainy
+202300139,13440,2,KhaiyaChora,Raojan,Guliakhali,Patenga,Chittagong University,,Female,Yes,Couple,Summer
+202300140,23931,3,Chittagong University,Chandranath,Patenga,Parkir Chor,Guliakhali,,Other,Yes,Alone,Winter
+202300141,10861,5,Parkir Chor,,,,,,Other,No,Friends,Rainy
+202300142,24073,2,Raojan,Guliakhali,Suptadhara,Bashkhali,,,Other,Yes,Friends,Winter
+202300143,15782,1,Chandranath,Parkir Chor,KhaiyaChora,Fatikchari,,,Male,Yes,Family,Summer
+202300144,9910,1,Guliakhali,,,,,,Other,No,Friends,Summer
+202300145,28783,1,Chittagong University,Guliakhali,Suptadhara,Patenga,Satkania,KhaiyaChora,Female,Yes,Family,Summer
+202300146,18223,5,Raojan,Fatikchari,Suptadhara,Satkania,Guliakhali,Bashkhali,Female,Yes,Friends,Rainy
+202300147,23454,4,Chandranath,Raojan,Bashkhali,Satkania,Suptadhara,Fatikchari,Male,Yes,Friends,Autumn
+202300148,23345,6,Guliakhali,Parkir Chor,Raojan,Bashkhali,KhaiyaChora,,Male,No,Couple,Winter
+202300149,13371,2,Parkir Chor,Satkania,,,,,Male,Yes,Couple,Rainy
+202300150,26235,7,Fatikchari,Satkania,,,,,Male,Yes,Alone,Autumn
+202300151,27121,2,Satkania,Fatikchari,Patenga,,,,Male,Yes,Friends,Rainy
+202300152,18066,7,Raojan,,,,,,Male,No,Couple,Autumn
+202300153,5701,1,KhaiyaChora,Fatikchari,Parkir Chor,Suptadhara,,,Female,Yes,Friends,Autumn
+202300154,13870,4,KhaiyaChora,Bashkhali,Patenga,Raojan,,,Female,No,Family,Rainy
+202300155,13821,7,Raojan,Guliakhali,Parkir Chor,Bashkhali,Suptadhara,,Female,Yes,Couple,Autumn
+202300156,15988,5,Raojan,Fatikchari,Guliakhali,Chittagong University,Satkania,Bashkhali,Male,Yes,Family,Winter
+202300157,12297,7,Satkania,Guliakhali,,,,,Male,Yes,Friends,Summer
+202300158,27705,2,KhaiyaChora,Guliakhali,Satkania,Bashkhali,Chandranath,Chittagong University,Male,No,Alone,Rainy
+202300159,17372,7,Parkir Chor,Fatikchari,Patenga,Raojan,,,Male,Yes,Alone,Winter
+202300160,22226,7,Guliakhali,Chandranath,,,,,Other,Yes,Couple,Winter
+202300161,23617,5,Chandranath,Raojan,Guliakhali,,,,Female,Yes,Friends,Autumn
+202300162,5597,6,Fatikchari,KhaiyaChora,,,,,Female,No,Alone,Autumn
+202300163,19919,5,Parkir Chor,Patenga,Fatikchari,Chandranath,Suptadhara,,Female,Yes,Family,Winter
+202300164,21015,7,KhaiyaChora,Guliakhali,Satkania,Suptadhara,Parkir Chor,,Other,Yes,Couple,Summer
+202300165,6308,5,Guliakhali,Suptadhara,Satkania,Raojan,Chandranath,Patenga,Male,Yes,Alone,Autumn
+202300166,21553,4,Fatikchari,Satkania,Patenga,Suptadhara,KhaiyaChora,Guliakhali,Female,No,Family,Rainy
+202300167,15353,7,Satkania,,,,,,Male,No,Friends,Summer
+202300168,8128,4,Guliakhali,KhaiyaChora,Patenga,Satkania,Fatikchari,,Female,Yes,Couple,Summer
+202300169,29198,5,Satkania,Guliakhali,Fatikchari,Raojan,KhaiyaChora,,Male,Yes,Friends,Summer
+202300170,8000,4,Raojan,,,,,,Other,No,Friends,Autumn
+202300171,18645,5,Chittagong University,,,,,,Other,Yes,Alone,Summer
+202300172,26300,5,Chittagong University,Bashkhali,Parkir Chor,Raojan,KhaiyaChora,,Other,Yes,Friends,Autumn
+202300173,19007,6,Bashkhali,,,,,,Male,Yes,Family,Rainy
+202300174,28124,6,Chittagong University,Parkir Chor,Fatikchari,,,,Other,Yes,Family,Autumn
+202300175,19291,5,Chittagong University,Satkania,,,,,Other,Yes,Family,Autumn
+202300176,23627,1,Parkir Chor,Bashkhali,Chandranath,Chittagong University,Satkania,KhaiyaChora,Female,No,Alone,Rainy
+202300177,11860,2,Fatikchari,Satkania,Chandranath,,,,Other,Yes,Friends,Autumn
+202300178,5689,6,Patenga,,,,,,Female,Yes,Family,Winter
+202300179,25434,3,Fatikchari,Parkir Chor,Bashkhali,Chandranath,Raojan,Guliakhali,Other,Yes,Couple,Summer
+202300180,26258,1,Raojan,,,,,,Male,Yes,Couple,Autumn
+202300181,5721,6,Raojan,KhaiyaChora,Guliakhali,Patenga,Bashkhali,Chittagong University,Female,No,Couple,Autumn
+202300182,28180,1,Chandranath,Chittagong University,,,,,Female,Yes,Alone,Rainy
+202300183,9579,7,Patenga,Guliakhali,Satkania,,,,Other,No,Couple,Summer
+202300184,22898,6,Raojan,Fatikchari,Guliakhali,,,,Other,Yes,Couple,Autumn
+202300185,16184,5,Raojan,Suptadhara,,,,,Male,No,Family,Winter
+202300186,12828,1,Raojan,KhaiyaChora,,,,,Female,Yes,Family,Rainy
+202300187,17155,4,Chittagong University,Chandranath,Suptadhara,Patenga,,,Male,No,Friends,Summer
+202300188,11689,5,Suptadhara,KhaiyaChora,Satkania,Chittagong University,,,Male,Yes,Alone,Winter
+202300189,9687,7,Suptadhara,Chittagong University,,,,,Female,Yes,Friends,Autumn
+202300190,20754,1,Chittagong University,Suptadhara,Bashkhali,,,,Other,Yes,Couple,Rainy
+202300191,22756,6,Chandranath,,,,,,Male,Yes,Couple,Autumn
+202300192,18426,2,Parkir Chor,Raojan,Bashkhali,Satkania,Suptadhara,Chandranath,Other,Yes,Friends,Winter
+202300193,11899,1,Guliakhali,,,,,,Other,Yes,Couple,Summer
+202300194,28759,4,KhaiyaChora,Suptadhara,,,,,Male,No,Couple,Autumn
+202300195,29673,6,Raojan,Chandranath,Chittagong University,,,,Male,No,Alone,Rainy
+202300196,7552,5,KhaiyaChora,Guliakhali,Bashkhali,Raojan,Parkir Chor,Satkania,Male,No,Alone,Autumn
+202300197,23249,1,Fatikchari,Raojan,Suptadhara,Satkania,,,Male,Yes,Alone,Autumn
+202300198,12765,7,Fatikchari,Suptadhara,Raojan,Satkania,Patenga,,Male,No,Couple,Winter
+202300199,5334,4,Suptadhara,Patenga,Chandranath,,,,Male,Yes,Friends,Autumn
+202300200,15956,2,Guliakhali,Suptadhara,KhaiyaChora,Patenga,Chittagong University,,Female,No,Alone,Winter
+202300201,29927,6,Chandranath,Bashkhali,KhaiyaChora,Suptadhara,,,Male,Yes,Friends,Autumn
+202300202,24472,2,Satkania,Chandranath,,,,,Male,Yes,Couple,Autumn
+202300203,5264,1,Satkania,Chittagong University,,,,,Female,Yes,Family,Summer
+202300204,5283,3,Fatikchari,,,,,,Female,Yes,Couple,Summer
+202300205,20452,5,Fatikchari,Guliakhali,Chandranath,Chittagong University,Parkir Chor,KhaiyaChora,Other,Yes,Family,Winter
+202300206,8379,2,Guliakhali,Satkania,Parkir Chor,,,,Female,Yes,Friends,Autumn
+202300207,9324,1,Patenga,Chandranath,Suptadhara,Fatikchari,,,Female,No,Couple,Autumn
+202300208,6283,7,Satkania,Patenga,,,,,Other,No,Alone,Rainy
+202300209,6804,3,Guliakhali,,,,,,Female,No,Alone,Winter
+202300210,27011,5,Bashkhali,Parkir Chor,Suptadhara,KhaiyaChora,,,Other,Yes,Family,Summer
+202300211,23539,4,Patenga,Parkir Chor,Guliakhali,Satkania,,,Male,No,Couple,Autumn
+202300212,29225,4,Chandranath,Chittagong University,Fatikchari,Parkir Chor,,,Female,No,Friends,Winter
+202300213,22843,6,Fatikchari,Satkania,Patenga,Chittagong University,,,Male,No,Alone,Winter
+202300214,25482,4,Chittagong University,Guliakhali,Patenga,,,,Other,No,Friends,Winter
+202300215,25400,3,Fatikchari,Chandranath,Suptadhara,Raojan,,,Male,Yes,Friends,Rainy
+202300216,8729,7,Satkania,Bashkhali,KhaiyaChora,Chittagong University,Chandranath,Parkir Chor,Other,Yes,Alone,Summer
+202300217,21889,5,Suptadhara,Raojan,KhaiyaChora,Parkir Chor,,,Other,Yes,Friends,Summer
+202300218,13482,1,Chittagong University,,,,,,Female,No,Family,Summer
+202300219,23403,1,Fatikchari,Parkir Chor,KhaiyaChora,,,,Other,Yes,Family,Summer
+202300220,15278,1,Chandranath,Parkir Chor,Satkania,Bashkhali,Guliakhali,Fatikchari,Male,Yes,Family,Rainy
+202300221,17734,6,Parkir Chor,,,,,,Female,Yes,Alone,Rainy
+202300222,10836,7,Satkania,Raojan,KhaiyaChora,Chandranath,,,Female,Yes,Family,Rainy
+202300223,14812,1,Parkir Chor,Satkania,Chittagong University,Suptadhara,Fatikchari,,Female,No,Friends,Summer
+202300224,24071,6,Suptadhara,Parkir Chor,Chittagong University,Bashkhali,Satkania,Fatikchari,Other,No,Friends,Rainy
+202300225,13219,6,Bashkhali,Raojan,Parkir Chor,Patenga,,,Female,No,Couple,Summer
+202300226,13667,1,Raojan,Chittagong University,Suptadhara,Parkir Chor,Chandranath,,Other,No,Friends,Winter
+202300227,11323,6,Guliakhali,KhaiyaChora,Satkania,Chandranath,Raojan,,Female,No,Alone,Summer
+202300228,19943,4,Suptadhara,Bashkhali,KhaiyaChora,,,,Male,No,Alone,Winter
+202300229,8757,5,Chandranath,KhaiyaChora,Satkania,Fatikchari,Parkir Chor,,Other,Yes,Friends,Summer
+202300230,14927,2,Chandranath,Parkir Chor,Fatikchari,,,,Female,Yes,Couple,Winter
+202300231,29494,6,Parkir Chor,Raojan,Patenga,Suptadhara,,,Other,Yes,Family,Summer
+202300232,5695,4,Satkania,Guliakhali,Bashkhali,Parkir Chor,Suptadhara,,Male,Yes,Alone,Summer
+202300233,15641,6,Guliakhali,Suptadhara,,,,,Male,No,Alone,Winter
+202300234,18381,2,Raojan,Chittagong University,,,,,Other,Yes,Family,Winter
+202300235,10140,3,Fatikchari,Bashkhali,KhaiyaChora,Chandranath,Parkir Chor,Patenga,Female,No,Friends,Winter
+202300236,18176,3,Chittagong University,Bashkhali,Guliakhali,Fatikchari,KhaiyaChora,Raojan,Other,No,Family,Autumn
+202300237,24379,4,Parkir Chor,Bashkhali,Chandranath,Fatikchari,,,Other,No,Friends,Summer
+202300238,16490,7,Raojan,Guliakhali,Parkir Chor,Fatikchari,Suptadhara,,Male,Yes,Couple,Rainy
+202300239,27823,5,Chittagong University,Fatikchari,Patenga,Raojan,Guliakhali,,Female,Yes,Alone,Winter
+202300240,29971,1,Bashkhali,Guliakhali,,,,,Other,No,Couple,Summer
+202300241,29594,5,KhaiyaChora,Parkir Chor,,,,,Other,No,Friends,Winter
+202300242,20100,3,KhaiyaChora,Fatikchari,Parkir Chor,Chittagong University,,,Other,No,Couple,Winter
+202300243,9240,2,KhaiyaChora,Bashkhali,,,,,Male,No,Family,Autumn
+202300244,8197,4,Satkania,KhaiyaChora,Suptadhara,,,,Other,No,Family,Rainy
+202300245,10998,2,Fatikchari,Satkania,Patenga,,,,Other,Yes,Friends,Winter
+202300246,18991,6,Chandranath,Fatikchari,,,,,Other,Yes,Alone,Winter
+202300247,10138,1,Parkir Chor,,,,,,Male,Yes,Friends,Autumn
+202300248,16808,7,Fatikchari,KhaiyaChora,,,,,Male,No,Family,Winter
+202300249,28675,7,Fatikchari,Satkania,Raojan,Chittagong University,,,Male,No,Alone,Rainy
+202300250,11061,5,Parkir Chor,,,,,,Female,Yes,Family,Summer
+202300251,20413,4,Bashkhali,,,,,,Female,No,Alone,Summer
+202300252,17617,6,Chittagong University,Fatikchari,Satkania,Parkir Chor,Patenga,,Other,Yes,Family,Rainy
+202300253,18435,7,Patenga,Fatikchari,Satkania,Bashkhali,Chandranath,,Male,No,Couple,Summer
+202300254,17251,3,Suptadhara,Satkania,Chittagong University,Patenga,Bashkhali,Parkir Chor,Male,Yes,Family,Winter
+202300255,8002,5,Chittagong University,Parkir Chor,Suptadhara,Fatikchari,Bashkhali,Patenga,Female,Yes,Friends,Autumn
+202300256,12758,1,Chittagong University,Parkir Chor,Chandranath,Guliakhali,Raojan,,Other,Yes,Family,Winter
+202300257,19800,4,Guliakhali,KhaiyaChora,Patenga,Chittagong University,,,Male,Yes,Friends,Winter
+202300258,15966,6,Suptadhara,Patenga,Chandranath,Fatikchari,Raojan,,Female,Yes,Alone,Summer
+202300259,11230,3,Raojan,Chittagong University,,,,,Male,Yes,Alone,Summer
+202300260,6971,6,Suptadhara,Chandranath,Satkania,Fatikchari,Bashkhali,,Male,No,Alone,Winter
+202300261,15224,7,Suptadhara,KhaiyaChora,Chittagong University,Patenga,,,Male,Yes,Alone,Rainy
+202300262,23340,2,Raojan,Fatikchari,Patenga,Chandranath,Satkania,Parkir Chor,Other,No,Family,Winter
+202300263,5545,6,Patenga,,,,,,Male,Yes,Friends,Winter
+202300264,17607,6,Bashkhali,Raojan,Patenga,Chittagong University,Guliakhali,,Male,No,Couple,Winter
+202300265,27452,2,Fatikchari,Satkania,,,,,Other,No,Alone,Summer
+202300266,26120,2,Parkir Chor,Patenga,Chandranath,Chittagong University,,,Other,Yes,Alone,Rainy
+202300267,24915,5,KhaiyaChora,,,,,,Female,No,Couple,Rainy
+202300268,8305,2,Chittagong University,Guliakhali,Raojan,Chandranath,Satkania,Suptadhara,Other,Yes,Friends,Rainy
+202300269,12836,1,Parkir Chor,Chittagong University,Satkania,,,,Male,No,Couple,Autumn
+202300270,10071,5,Bashkhali,Parkir Chor,Guliakhali,Patenga,KhaiyaChora,Chandranath,Other,No,Friends,Summer
+202300271,14083,3,Suptadhara,KhaiyaChora,Chittagong University,Satkania,Fatikchari,,Female,Yes,Alone,Winter
+202300272,23788,4,Chandranath,Chittagong University,Bashkhali,Fatikchari,,,Other,Yes,Family,Winter
+202300273,12989,3,Chandranath,Guliakhali,Suptadhara,,,,Other,No,Alone,Winter
+202300274,18245,4,KhaiyaChora,Guliakhali,Chittagong University,Satkania,Raojan,Patenga,Male,No,Couple,Rainy
+202300275,5139,4,Suptadhara,Patenga,Guliakhali,Chittagong University,Fatikchari,,Male,No,Family,Winter
+202300276,25066,5,Bashkhali,Guliakhali,,,,,Female,No,Family,Rainy
+202300277,15089,1,Raojan,Patenga,Suptadhara,Fatikchari,,,Male,No,Family,Summer
+202300278,22323,7,Patenga,Bashkhali,Raojan,Guliakhali,,,Other,Yes,Couple,Autumn
+202300279,26984,7,Raojan,Chittagong University,Chandranath,,,,Male,Yes,Family,Summer
+202300280,28938,3,Guliakhali,Patenga,Suptadhara,Raojan,,,Other,No,Couple,Winter
+202300281,24642,2,Raojan,Bashkhali,Guliakhali,Patenga,Fatikchari,Parkir Chor,Female,Yes,Family,Winter
+202300282,22037,1,Chittagong University,Patenga,Guliakhali,Fatikchari,Chandranath,,Female,No,Friends,Rainy
+202300283,14258,1,Raojan,Chandranath,,,,,Male,No,Alone,Autumn
+202300284,13745,4,Parkir Chor,Suptadhara,,,,,Male,Yes,Alone,Summer
+202300285,17916,6,Bashkhali,KhaiyaChora,Raojan,,,,Other,Yes,Alone,Winter
+202300286,17888,4,Guliakhali,Raojan,Suptadhara,Fatikchari,,,Other,No,Couple,Autumn
+202300287,24225,1,Bashkhali,Guliakhali,Patenga,Satkania,,,Male,Yes,Friends,Autumn
+202300288,18967,6,KhaiyaChora,Fatikchari,,,,,Other,Yes,Alone,Autumn
+202300289,7330,4,Fatikchari,Parkir Chor,Chittagong University,Patenga,Raojan,,Female,Yes,Alone,Summer
+202300290,24588,7,Parkir Chor,Bashkhali,Chittagong University,Satkania,Patenga,Fatikchari,Male,Yes,Alone,Winter
+202300291,6346,5,Suptadhara,Chittagong University,KhaiyaChora,Raojan,Satkania,,Female,Yes,Alone,Autumn
+202300292,29248,4,Bashkhali,Parkir Chor,,,,,Female,Yes,Couple,Rainy
+202300293,22719,7,Guliakhali,Suptadhara,Parkir Chor,Fatikchari,,,Male,No,Couple,Rainy
+202300294,21577,6,Guliakhali,Parkir Chor,Bashkhali,Patenga,,,Female,No,Alone,Rainy
+202300295,9114,2,Patenga,Raojan,Fatikchari,Suptadhara,,,Other,No,Family,Winter
+202300296,22404,1,Parkir Chor,Chittagong University,Satkania,Suptadhara,Chandranath,,Female,No,Friends,Autumn
+202300297,11738,7,Parkir Chor,,,,,,Female,Yes,Couple,Rainy
+202300298,26850,7,Chandranath,KhaiyaChora,Guliakhali,,,,Other,No,Friends,Rainy
+202300299,9966,4,Suptadhara,,,,,,Male,No,Couple,Winter
+202300300,17302,4,Chandranath,,,,,,Female,No,Couple,Rainy
+202300301,23042,6,Parkir Chor,Guliakhali,Satkania,Patenga,,,Other,Yes,Alone,Autumn
+202300302,21001,5,Raojan,Guliakhali,KhaiyaChora,Satkania,Patenga,Fatikchari,Other,No,Friends,Rainy
+202300303,29949,5,Guliakhali,Chittagong University,Satkania,,,,Female,No,Family,Summer
+202300304,15002,2,Parkir Chor,Suptadhara,Bashkhali,Patenga,KhaiyaChora,,Male,Yes,Family,Winter
+202300305,15295,2,Raojan,Chittagong University,Fatikchari,,,,Male,Yes,Friends,Winter
+202300306,19115,2,Satkania,Chittagong University,Raojan,Chandranath,Guliakhali,,Female,Yes,Friends,Winter
+202300307,28618,1,Parkir Chor,Raojan,Patenga,Fatikchari,,,Female,No,Friends,Winter
+202300308,6382,3,Suptadhara,Bashkhali,KhaiyaChora,Chittagong University,Satkania,,Other,No,Couple,Autumn
+202300309,9353,4,Bashkhali,Parkir Chor,Chittagong University,Satkania,KhaiyaChora,,Male,Yes,Alone,Summer
+202300310,26529,5,Chandranath,Bashkhali,,,,,Other,Yes,Couple,Autumn
+202300311,9409,6,Satkania,,,,,,Other,Yes,Couple,Summer
+202300312,21330,2,Suptadhara,Guliakhali,,,,,Female,Yes,Alone,Autumn
+202300313,13504,1,Suptadhara,,,,,,Male,Yes,Alone,Winter
+202300314,5855,5,Chittagong University,Fatikchari,KhaiyaChora,Chandranath,Parkir Chor,Guliakhali,Male,Yes,Family,Summer
+202300315,14416,1,Bashkhali,Chittagong University,,,,,Male,Yes,Couple,Rainy
+202300316,10767,6,Bashkhali,Fatikchari,Parkir Chor,KhaiyaChora,Suptadhara,Chandranath,Other,Yes,Family,Autumn
+202300317,23309,3,KhaiyaChora,Suptadhara,Parkir Chor,Patenga,Chittagong University,Satkania,Female,No,Family,Autumn
+202300318,18280,5,Chandranath,Guliakhali,Raojan,,,,Female,Yes,Family,Summer
+202300319,9180,2,Satkania,,,,,,Male,Yes,Family,Autumn
+202300320,24259,4,Bashkhali,Satkania,Raojan,Parkir Chor,,,Male,Yes,Family,Rainy
+202300321,9495,5,Suptadhara,Chandranath,Patenga,Guliakhali,Satkania,,Male,Yes,Friends,Rainy
+202300322,18671,7,Bashkhali,Raojan,,,,,Other,Yes,Couple,Autumn
+202300323,28110,2,Parkir Chor,Chandranath,,,,,Female,No,Family,Autumn
+202300324,17486,2,Fatikchari,,,,,,Female,No,Couple,Summer
+202300325,15768,1,Patenga,,,,,,Male,No,Couple,Rainy
+202300326,19784,2,Fatikchari,Patenga,KhaiyaChora,Chittagong University,Suptadhara,,Other,No,Alone,Rainy
+202300327,11802,7,Suptadhara,,,,,,Other,Yes,Friends,Autumn
+202300328,7153,1,Bashkhali,Guliakhali,Fatikchari,Patenga,,,Other,Yes,Alone,Rainy
+202300329,28834,1,KhaiyaChora,Satkania,Guliakhali,Patenga,,,Other,Yes,Couple,Autumn
+202300330,18255,2,Parkir Chor,Chittagong University,Suptadhara,,,,Female,No,Family,Winter
+202300331,22994,2,Satkania,Patenga,Fatikchari,Chittagong University,Bashkhali,,Other,No,Couple,Winter
+202300332,14999,3,Patenga,Suptadhara,Chittagong University,KhaiyaChora,Satkania,,Male,Yes,Couple,Rainy
+202300333,8623,6,Chandranath,Bashkhali,Satkania,,,,Other,Yes,Friends,Rainy
+202300334,18978,2,Chandranath,KhaiyaChora,Raojan,Bashkhali,Satkania,,Male,Yes,Alone,Autumn
+202300335,25196,7,Raojan,Suptadhara,,,,,Male,No,Family,Summer
+202300336,18711,6,Parkir Chor,,,,,,Other,No,Alone,Autumn
+202300337,29664,2,Guliakhali,Fatikchari,Patenga,Satkania,Raojan,Parkir Chor,Male,No,Friends,Winter
+202300338,11064,4,Bashkhali,,,,,,Male,Yes,Couple,Summer
+202300339,19471,3,Satkania,Patenga,KhaiyaChora,Chandranath,Suptadhara,Guliakhali,Male,Yes,Alone,Summer
+202300340,29826,4,Chandranath,Suptadhara,Chittagong University,,,,Male,No,Alone,Summer
+202300341,16010,6,Bashkhali,Parkir Chor,KhaiyaChora,Chittagong University,Guliakhali,Patenga,Other,No,Couple,Autumn
+202300342,28671,2,Chittagong University,Satkania,,,,,Male,Yes,Couple,Summer
+202300343,21463,6,KhaiyaChora,Bashkhali,,,,,Female,No,Alone,Rainy
+202300344,17178,1,Satkania,Parkir Chor,Raojan,Fatikchari,Chittagong University,Bashkhali,Other,No,Alone,Winter
+202300345,14864,5,Raojan,Guliakhali,,,,,Female,No,Couple,Rainy
+202300346,19640,3,Chittagong University,Suptadhara,Bashkhali,,,,Male,Yes,Couple,Rainy
+202300347,26520,1,Satkania,Patenga,Chandranath,Chittagong University,Parkir Chor,Suptadhara,Female,No,Family,Autumn
+202300348,11597,2,Bashkhali,KhaiyaChora,Raojan,Guliakhali,Chandranath,,Female,No,Family,Summer
+202300349,25889,2,KhaiyaChora,Parkir Chor,Patenga,,,,Female,No,Alone,Winter
+202300350,17340,6,Chandranath,Patenga,,,,,Female,Yes,Friends,Summer
+202300351,29744,4,Raojan,Suptadhara,Fatikchari,,,,Male,No,Family,Summer
+202300352,11394,5,Parkir Chor,Fatikchari,Chandranath,,,,Male,No,Friends,Rainy
+202300353,9819,6,KhaiyaChora,Patenga,Raojan,,,,Female,No,Friends,Summer
+202300354,19756,1,Satkania,Chittagong University,Parkir Chor,Fatikchari,Chandranath,Patenga,Male,Yes,Alone,Rainy
+202300355,29947,4,Chittagong University,Guliakhali,Bashkhali,,,,Female,Yes,Alone,Rainy
+202300356,28893,1,Chandranath,KhaiyaChora,,,,,Male,Yes,Family,Rainy
+202300357,10535,7,Raojan,Chandranath,,,,,Male,No,Alone,Autumn
+202300358,27037,4,Suptadhara,Fatikchari,,,,,Male,No,Alone,Summer
+202300359,22939,5,KhaiyaChora,Chandranath,,,,,Male,No,Friends,Autumn
+202300360,10603,5,Satkania,Chandranath,Patenga,Suptadhara,Guliakhali,Bashkhali,Other,No,Couple,Summer
+202300361,8631,7,Chittagong University,,,,,,Female,Yes,Couple,Summer
+202300362,28170,7,Parkir Chor,Chittagong University,,,,,Other,No,Couple,Winter
+202300363,9733,5,Guliakhali,Chandranath,Patenga,,,,Male,Yes,Family,Autumn
+202300364,20571,7,Raojan,,,,,,Other,No,Alone,Rainy
+202300365,6807,1,Fatikchari,,,,,,Other,No,Alone,Winter
+202300366,22989,5,Chandranath,,,,,,Other,No,Alone,Rainy
+202300367,7044,3,KhaiyaChora,Guliakhali,Parkir Chor,Suptadhara,,,Male,Yes,Couple,Rainy
+202300368,23144,6,Chandranath,,,,,,Female,No,Couple,Winter
+202300369,21211,3,Suptadhara,,,,,,Other,Yes,Alone,Rainy
+202300370,14201,7,KhaiyaChora,Raojan,,,,,Male,Yes,Friends,Winter
+202300371,16955,3,Raojan,,,,,,Other,No,Friends,Summer
+202300372,29327,3,Chittagong University,Parkir Chor,Guliakhali,Suptadhara,Bashkhali,KhaiyaChora,Male,No,Family,Autumn
+202300373,22287,6,Patenga,Raojan,,,,,Male,No,Couple,Summer
+202300374,6834,3,Raojan,Guliakhali,Bashkhali,,,,Male,Yes,Alone,Winter
+202300375,14013,1,Guliakhali,Parkir Chor,Chandranath,Raojan,Patenga,Chittagong University,Female,No,Couple,Winter
+202300376,12070,1,Chandranath,Bashkhali,Satkania,,,,Female,Yes,Alone,Winter
+202300377,17873,5,KhaiyaChora,Guliakhali,Satkania,,,,Male,Yes,Couple,Autumn
+202300378,16500,5,Suptadhara,Patenga,Chittagong University,Fatikchari,Bashkhali,Chandranath,Male,No,Family,Winter
+202300379,23152,6,Raojan,Chittagong University,Patenga,Chandranath,KhaiyaChora,,Other,No,Friends,Autumn
+202300380,27743,2,Fatikchari,Satkania,Parkir Chor,Suptadhara,Raojan,,Female,No,Friends,Autumn
+202300381,25757,6,Satkania,,,,,,Female,No,Couple,Summer
+202300382,15845,4,Raojan,KhaiyaChora,Parkir Chor,Guliakhali,,,Other,No,Alone,Autumn
+202300383,15660,4,Guliakhali,Satkania,,,,,Male,Yes,Family,Rainy
+202300384,26161,3,Fatikchari,Bashkhali,Parkir Chor,Chittagong University,KhaiyaChora,,Female,No,Friends,Winter
+202300385,9617,3,Satkania,Chandranath,Raojan,Patenga,Bashkhali,Chittagong University,Female,No,Alone,Summer
+202300386,10630,7,Satkania,Suptadhara,Chittagong University,Parkir Chor,Patenga,KhaiyaChora,Male,Yes,Friends,Summer
+202300387,7776,3,Chandranath,Suptadhara,Guliakhali,Parkir Chor,Raojan,,Female,Yes,Friends,Rainy
+202300388,12963,7,Satkania,Guliakhali,Parkir Chor,Patenga,Suptadhara,Raojan,Male,Yes,Family,Summer
+202300389,8351,6,Satkania,Guliakhali,,,,,Male,Yes,Alone,Summer
+202300390,23567,5,Parkir Chor,Bashkhali,Satkania,,,,Male,No,Alone,Autumn
+202300391,29362,3,KhaiyaChora,Suptadhara,Raojan,,,,Female,No,Friends,Summer
+202300392,17787,6,Satkania,Chandranath,Guliakhali,Fatikchari,Chittagong University,KhaiyaChora,Female,No,Couple,Autumn
+202300393,8283,6,Parkir Chor,Chandranath,KhaiyaChora,Raojan,,,Other,Yes,Family,Winter
+202300394,29931,6,KhaiyaChora,Chandranath,Patenga,Satkania,Bashkhali,,Other,No,Family,Winter
+202300395,22210,1,KhaiyaChora,,,,,,Male,Yes,Friends,Winter
+202300396,22405,6,Bashkhali,Parkir Chor,,,,,Female,No,Family,Autumn
+202300397,22893,5,KhaiyaChora,Bashkhali,Chittagong University,,,,Female,No,Family,Summer
+202300398,29353,4,Satkania,Chittagong University,KhaiyaChora,Raojan,,,Male,No,Couple,Autumn
+202300399,15661,1,Satkania,Guliakhali,Raojan,Parkir Chor,,,Other,Yes,Friends,Summer
+202300400,18511,2,Bashkhali,Suptadhara,,,,,Other,No,Couple,Rainy
+202300401,22746,2,Fatikchari,,,,,,Female,No,Family,Rainy
+202300402,13495,1,Patenga,,,,,,Other,Yes,Friends,Autumn
+202300403,11193,1,Bashkhali,Suptadhara,Chittagong University,Satkania,Patenga,KhaiyaChora,Male,No,Alone,Rainy
+202300404,13305,4,Chandranath,Fatikchari,Parkir Chor,Guliakhali,Chittagong University,,Female,No,Alone,Autumn
+202300405,13089,5,Fatikchari,Chittagong University,,,,,Female,Yes,Friends,Winter
+202300406,13336,7,Parkir Chor,Chandranath,,,,,Male,Yes,Alone,Autumn
+202300407,22850,2,Patenga,KhaiyaChora,Chittagong University,Guliakhali,,,Male,No,Alone,Rainy
+202300408,18058,4,Fatikchari,Raojan,Chittagong University,Chandranath,Patenga,,Female,No,Family,Winter
+202300409,19680,6,KhaiyaChora,Suptadhara,Raojan,Chittagong University,Bashkhali,Chandranath,Female,No,Friends,Rainy
+202300410,24119,5,Raojan,,,,,,Female,Yes,Couple,Winter
+202300411,14373,4,Satkania,Suptadhara,Parkir Chor,Bashkhali,Chandranath,Raojan,Female,Yes,Friends,Summer
+202300412,22793,4,Patenga,Raojan,KhaiyaChora,Satkania,,,Male,Yes,Alone,Summer
+202300413,8607,3,Bashkhali,,,,,,Male,No,Couple,Rainy
+202300414,7755,3,Chittagong University,Satkania,Raojan,Guliakhali,,,Other,Yes,Alone,Autumn
+202300415,25743,4,KhaiyaChora,Suptadhara,Raojan,Satkania,Fatikchari,Chittagong University,Female,No,Alone,Summer
+202300416,25488,2,Bashkhali,,,,,,Male,Yes,Family,Winter
+202300417,20953,6,Patenga,,,,,,Other,Yes,Alone,Autumn
+202300418,22765,2,Chittagong University,,,,,,Male,No,Alone,Summer
+202300419,12837,4,Guliakhali,Parkir Chor,KhaiyaChora,Bashkhali,Suptadhara,,Other,No,Friends,Rainy
+202300420,22067,5,Chittagong University,Satkania,,,,,Male,No,Friends,Autumn
+202300421,16846,3,Suptadhara,,,,,,Male,Yes,Couple,Summer
+202300422,25859,2,Satkania,Suptadhara,Patenga,,,,Other,No,Alone,Summer
+202300423,7607,1,Chandranath,Fatikchari,,,,,Male,No,Couple,Winter
+202300424,23987,2,Suptadhara,,,,,,Female,Yes,Couple,Autumn
+202300425,17982,2,Patenga,,,,,,Other,No,Alone,Winter
+202300426,21867,2,Raojan,Patenga,Guliakhali,KhaiyaChora,,,Female,No,Family,Summer
+202300427,27753,1,Chandranath,Patenga,,,,,Male,Yes,Friends,Autumn
+202300428,8659,7,KhaiyaChora,Bashkhali,Raojan,Chittagong University,,,Other,No,Couple,Winter
+202300429,28883,2,Raojan,Suptadhara,Patenga,,,,Male,Yes,Family,Rainy
+202300430,26184,1,Satkania,Chittagong University,Guliakhali,Parkir Chor,Suptadhara,,Female,No,Family,Autumn
+202300431,20412,3,Guliakhali,Fatikchari,Parkir Chor,Suptadhara,,,Female,Yes,Couple,Winter
+202300432,6805,3,Guliakhali,Patenga,Bashkhali,Parkir Chor,Chittagong University,Raojan,Female,Yes,Alone,Summer
+202300433,11078,5,Guliakhali,Parkir Chor,Chittagong University,KhaiyaChora,Suptadhara,Patenga,Female,Yes,Couple,Autumn
+202300434,28161,6,Chittagong University,Satkania,Patenga,Suptadhara,,,Other,No,Family,Autumn
+202300435,15758,7,Parkir Chor,Suptadhara,Patenga,KhaiyaChora,,,Female,No,Family,Autumn
+202300436,18951,4,Raojan,Guliakhali,Suptadhara,Bashkhali,KhaiyaChora,,Other,No,Family,Rainy
+202300437,23552,5,Chittagong University,Raojan,Guliakhali,Chandranath,KhaiyaChora,,Male,No,Couple,Autumn
+202300438,9820,6,Fatikchari,Parkir Chor,Suptadhara,,,,Other,No,Couple,Summer
+202300439,10526,1,Suptadhara,,,,,,Other,No,Family,Summer
+202300440,8052,4,Patenga,Satkania,KhaiyaChora,Parkir Chor,Guliakhali,Chittagong University,Male,Yes,Friends,Winter
+202300441,24081,3,Chandranath,Patenga,Parkir Chor,Raojan,Bashkhali,Suptadhara,Female,Yes,Couple,Autumn
+202300442,10588,1,Suptadhara,,,,,,Other,No,Friends,Summer
+202300443,9011,5,Patenga,,,,,,Male,No,Alone,Summer
+202300444,14949,3,KhaiyaChora,Satkania,Fatikchari,,,,Other,No,Couple,Winter
+202300445,29269,2,Bashkhali,,,,,,Male,No,Couple,Winter
+202300446,25800,7,Bashkhali,Satkania,,,,,Female,No,Family,Rainy
+202300447,21671,7,KhaiyaChora,Patenga,,,,,Other,No,Family,Rainy
+202300448,17521,6,KhaiyaChora,Chandranath,Fatikchari,,,,Female,No,Friends,Summer
+202300449,15639,7,Bashkhali,Chandranath,KhaiyaChora,Fatikchari,Patenga,,Male,No,Couple,Autumn
+202300450,12552,6,KhaiyaChora,Guliakhali,Parkir Chor,Chittagong University,Fatikchari,,Female,No,Couple,Rainy
+202300451,23681,7,Parkir Chor,Fatikchari,Chittagong University,Guliakhali,,,Male,No,Family,Autumn
+202300452,23991,2,Fatikchari,Raojan,Chittagong University,Chandranath,,,Female,No,Friends,Autumn
+202300453,20797,2,Bashkhali,Satkania,Raojan,,,,Other,No,Family,Winter
+202300454,16520,4,Chittagong University,Bashkhali,Raojan,Satkania,KhaiyaChora,,Male,Yes,Alone,Summer
+202300455,17111,3,Guliakhali,Chandranath,,,,,Other,Yes,Friends,Winter
+202300456,15663,2,Guliakhali,,,,,,Other,Yes,Family,Rainy
+202300457,8628,1,KhaiyaChora,,,,,,Male,Yes,Family,Rainy
+202300458,14065,1,Chandranath,Parkir Chor,Fatikchari,,,,Male,No,Couple,Winter
+202300459,15136,1,Chandranath,Satkania,Raojan,,,,Other,No,Couple,Autumn
+202300460,27451,7,Satkania,,,,,,Female,No,Alone,Summer
+202300461,6427,5,Guliakhali,Chandranath,Fatikchari,,,,Female,No,Friends,Rainy
+202300462,10406,5,Raojan,KhaiyaChora,Guliakhali,Satkania,Chittagong University,Bashkhali,Female,No,Friends,Autumn
+202300463,5091,7,Chandranath,Parkir Chor,KhaiyaChora,Suptadhara,Guliakhali,Fatikchari,Other,Yes,Couple,Rainy
+202300464,27510,5,Guliakhali,Suptadhara,Chandranath,Parkir Chor,,,Male,Yes,Family,Winter
+202300465,23532,5,Guliakhali,Fatikchari,,,,,Male,Yes,Family,Summer
+202300466,19831,5,Chandranath,,,,,,Female,Yes,Couple,Rainy
+202300467,10407,7,Bashkhali,,,,,,Male,No,Alone,Summer
+202300468,12856,1,Chandranath,Bashkhali,KhaiyaChora,Raojan,,,Female,No,Family,Summer
+202300469,5981,1,KhaiyaChora,Bashkhali,Chittagong University,Suptadhara,Satkania,,Other,Yes,Alone,Winter
+202300470,28068,2,Raojan,Chandranath,KhaiyaChora,Parkir Chor,,,Female,Yes,Friends,Autumn
+202300471,29400,1,Raojan,Guliakhali,Chittagong University,Satkania,Parkir Chor,Bashkhali,Other,No,Couple,Summer
+202300472,15798,7,Raojan,Satkania,Chandranath,Guliakhali,,,Female,Yes,Friends,Summer
+202300473,24391,6,Parkir Chor,Chittagong University,Guliakhali,Patenga,,,Female,No,Friends,Winter
+202300474,26622,6,Raojan,Fatikchari,Parkir Chor,Patenga,Chittagong University,,Male,No,Couple,Winter
+202300475,26418,1,Chittagong University,,,,,,Female,Yes,Couple,Summer
+202300476,22612,7,Patenga,Satkania,KhaiyaChora,Guliakhali,Chittagong University,,Female,No,Couple,Summer
+202300477,26779,4,Satkania,Bashkhali,Patenga,,,,Female,Yes,Family,Rainy
+202300478,17551,2,Parkir Chor,KhaiyaChora,Raojan,Chandranath,Patenga,,Female,Yes,Family,Summer
+202300479,29352,1,KhaiyaChora,Bashkhali,,,,,Female,Yes,Couple,Rainy
+202300480,17258,2,Suptadhara,Patenga,Fatikchari,,,,Female,Yes,Family,Rainy
+202300481,10233,4,Raojan,Fatikchari,Chandranath,Bashkhali,Suptadhara,Parkir Chor,Male,No,Alone,Autumn
+202300482,27546,2,Parkir Chor,Guliakhali,KhaiyaChora,,,,Female,Yes,Family,Winter
+202300483,10027,3,Guliakhali,Chandranath,Suptadhara,Satkania,Fatikchari,,Female,No,Couple,Winter
+202300484,29197,2,Suptadhara,Fatikchari,Chandranath,KhaiyaChora,Chittagong University,,Other,No,Friends,Rainy
+202300485,29193,4,Patenga,Fatikchari,Suptadhara,KhaiyaChora,Chandranath,,Other,Yes,Family,Rainy
+202300486,15418,5,Fatikchari,,,,,,Male,No,Friends,Rainy
+202300487,22344,5,Raojan,Suptadhara,Bashkhali,,,,Male,Yes,Couple,Summer
+202300488,19502,6,Chandranath,,,,,,Male,Yes,Friends,Summer
+202300489,12470,1,Fatikchari,Parkir Chor,Satkania,,,,Male,No,Family,Summer
+202300490,22756,2,Chandranath,Chittagong University,,,,,Other,Yes,Friends,Rainy
+202300491,21277,5,Patenga,Raojan,Suptadhara,Fatikchari,,,Other,No,Family,Autumn
+202300492,10153,4,Chandranath,Suptadhara,Patenga,,,,Female,Yes,Family,Rainy
+202300493,13519,4,Satkania,,,,,,Female,No,Friends,Summer
+202300494,13847,1,Suptadhara,Patenga,Chittagong University,KhaiyaChora,Satkania,,Female,Yes,Friends,Rainy
+202300495,24309,6,Chandranath,Suptadhara,Patenga,,,,Female,No,Family,Autumn
+202300496,29509,5,Satkania,Patenga,Raojan,Bashkhali,Suptadhara,,Other,Yes,Family,Rainy
+202300497,10526,7,Parkir Chor,Bashkhali,,,,,Male,No,Alone,Summer
+202300498,15193,3,Parkir Chor,,,,,,Male,No,Alone,Autumn
+202300499,16188,7,Patenga,,,,,,Other,Yes,Friends,Rainy
+202300500,18768,3,Chandranath,Suptadhara,Patenga,KhaiyaChora,Satkania,,Male,No,Family,Winter
+202300501,25177,1,Chandranath,Bashkhali,KhaiyaChora,,,,Other,No,Couple,Rainy
+202300502,29196,2,Chittagong University,Chandranath,Bashkhali,Raojan,KhaiyaChora,,Male,Yes,Couple,Rainy
+202300503,11097,7,Parkir Chor,Raojan,Chittagong University,Suptadhara,Bashkhali,Satkania,Other,No,Alone,Rainy
+202300504,19060,1,Satkania,Suptadhara,Chittagong University,,,,Other,No,Alone,Winter
+202300505,20886,4,Fatikchari,Suptadhara,Raojan,Chandranath,Chittagong University,Parkir Chor,Female,No,Friends,Rainy
+202300506,7476,1,Chittagong University,,,,,,Other,Yes,Friends,Rainy
+202300507,5971,6,Suptadhara,KhaiyaChora,Parkir Chor,,,,Male,No,Couple,Summer
+202300508,24043,3,Guliakhali,Satkania,KhaiyaChora,,,,Male,Yes,Couple,Autumn
+202300509,6581,5,Parkir Chor,Satkania,Raojan,KhaiyaChora,Guliakhali,Chandranath,Other,No,Couple,Winter
+202300510,29925,6,Satkania,KhaiyaChora,Parkir Chor,Suptadhara,,,Female,No,Friends,Summer
+202300511,15002,3,Raojan,Suptadhara,,,,,Female,Yes,Couple,Summer
+202300512,8217,3,Suptadhara,Fatikchari,Patenga,Parkir Chor,Raojan,,Male,Yes,Couple,Autumn
+202300513,25218,1,KhaiyaChora,Satkania,Chittagong University,Parkir Chor,Patenga,Raojan,Male,Yes,Friends,Rainy
+202300514,11522,1,Chandranath,Fatikchari,Chittagong University,KhaiyaChora,Parkir Chor,,Male,Yes,Alone,Summer
+202300515,21432,4,Parkir Chor,,,,,,Other,Yes,Family,Autumn
+202300516,25319,5,Suptadhara,,,,,,Other,No,Couple,Rainy
+202300517,16573,3,Satkania,Fatikchari,Chittagong University,,,,Female,No,Alone,Winter
+202300518,20062,5,Fatikchari,Parkir Chor,Guliakhali,,,,Male,Yes,Alone,Winter
+202300519,19880,3,Guliakhali,Parkir Chor,Satkania,,,,Male,No,Couple,Winter
+202300520,15065,2,Raojan,,,,,,Male,No,Couple,Summer
+202300521,21012,1,Chandranath,,,,,,Other,No,Alone,Summer
+202300522,9873,1,Fatikchari,Bashkhali,Chittagong University,Satkania,Suptadhara,,Female,Yes,Family,Rainy
+202300523,12204,1,Chittagong University,Raojan,Guliakhali,Suptadhara,Patenga,,Female,No,Friends,Autumn
+202300524,7988,3,Fatikchari,Chandranath,Parkir Chor,,,,Other,Yes,Couple,Summer
+202300525,6830,6,KhaiyaChora,,,,,,Other,No,Couple,Summer
+202300526,19404,4,Chandranath,KhaiyaChora,Parkir Chor,Satkania,Bashkhali,,Female,Yes,Friends,Rainy
+202300527,5813,3,Chandranath,Bashkhali,Patenga,Raojan,,,Female,No,Couple,Winter
+202300528,8141,3,Satkania,Bashkhali,Suptadhara,Guliakhali,KhaiyaChora,Patenga,Male,No,Friends,Autumn
+202300529,22168,1,Chittagong University,Patenga,Parkir Chor,Raojan,Suptadhara,,Other,Yes,Friends,Rainy
+202300530,13314,6,Patenga,Suptadhara,Chandranath,,,,Male,No,Couple,Autumn
+202300531,13667,1,Chittagong University,Satkania,Parkir Chor,Bashkhali,,,Male,No,Couple,Summer
+202300532,11942,1,Satkania,Guliakhali,,,,,Male,Yes,Family,Rainy
+202300533,12291,2,Chittagong University,Raojan,Patenga,Suptadhara,Chandranath,Fatikchari,Other,No,Friends,Winter
+202300534,14496,6,KhaiyaChora,Raojan,Suptadhara,Bashkhali,Patenga,,Male,No,Couple,Winter
+202300535,9872,4,KhaiyaChora,Suptadhara,,,,,Male,Yes,Couple,Summer
+202300536,28305,1,Bashkhali,Satkania,Fatikchari,Parkir Chor,,,Other,No,Alone,Autumn
+202300537,24523,6,Patenga,Suptadhara,Parkir Chor,,,,Female,No,Family,Summer
+202300538,17299,3,Chandranath,Raojan,Chittagong University,Satkania,,,Female,No,Couple,Rainy
+202300539,28672,3,Patenga,Chandranath,Fatikchari,KhaiyaChora,Suptadhara,Chittagong University,Other,No,Friends,Summer
+202300540,24453,5,Chandranath,Suptadhara,Guliakhali,,,,Male,Yes,Alone,Winter
+202300541,12180,4,Guliakhali,Raojan,Satkania,Suptadhara,Patenga,,Other,No,Friends,Autumn
+202300542,8199,6,Chandranath,Satkania,Fatikchari,Guliakhali,Parkir Chor,,Female,No,Friends,Winter
+202300543,9943,7,Fatikchari,,,,,,Female,No,Family,Summer
+202300544,14360,6,Bashkhali,Patenga,Chittagong University,,,,Male,Yes,Family,Rainy
+202300545,5938,1,Chandranath,Satkania,Parkir Chor,Chittagong University,Raojan,KhaiyaChora,Female,Yes,Couple,Autumn
+202300546,23368,2,Chandranath,Bashkhali,KhaiyaChora,Satkania,,,Male,No,Friends,Summer
+202300547,7226,2,Parkir Chor,Chittagong University,,,,,Other,Yes,Friends,Autumn
+202300548,17326,4,Guliakhali,Suptadhara,Satkania,Raojan,,,Male,No,Friends,Rainy
+202300549,21613,1,Bashkhali,Chandranath,Satkania,,,,Male,No,Family,Autumn
+202300550,18674,5,KhaiyaChora,Patenga,Suptadhara,Guliakhali,,,Female,No,Friends,Rainy
+202300551,18115,6,Guliakhali,Patenga,Chittagong University,,,,Other,Yes,Family,Autumn
+202300552,17273,2,Patenga,,,,,,Male,No,Friends,Autumn
+202300553,8878,7,Chittagong University,Suptadhara,,,,,Female,No,Alone,Rainy
+202300554,29165,4,Patenga,,,,,,Other,No,Couple,Rainy
+202300555,19500,2,Chandranath,Suptadhara,Bashkhali,,,,Other,No,Family,Rainy
+202300556,13464,5,Guliakhali,Suptadhara,Chandranath,,,,Female,Yes,Couple,Rainy
+202300557,22074,3,Raojan,Satkania,Fatikchari,Bashkhali,,,Male,Yes,Couple,Winter
+202300558,14775,4,Fatikchari,Chandranath,Bashkhali,Satkania,Raojan,Patenga,Other,No,Family,Autumn
+202300559,23254,3,Satkania,Chandranath,Raojan,Suptadhara,,,Other,No,Couple,Summer
+202300560,27867,1,Patenga,Raojan,Chittagong University,,,,Other,No,Friends,Summer
+202300561,15009,3,Bashkhali,KhaiyaChora,Guliakhali,Patenga,,,Female,No,Alone,Summer
+202300562,8902,3,Bashkhali,KhaiyaChora,Patenga,Chittagong University,Chandranath,Raojan,Female,No,Couple,Summer
+202300563,5833,2,Bashkhali,Satkania,,,,,Other,No,Friends,Autumn
+202300564,8917,5,Patenga,Bashkhali,,,,,Other,No,Couple,Winter
+202300565,21360,2,Fatikchari,Chittagong University,Patenga,,,,Female,No,Alone,Summer
+202300566,13578,4,Chittagong University,Patenga,KhaiyaChora,Satkania,,,Male,Yes,Friends,Autumn
+202300567,21386,7,Suptadhara,Raojan,Chittagong University,Chandranath,Bashkhali,,Male,No,Friends,Winter
+202300568,22106,2,Fatikchari,,,,,,Other,No,Friends,Winter
+202300569,9393,1,Raojan,Satkania,Suptadhara,,,,Other,No,Friends,Winter
+202300570,19060,6,Bashkhali,,,,,,Female,Yes,Friends,Autumn
+202300571,21705,1,Raojan,Patenga,,,,,Other,Yes,Couple,Summer
+202300572,7670,7,Patenga,Chittagong University,,,,,Female,Yes,Family,Winter
+202300573,10556,1,Raojan,Chittagong University,,,,,Other,No,Couple,Winter
+202300574,22063,6,Satkania,Chandranath,Bashkhali,Chittagong University,Guliakhali,Raojan,Male,Yes,Couple,Summer
+202300575,6371,5,KhaiyaChora,Raojan,Chandranath,Bashkhali,,,Male,Yes,Alone,Winter
+202300576,15074,7,Satkania,Chittagong University,,,,,Other,No,Couple,Rainy
+202300577,15459,3,Parkir Chor,,,,,,Male,No,Family,Autumn
+202300578,5882,6,Chandranath,KhaiyaChora,Raojan,Fatikchari,,,Female,Yes,Alone,Rainy
+202300579,6760,5,Suptadhara,Satkania,Fatikchari,Chandranath,,,Male,Yes,Friends,Autumn
+202300580,6600,4,Patenga,KhaiyaChora,Bashkhali,Chittagong University,,,Male,No,Couple,Rainy
+202300581,17681,5,Parkir Chor,Satkania,Suptadhara,Chandranath,,,Female,No,Alone,Autumn
+202300582,18829,2,Guliakhali,Parkir Chor,Patenga,Fatikchari,Chandranath,,Female,No,Alone,Summer
+202300583,24582,7,KhaiyaChora,Guliakhali,Parkir Chor,Suptadhara,,,Male,No,Friends,Winter
+202300584,18301,7,Fatikchari,,,,,,Female,No,Family,Autumn
+202300585,19794,7,Suptadhara,Bashkhali,Chittagong University,,,,Male,No,Alone,Autumn
+202300586,5897,2,Patenga,Suptadhara,Raojan,Fatikchari,KhaiyaChora,Bashkhali,Female,No,Friends,Autumn
+202300587,15647,7,KhaiyaChora,,,,,,Other,No,Family,Autumn
+202300588,12196,5,Chandranath,Patenga,Fatikchari,KhaiyaChora,Guliakhali,,Other,Yes,Alone,Summer
+202300589,10612,3,Raojan,Bashkhali,Fatikchari,KhaiyaChora,Parkir Chor,Chandranath,Other,No,Couple,Winter
+202300590,24948,2,Parkir Chor,Bashkhali,Suptadhara,,,,Male,Yes,Friends,Rainy
+202300591,21133,5,Chittagong University,Satkania,Fatikchari,,,,Other,Yes,Couple,Rainy
+202300592,20115,6,Raojan,Fatikchari,Patenga,Parkir Chor,,,Other,No,Couple,Summer
+202300593,29708,7,Parkir Chor,,,,,,Other,Yes,Alone,Autumn
+202300594,29401,7,Raojan,Suptadhara,Satkania,,,,Male,No,Alone,Autumn
+202300595,13775,5,Suptadhara,Chandranath,,,,,Female,Yes,Couple,Rainy
+202300596,19404,3,Chandranath,Raojan,Suptadhara,KhaiyaChora,,,Male,No,Friends,Winter
+202300597,25300,4,Fatikchari,Suptadhara,,,,,Other,No,Alone,Rainy
+202300598,28884,7,Bashkhali,Parkir Chor,,,,,Female,Yes,Friends,Summer
+202300599,6707,2,Chittagong University,Bashkhali,Suptadhara,Parkir Chor,KhaiyaChora,,Other,Yes,Family,Autumn
+202300600,29597,4,Guliakhali,,,,,,Other,No,Family,Autumn
+202300601,13721,2,Suptadhara,KhaiyaChora,Bashkhali,,,,Other,No,Family,Winter
+202300602,26376,1,Bashkhali,,,,,,Male,Yes,Friends,Rainy
+202300603,26658,2,KhaiyaChora,Parkir Chor,Fatikchari,Raojan,Chandranath,Patenga,Male,Yes,Couple,Summer
+202300604,6598,2,Raojan,,,,,,Female,Yes,Family,Winter
+202300605,23216,6,Fatikchari,Patenga,Suptadhara,Parkir Chor,Satkania,,Other,Yes,Friends,Winter
+202300606,15108,7,Bashkhali,,,,,,Other,Yes,Couple,Summer
+202300607,15663,2,Fatikchari,,,,,,Female,No,Friends,Rainy
+202300608,23892,4,Bashkhali,Raojan,KhaiyaChora,Chittagong University,Fatikchari,,Other,Yes,Family,Autumn
+202300609,6195,5,Parkir Chor,Chandranath,KhaiyaChora,Patenga,Satkania,,Male,Yes,Family,Rainy
+202300610,25117,2,KhaiyaChora,Parkir Chor,,,,,Male,No,Family,Autumn
+202300611,11591,3,Chandranath,Guliakhali,Fatikchari,Bashkhali,Raojan,,Male,Yes,Alone,Autumn
+202300612,22113,6,Fatikchari,Chittagong University,KhaiyaChora,Raojan,Parkir Chor,,Other,Yes,Friends,Autumn
+202300613,8176,1,Bashkhali,KhaiyaChora,Guliakhali,Patenga,Chandranath,Fatikchari,Female,Yes,Couple,Rainy
+202300614,12253,6,Guliakhali,KhaiyaChora,Suptadhara,,,,Other,Yes,Couple,Winter
+202300615,18465,3,Suptadhara,Bashkhali,Patenga,Raojan,KhaiyaChora,,Other,Yes,Couple,Rainy
+202300616,9067,5,Fatikchari,Satkania,,,,,Female,Yes,Family,Summer
+202300617,20728,5,Suptadhara,Raojan,Parkir Chor,,,,Male,No,Family,Autumn
+202300618,22218,4,Guliakhali,Chittagong University,,,,,Female,No,Couple,Winter
+202300619,12701,6,Chandranath,Fatikchari,Suptadhara,Satkania,Chittagong University,Patenga,Female,No,Friends,Winter
+202300620,15312,7,Fatikchari,Guliakhali,,,,,Female,No,Family,Summer
+202300621,10402,3,Bashkhali,Suptadhara,Parkir Chor,Satkania,,,Male,No,Alone,Summer
+202300622,27964,5,Parkir Chor,,,,,,Female,No,Family,Autumn
+202300623,27007,7,Chandranath,Guliakhali,Chittagong University,,,,Other,No,Alone,Winter
+202300624,14726,7,Fatikchari,,,,,,Other,Yes,Couple,Winter
+202300625,10138,1,Bashkhali,,,,,,Male,Yes,Family,Winter
+202300626,7071,7,Satkania,Patenga,Suptadhara,,,,Other,No,Family,Summer
+202300627,18084,1,Raojan,Bashkhali,Suptadhara,Satkania,Fatikchari,,Other,No,Alone,Summer
+202300628,23268,1,Parkir Chor,Bashkhali,,,,,Female,No,Family,Winter
+202300629,8092,6,Suptadhara,Parkir Chor,Satkania,Chittagong University,,,Female,No,Friends,Summer
+202300630,18990,4,Satkania,Parkir Chor,Chandranath,Bashkhali,Patenga,Chittagong University,Male,No,Friends,Autumn
+202300631,28097,2,Satkania,Chandranath,,,,,Other,Yes,Alone,Summer
+202300632,24041,1,Guliakhali,KhaiyaChora,Suptadhara,Chittagong University,Chandranath,,Other,Yes,Family,Autumn
+202300633,28176,1,KhaiyaChora,Chandranath,Parkir Chor,Fatikchari,,,Female,Yes,Friends,Autumn
+202300634,17389,7,Chandranath,Satkania,,,,,Female,No,Family,Winter
+202300635,28734,2,Guliakhali,Chittagong University,,,,,Other,No,Family,Rainy
+202300636,5954,2,Fatikchari,Parkir Chor,Guliakhali,Satkania,KhaiyaChora,Bashkhali,Male,No,Couple,Rainy
+202300637,12873,1,KhaiyaChora,Fatikchari,Chittagong University,Parkir Chor,Raojan,Patenga,Female,Yes,Friends,Rainy
+202300638,21816,3,Chittagong University,Fatikchari,Bashkhali,,,,Female,Yes,Couple,Autumn
+202300639,19767,1,Satkania,,,,,,Female,Yes,Friends,Summer
+202300640,23980,7,Guliakhali,Patenga,Chittagong University,,,,Female,No,Friends,Winter
+202300641,8720,2,Bashkhali,Guliakhali,,,,,Other,Yes,Friends,Rainy
+202300642,26677,6,Parkir Chor,Raojan,Chandranath,,,,Male,Yes,Couple,Autumn
+202300643,14911,1,Guliakhali,Raojan,,,,,Female,Yes,Alone,Winter
+202300644,5544,1,Parkir Chor,Patenga,KhaiyaChora,Satkania,Bashkhali,,Male,No,Friends,Rainy
+202300645,11540,7,Guliakhali,Raojan,Chittagong University,Patenga,Suptadhara,,Male,No,Couple,Rainy
+202300646,15950,6,Chandranath,Bashkhali,Chittagong University,,,,Female,Yes,Alone,Summer
+202300647,19693,4,Raojan,,,,,,Female,No,Friends,Autumn
+202300648,25983,3,Fatikchari,Patenga,Guliakhali,Suptadhara,Parkir Chor,,Other,No,Couple,Autumn
+202300649,12563,6,Parkir Chor,Fatikchari,,,,,Female,Yes,Alone,Winter
+202300650,17073,6,Satkania,Patenga,Raojan,KhaiyaChora,Fatikchari,Suptadhara,Female,No,Alone,Summer
+202300651,20177,4,Patenga,Suptadhara,Bashkhali,Chittagong University,KhaiyaChora,,Other,No,Alone,Rainy
+202300652,12782,7,Bashkhali,Guliakhali,Parkir Chor,Chittagong University,,,Male,No,Alone,Autumn
+202300653,15431,3,Bashkhali,Satkania,Chittagong University,Patenga,,,Female,No,Friends,Winter
+202300654,28431,4,Patenga,Satkania,Chittagong University,Suptadhara,KhaiyaChora,Bashkhali,Other,Yes,Family,Summer
+202300655,25055,1,Chittagong University,Raojan,,,,,Female,Yes,Alone,Autumn
+202300656,9028,1,Fatikchari,,,,,,Female,No,Family,Summer
+202300657,19046,4,Raojan,Chittagong University,Guliakhali,Chandranath,Suptadhara,Patenga,Male,No,Family,Winter
+202300658,6396,4,KhaiyaChora,Fatikchari,Raojan,Chandranath,,,Other,No,Friends,Autumn
+202300659,23424,3,Chandranath,Satkania,Parkir Chor,Raojan,,,Other,Yes,Family,Autumn
+202300660,11802,6,KhaiyaChora,Raojan,Satkania,,,,Male,No,Couple,Summer
+202300661,28421,7,Guliakhali,Raojan,Bashkhali,Satkania,Parkir Chor,Suptadhara,Other,Yes,Couple,Winter
+202300662,15032,1,Suptadhara,Chittagong University,,,,,Other,Yes,Couple,Autumn
+202300663,17784,2,Chandranath,Patenga,,,,,Other,No,Alone,Summer
+202300664,14860,3,Guliakhali,Suptadhara,Parkir Chor,Raojan,Fatikchari,Satkania,Male,No,Family,Autumn
+202300665,22328,5,Satkania,Raojan,Patenga,Bashkhali,Guliakhali,Chandranath,Other,No,Alone,Summer
+202300666,9817,1,Patenga,Fatikchari,,,,,Female,Yes,Family,Autumn
+202300667,7471,7,KhaiyaChora,Chandranath,Satkania,Suptadhara,,,Female,Yes,Friends,Rainy
+202300668,16034,4,KhaiyaChora,Bashkhali,Fatikchari,Patenga,Raojan,,Female,Yes,Friends,Winter
+202300669,23454,2,Parkir Chor,Guliakhali,,,,,Female,Yes,Family,Winter
+202300670,24202,2,Chittagong University,Suptadhara,,,,,Female,No,Family,Rainy
+202300671,12112,5,Patenga,Chittagong University,Fatikchari,,,,Male,Yes,Family,Rainy
+202300672,7279,2,Guliakhali,Chittagong University,Chandranath,Suptadhara,,,Other,Yes,Friends,Autumn
+202300673,9829,1,Raojan,KhaiyaChora,Suptadhara,,,,Female,No,Friends,Winter
+202300674,12339,3,Chittagong University,Raojan,Fatikchari,Satkania,KhaiyaChora,,Male,Yes,Alone,Autumn
+202300675,29902,2,Parkir Chor,Fatikchari,,,,,Female,No,Family,Winter
+202300676,25545,6,Suptadhara,Patenga,Satkania,Chittagong University,Chandranath,KhaiyaChora,Other,No,Friends,Rainy
+202300677,13346,4,Fatikchari,Satkania,,,,,Male,No,Couple,Winter
+202300678,25851,4,Fatikchari,Satkania,Suptadhara,Patenga,Bashkhali,,Female,Yes,Couple,Winter
+202300679,13961,6,Chittagong University,Patenga,Raojan,Satkania,Parkir Chor,KhaiyaChora,Male,No,Friends,Winter
+202300680,12138,4,Raojan,KhaiyaChora,Suptadhara,Guliakhali,Chandranath,Parkir Chor,Other,No,Family,Autumn
+202300681,23842,4,Bashkhali,Suptadhara,Chandranath,Raojan,,,Other,Yes,Family,Rainy
+202300682,6848,7,Satkania,Suptadhara,Raojan,,,,Male,No,Family,Autumn
+202300683,11096,1,Parkir Chor,,,,,,Female,No,Couple,Summer
+202300684,8974,4,Satkania,Chandranath,Bashkhali,Guliakhali,Fatikchari,,Male,No,Alone,Winter
+202300685,5226,2,Guliakhali,Chittagong University,Chandranath,Suptadhara,KhaiyaChora,Parkir Chor,Male,No,Couple,Summer
+202300686,5940,2,Bashkhali,,,,,,Male,Yes,Alone,Rainy
+202300687,9112,7,Chandranath,Patenga,,,,,Male,Yes,Couple,Rainy
+202300688,21530,4,Guliakhali,Chittagong University,Raojan,,,,Female,Yes,Family,Winter
+202300689,14898,7,Bashkhali,Suptadhara,,,,,Other,No,Couple,Autumn
+202300690,25102,7,Chittagong University,Suptadhara,,,,,Other,No,Alone,Summer
+202300691,17819,7,KhaiyaChora,Raojan,Fatikchari,Bashkhali,Suptadhara,,Male,Yes,Family,Autumn
+202300692,16276,1,Satkania,Parkir Chor,Suptadhara,Fatikchari,,,Male,No,Family,Winter
+202300693,24972,4,Patenga,,,,,,Female,Yes,Family,Summer
+202300694,22729,1,KhaiyaChora,Patenga,Raojan,Guliakhali,Chandranath,Suptadhara,Male,Yes,Alone,Winter
+202300695,25126,1,Fatikchari,,,,,,Other,Yes,Family,Rainy
+202300696,10845,1,Satkania,Chandranath,Guliakhali,Chittagong University,,,Other,No,Friends,Summer
+202300697,25297,7,Patenga,Parkir Chor,Fatikchari,Chittagong University,KhaiyaChora,,Other,Yes,Friends,Rainy
+202300698,5436,4,Fatikchari,Guliakhali,Suptadhara,Raojan,,,Male,No,Alone,Rainy
+202300699,9735,4,Suptadhara,Bashkhali,Fatikchari,Guliakhali,Chandranath,Satkania,Other,Yes,Alone,Rainy
+202300700,25564,3,Patenga,KhaiyaChora,,,,,Other,No,Family,Winter
+202300701,7874,7,Fatikchari,,,,,,Male,No,Alone,Autumn
+202300702,21670,2,Guliakhali,Bashkhali,Patenga,Raojan,Parkir Chor,Chandranath,Male,No,Friends,Rainy
+202300703,19377,2,Raojan,Guliakhali,Satkania,,,,Other,Yes,Alone,Summer
+202300704,16034,5,Guliakhali,Suptadhara,Fatikchari,,,,Male,Yes,Alone,Rainy
+202300705,23430,1,Parkir Chor,Guliakhali,Satkania,,,,Male,No,Family,Rainy
+202300706,10043,1,Guliakhali,Suptadhara,Raojan,KhaiyaChora,,,Other,No,Family,Rainy
+202300707,7458,3,Patenga,Fatikchari,Bashkhali,Satkania,,,Female,No,Family,Rainy
+202300708,29222,2,Suptadhara,Chandranath,Guliakhali,,,,Other,No,Friends,Winter
+202300709,14833,1,Fatikchari,Parkir Chor,Bashkhali,Chittagong University,Chandranath,,Female,Yes,Friends,Summer
+202300710,5162,3,Chandranath,,,,,,Male,Yes,Alone,Winter
+202300711,12684,4,Parkir Chor,Patenga,Fatikchari,Suptadhara,Bashkhali,,Other,No,Family,Winter
+202300712,28716,1,Chittagong University,Guliakhali,Raojan,KhaiyaChora,,,Male,Yes,Friends,Summer
+202300713,16609,2,KhaiyaChora,Bashkhali,Raojan,Fatikchari,Chandranath,,Female,Yes,Friends,Autumn
+202300714,13322,5,Fatikchari,,,,,,Female,Yes,Couple,Winter
+202300715,27993,5,Patenga,Chittagong University,Chandranath,Parkir Chor,,,Male,Yes,Friends,Winter
+202300716,8012,5,Bashkhali,Guliakhali,Raojan,KhaiyaChora,,,Other,No,Friends,Summer
+202300717,28487,3,Suptadhara,Parkir Chor,Chandranath,,,,Other,No,Family,Winter
+202300718,29783,2,Chandranath,,,,,,Other,No,Family,Rainy
+202300719,15464,6,Chandranath,Bashkhali,Patenga,Satkania,,,Female,No,Couple,Autumn
+202300720,16305,7,Satkania,Suptadhara,,,,,Other,Yes,Family,Autumn
+202300721,26468,4,Chandranath,,,,,,Other,No,Alone,Summer
+202300722,12372,3,Fatikchari,Satkania,KhaiyaChora,,,,Other,No,Couple,Summer
+202300723,17514,7,Parkir Chor,Bashkhali,Suptadhara,KhaiyaChora,Raojan,Chandranath,Male,No,Couple,Rainy
+202300724,17718,5,Chittagong University,Bashkhali,Parkir Chor,KhaiyaChora,Suptadhara,Raojan,Other,No,Alone,Winter
+202300725,17079,5,Suptadhara,Raojan,Satkania,Chandranath,,,Male,Yes,Family,Autumn
+202300726,6687,2,Parkir Chor,Chittagong University,Guliakhali,Satkania,,,Female,Yes,Couple,Summer
+202300727,10547,1,Chandranath,KhaiyaChora,Raojan,,,,Other,No,Friends,Rainy
+202300728,21951,4,Fatikchari,Suptadhara,Bashkhali,Chittagong University,Parkir Chor,,Female,Yes,Couple,Summer
+202300729,10622,6,Guliakhali,Satkania,Chittagong University,KhaiyaChora,Parkir Chor,,Male,No,Friends,Winter
+202300730,24473,6,Bashkhali,Patenga,Chittagong University,Fatikchari,,,Male,Yes,Couple,Rainy
+202300731,17204,1,Chandranath,Suptadhara,,,,,Other,No,Alone,Summer
+202300732,28650,6,Chandranath,KhaiyaChora,Chittagong University,,,,Male,No,Alone,Autumn
+202300733,11923,6,Suptadhara,Fatikchari,Chandranath,Chittagong University,Parkir Chor,,Other,Yes,Friends,Autumn
+202300734,22968,7,KhaiyaChora,Patenga,Parkir Chor,Suptadhara,Chandranath,Fatikchari,Male,No,Family,Rainy
+202300735,28277,7,Chittagong University,Suptadhara,Guliakhali,Chandranath,KhaiyaChora,,Other,Yes,Alone,Winter
+202300736,27872,3,Chittagong University,Suptadhara,Chandranath,Raojan,KhaiyaChora,Bashkhali,Other,Yes,Friends,Summer
+202300737,16353,5,Suptadhara,Parkir Chor,Chittagong University,Guliakhali,Patenga,,Female,Yes,Family,Rainy
+202300738,8970,6,Raojan,Suptadhara,Chittagong University,,,,Male,Yes,Couple,Rainy
+202300739,11702,2,Satkania,Patenga,,,,,Female,Yes,Couple,Rainy
+202300740,12821,3,Chandranath,Suptadhara,,,,,Male,No,Friends,Summer
+202300741,28346,1,Chandranath,Suptadhara,,,,,Female,Yes,Friends,Winter
+202300742,25925,4,Fatikchari,,,,,,Female,Yes,Friends,Autumn
+202300743,15656,3,Guliakhali,,,,,,Female,No,Family,Autumn
+202300744,25163,7,Chittagong University,Parkir Chor,KhaiyaChora,Patenga,Chandranath,,Female,No,Alone,Autumn
+202300745,18604,1,Fatikchari,,,,,,Female,Yes,Friends,Autumn
+202300746,17801,3,Parkir Chor,Bashkhali,Raojan,Guliakhali,Fatikchari,Suptadhara,Male,No,Family,Summer
+202300747,18824,6,Raojan,Bashkhali,Satkania,Chandranath,,,Other,Yes,Alone,Autumn
+202300748,14036,4,Patenga,Fatikchari,Guliakhali,Satkania,Chittagong University,Bashkhali,Female,Yes,Family,Autumn
+202300749,7300,3,Fatikchari,Bashkhali,Chittagong University,,,,Female,No,Family,Summer
+202300750,14731,7,Fatikchari,Guliakhali,Chandranath,KhaiyaChora,,,Other,Yes,Friends,Summer
+202300751,6053,1,Patenga,Chittagong University,,,,,Male,Yes,Friends,Summer
+202300752,12594,1,Chittagong University,Patenga,Suptadhara,Chandranath,,,Male,No,Friends,Summer
+202300753,22701,2,Suptadhara,Guliakhali,,,,,Other,No,Family,Autumn
+202300754,27177,6,KhaiyaChora,Fatikchari,Suptadhara,Raojan,Parkir Chor,Satkania,Female,No,Family,Summer
+202300755,26618,4,KhaiyaChora,Chittagong University,,,,,Male,Yes,Family,Autumn
+202300756,14556,2,Bashkhali,Parkir Chor,KhaiyaChora,Fatikchari,Suptadhara,Satkania,Other,Yes,Couple,Winter
+202300757,15584,6,Fatikchari,,,,,,Male,Yes,Friends,Rainy
+202300758,26936,1,Raojan,Bashkhali,Guliakhali,,,,Male,No,Couple,Rainy
+202300759,10700,1,Fatikchari,Parkir Chor,Patenga,Suptadhara,Raojan,Satkania,Male,No,Couple,Winter
+202300760,12164,1,Satkania,Chandranath,,,,,Female,Yes,Couple,Autumn
+202300761,12405,3,Suptadhara,,,,,,Female,Yes,Friends,Autumn
+202300762,16248,5,Fatikchari,Patenga,Satkania,Chittagong University,,,Other,No,Couple,Winter
+202300763,11316,7,Patenga,Suptadhara,,,,,Other,Yes,Friends,Rainy
+202300764,24162,6,KhaiyaChora,Parkir Chor,Chandranath,Guliakhali,Suptadhara,Raojan,Other,Yes,Couple,Summer
+202300765,11399,4,Raojan,Fatikchari,Chandranath,,,,Male,No,Alone,Winter
+202300766,8342,3,Chittagong University,Fatikchari,,,,,Female,No,Friends,Summer
+202300767,24121,1,Guliakhali,KhaiyaChora,,,,,Other,Yes,Family,Summer
+202300768,11102,1,Suptadhara,Fatikchari,Patenga,Guliakhali,Bashkhali,,Male,Yes,Friends,Winter
+202300769,18242,2,Parkir Chor,Fatikchari,Guliakhali,,,,Other,No,Friends,Autumn
+202300770,16407,5,Patenga,Bashkhali,Raojan,,,,Other,Yes,Alone,Autumn
+202300771,8832,5,Chandranath,Raojan,Satkania,,,,Other,Yes,Friends,Rainy
+202300772,24567,6,Bashkhali,Satkania,,,,,Female,No,Family,Winter
+202300773,19369,1,KhaiyaChora,Guliakhali,,,,,Female,Yes,Family,Autumn
+202300774,12536,1,KhaiyaChora,Patenga,Guliakhali,,,,Other,No,Family,Summer
+202300775,24357,4,Chittagong University,Fatikchari,Chandranath,Raojan,,,Female,No,Friends,Autumn
+202300776,15101,5,Chandranath,,,,,,Female,Yes,Friends,Summer
+202300777,18686,5,Guliakhali,Satkania,,,,,Other,Yes,Alone,Rainy
+202300778,21959,7,Chittagong University,,,,,,Other,No,Family,Autumn
+202300779,8467,3,Guliakhali,Fatikchari,,,,,Other,Yes,Couple,Rainy
+202300780,28281,2,Bashkhali,Fatikchari,Chittagong University,Patenga,Chandranath,,Other,Yes,Couple,Autumn
+202300781,23740,5,Suptadhara,Raojan,Fatikchari,,,,Male,Yes,Couple,Autumn
+202300782,19086,1,Raojan,Suptadhara,,,,,Male,No,Alone,Winter
+202300783,27180,6,Bashkhali,Fatikchari,Chandranath,,,,Male,No,Couple,Autumn
+202300784,7025,6,Chittagong University,Satkania,Raojan,,,,Female,No,Couple,Autumn
+202300785,24420,6,Satkania,,,,,,Male,Yes,Alone,Autumn
+202300786,21766,4,Satkania,Parkir Chor,Raojan,KhaiyaChora,,,Other,No,Family,Rainy
+202300787,8382,5,Chandranath,Bashkhali,Satkania,Parkir Chor,Chittagong University,,Male,No,Family,Rainy
+202300788,23681,5,Bashkhali,Suptadhara,,,,,Female,Yes,Alone,Autumn
+202300789,5582,2,Parkir Chor,Fatikchari,Suptadhara,KhaiyaChora,Chandranath,,Male,Yes,Couple,Winter
+202300790,20381,5,Patenga,Fatikchari,,,,,Male,Yes,Couple,Winter
+202300791,25319,5,Chittagong University,Chandranath,Fatikchari,Suptadhara,,,Other,Yes,Alone,Winter
+202300792,23206,7,Patenga,Suptadhara,Satkania,Bashkhali,Chandranath,Guliakhali,Male,Yes,Alone,Rainy
+202300793,25663,6,Chandranath,,,,,,Other,No,Family,Summer
+202300794,24510,5,Suptadhara,KhaiyaChora,,,,,Female,No,Friends,Summer
+202300795,14105,2,Chandranath,Suptadhara,Parkir Chor,KhaiyaChora,Raojan,,Female,Yes,Couple,Winter
+202300796,14137,7,Suptadhara,Chandranath,Chittagong University,Bashkhali,,,Female,No,Friends,Summer
+202300797,26244,3,Raojan,Suptadhara,Fatikchari,,,,Male,Yes,Couple,Summer
+202300798,21632,5,Fatikchari,Chandranath,Raojan,Parkir Chor,,,Other,No,Friends,Summer
+202300799,14381,7,Bashkhali,Suptadhara,Chittagong University,Raojan,Patenga,Guliakhali,Other,No,Family,Winter
+202300800,15658,3,Satkania,Suptadhara,Guliakhali,Parkir Chor,,,Other,No,Couple,Winter
+202300801,24334,5,Parkir Chor,,,,,,Male,Yes,Family,Autumn
+202300802,9430,2,Guliakhali,Raojan,Satkania,Chandranath,KhaiyaChora,Fatikchari,Other,No,Family,Rainy
+202300803,9147,4,Patenga,Guliakhali,,,,,Female,No,Couple,Summer
+202300804,22772,3,Chittagong University,Patenga,Parkir Chor,Raojan,,,Other,No,Friends,Summer
+202300805,26241,4,Chandranath,KhaiyaChora,Raojan,Fatikchari,Chittagong University,Patenga,Other,Yes,Alone,Winter
+202300806,13599,5,Chandranath,,,,,,Male,Yes,Friends,Summer
+202300807,18519,4,Satkania,Raojan,Suptadhara,KhaiyaChora,Patenga,Bashkhali,Male,No,Couple,Winter
+202300808,12634,1,Fatikchari,Raojan,Patenga,Chittagong University,Suptadhara,,Female,No,Couple,Rainy
+202300809,28057,7,Chandranath,KhaiyaChora,Guliakhali,Parkir Chor,Chittagong University,Fatikchari,Male,No,Couple,Autumn
+202300810,15385,4,Chandranath,Suptadhara,Raojan,Parkir Chor,Patenga,,Male,Yes,Family,Rainy
+202300811,16104,2,Satkania,,,,,,Female,No,Alone,Autumn
+202300812,23157,1,Satkania,Raojan,Chittagong University,Patenga,,,Female,Yes,Family,Summer
+202300813,15068,2,Patenga,,,,,,Male,No,Family,Summer
+202300814,17273,3,Parkir Chor,Bashkhali,KhaiyaChora,Guliakhali,Satkania,Fatikchari,Female,Yes,Alone,Rainy
+202300815,6805,2,Patenga,Guliakhali,Chittagong University,Suptadhara,,,Male,Yes,Alone,Summer
+202300816,13360,3,Patenga,Fatikchari,Suptadhara,Chandranath,Guliakhali,,Female,No,Couple,Rainy
+202300817,27690,7,Raojan,Patenga,,,,,Female,Yes,Alone,Summer
+202300818,23426,3,KhaiyaChora,Suptadhara,Fatikchari,Raojan,,,Male,Yes,Couple,Rainy
+202300819,7421,5,Patenga,,,,,,Other,Yes,Family,Rainy
+202300820,12258,2,KhaiyaChora,Patenga,Guliakhali,Raojan,,,Male,No,Family,Summer
+202300821,16306,6,KhaiyaChora,Parkir Chor,Bashkhali,,,,Female,No,Couple,Summer
+202300822,21929,6,Bashkhali,Suptadhara,Satkania,,,,Other,No,Family,Autumn
+202300823,5583,6,Suptadhara,,,,,,Male,No,Family,Autumn
+202300824,16537,2,Satkania,,,,,,Other,Yes,Friends,Rainy
+202300825,13701,3,Guliakhali,Patenga,Chittagong University,Raojan,,,Female,No,Alone,Winter
+202300826,11801,7,KhaiyaChora,Patenga,Suptadhara,Satkania,Raojan,Chittagong University,Female,No,Friends,Autumn
+202300827,21330,7,Chittagong University,Parkir Chor,KhaiyaChora,Fatikchari,Suptadhara,Chandranath,Male,No,Friends,Rainy
+202300828,26096,3,Fatikchari,Chittagong University,Suptadhara,Chandranath,,,Male,No,Friends,Winter
+202300829,15911,2,KhaiyaChora,,,,,,Other,Yes,Couple,Winter
+202300830,28338,5,Satkania,Patenga,Chandranath,Bashkhali,Parkir Chor,,Other,No,Alone,Rainy
+202300831,11933,7,Bashkhali,KhaiyaChora,Guliakhali,Suptadhara,Raojan,,Female,Yes,Alone,Autumn
+202300832,17689,5,Chandranath,Patenga,Suptadhara,Raojan,Chittagong University,,Female,No,Family,Winter
+202300833,13570,1,Satkania,,,,,,Male,No,Friends,Winter
+202300834,17173,1,Chandranath,Parkir Chor,Satkania,Suptadhara,Chittagong University,,Male,Yes,Friends,Autumn
+202300835,6626,4,Parkir Chor,Chandranath,Patenga,,,,Other,Yes,Friends,Summer
+202300836,7906,3,Suptadhara,Parkir Chor,Satkania,Raojan,Guliakhali,Chandranath,Other,Yes,Friends,Summer
+202300837,10541,3,KhaiyaChora,Satkania,,,,,Other,Yes,Friends,Rainy
+202300838,14368,7,Suptadhara,Parkir Chor,,,,,Female,No,Couple,Winter
+202300839,27577,2,Satkania,Patenga,,,,,Male,No,Alone,Autumn
+202300840,21500,1,Fatikchari,,,,,,Male,Yes,Alone,Rainy
+202300841,15698,3,Suptadhara,,,,,,Female,No,Friends,Winter
+202300842,7818,6,Patenga,Raojan,,,,,Other,Yes,Couple,Rainy
+202300843,21969,4,Satkania,Patenga,Suptadhara,Fatikchari,Chittagong University,KhaiyaChora,Female,No,Couple,Autumn
+202300844,21772,5,Parkir Chor,Fatikchari,Satkania,Suptadhara,Raojan,Patenga,Other,No,Friends,Winter
+202300845,6987,5,Suptadhara,Raojan,,,,,Female,Yes,Couple,Autumn
+202300846,10385,7,Raojan,Chandranath,Satkania,,,,Other,Yes,Friends,Winter
+202300847,5285,3,KhaiyaChora,Guliakhali,Fatikchari,,,,Other,Yes,Couple,Winter
+202300848,25338,5,Fatikchari,Chittagong University,Bashkhali,Satkania,,,Other,No,Family,Rainy
+202300849,19196,4,Fatikchari,Chittagong University,Satkania,,,,Other,Yes,Couple,Autumn
+202300850,9860,4,Satkania,Raojan,Fatikchari,Parkir Chor,Bashkhali,,Female,No,Friends,Rainy
+202300851,11219,5,Bashkhali,,,,,,Male,No,Friends,Summer
+202300852,17017,1,Fatikchari,Raojan,KhaiyaChora,Chandranath,,,Female,No,Couple,Summer
+202300853,10183,7,Patenga,Parkir Chor,Chandranath,,,,Female,No,Friends,Autumn
+202300854,29808,5,Guliakhali,,,,,,Male,No,Alone,Autumn
+202300855,8020,6,Guliakhali,Fatikchari,Satkania,,,,Other,No,Friends,Rainy
+202300856,8645,6,Patenga,Chittagong University,Bashkhali,,,,Female,Yes,Couple,Rainy
+202300857,16816,4,Patenga,KhaiyaChora,Chittagong University,Raojan,Bashkhali,,Female,No,Family,Winter
+202300858,11416,6,Suptadhara,,,,,,Female,No,Couple,Autumn
+202300859,9470,3,Raojan,KhaiyaChora,Fatikchari,Guliakhali,Parkir Chor,Satkania,Other,Yes,Family,Summer
+202300860,21078,5,Guliakhali,Fatikchari,Patenga,,,,Female,No,Family,Summer
+202300861,15293,2,Chandranath,Chittagong University,Bashkhali,Parkir Chor,Suptadhara,Fatikchari,Male,Yes,Couple,Summer
+202300862,19993,6,Satkania,Parkir Chor,Chittagong University,Suptadhara,,,Other,No,Friends,Autumn
+202300863,9352,2,Suptadhara,,,,,,Male,No,Friends,Summer
+202300864,25329,1,Patenga,Bashkhali,Chandranath,Guliakhali,,,Other,Yes,Friends,Rainy
+202300865,6538,5,Chandranath,Patenga,KhaiyaChora,Guliakhali,Raojan,,Male,No,Friends,Rainy
+202300866,26577,6,Raojan,Parkir Chor,Satkania,,,,Male,Yes,Alone,Autumn
+202300867,15612,5,Fatikchari,Patenga,Chittagong University,Satkania,,,Female,Yes,Alone,Summer
+202300868,29058,2,Satkania,Suptadhara,Fatikchari,,,,Female,Yes,Family,Summer
+202300869,12172,3,Fatikchari,Raojan,Suptadhara,,,,Other,No,Family,Winter
+202300870,28067,2,Bashkhali,Suptadhara,Fatikchari,Raojan,Chittagong University,Guliakhali,Male,No,Couple,Rainy
+202300871,6984,4,Satkania,KhaiyaChora,Bashkhali,Patenga,,,Female,Yes,Friends,Winter
+202300872,19751,1,Bashkhali,Raojan,Parkir Chor,,,,Other,No,Family,Rainy
+202300873,5191,4,Satkania,Raojan,Suptadhara,Fatikchari,Chandranath,,Female,Yes,Friends,Autumn
+202300874,13268,1,Suptadhara,Raojan,Satkania,Bashkhali,Parkir Chor,,Other,No,Friends,Autumn
+202300875,8304,7,Guliakhali,Patenga,Bashkhali,Chittagong University,KhaiyaChora,Raojan,Female,No,Friends,Autumn
+202300876,17227,7,Chittagong University,,,,,,Other,No,Friends,Summer
+202300877,21874,1,Bashkhali,Satkania,,,,,Male,No,Family,Autumn
+202300878,13187,2,Patenga,,,,,,Other,Yes,Couple,Autumn
+202300879,28432,2,Patenga,Guliakhali,KhaiyaChora,Parkir Chor,Raojan,Chittagong University,Female,No,Alone,Autumn
+202300880,14528,7,Chittagong University,Parkir Chor,Satkania,,,,Male,No,Family,Summer
+202300881,21366,7,Suptadhara,Chittagong University,Satkania,Fatikchari,Raojan,Bashkhali,Other,Yes,Alone,Summer
+202300882,25714,7,Parkir Chor,Bashkhali,Chandranath,Satkania,,,Other,Yes,Family,Autumn
+202300883,15124,5,Parkir Chor,Raojan,Guliakhali,Bashkhali,Chittagong University,,Other,No,Couple,Winter
+202300884,11523,2,Raojan,Chittagong University,,,,,Male,Yes,Family,Rainy
+202300885,17615,7,Patenga,KhaiyaChora,Chandranath,Satkania,Suptadhara,,Other,Yes,Friends,Rainy
+202300886,14402,1,Chandranath,Patenga,Raojan,KhaiyaChora,,,Female,Yes,Family,Winter
+202300887,16348,5,Parkir Chor,,,,,,Male,No,Alone,Autumn
+202300888,20705,6,Patenga,,,,,,Female,No,Friends,Winter
+202300889,6069,6,Fatikchari,,,,,,Other,Yes,Couple,Rainy
+202300890,6680,4,Fatikchari,Guliakhali,,,,,Other,No,Friends,Winter
+202300891,21219,1,Patenga,Chittagong University,Parkir Chor,KhaiyaChora,Suptadhara,,Other,No,Couple,Summer
+202300892,6855,6,Parkir Chor,Satkania,Fatikchari,Suptadhara,,,Male,No,Couple,Autumn
+202300893,15699,7,Guliakhali,Patenga,Chittagong University,Parkir Chor,Fatikchari,,Other,Yes,Alone,Summer
+202300894,25726,7,Suptadhara,,,,,,Male,No,Friends,Rainy
+202300895,13902,4,Satkania,,,,,,Other,Yes,Friends,Summer
+202300896,25491,3,Satkania,,,,,,Other,Yes,Alone,Autumn
+202300897,20840,3,Satkania,,,,,,Female,Yes,Alone,Winter
+202300898,6511,6,Chandranath,Parkir Chor,Bashkhali,Chittagong University,,,Male,No,Friends,Rainy
+202300899,10634,4,Chittagong University,Satkania,Bashkhali,Patenga,,,Male,No,Family,Summer
+202300900,24833,2,Raojan,Bashkhali,,,,,Male,No,Couple,Winter
+202300901,27299,1,Patenga,,,,,,Female,No,Alone,Summer
+202300902,28408,5,Bashkhali,Chittagong University,KhaiyaChora,Chandranath,,,Other,No,Friends,Summer
+202300903,13713,7,Satkania,Raojan,Chandranath,Patenga,Fatikchari,,Female,No,Alone,Winter
+202300904,27886,6,KhaiyaChora,Parkir Chor,Bashkhali,Patenga,Suptadhara,Guliakhali,Male,No,Alone,Rainy
+202300905,20929,2,Suptadhara,Satkania,Patenga,Guliakhali,,,Male,Yes,Family,Autumn
+202300906,11245,3,Suptadhara,Parkir Chor,Guliakhali,KhaiyaChora,Chittagong University,,Female,Yes,Couple,Winter
+202300907,27135,5,Parkir Chor,Satkania,Patenga,Chandranath,,,Female,Yes,Friends,Winter
+202300908,17619,1,Satkania,KhaiyaChora,Chandranath,Fatikchari,,,Female,No,Couple,Winter
+202300909,28499,1,Raojan,,,,,,Male,Yes,Alone,Winter
+202300910,19001,6,Satkania,Guliakhali,KhaiyaChora,Bashkhali,Raojan,Fatikchari,Other,Yes,Couple,Rainy
+202300911,11252,2,Bashkhali,Satkania,,,,,Female,Yes,Alone,Winter
+202300912,7149,1,Raojan,Chittagong University,,,,,Male,No,Family,Rainy
+202300913,27669,7,Raojan,Fatikchari,Chittagong University,Chandranath,,,Other,Yes,Alone,Autumn
+202300914,17455,2,Raojan,,,,,,Other,Yes,Couple,Rainy
+202300915,25113,4,Chittagong University,Chandranath,,,,,Male,No,Alone,Autumn
+202300916,18778,2,Chittagong University,Guliakhali,Suptadhara,Patenga,Satkania,,Male,No,Alone,Rainy
+202300917,14973,6,Fatikchari,,,,,,Female,No,Alone,Rainy
+202300918,9194,5,Chittagong University,Guliakhali,Satkania,Suptadhara,KhaiyaChora,Bashkhali,Female,Yes,Family,Winter
+202300919,10098,5,Patenga,Guliakhali,Suptadhara,,,,Female,No,Family,Summer
+202300920,21546,3,Patenga,Guliakhali,KhaiyaChora,Fatikchari,Suptadhara,,Male,Yes,Alone,Rainy
+202300921,29704,6,Raojan,Fatikchari,Chittagong University,,,,Female,Yes,Couple,Summer
+202300922,21227,3,Patenga,Parkir Chor,Bashkhali,Fatikchari,,,Female,Yes,Friends,Summer
+202300923,17054,3,Bashkhali,Chandranath,,,,,Female,No,Alone,Autumn
+202300924,26180,6,Fatikchari,,,,,,Other,No,Couple,Rainy
+202300925,14632,2,Parkir Chor,Bashkhali,Guliakhali,Raojan,,,Other,No,Family,Rainy
+202300926,5800,5,Bashkhali,Parkir Chor,,,,,Male,No,Family,Winter
+202300927,27941,6,Suptadhara,Guliakhali,Fatikchari,Raojan,,,Female,Yes,Friends,Winter
+202300928,18882,4,Guliakhali,Patenga,Raojan,Chittagong University,Satkania,,Male,No,Alone,Rainy
+202300929,26964,3,Chandranath,Bashkhali,Suptadhara,Patenga,Parkir Chor,,Female,No,Friends,Rainy
+202300930,19043,7,Suptadhara,Chandranath,Satkania,Guliakhali,Fatikchari,,Female,No,Couple,Rainy
+202300931,29199,1,Suptadhara,Bashkhali,Chandranath,,,,Male,No,Alone,Summer
+202300932,22693,7,Fatikchari,Chandranath,,,,,Male,Yes,Family,Rainy
+202300933,23504,1,Chittagong University,Guliakhali,Suptadhara,Parkir Chor,Raojan,Patenga,Female,No,Couple,Summer
+202300934,10771,2,Raojan,,,,,,Male,No,Family,Rainy
+202300935,22234,6,KhaiyaChora,Satkania,Parkir Chor,,,,Male,No,Alone,Rainy
+202300936,12322,2,Satkania,Bashkhali,Suptadhara,,,,Female,Yes,Couple,Summer
+202300937,13127,2,KhaiyaChora,,,,,,Other,Yes,Friends,Rainy
+202300938,14073,6,Chandranath,Guliakhali,Fatikchari,,,,Female,Yes,Family,Rainy
+202300939,18202,2,Patenga,Chittagong University,Bashkhali,KhaiyaChora,Parkir Chor,Chandranath,Other,Yes,Couple,Summer
+202300940,21420,3,Suptadhara,Bashkhali,Chittagong University,Chandranath,Parkir Chor,Fatikchari,Male,Yes,Alone,Winter
+202300941,23947,2,Bashkhali,Satkania,Parkir Chor,KhaiyaChora,,,Other,Yes,Alone,Rainy
+202300942,16559,5,Raojan,Chandranath,Guliakhali,Patenga,,,Male,Yes,Friends,Winter
+202300943,14641,5,Fatikchari,KhaiyaChora,,,,,Female,Yes,Friends,Autumn
+202300944,6287,3,Satkania,KhaiyaChora,Suptadhara,,,,Female,Yes,Couple,Rainy
+202300945,9708,1,Chandranath,Guliakhali,Parkir Chor,,,,Female,No,Alone,Summer
+202300946,23639,3,KhaiyaChora,Bashkhali,,,,,Female,Yes,Couple,Rainy
+202300947,8662,6,Raojan,,,,,,Male,No,Friends,Rainy
+202300948,22800,3,Chittagong University,Fatikchari,Satkania,Suptadhara,,,Female,Yes,Friends,Autumn
+202300949,16946,5,Suptadhara,Fatikchari,,,,,Female,Yes,Family,Autumn
+202300950,23364,3,Chandranath,Parkir Chor,Bashkhali,KhaiyaChora,,,Other,No,Couple,Rainy
+202300951,5551,7,Parkir Chor,Bashkhali,,,,,Female,No,Family,Autumn
+202300952,24894,4,Raojan,Parkir Chor,Guliakhali,Satkania,,,Male,Yes,Family,Summer
+202300953,6959,4,Raojan,Guliakhali,Suptadhara,KhaiyaChora,Fatikchari,,Female,Yes,Couple,Rainy
+202300954,12072,6,Suptadhara,Chittagong University,Chandranath,Bashkhali,,,Female,No,Couple,Rainy
+202300955,8621,3,Chittagong University,Bashkhali,Raojan,Guliakhali,Satkania,,Female,No,Friends,Autumn
+202300956,28073,2,Bashkhali,Chittagong University,Fatikchari,Guliakhali,,,Other,Yes,Couple,Autumn
+202300957,9154,5,Parkir Chor,Patenga,Chittagong University,KhaiyaChora,Guliakhali,,Female,Yes,Friends,Winter
+202300958,26412,2,Chittagong University,Suptadhara,KhaiyaChora,Raojan,,,Female,No,Alone,Summer
+202300959,9512,2,Patenga,Suptadhara,Fatikchari,Raojan,,,Male,No,Alone,Autumn
+202300960,9066,6,Guliakhali,Patenga,KhaiyaChora,,,,Male,Yes,Friends,Winter
+202300961,8860,1,Suptadhara,,,,,,Other,Yes,Family,Summer
+202300962,13497,5,Chittagong University,Parkir Chor,,,,,Female,No,Couple,Autumn
+202300963,25640,7,Fatikchari,Satkania,,,,,Male,Yes,Friends,Rainy
+202300964,11974,4,Patenga,Bashkhali,Parkir Chor,Chittagong University,,,Female,Yes,Alone,Rainy
+202300965,14197,6,Fatikchari,Parkir Chor,Bashkhali,KhaiyaChora,,,Other,No,Couple,Summer
+202300966,23223,3,Raojan,Chittagong University,Patenga,KhaiyaChora,Fatikchari,Suptadhara,Female,No,Friends,Winter
+202300967,16656,2,Patenga,Raojan,Fatikchari,Parkir Chor,KhaiyaChora,,Female,No,Friends,Summer
+202300968,15091,4,Guliakhali,Bashkhali,KhaiyaChora,Fatikchari,Chandranath,,Female,No,Alone,Rainy
+202300969,11345,2,Guliakhali,,,,,,Female,No,Alone,Rainy
+202300970,14401,1,Chittagong University,Raojan,Guliakhali,Satkania,Bashkhali,,Male,Yes,Alone,Winter
+202300971,11739,3,Parkir Chor,Satkania,Bashkhali,,,,Other,Yes,Couple,Rainy
+202300972,25637,4,Suptadhara,Chandranath,Satkania,Parkir Chor,,,Other,Yes,Family,Autumn
+202300973,27796,4,Suptadhara,Guliakhali,KhaiyaChora,Chandranath,,,Other,Yes,Friends,Autumn
+202300974,27974,5,Chandranath,Guliakhali,KhaiyaChora,Raojan,,,Other,Yes,Friends,Winter
+202300975,28235,5,Satkania,,,,,,Male,No,Friends,Winter
+202300976,7343,4,Patenga,KhaiyaChora,,,,,Male,No,Family,Winter
+202300977,17541,1,Fatikchari,Patenga,KhaiyaChora,,,,Other,No,Family,Summer
+202300978,20213,7,Guliakhali,Parkir Chor,Chandranath,Suptadhara,Patenga,Satkania,Other,No,Couple,Autumn
+202300979,15275,3,Guliakhali,Patenga,Parkir Chor,,,,Male,No,Friends,Rainy
+202300980,17396,7,Raojan,Satkania,,,,,Other,Yes,Friends,Rainy
+202300981,27749,6,Parkir Chor,Chittagong University,Raojan,,,,Female,Yes,Alone,Summer
+202300982,15165,3,Patenga,Satkania,,,,,Male,No,Couple,Rainy
+202300983,29223,3,Fatikchari,KhaiyaChora,,,,,Male,Yes,Alone,Winter
+202300984,25309,3,Suptadhara,Guliakhali,Parkir Chor,KhaiyaChora,Bashkhali,,Other,Yes,Alone,Rainy
+202300985,29550,7,Guliakhali,Chandranath,,,,,Female,No,Family,Winter
+202300986,23382,3,Chandranath,Parkir Chor,KhaiyaChora,Suptadhara,,,Female,Yes,Friends,Summer
+202300987,11269,5,KhaiyaChora,Parkir Chor,Raojan,,,,Other,Yes,Alone,Summer
+202300988,15083,7,Chandranath,Patenga,,,,,Female,No,Friends,Rainy
+202300989,6224,1,Chittagong University,Raojan,Patenga,Satkania,,,Other,No,Family,Summer
+202300990,14434,1,Chandranath,KhaiyaChora,Suptadhara,,,,Male,Yes,Friends,Rainy
+202300991,18158,3,Patenga,KhaiyaChora,Satkania,Guliakhali,Suptadhara,,Male,Yes,Couple,Winter
+202300992,20998,2,Patenga,Chittagong University,Bashkhali,Chandranath,KhaiyaChora,,Other,No,Friends,Winter
+202300993,14067,6,Parkir Chor,Satkania,KhaiyaChora,Suptadhara,Raojan,,Male,No,Alone,Rainy
+202300994,23824,3,Suptadhara,Patenga,Satkania,Chandranath,Fatikchari,Raojan,Male,Yes,Friends,Rainy
+202300995,9556,4,Patenga,Fatikchari,,,,,Male,No,Couple,Winter
+202300996,27222,4,Bashkhali,Raojan,KhaiyaChora,,,,Other,No,Friends,Rainy
+202300997,13742,6,Patenga,Satkania,Suptadhara,Fatikchari,,,Other,Yes,Couple,Autumn
+202300998,7901,2,Chandranath,Chittagong University,Bashkhali,Parkir Chor,,,Male,Yes,Family,Winter
+202300999,28234,6,Fatikchari,Raojan,Guliakhali,Bashkhali,Patenga,,Other,No,Alone,Rainy
+202301000,20730,5,Bashkhali,Suptadhara,,,,,Other,Yes,Couple,Autumn
+202301001,21797,4,Bashkhali,Guliakhali,Parkir Chor,Suptadhara,Fatikchari,,Other,No,Couple,Summer
+202301002,13771,6,Suptadhara,,,,,,Female,No,Alone,Winter
+202301003,10402,5,Bashkhali,Parkir Chor,,,,,Male,No,Family,Autumn
+202301004,13719,5,Chittagong University,Raojan,Fatikchari,Guliakhali,KhaiyaChora,,Male,Yes,Couple,Autumn
+202301005,8690,7,Patenga,Guliakhali,Chittagong University,,,,Male,No,Family,Winter
+202301006,7619,4,Patenga,,,,,,Female,Yes,Alone,Autumn
+202301007,19301,7,Patenga,Parkir Chor,KhaiyaChora,Bashkhali,,,Female,No,Friends,Winter
+202301008,13764,6,Suptadhara,Chandranath,Guliakhali,Bashkhali,,,Female,No,Friends,Summer
+202301009,25183,4,Chandranath,Parkir Chor,Fatikchari,,,,Female,Yes,Alone,Autumn
+202301010,26418,2,Bashkhali,,,,,,Female,No,Couple,Autumn
+202301011,27777,2,Bashkhali,KhaiyaChora,,,,,Female,Yes,Family,Autumn
+202301012,15898,7,Bashkhali,Fatikchari,Chittagong University,Guliakhali,Raojan,,Female,Yes,Friends,Winter
+202301013,19608,5,Raojan,Suptadhara,,,,,Female,Yes,Family,Winter
+202301014,28964,7,KhaiyaChora,Chandranath,Suptadhara,,,,Male,No,Alone,Winter
+202301015,13709,5,KhaiyaChora,Patenga,Fatikchari,Bashkhali,Guliakhali,,Other,Yes,Couple,Autumn
+202301016,5836,3,Raojan,Chandranath,Guliakhali,Satkania,,,Female,No,Couple,Summer
+202301017,25282,7,KhaiyaChora,Raojan,Bashkhali,Fatikchari,Chittagong University,Chandranath,Other,No,Couple,Summer
+202301018,5369,4,Fatikchari,Guliakhali,,,,,Female,Yes,Alone,Rainy
+202301019,26264,1,KhaiyaChora,Guliakhali,Chittagong University,,,,Female,No,Couple,Winter
+202301020,19875,7,Satkania,Parkir Chor,Chandranath,Suptadhara,Bashkhali,Raojan,Other,No,Couple,Summer
+202301021,27085,2,Suptadhara,Chittagong University,Fatikchari,,,,Male,Yes,Family,Winter
+202301022,21881,1,Satkania,Patenga,Chandranath,KhaiyaChora,Chittagong University,,Male,No,Family,Rainy
+202301023,20451,2,Guliakhali,,,,,,Female,No,Alone,Rainy
+202301024,19941,6,Fatikchari,KhaiyaChora,Chittagong University,Raojan,,,Other,Yes,Alone,Autumn
+202301025,11505,6,Satkania,Chittagong University,Suptadhara,Guliakhali,Parkir Chor,Patenga,Other,Yes,Friends,Autumn
+202301026,24479,4,Chandranath,Suptadhara,Satkania,Chittagong University,Parkir Chor,Fatikchari,Female,No,Friends,Rainy
+202301027,23337,5,Bashkhali,Parkir Chor,Suptadhara,Chandranath,Fatikchari,,Other,Yes,Alone,Autumn
+202301028,15875,4,KhaiyaChora,Suptadhara,Bashkhali,Parkir Chor,Raojan,,Male,Yes,Family,Winter
+202301029,6631,2,Patenga,,,,,,Other,No,Family,Winter
+202301030,23816,1,KhaiyaChora,,,,,,Male,No,Couple,Autumn
+202301031,16338,6,Suptadhara,Chandranath,KhaiyaChora,Parkir Chor,,,Female,Yes,Alone,Rainy
+202301032,20508,5,Patenga,Chandranath,Guliakhali,,,,Female,No,Family,Winter
+202301033,28567,3,Suptadhara,Patenga,Guliakhali,Chandranath,,,Female,No,Friends,Winter
+202301034,29920,1,Fatikchari,Guliakhali,Chittagong University,,,,Female,No,Friends,Summer
+202301035,5333,2,Satkania,Parkir Chor,,,,,Male,Yes,Alone,Autumn
+202301036,19012,5,Suptadhara,Satkania,KhaiyaChora,,,,Female,No,Family,Rainy
+202301037,26282,1,Chandranath,Guliakhali,Fatikchari,KhaiyaChora,Bashkhali,,Male,Yes,Alone,Winter
+202301038,19424,1,Satkania,Bashkhali,,,,,Female,Yes,Friends,Summer
+202301039,27835,6,Guliakhali,Fatikchari,Suptadhara,Raojan,Chittagong University,Chandranath,Other,Yes,Friends,Rainy
+202301040,19428,3,Parkir Chor,Patenga,Raojan,Guliakhali,Satkania,Fatikchari,Male,Yes,Family,Summer
+202301041,21903,1,Guliakhali,Parkir Chor,KhaiyaChora,,,,Other,No,Couple,Winter
+202301042,26179,2,Suptadhara,Satkania,Parkir Chor,Raojan,,,Other,Yes,Alone,Winter
+202301043,17020,6,Satkania,Guliakhali,,,,,Male,No,Family,Rainy
+202301044,11065,7,Patenga,Fatikchari,Bashkhali,Satkania,Raojan,Suptadhara,Other,Yes,Friends,Summer
+202301045,22054,3,Fatikchari,Parkir Chor,Bashkhali,Suptadhara,Patenga,Chandranath,Male,Yes,Alone,Rainy
+202301046,28365,2,Chandranath,Satkania,Chittagong University,Suptadhara,,,Other,Yes,Couple,Autumn
+202301047,11656,3,Guliakhali,Patenga,Bashkhali,Fatikchari,Chandranath,Parkir Chor,Female,No,Friends,Summer
+202301048,10681,3,Fatikchari,Chandranath,Patenga,,,,Other,Yes,Friends,Autumn
+202301049,20412,2,Satkania,Guliakhali,,,,,Other,Yes,Friends,Autumn
+202301050,23853,2,Satkania,Guliakhali,,,,,Other,Yes,Friends,Winter
+202301051,14700,7,Chittagong University,Suptadhara,KhaiyaChora,Chandranath,Bashkhali,,Male,Yes,Friends,Summer
+202301052,10963,2,Chandranath,Raojan,Bashkhali,Patenga,,,Other,Yes,Couple,Summer
+202301053,28759,6,Bashkhali,Suptadhara,,,,,Female,No,Alone,Winter
+202301054,15661,7,Fatikchari,Guliakhali,Bashkhali,Suptadhara,Satkania,,Male,No,Friends,Winter
+202301055,14943,2,Guliakhali,,,,,,Female,No,Alone,Winter
+202301056,18098,1,Patenga,,,,,,Other,No,Family,Summer
+202301057,21977,4,Chandranath,,,,,,Other,Yes,Family,Winter
+202301058,14544,2,KhaiyaChora,Patenga,Raojan,Satkania,Chandranath,Parkir Chor,Male,No,Friends,Winter
+202301059,26518,3,Patenga,Suptadhara,Satkania,Raojan,Chittagong University,Fatikchari,Male,No,Couple,Winter
+202301060,11275,2,Suptadhara,Raojan,KhaiyaChora,Parkir Chor,,,Male,No,Couple,Winter
+202301061,17233,2,Satkania,Parkir Chor,Raojan,Chittagong University,Chandranath,,Male,No,Friends,Summer
+202301062,11371,7,KhaiyaChora,Raojan,Chandranath,Suptadhara,Satkania,,Male,Yes,Couple,Summer
+202301063,6465,3,KhaiyaChora,Patenga,Parkir Chor,Bashkhali,Guliakhali,Raojan,Male,No,Alone,Winter
+202301064,20499,3,Patenga,,,,,,Other,No,Couple,Winter
+202301065,15801,3,Satkania,,,,,,Female,No,Friends,Autumn
+202301066,10592,6,Raojan,Parkir Chor,,,,,Male,Yes,Couple,Summer
+202301067,17466,4,Patenga,Suptadhara,Raojan,,,,Female,No,Alone,Winter
+202301068,27727,5,Parkir Chor,Raojan,Patenga,KhaiyaChora,Guliakhali,Bashkhali,Male,No,Alone,Autumn
+202301069,14184,4,Parkir Chor,Fatikchari,Raojan,KhaiyaChora,Patenga,,Male,Yes,Couple,Summer
+202301070,21491,1,Parkir Chor,,,,,,Male,No,Couple,Summer
+202301071,19923,6,Chittagong University,Guliakhali,,,,,Male,No,Couple,Summer
+202301072,25862,5,Satkania,Raojan,Guliakhali,Chittagong University,Chandranath,,Female,Yes,Family,Winter
+202301073,8266,2,Suptadhara,Patenga,Bashkhali,Chandranath,Raojan,,Male,No,Family,Summer
+202301074,27382,7,Chandranath,KhaiyaChora,Bashkhali,Parkir Chor,,,Female,Yes,Couple,Autumn
+202301075,8808,1,KhaiyaChora,Patenga,Suptadhara,Bashkhali,,,Female,No,Alone,Winter
+202301076,19593,7,KhaiyaChora,Raojan,Patenga,Bashkhali,,,Other,No,Couple,Summer
+202301077,9050,3,KhaiyaChora,Fatikchari,Chittagong University,Chandranath,Suptadhara,,Other,Yes,Alone,Summer
+202301078,5831,7,Parkir Chor,Chittagong University,Guliakhali,Patenga,Bashkhali,,Male,No,Friends,Winter
+202301079,28820,2,Satkania,Suptadhara,,,,,Other,Yes,Couple,Summer
+202301080,5001,5,Patenga,Guliakhali,Satkania,Suptadhara,,,Other,No,Family,Rainy
+202301081,17815,1,KhaiyaChora,Suptadhara,Satkania,Chandranath,Bashkhali,,Male,Yes,Family,Summer
+202301082,23075,1,Guliakhali,KhaiyaChora,Parkir Chor,,,,Male,No,Alone,Summer
+202301083,10926,2,Chandranath,Suptadhara,Parkir Chor,Raojan,KhaiyaChora,,Female,No,Family,Summer
+202301084,22535,2,Chittagong University,,,,,,Male,Yes,Couple,Autumn
+202301085,11753,1,Patenga,Satkania,Chittagong University,Suptadhara,Chandranath,,Other,Yes,Couple,Summer
+202301086,16002,4,Guliakhali,Chittagong University,Satkania,Raojan,,,Female,No,Friends,Rainy
+202301087,24612,4,Raojan,Bashkhali,Patenga,Guliakhali,KhaiyaChora,,Female,No,Family,Rainy
+202301088,10435,5,Guliakhali,Satkania,Bashkhali,,,,Male,Yes,Friends,Summer
+202301089,26395,4,Suptadhara,Fatikchari,KhaiyaChora,Chandranath,Satkania,,Female,No,Couple,Winter
+202301090,23832,5,Parkir Chor,Patenga,Chandranath,Fatikchari,,,Male,Yes,Couple,Rainy
+202301091,18049,2,Chandranath,Chittagong University,Satkania,Raojan,,,Male,No,Couple,Winter
+202301092,18976,1,Chandranath,KhaiyaChora,Fatikchari,,,,Male,Yes,Alone,Summer
+202301093,25619,5,Suptadhara,Parkir Chor,,,,,Other,Yes,Friends,Summer
+202301094,25807,6,Bashkhali,Chandranath,Chittagong University,Patenga,Suptadhara,,Female,No,Couple,Summer
+202301095,29257,5,Guliakhali,Bashkhali,Raojan,,,,Other,Yes,Alone,Rainy
+202301096,21663,7,Suptadhara,Raojan,Satkania,Chandranath,,,Other,Yes,Friends,Summer
+202301097,12651,6,Chandranath,Guliakhali,,,,,Other,Yes,Friends,Rainy
+202301098,15555,1,Chandranath,Suptadhara,Guliakhali,Parkir Chor,Bashkhali,Chittagong University,Female,No,Family,Winter
+202301099,29293,2,Patenga,Fatikchari,,,,,Other,Yes,Family,Rainy
+202301100,13609,3,Fatikchari,Parkir Chor,Chandranath,,,,Female,No,Alone,Winter
