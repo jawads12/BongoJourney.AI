@@ -1,0 +1,30 @@
+.places-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.places-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.places-list {
+    list-style: none;
+    padding: 0;
+}
+
+.place-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}

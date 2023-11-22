@@ -14,6 +14,8 @@ import Pop1 from "./components/Pop1.js";
 import BuildPlanMyself from "./components/BuildPlanMyself.js";
 import Profile from "./pages/Profile.js"
 import { useEffect } from "react";
+import AIPage from "./components/AIPage.js";
+import PlacesDisplay from "./components/PlacesDisplay.js"
 
 function App() {
   const action = useNavigationType();
@@ -74,6 +76,10 @@ function App() {
         <Route path="/dashboard" element={<DashboardNew />} >
           <Route path="ashol-dashboard" element={<Dashboard />} />
           <Route path="myself-design" element={<BuildPlanMyself />} />
+          <Route path="AI-design" element={<AIPage />} />
+          <Route path="display-places" element={<PlacesDisplay />} />
+
+
           <Route path="profile" element={<Profile/>}/>
         </Route>
       </Routes>

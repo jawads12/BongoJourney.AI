@@ -1,7 +1,10 @@
 from flask import Flask, request
+from flask_cors import CORS  # Import CORS
+
 from place1 import predict_place  # Importing the function
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS globally
 
 @app.route('/predict', methods=['POST'])
 def predict():

@@ -1,0 +1,60 @@
+.ai-page-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.ai-title {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.ai-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ai-form input[type="text"],
+.ai-form input[type="number"],
+.ai-form input[type="date"],
+.ai-form select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    color: #333333;
+}
+
+.ai-form select {
+    cursor: pointer;
+}
+
+.ai-form button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.ai-form button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .ai-page-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
