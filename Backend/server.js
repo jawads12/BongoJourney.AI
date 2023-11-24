@@ -9,7 +9,6 @@ const Plan = require('./models/planModel');
 const cloudinary = require('cloudinary').v2;
 const bcrypt = require('bcrypt');
 const multer = require('multer');
-CLOUDINARY_URL='cloudinary://479132786495542:i3rLj08hpR0OK6VCoqLFA5tMkDE@djc8eum1x'
 
 
 
@@ -19,18 +18,18 @@ app.use(cors());
 
 async function startServer() {
   try {
-    await mongoose.connect("mongodb://127.0.0.1:27017/BongoJourney", {
+    await mongoose.connect(process.env.MONGODB_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
-    console.log("Connected to MongoDB");
+    console.log("Connected to MongoDB Atlas");
 
     // Start the server after successful connection
     app.listen(3001, () => {
       console.log("Server is running on port 3001");
     });
   } catch (error) {
-    console.error('Error connecting to MongoDB:', error);
+    console.error('Error connecting to MongoDB Atlas:', error);
   }
 }
 

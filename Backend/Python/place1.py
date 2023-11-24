@@ -8,8 +8,6 @@ df.info
 
 from sklearn.preprocessing import LabelEncoder
 
-# Assuming 'df' is your DataFrame
-# Replace 'df' with the name of your DataFrame variable
 
 # Initializing Label Encoders for each field
 le_gender = LabelEncoder()
@@ -41,7 +39,6 @@ df['Place 6'] = le_place6.fit_transform(df['Place 6'])
 # Display the first few rows of the DataFrame after label encoding
 print(df.head())
 
-# Assuming no_null_df is your DataFrame
 
 # Dropping all place fields except 'Place 1'
 DF1 = df.drop(['Place 2', 'Place 3', 'Place 4', 'Place 5', 'Place 6', 'User-ID'], axis=1)
@@ -55,16 +52,10 @@ DF6 = df.drop(['Place 2', 'Place 3', 'Place 4', 'Place 5', 'Place 1','User-ID'],
 # Now df_reduced will have all columns except the ones dropped
 DF1
 
-# Assuming le_gender is the LabelEncoder instance for the Gender column
-
-# Finding the encoded number for "Male"
 male_encoded = dict(zip(le_place1.classes_, le_place1.transform(le_place1.classes_)))["Chittagong University"]
 
 print(f"The number assigned to 'Male' is: {male_encoded}")
-
-# Assuming le_gender is the LabelEncoder instance for the Gender column
-
-# Finding the original value for the encoded number 2
+ 
 original_value = le_place1.inverse_transform([2])[0]
 
 print(f"The original value for the encoded number  is: {original_value}")

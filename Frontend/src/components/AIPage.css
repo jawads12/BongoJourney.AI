@@ -52,6 +52,20 @@
     background-color: #0056b3;
 }
 
+/* In AIPage.css */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    font-size: 24px;
+    color: #007bff;
+  }
+/* In your CSS file */
+.left-align-text {
+    text-align: left;
+  }
+          
 @media (max-width: 600px) {
     .ai-page-container {
         width: 90%;
