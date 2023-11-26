@@ -71,7 +71,7 @@ const Navbar = () => {
                     <div className="sidebar-item" onClick={() => navigate("/settings")}>
                         <span>Settings</span>
                     </div>
-                    <div className="sidebar-item" onClick={() => navigate("/logout")}>
+                    <div className="sidebar-item" onClick={() => navigate("/signin")}>
                         <span>Logout</span>
                     </div>
                 </div>

@@ -122,7 +122,7 @@ const Signup = () => {
 
           </div>
           
-          <button type="submit" className="rectangle-div">
+          <button type="submit" className="rectangle-iv">
           <b className="create-account1">Create Account</b></button>
           <div className="line-parent">
             <img className="line-icon" alt="" src="/line-4.svg" />

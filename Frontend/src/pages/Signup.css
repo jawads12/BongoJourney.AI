@@ -134,26 +134,19 @@
 .password {
   top: 246px;
 }
-.rectangle-div {
-  position: absolute;
-  top: 322px;
+.rectangle-iv {
+  position: relative;
+  top:45%;
   left: 0;
   border-radius: 8px;
-  background-color: #1d7216;
+  background-color: #306b2b;
   width: 547px;
   height: 51px;
-  
-  
-  
-  
-  
-  
-  
-  
-  ;
 }
+
 .create-account1 {
-  top: 336px;
+  
+  top: 80%;
   left: 195px;
   letter-spacing: 0.02em;
   line-height: 122.69%;
