@@ -17,12 +17,26 @@ const Signin = () => {
         phone,
         password
       });
-
+  
       if (response.data.authenticated) {
         // Save the phone number to local storage only if login is successful
-        const formattedPhone = phone.startsWith("88") ? phone : `88${phone}`;
+      
+        // Check if the user is an admin
+        if (response.data.isAdmin) {
+          navigate("/admin-dashboard"); // Redirect to admin dashboard
+          console.log(5);
+        
+        } else {
+          navigate("/dashboard/ashol-dashboard"); // Redirect to regular user dashboard
+          const formattedPhone = phone.startsWith("88") ? phone : `88${phone}`;
         localStorage.setItem("phone", formattedPhone);
-        navigate("/dashboard/ashol-dashboard");
+        localStorage.setItem("token", response.data.token); // Store the token in local storage
+  
+        }
+
+
+
+
       } else {
         alert("Wrong password");
       }
@@ -30,6 +44,7 @@ const Signin = () => {
       console.error("Error signing in:", error);
     }
   }, [phone, password, navigate]);
+  
 
   const onButtonSignIn1Click = useCallback(() => {
     window.open("https://accounts.google.com/ServiceLogin?hl=en-GB");

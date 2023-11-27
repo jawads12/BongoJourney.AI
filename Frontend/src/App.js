@@ -16,6 +16,7 @@ import Profile from "./pages/Profile.js"
 import { useEffect } from "react";
 import AIPage from "./components/AIPage.js";
 import PlacesDisplay from "./components/PlacesDisplay.js"
+import DashboardAdmin from "./pages/admin/index.jsx";
 
 function App() {
   const action = useNavigationType();
@@ -82,6 +83,8 @@ function App() {
 
           <Route path="profile" element={<Profile/>}/>
         </Route>
+        <Route path="/admin-dashboard" element={<DashboardAdmin />} />
+
       </Routes>
     </div>
 

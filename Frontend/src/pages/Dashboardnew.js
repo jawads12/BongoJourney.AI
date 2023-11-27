@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef, useEffect } from "react";
-import loadGoogleMapsScript from "./googleMaps";
+import loadGoogleMapsScript from "./googleMaps.js";
 import Frame from "./user_profile.js";
 import PortalPopup from "../components/PortalPopup.js";
 import { Outlet, useNavigate } from "react-router-dom";

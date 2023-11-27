@@ -18,7 +18,7 @@ app.use(cors());
 
 async function startServer() {
   try {
-    await mongoose.connect(process.env.MONGODB_URI, {
+    await mongoose.connect(process.env.USER_DB_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
@@ -32,8 +32,12 @@ async function startServer() {
     console.error('Error connecting to MongoDB Atlas:', error);
   }
 }
-
+ 
 startServer();
+
+
+
+
 function generate5DigitRandomNumber() {
   // Generate a random number between 10000 (inclusive) and 99999 (inclusive)
   const min = 10000;
@@ -112,16 +116,29 @@ app.post('/register', async (req, res) => {
   }
 });
 
+// server.js
+
+const ADMIN_CREDENTIALS = {
+  name: 'jawad',
+  password: 'okokok123'
+};
 
 
 app.post('/login', async (req, res) => {
   let { phone, password } = req.body;
 
-  if (!phone.startsWith("88")) {
-    phone = "88" + phone;
-  }
+  
   try {
-    // Find the user by email
+    if (phone === "jawad" && password === "okokok123") {
+      // Admin credentials matched
+      const adminToken = jwt.sign({ userId: "admin", isAdmin: true }, secretKey, { expiresIn: '1h' });
+      return res.json({ authenticated: true, token: adminToken, isAdmin: true });
+    }
+    else{
+      if (!phone.startsWith("88")) {
+        phone = "88" + phone;
+      }
+      // Find the user by email
     const user = await User.findOne({ phone });
 
     if (!user) {
@@ -139,6 +156,8 @@ app.post('/login', async (req, res) => {
     const token = jwt.sign({ userId: user._id }, secretKey, { expiresIn: '1h' });
 
     res.json({ authenticated: true, token });
+    }
+    
   } catch (error) {
     console.error('Error during login:', error);
     res.status(500).json({ authenticated: false, message: 'An error occurred' });
