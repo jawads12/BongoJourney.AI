@@ -105,11 +105,7 @@ const Signin = () => {
               <div className="button-sign-in" onClick={onButtonSignInClick}>
                 <div className="sign-in">Sign in</div>
               </div>
-              <div className="or">Or</div>
-              <div className="button-sign-in1" onClick={onButtonSignIn1Click}>
-                <img className="icon" alt="" src="/undefined26.png" />
-                <div className="sign-in">Sign in with Google</div>
-              </div>
+              
             </div>
           </div>
           <div className="frame2" />

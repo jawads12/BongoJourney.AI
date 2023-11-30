@@ -19,7 +19,7 @@ const navConfig = [
   },
   {
     title: 'Places',
-    path: '/', 
+    path: '/a', 
     icon: icon('ic_cart'),
   },
   {
@@ -27,14 +27,14 @@ const navConfig = [
     path: '/blog',
     icon: icon('ic_blog'),
   },
-  // {
-  //   title: 'login',
-  //   path: '/login',
-  //   icon: icon('ic_lock'),
-  // },
+   {
+    title: 'Announcements',
+    path: '/a',
+    icon: icon('ic_lock'),
+  },
   // {
   //   title: 'Not found',
-  //   path: '/404',
+  //   path: '/a',
   //   icon: icon('ic_disabled'),
   // },
 ];

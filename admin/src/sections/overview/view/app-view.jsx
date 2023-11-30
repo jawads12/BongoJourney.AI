@@ -186,15 +186,15 @@ export default function AppView() {
 
         <Grid xs={12} md={6} lg={4}>
           <AppOrderTimeline
-            title="Order Timeline"
+            title="Announcements"
             list={[...Array(5)].map((_, index) => ({
               id: faker.string.uuid(),
               title: [
-                '1983, orders, $4220',
-                '12 Invoices have been paid',
-                'Order #37745 from September',
-                'New order placed #XF-2356',
-                'New order placed #XF-2346',
+                'Trip to Sajek is currently unavailable due to some issue',
+                'Enjoy 25% discount in your bus journey to Sylhet tour',
+                'Inter City bus service is not availble today',
+                'Hotels from Barisal are availble now',
+                'Get an amazing journey with our new features',
               ][index],
               type: `order${index + 1}`,
               time: faker.date.past(),

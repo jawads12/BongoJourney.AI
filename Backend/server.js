@@ -122,7 +122,7 @@ app.post('/register', async (req, res) => {
 // server.js
 
 const ADMIN_CREDENTIALS = {
-  name: 'jawad',
+  name: 'admin',
   password: 'okokok123'
 };
 

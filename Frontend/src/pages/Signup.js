@@ -48,12 +48,7 @@ const Signup = () => {
           <div className="rectangle-parent" onClick={onGroupContainerClick}>
             <div className="group-child" />
             <div className="group-item" />
-            <div className="sign-up-with" onClick={onSignUpWithClick}>
-              Sign up with Google
-            </div>
-            <div className="sign-up-with1">Sign up with Github</div>
-            <img className="icons8-google-1" alt="" src="/icons8google-1.svg" />
-            <img className="icons8-github-1" alt="" src="/icons8github-1.svg" />
+            
           </div>
           <div className="group-inner" />
           <div className="line-div" />
@@ -124,11 +119,7 @@ const Signup = () => {
           
           <button type="submit" className="rectangle-iv">
           <b className="create-account1">Create Account</b></button>
-          <div className="line-parent">
-            <img className="line-icon" alt="" src="/line-4.svg" />
-            <div className="group-child2" />
-            <div className="or-sign-in">or Sign In with</div>
-          </div>
+          
         </div>
       </div>
       </form>
