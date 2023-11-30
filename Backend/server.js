@@ -88,7 +88,10 @@ app.post('/register', async (req, res) => {
     if (!phoneNumber.startsWith("880")) {
       phoneNumber = "88" + phoneNumber;
     }
-
+    const existingUser = await User.findOne({ phone: phoneNumber });
+    if (existingUser) {
+      return res.status(400).json({ userCreated: false, message: 'User already exists with this phone number' });
+    }
     // Generate an OTP (example OTP: 5353)
     const otp = generate5DigitRandomNumber();
     console.log(otp);
@@ -237,3 +240,21 @@ app.post('/update-profile', upload.single('profilePicture'), async (req, res) =>
   }
 });
 
+app.get('/total-users', async (req, res) => {
+  try {
+    const totalUsers = await User.countDocuments();
+    res.json({ total: totalUsers });
+  } catch (error) {
+    res.status(500).json({ message: "Error fetching total users", error });
+  }
+});
+
+app.get('/usersinfo', async (req, res) => {
+  try {
+    const users = await User.find({}); // Fetch all users
+    res.json(users); // Send users as JSON response
+  } catch (error) {
+    console.error('Error fetching users:', error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});

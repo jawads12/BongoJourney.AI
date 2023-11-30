@@ -23,7 +23,8 @@ const Signin = () => {
       
         // Check if the user is an admin
         if (response.data.isAdmin) {
-          navigate("/admin-dashboard"); // Redirect to admin dashboard
+          const adminDashboardUrl = `http://localhost:3030?token=${response.data.token}`;
+          window.location.href = adminDashboardUrl;
           console.log(5);
         
         } else {
