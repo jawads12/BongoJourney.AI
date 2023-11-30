@@ -5,7 +5,7 @@ const nodemailer = require("nodemailer");
 
 const CLIENT_ID = "259448192726-5qedc2ch9j01398coccgjke9rctn0757.apps.googleusercontent.com";
 const CLIENT_SECRET = "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";
-const REFRESH_TOKEN = "1//04s4YG93COfjJCgYIARAAGAQSNwF-L9Ir8VLsCkAqWWVdnjy14Kg1R72k9Dl2-8EWRbFG63ZeczD027nv5aenBL1pqC-vvO0x_Og";
+const REFRESH_TOKEN = "1//04eqOYivR1fWBCgYIARAAGAQSNwF-L9IrZiM4a-HaGP6gGcFey4v1qjK-PR12x6kd58JvBqkjOsTAAKxAWK5D_zU_9eJ5miXa6mk";
 const REDIRECT_URI = "https://developers.google.com/oauthplayground"; //DONT EDIT THIS
 const MY_EMAIL = "mariarifa2018@gmail.com";
 
@@ -39,11 +39,11 @@ const sendTestEmail = async (to) => {
 
   //EMAIL OPTIONS
   const from = MY_EMAIL;
-  const subject = "🚉 This Is Sent By BongoJourney 🚉";
+  const subject = "This Is Sent By BongoJourney";
   const html = `
-    <p>Assalamualikum ${to},</p>
-    <p>🚉 This Is A Test Mail Sent By BongoJourney 🚉</p>
-    <p>Thank you</p>
+    <p>Dear ${to},</p>
+    <p>Welcome to BongoJourney.</p>
+    <p>Thank you for joining BongoJourney.</p>
     `;
   return new Promise((resolve, reject) => {
     transport.sendMail({ from, subject, to, html }, (err, info) => {

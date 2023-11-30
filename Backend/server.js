@@ -145,7 +145,7 @@ app.post('/login', async (req, res) => {
 
 
 ///send mail to user
-const SENDER_EMAIL_ID = "jawadrahman483@gmail.com";
+const SENDER_EMAIL_ID = "mariarifa2018@gmail.com";
 
 app.get("/send-email", async (_, res) => {
   try {
