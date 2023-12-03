@@ -7,8 +7,8 @@ import Grid from '@mui/material/Unstable_Grid2';
 
 import { rootShouldForwardProp } from '@mui/material/styles/styled';
 import axios from "axios"
+import CityCard from '../places-card';
 
-import ProductCard from '../product-card';
 
 // Modal style
 const modalStyle = {
@@ -22,7 +22,7 @@ const modalStyle = {
   boxShadow: 24,
   p: 4,
 };
-export default function ProductsView() {
+export default function PlacesView() {
   const [cities, setCities] = useState([]);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -106,7 +106,7 @@ export default function ProductsView() {
   return (
     <Container>
       <Typography variant="h4" sx={{ mb: 5 }}>
-        Cities
+        Tourists Spot
       </Typography>
       <Button onClick={handleOpenModal}>Add City</Button>
 
@@ -184,7 +184,7 @@ export default function ProductsView() {
       <Grid container spacing={3}>
         {cities.map((city) => (
           <Grid key={city.id} xs={12} sm={6} md={3}>
-            <ProductCard city={city} />
+            <CityCard city={city} />
           </Grid>
         ))}
       </Grid>
