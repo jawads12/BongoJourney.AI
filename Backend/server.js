@@ -302,3 +302,15 @@ app.post('/add-city', upload.single('picture'), async (req, res) => {
     res.status(500).json({ success: false, message: 'Failed to add city' });
   }
 });
+
+// In your server.js or a dedicated route file
+app.get('/get-cities', async (req, res) => {
+  try {
+    const cities = await City.find({});
+    res.json(cities);
+  } catch (error) {
+    console.error('Error fetching cities:', error);
+    res.status(500).json({ message: 'Failed to fetch cities' });
+  }
+});
+

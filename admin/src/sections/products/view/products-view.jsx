@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState ,useEffect } from 'react';
 import { Container, Typography, Button, Modal, Box, TextField } from '@mui/material';
 
 import Stack from '@mui/material/Stack';
@@ -25,6 +25,8 @@ const modalStyle = {
   p: 4,
 };
 export default function ProductsView() {
+  const [cities, setCities] = useState([]);
+
   const [openModal, setOpenModal] = useState(false);
   const [openFilter, setOpenFilter] = useState(false);
   const [cityData, setCityData] = useState({
@@ -79,6 +81,21 @@ export default function ProductsView() {
       console.error('Error submitting form:', error);
     }
   };
+
+
+
+  useEffect(() => {
+    const fetchCities = async () => {
+      try {
+        const response = await axios.get('http://localhost:3001/get-cities');
+        setCities(response.data);
+      } catch (error) {
+        console.error('Error fetching cities:', error);
+      }
+    };
+
+    fetchCities();
+  }, []);
 
 
   return (
@@ -156,23 +173,15 @@ export default function ProductsView() {
         </Box>
       </Modal>
 
-      <Stack
-        direction="row"
-        alignItems="center"
-        flexWrap="wrap-reverse"
-        justifyContent="flex-end"
-        sx={{ mb: 5 }}
-      >
-        <ProductSort />
-      </Stack>
-
+     
       <Grid container spacing={3}>
-        {products.map((product) => (
-          <Grid key={product.id} xs={12} sm={6} md={3}>
-            <ProductCard product={product} />
+        {cities.map((city) => (
+          <Grid key={city.id} xs={12} sm={6} md={3}>
+            <ProductCard city={city} />
           </Grid>
         ))}
       </Grid>
+
     </Container>
   );
 }
