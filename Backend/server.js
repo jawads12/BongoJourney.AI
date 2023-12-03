@@ -3,6 +3,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const User = require('./models/userModel');
+const City = require('./models/cityModel');
+
 const jwt = require('jsonwebtoken');
 const secretKey = 'JHJHJHjhfjhjheoanmknjK';
 const Plan = require('./models/planModel');
@@ -132,7 +134,7 @@ app.post('/login', async (req, res) => {
 
   
   try {
-    if (phone === "jawad" && password === "okokok123") {
+    if (phone === "admin" && password === "okokok123") {
       // Admin credentials matched
       const adminToken = jwt.sign({ userId: "admin", isAdmin: true }, secretKey, { expiresIn: '1h' });
       return res.json({ authenticated: true, token: adminToken, isAdmin: true });
@@ -256,5 +258,47 @@ app.get('/usersinfo', async (req, res) => {
   } catch (error) {
     console.error('Error fetching users:', error);
     res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
+app.post('/add-city', upload.single('picture'), async (req, res) => {
+  try {
+    const { name, latitude, longitude, area, population, picture } = req.body;
+
+    console.log(picture)
+
+    // Check if the picture file is available
+    if (!picture) {
+      return res.status(400).send('No picture file uploaded.');
+    }
+
+    const options = {
+      overwrite : true,
+      invalidate : true,
+      resource_type : "auto"
+    }
+
+    // Uploading the picture to Cloudinary
+    const result = await cloudinary.uploader.upload(picture, options);
+
+    const pictureUrl = result.secure_url;
+
+      // Create new city object
+      const newCity = {
+        name,
+        latitude,
+        longitude,
+        area,
+        population,
+        picture: pictureUrl // Using the URL from Cloudinary
+      };
+
+      // Save newCity to MongoDB
+      await City.create(newCity);
+
+      res.status(201).json({ success: true, message: 'City added successfully' });
+  } catch (error) {
+    console.error('Error adding city:', error);
+    res.status(500).json({ success: false, message: 'Failed to add city' });
   }
 });

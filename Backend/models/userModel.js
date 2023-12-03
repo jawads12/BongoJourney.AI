@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema({
     verified: Boolean,  
 }, { collection: 'info' });
 
-const User = mongoose.model('User', userSchema, 'info', 'user');
+const User = mongoose.model('User', userSchema, 'user-info');
 
 
 module.exports = User;

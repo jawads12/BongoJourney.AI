@@ -1,7 +1,10 @@
-import Badge from '@mui/material/Badge';
+import React, { useState } from 'react';
+
 import { styled } from '@mui/material/styles';
 
 import Iconify from 'src/components/iconify';
+
+import PopupForm from './cityPopup'; // Adjust the path according to your project structure
 
 // ----------------------------------------------------------------------
 
@@ -28,12 +31,41 @@ const StyledRoot = styled('div')(({ theme }) => ({
 
 // ----------------------------------------------------------------------
 
-export default function CartWidget() {
+function CartWidget() {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const togglePopup = () => {
+    setIsPopupOpen(!isPopupOpen);
+  };
+
+  const handleIconClick = () => {
+    setIsPopupOpen(true);
+  };
+
+  const handleClose = () => {
+    setIsPopupOpen(false);
+  };
+
+  const handleSubmit = async (cityData) => {
+    // Call API to save data
+    console.log(cityData);
+    // Close popup after submit
+    setIsPopupOpen(false); // Close popup after form submission
+  };
+
   return (
-    <StyledRoot>
-      <Badge showZero badgeContent={0} color="error" max={99}>
-        <Iconify icon="eva:shopping-cart-fill" width={24} height={24} />
-      </Badge>
-    </StyledRoot>
+    <div>
+      <Iconify icon="gridicons:plus" width={50} height={50} onClick={handleIconClick} />
+      {setIsPopupOpen && <PopupForm onClose={togglePopup} onSubmit={handleSubmit} />}
+    </div>
   );
+
+
+
+
+  
 }
+
+
+
+
+export default CartWidget;
