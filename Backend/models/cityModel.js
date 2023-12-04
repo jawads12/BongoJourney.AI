@@ -2,6 +2,7 @@
 const mongoose = require('mongoose');
 
 const citySchema = new mongoose.Schema({
+  cityId : String,
   name: String,
   latitude: Number,
   longitude: Number,

@@ -7,12 +7,12 @@ import Typography from '@mui/material/Typography';
 
 // ----------------------------------------------------------------------
 
-export default function CityCard({ city }) {
+export default function SpotCard({ spot }) {
   const renderImg = (
     <Box
       component="img"
-      alt={city.name}
-      src={city.picture} // Assuming 'picture' is the field for the city image URL
+      alt={spot.spotName}
+      src={spot.pictureUrl} // Assuming 'picture' is the field for the city image URL
       sx={{
         top: 0,
         width: 1,
@@ -32,26 +32,22 @@ export default function CityCard({ city }) {
 
       <Stack spacing={2} sx={{ p: 3 }}>
         <Typography variant="subtitle2" noWrap>
-          {city.name}
+          {spot.spotName}
         </Typography>
 
         <Typography variant="body2">
-          Latitude: {city.latitude}
+          Latitude: {spot.latitude}
         </Typography>
         <Typography variant="body2">
-          Longitude: {city.longitude}
+          Longitude: {spot.longitude}
         </Typography>
-        <Typography variant="body2">
-          Area: {city.area} km²
-        </Typography>
-        <Typography variant="body2">
-          Population: {city.population}
-        </Typography>
+        
+        
       </Stack>
     </Card>
   );
 }
 
-CityCard.propTypes = {
-  city: PropTypes.object.isRequired,
+SpotCard.propTypes = {
+  spot: PropTypes.object.isRequired,
 };

@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const User = require('./models/userModel');
 const City = require('./models/cityModel');
+const Spot = require('./models/Spot'); // Adjust the path based on your file structure
+
 
 const jwt = require('jsonwebtoken');
 const secretKey = 'JHJHJHjhfjhjheoanmknjK';
@@ -278,6 +280,10 @@ app.post('/add-city', upload.single('picture'), async (req, res) => {
       resource_type : "auto"
     }
 
+
+    const cityCount = await City.countDocuments();
+    const cityId = String(cityCount + 1).padStart(3, '0');
+
     // Uploading the picture to Cloudinary
     const result = await cloudinary.uploader.upload(picture, options);
 
@@ -285,6 +291,7 @@ app.post('/add-city', upload.single('picture'), async (req, res) => {
 
       // Create new city object
       const newCity = {
+        cityId ,
         name,
         latitude,
         longitude,
@@ -313,4 +320,46 @@ app.get('/get-cities', async (req, res) => {
     res.status(500).json({ message: 'Failed to fetch cities' });
   }
 });
+
+app.get('/get-spots', async (req, res) => {
+  try {
+    const spots = await Spot.find({});
+    res.json(spots);
+  } catch (error) {
+    console.error('Error fetching spots:', error);
+    res.status(500).json({ message: 'Failed to fetch spots' });
+  }
+});
+
+
+app.post('/add-spot',upload.single('picture'),async (req, res) => {
+  try {
+    const { cityName, spotName, latitude, longitude, details, openingTime, closingTime, address, picture } = req.body;
+    // Upload picture to Cloudinary and get URL...
+    console.log(picture);
+    // Check if the picture file is available
+    if (!picture) {
+      return res.status(400).send('No picture file uploaded.');
+    }
+
+    const options = {
+      overwrite : true,
+      invalidate : true,
+      resource_type : "auto"
+    }
+    const result = await cloudinary.uploader.upload(picture, options);
+
+    const pictureUrl = result.secure_url; // Cloudinary URL
+
+
+    const newSpot = new Spot({ cityName, spotName, latitude, longitude, details, openingTime, closingTime, address, pictureUrl });
+    await Spot.create(newSpot);
+
+    res.status(200).json(newSpot);
+  } catch (error) {
+    console.error('Error adding spot:', error);
+    res.status(500).json({ message: 'Failed to add spot' });
+  }
+});
+
 

@@ -1,95 +1,42 @@
-import React, { useState ,useEffect } from 'react';
-
-import {  Modal,Box,  Button,Container ,Typography , TextField,  CircularProgress} from '@mui/material';
-
-import Stack from '@mui/material/Stack';
+import React, { useState, useEffect } from 'react';
+import { Container, Typography, Button, Modal, Box, TextField, CircularProgress, Select, MenuItem, FormControl, InputLabel } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
+import axios from 'axios';
+import SpotCard from '../places-card';
 
-import { rootShouldForwardProp } from '@mui/material/styles/styled';
-import axios from "axios"
-import CityCard from '../places-card';
-
-
-// Modal style
 const modalStyle = {
   position: 'absolute',
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
+  width: 800,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
 };
+
 export default function PlacesView() {
   const [cities, setCities] = useState([]);
+
+  const [spots, setSpots] = useState([]);
   const [isSubmitting, setIsSubmitting] = useState(false);
-
-
   const [openModal, setOpenModal] = useState(false);
-  const [openFilter, setOpenFilter] = useState(false);
-  const [cityData, setCityData] = useState({
-    name: '',
+  const [selectedCity, setSelectedCity] = useState('');
+  const [spotData, setSpotData] = useState({
+    cityName: '',
+    spotName: '',
     latitude: '',
     longitude: '',
-    area: '',
-    population: '',
+    details: '',
+    openingTime: '',
+    closingTime: '',
+    address: '',
     picture: null
   });
 
-  const handleOpenModal = () => {
-    setOpenModal(true);
-  };
-
-  const handleCloseModal = () => {
-    setOpenModal(false);
-    
-  };
-
-  const handleInputChange = (event) => {
-    setCityData({ ...cityData, [event.target.name]: event.target.value });
-  };
-  const handleFileChange = (event) => {
-    setCityData({ ...cityData, picture: event.target.files[0] });
-  };
-
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    setIsSubmitting(true); // Start loading
-
-
-    const image = await convertBase64(cityData.picture);
-    console.log(typeof image);
-
-    const formData = new FormData();
-    formData.append('name', cityData.name);
-    formData.append('latitude', cityData.latitude);
-    formData.append('longitude', cityData.longitude);
-    formData.append('area', cityData.area);
-    formData.append('population', cityData.population);
-    formData.append('picture', image); // Add the picture file
-
-    try {
-      const response = await axios.post("http://localhost:3001/add-city", formData);
-
-      if (response.status === 201) {
-        console.log("City added successfully");
-        
-        handleCloseModal();
-      } else {
-        console.log("Error adding city");
-      }
-    } catch (error) {
-      console.error('Error submitting form:', error);
-    } finally {
-      setIsSubmitting(false); // Stop loading
-    }
-  };
-
-
-
   useEffect(() => {
+
     const fetchCities = async () => {
       try {
         const response = await axios.get('http://localhost:3001/get-cities');
@@ -100,98 +47,105 @@ export default function PlacesView() {
     };
 
     fetchCities();
+    const fetchSpots = async () => {
+      try {
+        const response = await axios.get('http://localhost:3001/get-spots');
+        setSpots(response.data);
+      } catch (error) {
+        console.error('Error fetching spots:', error);
+      }
+    };
+    fetchSpots();
   }, []);
 
+  const handleOpenModal = () => setOpenModal(true);
+  const handleCloseModal = () => setOpenModal(false);
+  const handleInputChange = (event) => setSpotData({ ...spotData, [event.target.name]: event.target.value });
+  const handleFileChange = (event) => setSpotData({ ...spotData, picture: event.target.files[0] });
+  const handleCityChange = (event) => setSelectedCity(event.target.value);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setIsSubmitting(true);
+
+    const image = await convertBase64(spotData.picture);
+    console.log(typeof image);
+    const formData = new FormData();
+    formData.append('cityName', selectedCity);
+    formData.append('spotName', spotData.spotName);
+    formData.append('latitude', spotData.latitude);
+    formData.append('longitude', spotData.longitude);
+    formData.append('details', spotData.details);
+    formData.append('openingTime', spotData.openingTime);
+    formData.append('closingTime', spotData.closingTime);
+    formData.append('address', spotData.address);
+    formData.append('picture', image);
+    
+
+    try {
+      const response = await axios.post("http://localhost:3001/add-spot", formData);
+      if (response.status === 200) {
+        console.log("Spot added successfully");
+        setSpots([...spots, response.data]); // Update list with new spot
+      } else {
+        console.log("Error adding spot");
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    } finally {
+      setIsSubmitting(false);
+      handleCloseModal();
+    }
+  };
 
   return (
     <Container>
       <Typography variant="h4" sx={{ mb: 5 }}>
-        Tourists Spot
+        Tourist Spots
       </Typography>
-      <Button onClick={handleOpenModal}>Add City</Button>
+      <Button onClick={handleOpenModal}>Add New Spot</Button>
 
-      <Modal
-        open={openModal}
-        onClose={handleCloseModal}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
+      <Modal open={openModal} onClose={handleCloseModal}>
         <Box sx={modalStyle}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            Add a New City
-          </Typography>
+          <Typography variant="h6" component="h2">Add a Place</Typography>
           <form onSubmit={handleSubmit}>
-            <TextField
-              fullWidth
-              margin="normal"
-              label="City Name"
-              name="name"
-              value={cityData.name}
-              onChange={handleInputChange}
-            />
-            <TextField
-              fullWidth
-              margin="normal"
-              label="Latitude"
-              name="latitude"
-              value={cityData.latitude}
-              onChange={handleInputChange}
-            />
-            <TextField
-              fullWidth
-              margin="normal"
-              label="Longitude"
-              name="longitude"
-              value={cityData.longitude}
-              onChange={handleInputChange}
-            />
-            <TextField
-              fullWidth
-              margin="normal"
-              label="Area"
-              name="area"
-              value={cityData.area}
-              onChange={handleInputChange}
-            />
-            <TextField
-              fullWidth
-              margin="normal"
-              label="Population"
-              name="population"
-              value={cityData.population}
-              onChange={handleInputChange}
-            />
-            <input
-              type="file"
-              name="picture"
-              onChange={handleFileChange}
-            />
+            <FormControl fullWidth margin="normal">
+              <InputLabel>City Name</InputLabel>
+              <Select value={selectedCity} label="City Name" onChange={handleCityChange}>
+                {cities.map((city) => (
+                  <MenuItem key={city.id} value={city.name}>{city.name}</MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+            <TextField fullWidth margin="normal" label="Spot Name" name="spotName" onChange={handleInputChange} />
+            <TextField fullWidth margin="normal" label="Spot Details" name="spotDetails" onChange={handleInputChange} />
+            <TextField fullWidth margin="normal" type="time" label="Opening Time" name="openingTime" onChange={handleInputChange} />
+            <TextField fullWidth margin="normal" type="time" label="Closing Time" name="closingTime" onChange={handleInputChange} />
+            <TextField fullWidth margin="normal" label="Address" name="address" onChange={handleInputChange} />
+            <input type="file" name="spotPicture" onChange={handleFileChange} />
             <Box sx={{ mt: 2 }}>
-              <Button type="submit" color="primary" variant="contained">
-                Submit
-              </Button>
-              <Button type="button" color="secondary" variant="outlined" onClick={handleCloseModal} sx={{ ml: 2 }}>
-                Cancel
-              </Button>
+              <Button type="submit" color="primary" variant="contained">Submit</Button>
+              <Button type="button" color="secondary" variant="outlined" onClick={handleCloseModal}>Cancel</Button>
               {isSubmitting && <CircularProgress size={24} sx={{ ml: 2 }} />}
-
             </Box>
           </form>
         </Box>
       </Modal>
 
-     
       <Grid container spacing={3}>
-        {cities.map((city) => (
-          <Grid key={city.id} xs={12} sm={6} md={3}>
-            <CityCard city={city} />
-          </Grid>
-        ))}
+      {spots.map((spot) => (
+  <Grid key={spot._id} xs={12} sm={6} md={3}>
+    <SpotCard spot={spot} />
+  </Grid>
+))}
       </Grid>
-
     </Container>
   );
+  
 }
+
+
+
 
 export const convertBase64 = (file) => {
   const fileReader = new FileReader();
