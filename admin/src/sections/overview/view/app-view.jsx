@@ -23,6 +23,9 @@ import AppConversionRates from '../app-conversion-rates';
 
 export default function AppView() {
   const [totalUsers, setTotalUsers] = useState(0);
+  const [totalCities, setTotalCities] = useState(0);
+
+
 
   useEffect(() => {
     const fetchTotalUsers = async () => {
@@ -35,8 +38,21 @@ export default function AppView() {
       }
     };
 
+    const fetchTotalCities = async () => {
+      try {
+        const response = await fetch('http://localhost:3001/total-cities');
+        const data = await response.json();
+        setTotalCities(data.total);
+      } catch (error) {
+        console.error("Error fetching total cities:", error);
+      }
+    };
+
     fetchTotalUsers();
+    fetchTotalCities();
   }, []);
+
+
   return (
     <Container maxWidth="xl">
       <Typography variant="h4" sx={{ mb: 5 }}>
@@ -65,7 +81,7 @@ export default function AppView() {
         <Grid xs={12} sm={6} md={3}>
           <AppWidgetSummary
             title="Cities"
-            total={40}
+            total={totalCities}
             color="warning"
             icon={<img alt="icon" src="/assets/icons/cityscape.png" />}
           />
@@ -202,46 +218,6 @@ export default function AppView() {
           />
         </Grid>
 
-        <Grid xs={12} md={6} lg={4}>
-          <AppTrafficBySite
-            title="Traffic by Site"
-            list={[
-              {
-                name: 'FaceBook',
-                value: 323234,
-                icon: <Iconify icon="eva:facebook-fill" color="#1877F2" width={32} />,
-              },
-              {
-                name: 'Google',
-                value: 341212,
-                icon: <Iconify icon="eva:google-fill" color="#DF3E30" width={32} />,
-              },
-              {
-                name: 'Linkedin',
-                value: 411213,
-                icon: <Iconify icon="eva:linkedin-fill" color="#006097" width={32} />,
-              },
-              {
-                name: 'Twitter',
-                value: 443232,
-                icon: <Iconify icon="eva:twitter-fill" color="#1C9CEA" width={32} />,
-              },
-            ]}
-          />
-        </Grid>
-
-        <Grid xs={12} md={6} lg={8}>
-          <AppTasks
-            title="Tasks"
-            list={[
-              { id: '1', name: 'Create FireStone Logo' },
-              { id: '2', name: 'Add SCSS and JS files if required' },
-              { id: '3', name: 'Stakeholder Meeting' },
-              { id: '4', name: 'Scoping & Estimations' },
-              { id: '5', name: 'Sprint Showcase' },
-            ]}
-          />
-        </Grid>
       </Grid>
     </Container>
   );

@@ -23,6 +23,7 @@ export default function PlacesView() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [openModal, setOpenModal] = useState(false);
   const [selectedCity, setSelectedCity] = useState('');
+  
   const [spotData, setSpotData] = useState({
     cityName: '',
     spotName: '',

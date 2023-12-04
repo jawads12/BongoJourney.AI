@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const spotSchema = new mongoose.Schema({
+  spotId : String,
   cityName: String,
   spotName: String,
   latitude: Number,

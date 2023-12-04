@@ -34,7 +34,7 @@ const navConfig = [
   },
    {
     title: 'Announcements',
-    path: '/a',
+    path: '/announcement',
     icon: icon('ic_lock'),
   },
   // {

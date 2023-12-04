@@ -332,9 +332,27 @@ app.get('/get-spots', async (req, res) => {
 });
 
 
+
+
 app.post('/add-spot',upload.single('picture'),async (req, res) => {
   try {
+
     const { cityName, spotName, latitude, longitude, details, openingTime, closingTime, address, picture } = req.body;
+
+
+    // Fetch the City ID based on cityName, assume you have a function getCityIdByName
+    const city = await City.findOne({ name: cityName });
+    if (!city) {
+      return res.status(404).send('City not found');
+    }
+    const cityId = city.cityId; // Ensure you have a cityId field in your City model
+
+    // Count the number of spots for this city
+    const count = await Spot.countDocuments({});
+
+    // Generate Spot ID
+    const spotId = cityId + String(count + 1).padStart(6, '0'); // '001000006' for 6th spot in city with ID '001'
+
     // Upload picture to Cloudinary and get URL...
     console.log(picture);
     // Check if the picture file is available
@@ -352,7 +370,7 @@ app.post('/add-spot',upload.single('picture'),async (req, res) => {
     const pictureUrl = result.secure_url; // Cloudinary URL
 
 
-    const newSpot = new Spot({ cityName, spotName, latitude, longitude, details, openingTime, closingTime, address, pictureUrl });
+    const newSpot = new Spot({spotId, cityName, spotName, latitude, longitude, details, openingTime, closingTime, address, pictureUrl });
     await Spot.create(newSpot);
 
     res.status(200).json(newSpot);
@@ -362,4 +380,15 @@ app.post('/add-spot',upload.single('picture'),async (req, res) => {
   }
 });
 
+
+
+app.get('/total-cities', async (req, res) => {
+  try {
+    const totalCities = await City.countDocuments();
+    res.json({ total: totalCities });
+  } catch (error) {
+    console.error('Error fetching total cities:', error);
+    res.status(500).json({ message: 'Failed to fetch total cities' });
+  }
+});
 

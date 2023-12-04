@@ -75,8 +75,8 @@ export default function ProductsView() {
 
       if (response.status === 201) {
         console.log("City added successfully");
-        
-        handleCloseModal();
+        setCities([...cities, response.data]); // Update list with new city
+
       } else {
         console.log("Error adding city");
       }
@@ -84,6 +84,8 @@ export default function ProductsView() {
       console.error('Error submitting form:', error);
     } finally {
       setIsSubmitting(false); // Stop loading
+      handleCloseModal();
+
     }
   };
 
