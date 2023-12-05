@@ -2,8 +2,12 @@ import React, { useState, useRef, useEffect } from 'react';
 import loadGoogleMapsScript from '../pages/googleMaps';
 
 import './BuildPlanMyself.css';
+import DayCard from './DayCard'; // Import the DayCard component
+
 
 const BuildPlanMyself = () => {
+  const [startDate, setStartDate] = useState('');
+  const [endDate, setEndDate] = useState('');
   const [placesTextFrom, setPlacesTextFrom] = useState('');
   const [placesTextTo, setPlacesTextTo] = useState('');
   const [date, setDate] = useState('');
@@ -13,73 +17,30 @@ const BuildPlanMyself = () => {
   const [placeToAdd, setPlaceToAdd] = useState('');
   const [nodes, setNodes] = useState([]); // State to keep track of nodes
 
-
   const autocompleteInputFromRef = useRef(null);
   const autocompleteInputToRef = useRef(null);
   const autocompleteInputAddPlaceRef = useRef(null);
 
 
   useEffect(() => {
-    loadGoogleMapsScript(() => {
-      if (window.google) {
-        const autocompleteFrom = new window.google.maps.places.Autocomplete(autocompleteInputFromRef.current, {
-          types: ['(regions)'],
-          componentRestrictions: { country: 'BD' },
-        });
-  
-        const autocompleteTo = new window.google.maps.places.Autocomplete(autocompleteInputToRef.current, {
-          types: ['(regions)'],
-          componentRestrictions: { country: 'BD' },
-        });
+    if (startDate && endDate) {
+      const start = new Date(startDate);
+      const end = new Date(endDate);
+      const diffTime = Math.abs(end - start);
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      setNumberOfDays(diffDays);
+    }
+  }, [startDate, endDate]);
+   
 
-        const autocompleteAddPlace = new window.google.maps.places.Autocomplete(autocompleteInputAddPlaceRef.current, {
-          componentRestrictions: { country: 'BD' },
-        });
-  
-        autocompleteAddPlace.addListener('place_changed', function () {
-          const place = autocompleteAddPlace.getPlace();
-          // You can set the new place in a new state variable or perform other actions as needed
-          // For example:
-          // if (place.geometry) {
-          //   console.log(place.geometry.location);
-          // }
-        });
+  const handleStartDateChange = (event) => {
+    setStartDate(event.target.value);
+  };
 
+  const handleEndDateChange = (event) => {
+    setEndDate(event.target.value);
+  };
 
-       
-  
-        autocompleteFrom.addListener('place_changed', function () {
-          const placeFrom = autocompleteFrom.getPlace();
-          if (placeFrom && placeFrom.address_components) {
-            const districtComponent = placeFrom.address_components.find(
-              component => component.types.includes('administrative_area_level_2')
-            );
-  
-            if (districtComponent) {
-              setPlacesTextFrom(districtComponent.long_name);
-            } else {
-              setPlacesTextFrom('');
-            }
-          }
-        });
-  
-        autocompleteTo.addListener('place_changed', function () {
-          const placeTo = autocompleteTo.getPlace();
-          if (placeTo && placeTo.address_components) {
-            const districtComponent = placeTo.address_components.find(
-              component => component.types.includes('administrative_area_level_2')
-            );
-  
-            if (districtComponent) {
-              setPlacesTextTo(districtComponent.long_name);
-            } else {
-              setPlacesTextTo('');
-            }
-          }
-        });
-      }
-    });
-  }, []);
 
 
   const handlePlaceToAddChange = (event) => {
@@ -135,11 +96,13 @@ const BuildPlanMyself = () => {
           ref={autocompleteInputFromRef}
         />
         <input
-          className="date"
-          type="date"
-          value={date}
-          onChange={handleDateChange}
+           className="date"
+           type="date"
+           placeholder="Start Date"
+           value={startDate}
+           onChange={handleStartDateChange}
         />
+        
         <div className="with">with</div>
         <select
           className="family"
@@ -153,10 +116,10 @@ const BuildPlanMyself = () => {
         </select>
         <input
           className="number-of-days"
-          type="number"
-          placeholder="Number of Days"
-          value={numberOfDays}
-          onChange={handleNumberOfDaysChange}
+          type="date"
+          placeholder="End Date"
+          value={endDate}
+          onChange={handleEndDateChange}
         />
         <input
           className="to"
@@ -169,21 +132,13 @@ const BuildPlanMyself = () => {
       </div>
       
       {
-        Array.from({ length: numberOfDays }, (_, i) => (
-          <form onSubmit={handleAddPlaceNode} key={i} className="lower-div">
-            <div className="day-label">Day {i + 1}</div>
-            <div className="node-container">
-              {nodes
-                .filter(node => node.day === i)
-                .map((node, index) => (
-                  <div key={index} className="node">
-                    <div className="node-circle"></div>
-                    <div className="node-name">{node.name}</div>
-                  </div>
-                ))}
-            </div>
-            
-          </form>
+         Array.from({ length: numberOfDays }, (_, i) => (
+          <DayCard 
+            key={i} 
+            day={i + 1} 
+            nodes={nodes} 
+            onAddPlaceNode={handleAddPlaceNode}
+          />
         ))
       }
     </div>
