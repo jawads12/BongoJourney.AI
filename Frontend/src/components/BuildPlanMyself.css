@@ -44,14 +44,18 @@
   overflow: hidden;
 }
 .lower-div {
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 3%;
+  top: 8em;
+  left: 26rem;
+  width: 83.81rem;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  top: 32rem;
-  left: 2.19rem;
-  border-radius: 46px;
-  background-color: #000;
+  background-color: #0a1127;
   /* width: 83.81rem; */
   /* height: 28.63rem; */
   
@@ -136,7 +140,6 @@
   margin-right: 3%;
   top: 8em;
   left: 26rem;
-  border-radius: 46px;
   width: 83.81rem;
   height: 25rem;
   overflow: hidden;

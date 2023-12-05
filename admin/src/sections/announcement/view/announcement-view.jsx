@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-import { Modal, Box, TextField, Button, Stack, Typography, Container, Grid } from '@mui/material';
+import { Modal, Box, TextField, Button, Stack, Typography, Container, Grid, CircularProgress  } from '@mui/material';
 
 import { posts } from 'src/_mock/blog';
+import axios from 'axios';
 
 import Iconify from 'src/components/iconify';
 
@@ -24,7 +25,13 @@ const modalStyle = {
   p: 4,
 };
 export default function AnnouncementView() {
+  const [loading, setLoading] = useState(false);
+
+  const [announcements, setAnnouncements] = useState([]);
+
   const [openModal, setOpenModal] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false); // Add this line
+
   const [announcement, setAnnouncement] = useState({
     title: '',
     details: ''
@@ -38,17 +45,66 @@ export default function AnnouncementView() {
     setAnnouncement({ ...announcement, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async () => {
-    // Implement API call to save data
-    console.log(announcement);
-    handleCloseModal();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setIsSubmitting(true); // Set isSubmitting to true when submission starts
+    const announcingTime = new Date().toLocaleTimeString();
+    const announcingDate = new Date().toLocaleDateString();
+
+    try {
+      const response = await axios.post('http://localhost:3001/add-announcement', {
+        ...announcement,
+        announcingTime,
+        announcingDate
+      });
+      if (response.data.success) {
+        console.log('Announcement added successfully');
+        // Handle success (e.g., update UI, close modal)
+
+      } else {
+        console.log('Error adding announcement');
+        // Handle error
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    } finally {
+      setIsSubmitting(false);
+      handleCloseModal();
+      window.location.reload();
+
+    }
   };
 
 
+  useEffect(() => {
+    const fetchAnnouncements = async () => {
+      setLoading(true);
+      try {
+        const response = await axios.get('http://localhost:3001/get-announcements');
+        console.log("Fetched announcements:", response.data); // Debugging
+        setAnnouncements(response.data);
+      } catch (error) {
+        console.error('Error fetching announcements:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+  
+    fetchAnnouncements();
+  }, []);
+  
 
 
 
 
+  const handleDeleteAnnouncement = async (id) => {
+    try {
+      await axios.delete(`http://localhost:3001/delete-announcement/${id}`);
+      setAnnouncements(announcements.filter((ann) => ann._id !== id));
+    } catch (error) {
+      console.error('Error deleting announcement:', error);
+    }
+  };
 
 
 
@@ -94,27 +150,22 @@ export default function AnnouncementView() {
             <Button type="submit" color="primary" variant="contained" sx={{ mt: 2 }}>
               Submit
             </Button>
+            {isSubmitting && <CircularProgress size={24} sx={{ ml: 2 }} />}
+
           </form>
         </Box>
       </Modal>
       </Stack>
 
-      <Stack mb={5} direction="row" alignItems="center" justifyContent="space-between">
-        <PostSearch posts={posts} />
-        <PostSort
-          options={[
-            { value: 'latest', label: 'Latest' },
-            { value: 'popular', label: 'Popular' },
-            { value: 'oldest', label: 'Oldest' },
-          ]}
-        />
-      </Stack>
-
       <Grid container spacing={3}>
-        {posts.map((post, index) => (
-          <PostCard key={post.id} post={post} index={index} />
-        ))}
-      </Grid>
+  {loading ? (
+    <CircularProgress />
+  ) : (
+    announcements.map((announcement, index) => (
+      <PostCard key={index} ann={announcement} onDelete={handleDeleteAnnouncement} />
+    ))
+  )}
+</Grid>
     </Container>
   );
 }

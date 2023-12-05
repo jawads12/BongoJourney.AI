@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import Iconify from 'src/components/iconify/iconify';
+
 import { Container, Typography, Button, Modal, Box, TextField, CircularProgress, Select, MenuItem, FormControl, InputLabel } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import axios from 'axios';
+
 import SpotCard from '../places-card';
 
 const modalStyle = {
@@ -104,7 +107,10 @@ export default function PlacesView() {
       <Typography variant="h4" sx={{ mb: 5 }}>
         Tourist Spots
       </Typography>
-      <Button onClick={handleOpenModal}>Add New Spot</Button>
+      <Button   onClick={handleOpenModal} // Add this line
+ variant="contained" color="inherit" startIcon={<Iconify icon="eva:plus-fill" />}>
+          Add Spot
+        </Button>
 
       <Modal open={openModal} onClose={handleCloseModal}>
         <Box sx={modalStyle}>

@@ -182,19 +182,7 @@ const BuildPlanMyself = () => {
                   </div>
                 ))}
             </div>
-            <div className='button-part'>
-              <input
-                className="add-place"
-                type="text"
-                placeholder="Type here to add place"
-                // value={placeToAdd}
-                // onChange={handlePlaceToAddChange}
-                // ref={autocompleteInputAddPlaceRef}
-              />
-              <button type='submit' className="button-node" >
-                Add
-              </button>
-            </div>
+            
           </form>
         ))
       }

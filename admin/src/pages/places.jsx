@@ -8,7 +8,7 @@ export default function ProductsPage() {
   return (
     <>
       <Helmet>
-        <title> Places | Minimal UI </title>
+        <title> Places | BongoJourney.AI </title>
       </Helmet>
 
       <PlacesView />

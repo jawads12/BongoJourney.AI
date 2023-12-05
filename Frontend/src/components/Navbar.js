@@ -30,7 +30,7 @@ const Navbar = () => {
                     <button className="navbar-button">My Plans</button>
                 </div>
                 <div className="nav-image" onClick={toggleSidebar}>
-                    <img src="/navbar_pic.png" alt="Navbar Image" />
+                    <img src="/navbar_pic.png" alt="Navbar Image" width={50}/>
                 </div>
             </div>
             {isMytripOpen && (

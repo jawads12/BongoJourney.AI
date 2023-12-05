@@ -5,6 +5,7 @@ const cors = require('cors');
 const User = require('./models/userModel');
 const City = require('./models/cityModel');
 const Spot = require('./models/Spot'); // Adjust the path based on your file structure
+const Announcement = require('./models/announcementModel');
 
 
 const jwt = require('jsonwebtoken');
@@ -392,3 +393,56 @@ app.get('/total-cities', async (req, res) => {
   }
 });
 
+
+
+app.post('/add-announcement', async (req, res) => {
+  try {
+    const { title, details, announcingTime, announcingDate } = req.body;
+
+    // Generate announcement ID
+    const announcementCount = await Announcement.countDocuments();
+    const announcementId = announcementCount + 1;
+
+    // Create and save the new announcement
+    const newAnnouncement = new Announcement({
+      announcementId,
+      title,
+      details,
+      announcingTime,
+      announcingDate
+    });
+    await newAnnouncement.save();
+
+    res.status(200).json({ success: true, message: 'Announcement added successfully', announcementId });
+  } catch (error) {
+    console.error('Error adding announcement:', error);
+    res.status(500).json({ success: false, message: 'Failed to add announcement' });
+  }
+});
+
+app.get('/get-announcements', async (req, res) => {
+  try {
+    const announcements = await Announcement.find({}); // Fetch all announcements
+    res.json(announcements); // Send announcements as JSON response
+  } catch (error) {
+    console.error('Error fetching announcements:', error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
+
+
+app.delete('/delete-announcement/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    console.log("Deleting announcement with ID:", id); // Debugging
+    const result = await Announcement.findByIdAndDelete(id);
+    if (!result) {
+      return res.status(404).json({ message: 'Announcement not found' });
+    }
+    res.status(200).json({ message: 'Announcement deleted successfully' });
+  } catch (error) {
+    console.error('Error deleting announcement:', error);
+    res.status(500).json({ message: 'Error deleting announcement', error: error.message });
+  }
+});

@@ -2,6 +2,6 @@
 
 export const account = {
   displayName: 'Admin Dashboard',
-  email: 'demo@minimals.cc',
+  email: 'BongoJourney.AI',
   photoURL: '/assets/icons/setting.png',
 };

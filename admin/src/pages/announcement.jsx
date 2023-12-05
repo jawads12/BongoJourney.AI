@@ -8,7 +8,7 @@ export default function AnnouncementPage() {
   return (
     <>
       <Helmet>
-        <title> Blog | Minimal UI </title>
+        <title> Blog | BongoJourney.AI </title>
       </Helmet>
 
       <AnnouncementView />

@@ -1,6 +1,7 @@
 import React, { useState ,useEffect } from 'react';
 
 import {  Modal,Box,  Button,Container ,Typography , TextField,  CircularProgress} from '@mui/material';
+import Iconify from 'src/components/iconify';
 
 import Stack from '@mui/material/Stack';
 import Grid from '@mui/material/Unstable_Grid2';
@@ -110,7 +111,10 @@ export default function ProductsView() {
       <Typography variant="h4" sx={{ mb: 5 }}>
         Cities
       </Typography>
-      <Button onClick={handleOpenModal}>Add City</Button>
+      <Button   onClick={handleOpenModal} // Add this line
+ variant="contained" color="inherit" startIcon={<Iconify icon="eva:plus-fill" />}>
+          Add City
+        </Button>
 
       <Modal
         open={openModal}
