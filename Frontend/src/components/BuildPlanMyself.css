@@ -1,3 +1,4 @@
+
 .day,
 .daywise-plan,
 .label {
@@ -55,65 +56,131 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #0a1127;
-  /* width: 83.81rem; */
-  /* height: 28.63rem; */
+  background-color: #2c2d33;
+  border-radius: 12px;
+
   
 }
 .from {
-  top: 2.19rem;
+  border: none;
+  border-bottom: 4px solid #8b8686;
+  
+  height:4rem;
+  filter: invert(1);
+  opacity: 2;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  top: 6rem;
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
   width: 31.06rem;
-  height: 5.06rem;
+  
+}
+.from:hover {
+ background-color:  rgb(209, 212, 228);
+  
 }
 .to {
-  top: 1.5rem;
+  border: none;
+  border-bottom: 4px solid #8b8686;
+
+  height:4rem;
+  filter: invert(1);
+  opacity: 2;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  top: 6rem;
   left: 50.25rem;
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
   width: 31.06rem;
-  height: 5.06rem;
+ 
 }
+.to:hover {
+  background-color:  rgb(209, 212, 228);
+   
+ }
 .date,
 .from,
 .with {
+  
   position: absolute;
   left: 3.63rem;
 }
 .date {
-  top: 9.25rem;
+  border: none;
+  border-bottom: 4px solid #8b8686;
+ 
+  height:4rem;
+  filter: invert(1);
+  opacity: 2;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  top: 13rem;
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
   width: 31.06rem;
-  height: 5.06rem;
+  
 }
+.date:hover {
+  background-color:  rgb(209, 212, 228);
+   
+ }
 .with {
-  top: 17.88rem;
+  
+  top: 20rem;
   width: 4.44rem;
 }
 .family,
 .number-of-days,
 .with {
+  font-family: 'Times New Roman', Times, serif;
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
   height: 5.06rem;
+  font-size: medium;
 }
 .family {
+  border: none;
+  border-bottom: 4px solid #8b8686;
+  height:4rem;
+  filter: invert(1);
+  opacity: 2;
+  cursor: pointer;
   position: absolute;
-  top: 17.88rem;
+  top: 21rem;
   left: 12rem;
   width: 15.13rem;
+  
 }
+.family:hover {
+  background-color:  rgb(209, 212, 228);
+   
+ }
+
 .number-of-days {
-  top: 9.94rem;
+  border: none;
+  border-bottom: 4px solid #8b8686;
+  height:4rem;
+  filter: invert(1);
+  opacity: 2;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  top: 13rem;
   left: 50.25rem;
   width: 31.06rem;
 }
+.number-of-days:hover {
+  background-color:  rgb(209, 212, 228);
+   
+ }
 .number-of-days,
 .to,
 .uppper-div {
@@ -134,15 +201,19 @@
   font-family: Gurajada;
 }
 .upper-div {
+  border-radius: 15px; 
+  opacity: .8;
   background-color: black;
-  margin-top: 1%;
+  margin-top: 5%;
   margin-left: 2%;
   margin-right: 3%;
   top: 8em;
   left: 26rem;
   width: 83.81rem;
-  height: 25rem;
+  height: 23rem;
   overflow: hidden;
+  
+  
 }
 
 .node{
