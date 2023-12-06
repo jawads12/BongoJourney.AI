@@ -10,6 +10,8 @@ const BuildPlanMyself = () => {
   const [citySuggestions, setCitySuggestions] = useState([]);
 
   const [startDate, setStartDate] = useState("");
+  const [planId, setPlanId] = useState(0); // Initialize with 0 or any other default value
+
   const [endDate, setEndDate] = useState("");
   const [placesTextFrom, setPlacesTextFrom] = useState("");
   const [placesTextTo, setPlacesTextTo] = useState("");
@@ -27,6 +29,11 @@ const BuildPlanMyself = () => {
   const autocompleteInputFromRef = useRef(null);
   const autocompleteInputToRef = useRef(null);
   const autocompleteInputAddPlaceRef = useRef(null);
+
+  const generatePlanId = () => {
+    const newPlanId = Math.floor(Math.random() * 1000); // Generate a random planId
+    setPlanId(newPlanId); // Update the state with the generated planId
+  };
 
   const handleSavePlan = async () => {
     try {

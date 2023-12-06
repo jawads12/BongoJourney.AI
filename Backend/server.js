@@ -432,21 +432,23 @@ app.delete('/delete-announcement/:id', async (req, res) => {
 });
 
 
+// Receive the planId from the frontend request and store it in the database
 app.post('/save-plan', async (req, res) => {
+  const {
+    planId, // Receive the planId from the request body
+    phone,
+    from,
+    to,
+    startDate,
+    endDate,
+    days,
+  } = req.body;
+
   try {
-    const { from, to, startDate, endDate, days, userPhoneNumber } = req.body;
-
-    // Manually generate planId here (you can retrieve the latest planId from your database and increment it)
-    const planCount = await Plan.countDocuments();
-
-// Calculate the new planId
-const newPlanId = planCount + 1;
-    
-
-    // Create a new plan instance
+    // Create a new plan instance with the received planId
     const newPlan = new Plan({
-      planId: newPlanId,
-      phone: userPhoneNumber,
+      planId, // Store the received planId
+      phone,
       from,
       to,
       startDate,
@@ -457,10 +459,10 @@ const newPlanId = planCount + 1;
     // Save the new plan to the database
     await newPlan.save();
 
-    res.json({ message: 'Plan saved successfully', plan: newPlan });
+    res.status(201).json({ message: 'Plan saved successfully' });
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: 'Error saving plan' });
+    console.error('Error saving plan:', error);
+    res.status(500).json({ message: 'Internal server error' });
   }
 });
 
