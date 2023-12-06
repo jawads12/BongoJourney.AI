@@ -1,9 +1,8 @@
 const mongoose = require('mongoose');
 
 const planSchema = new mongoose.Schema({
-  planId: Number,
+  planId: Number, // Add the planId field here
   phone: String,
-
   from: String,
   to: String,
   startDate: Date,

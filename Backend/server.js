@@ -13,7 +13,6 @@ const Plan = require('./models/plan');
 
 const jwt = require('jsonwebtoken');
 const secretKey = 'JHJHJHjhfjhjheoanmknjK';
-const Plan = require('./models/planModel');
 const cloudinary = require('cloudinary').v2;
 const bcrypt = require('bcrypt');
 const multer = require('multer');
@@ -176,24 +175,6 @@ app.post('/login', async (req, res) => {
 });
 
 
-
-app.post('/create-plan', async (req, res) => {
-  try {
-    const { phone, PlanSrc, startDate} = req.body;
-
-    const newPlan = new Plan({
-      phone,
-      PlanSrc,
-      startDate
-    });
-
-    const savedPlan = await newPlan.save();
-    res.status(200).json(savedPlan);
-  } catch (error) {
-    console.error('Error creating a plan:', error);
-    res.status(500).json({ error: 'Failed to create a plan' });
-  }
-});
 
 
 cloudinary.config({
@@ -449,3 +430,38 @@ app.delete('/delete-announcement/:id', async (req, res) => {
     res.status(500).json({ message: 'Error deleting announcement', error: error.message });
   }
 });
+
+
+app.post('/save-plan', async (req, res) => {
+  try {
+    const { from, to, startDate, endDate, days, userPhoneNumber } = req.body;
+
+    // Manually generate planId here (you can retrieve the latest planId from your database and increment it)
+    const planCount = await Plan.countDocuments();
+
+// Calculate the new planId
+const newPlanId = planCount + 1;
+    
+
+    // Create a new plan instance
+    const newPlan = new Plan({
+      planId: newPlanId,
+      phone: userPhoneNumber,
+      from,
+      to,
+      startDate,
+      endDate,
+      days,
+    });
+
+    // Save the new plan to the database
+    await newPlan.save();
+
+    res.json({ message: 'Plan saved successfully', plan: newPlan });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Error saving plan' });
+  }
+});
+
+

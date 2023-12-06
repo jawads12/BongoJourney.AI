@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import loadGoogleMapsScript from "../pages/googleMaps";
+import axios from "axios"; // Import Axios
+
 
 import "./BuildPlanMyself.css";
 import DayCard from "./DayCard"; // Import the DayCard component
@@ -17,6 +19,10 @@ const BuildPlanMyself = () => {
   const [selectedDay, setSelectedDay] = useState(1);
   const [placeToAdd, setPlaceToAdd] = useState("");
   const [nodes, setNodes] = useState([]); // State to keep track of nodes
+  const [cities, setCities] = useState([]);
+  const [searchResultsFrom, setSearchResultsFrom] = useState([]);
+  const [searchResultsTo, setSearchResultsTo] = useState([]);
+
 
   const autocompleteInputFromRef = useRef(null);
   const autocompleteInputToRef = useRef(null);
@@ -67,8 +73,28 @@ const BuildPlanMyself = () => {
   };
 
   useEffect(() => {
+    axios
+      .get("http://localhost:3001/get-cities")
+      .then((res) => {
+        setCities(res.data.map((city) => city.name));
+      })
+      .catch((error) => {
+        console.error("Error fetching cities:", error);
+      });
+  }, []);
+
+
+
+  useEffect(() => {
     fetchCitySuggestions(); // Fetch city suggestions when the component mounts
   }, []);
+
+
+  function searchCity(query) {
+    query = query.toLowerCase();
+    return cities.filter((city) => city.toLowerCase().includes(query));
+  }
+
 
 
   useEffect(() => {
@@ -97,14 +123,31 @@ const BuildPlanMyself = () => {
   const handlePlaceToAddChange = (event) => {
     setPlaceToAdd(event.target.value);
   };
-
   const handlePlacesTextChangeFrom = (event) => {
-    setPlacesTextFrom(event.target.value);
+    const searchText = event.target.value;
+    setPlacesTextFrom(searchText);
+
+    const resultsFrom = searchCity(searchText);
+    setSearchResultsFrom(resultsFrom);
   };
 
   const handlePlacesTextChangeTo = (event) => {
-    setPlacesTextTo(event.target.value);
+    const searchText = event.target.value;
+    setPlacesTextTo(searchText);
+
+    const resultsTo = searchCity(searchText);
+    setSearchResultsTo(resultsTo);
   };
+  const handleCitySelect = (selectedCity, field) => {
+    // Handle the selected city for the specified field (e.g., "from" or "to")
+    if (field === "from") {
+      setPlacesTextFrom(selectedCity);
+    } else if (field === "to") {
+      setPlacesTextTo(selectedCity);
+    }
+  };
+
+
 
   const handleDateChange = (event) => {
     setDate(event.target.value);
@@ -126,6 +169,8 @@ const BuildPlanMyself = () => {
     // }
   };
 
+
+
   
 
   
@@ -133,14 +178,19 @@ const BuildPlanMyself = () => {
   return (
     <div className="build-plan-myself">
       <div className="upper-div">
-        <input
-               className="from"
-               type="text"
-               placeholder="From"
-               value={placesTextFrom}
-               onChange={handlePlacesTextChangeFrom}
-               ref={autocompleteInputFromRef}
-        />
+      <select
+          className="from"
+          value={placesTextFrom}
+          onChange={(e) => handleCitySelect(e.target.value, "from")}
+        >
+          <option value="">Select City</option>
+          {cities.map((city, index) => (
+            <option key={index} value={city}>
+              {city}
+            </option>
+          ))}
+        </select>
+
         <input
           className="date"
           type="date"
@@ -167,14 +217,19 @@ const BuildPlanMyself = () => {
           value={endDate}
           onChange={handleEndDateChange}
         />
-        <input
-             className="to"
-             type="text"
-             placeholder="To"
-             value={placesTextTo}
-             onChange={handlePlacesTextChangeTo}
-             ref={autocompleteInputToRef}
-        />
+        <select
+          className="to"
+          value={placesTextTo}
+          onChange={(e) => handleCitySelect(e.target.value, "to")}
+        >
+          <option value="">Select City</option>
+          {cities.map((city, index) => (
+            <option key={index} value={city}>
+              {city}
+            </option>
+          ))}
+        </select>
+
       </div>
 
       <div className="day-card-container">
