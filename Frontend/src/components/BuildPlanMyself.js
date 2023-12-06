@@ -22,6 +22,32 @@ const BuildPlanMyself = () => {
   const autocompleteInputToRef = useRef(null);
   const autocompleteInputAddPlaceRef = useRef(null);
 
+  const handleSavePlan = async () => {
+    try {
+      // Retrieve user phone number from local storage
+      const storedPhone = localStorage.getItem('phone');
+
+      // Create the plan object
+      const planData = {
+        from: placesTextFrom,
+        to: placesTextTo,
+        startDate: startDate,
+        endDate: endDate,
+        days: nodes,
+        userPhoneNumber: storedPhone, // Include the user's phone number
+      };
+
+      // Make a POST request to save the plan
+      const response = await axios.post('http://localhost:3001/save-plan', planData);
+
+      // Handle the response, e.g., show a success message
+      console.log("Plan saved successfully:", response.data);
+    } catch (error) {
+      console.error("Error saving plan:", error);
+    }
+  };
+
+
 
   const fetchCitySuggestions = async () => {
     try {
@@ -162,6 +188,10 @@ const BuildPlanMyself = () => {
           />
         ))}
       </div>
+
+      <button className="save-button" onClick={handleSavePlan}>
+        Save
+      </button>
     </div>
   );
 };

@@ -6,6 +6,9 @@ const User = require('./models/userModel');
 const City = require('./models/cityModel');
 const Spot = require('./models/Spot'); // Adjust the path based on your file structure
 const Announcement = require('./models/announcementModel');
+const Plan = require('./models/plan');
+
+
 
 
 const jwt = require('jsonwebtoken');
