@@ -479,3 +479,18 @@ app.get('/get-plan-count', async (req, res) => {
 });
 
 
+app.get("/spots-suggestions", async (req, res) => {
+  try {
+    const userInput = req.query.input; // Get user input from query parameter
+    // Use a regular expression to find matching spots
+    const spots = await Spot.find({ spotName: { $regex: userInput, $options: "i" } })
+      .limit(10) // Limit the number of suggestions
+      .select("spotName"); // Select only the name field
+
+    res.json(spots);
+  } catch (error) {
+    console.error("Error fetching spot suggestions:", error);
+    res.status(500).json({ error: "An error occurred" });
+  }
+});
+

@@ -18,10 +18,21 @@ const Dashboard = () => {
   const [isFrameOpen, setFrameOpen] = useState(false);
   const [isMytripOpen, setMytripOpen] = useState(false);
   const [placesText, setPlacesText] = useState("");
+  const [spotSuggestions, setSpotSuggestions] = useState([]);
+
   const autocompleteInputRef = useRef(null);
   const navigate = useNavigate();
 
 
+  const fetchSpotSuggestions = async (input) => {
+    try {
+      // Make a GET request to your server's /api/spots-suggestions endpoint with user input
+      const response = await axios.get(`http://localhost:3001/spots-suggestions?input=${input}`);
+      setSpotSuggestions(response.data);
+    } catch (error) {
+      console.error("Error fetching spot suggestions:", error);
+    }
+  };
   const openFrame = useCallback(() => {
     setFrameOpen(true);
   }, []);
@@ -54,25 +65,14 @@ const Dashboard = () => {
     navigate("/my-plan");
   }, [navigate]);
 
-  useEffect(() => {
-    loadGoogleMapsScript(() => {
-      if (window.google) {
-        // Initialize the Places Autocomplete service with componentRestrictions
-        const autocomplete = new window.google.maps.places.Autocomplete(autocompleteInputRef.current, {
-          componentRestrictions: { country: "BD" }, // "BD" represents Bangladesh
-        });
-
-        autocomplete.addListener("place_changed", function () {
-          const place = autocomplete.getPlace();
-          console.log(place); // You can handle the selected place as needed
-        });
-      }
-    });
-  }, []);
 
   const handlePlacesTextChange = (event) => {
-    setPlacesText(event.target.value);
+    const searchText = event.target.value;
+    setPlacesText(searchText);
+    // Fetch suggestions based on user input
+    fetchSpotSuggestions(searchText);
   };
+  
 
   return (
     <>
@@ -100,6 +100,13 @@ const Dashboard = () => {
             onChange={handlePlacesTextChange}
             ref={autocompleteInputRef}
           />
+          <div className="suggestions">
+  {spotSuggestions.map((spot) => (
+    <div key={spot._id} className="suggestion">
+      {spot.spotName}
+    </div>
+  ))}
+</div>
         </div>
         <div className="dash-rectangle-13" />
         <button className="dash-rectangle-13">Search</button>
