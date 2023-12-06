@@ -467,16 +467,6 @@ app.post('/save-plan', async (req, res) => {
 });
 
 
-// Endpoint to get the total count of plans in the Plan collection
-app.get('/get-plan-count', async (req, res) => {
-  try {
-    const totalPlanCount = await Plan.countDocuments({});
-    res.status(200).json({ count: totalPlanCount });
-  } catch (error) {
-    console.error('Error getting plan count:', error);
-    res.status(500).json({ message: 'Internal server error' });
-  }
-});
 
 
 app.get("/spots-suggestions", async (req, res) => {
@@ -494,3 +484,59 @@ app.get("/spots-suggestions", async (req, res) => {
   }
 });
 
+app.post("/save-plan", async (req, res) => {
+  const {
+    planId, // Receive the planId from the request body
+    phone,
+    from,
+    to,
+    startDate,
+    endDate,
+    days,
+  } = req.body;
+
+  try {
+    // Create a new plan instance with the received planId
+    const newPlan = new Plan({
+      planId, // Store the received planId
+      phone,
+      from,
+      to,
+      startDate,
+      endDate,
+      days,
+    });
+
+    // Save the new plan to the database
+    await newPlan.save();
+
+    res.status(201).json({ message: "Plan saved successfully" });
+  } catch (error) {
+    console.error("Error saving plan:", error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+});
+
+app.get("/plans/:phone", async (req, res) => {
+  try {
+    const phone = req.params.phone;
+    // Query the database to find plans based on the phone number
+    const userPlans = await Plan.find({ phone });
+    // Return the found plans as JSON
+    res.json(userPlans);
+  } catch (error) {
+    console.error("Error retrieving plans:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+});
+
+// Endpoint to get the total count of plans in the Plan collection
+app.get("/get-plan-count", async (req, res) => {
+  try {
+    const totalPlanCount = await Plan.countDocuments({});
+    res.status(200).json({ count: totalPlanCount });
+  } catch (error) {
+    console.error("Error getting plan count:", error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+});

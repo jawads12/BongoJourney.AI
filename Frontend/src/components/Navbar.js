@@ -25,9 +25,9 @@ const Navbar = () => {
         <>
             <div className="navbar">
                 <div className="nav-buttons">
-                    <button onClick={() => navigate("/dashboard/ashol-dashboard")} className="navbar-button">Trips</button>
+                    <button onClick={() => navigate("/dashboard/ashol-dashboard")} className="navbar-button">Home</button>
                     <button className="navbar-button">Community</button>
-                    <button className="navbar-button">My Plans</button>
+                    <button onClick={() => navigate("/my-plan")}       className="navbar-button">My Plans</button>
                 </div>
                 <div className="nav-image" onClick={toggleSidebar}>
                     <img src="/navbar_pic.png" alt="Navbar Image" width={50}/>
