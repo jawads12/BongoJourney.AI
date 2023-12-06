@@ -467,3 +467,15 @@ app.post('/save-plan', async (req, res) => {
 });
 
 
+// Endpoint to get the total count of plans in the Plan collection
+app.get('/get-plan-count', async (req, res) => {
+  try {
+    const totalPlanCount = await Plan.countDocuments({});
+    res.status(200).json({ count: totalPlanCount });
+  } catch (error) {
+    console.error('Error getting plan count:', error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
+

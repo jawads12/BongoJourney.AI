@@ -24,6 +24,8 @@ const BuildPlanMyself = () => {
   const [cities, setCities] = useState([]);
   const [searchResultsFrom, setSearchResultsFrom] = useState([]);
   const [searchResultsTo, setSearchResultsTo] = useState([]);
+  const [dayNodesMapping, setDayNodesMapping] = useState({});
+
 
 
   const autocompleteInputFromRef = useRef(null);
@@ -35,30 +37,39 @@ const BuildPlanMyself = () => {
     setPlanId(newPlanId); // Update the state with the generated planId
   };
 
-  const handleSavePlan = async () => {
-    try {
-      // Retrieve user phone number from local storage
-      const storedPhone = localStorage.getItem('phone');
+  // When saving the plan, dynamically generate the planId based on the total count of plans
+const handleSavePlan = async () => {
+  try {
+    // Retrieve user phone number from local storage
+    const storedPhone = localStorage.getItem('phone');
 
-      // Create the plan object
-      const planData = {
-        from: placesTextFrom,
-        to: placesTextTo,
-        startDate: startDate,
-        endDate: endDate,
-        days: nodes,
-        userPhoneNumber: storedPhone, // Include the user's phone number
-      };
+    // Make a GET request to the backend to get the total count of plans
+    const response = await axios.get('http://localhost:3001/get-plan-count');
+    const totalPlanCount = response.data.count;
 
-      // Make a POST request to save the plan
-      const response = await axios.post('http://localhost:3001/save-plan', planData);
+    // Calculate the new planId by incrementing the total count by 1
+    const newPlanId = totalPlanCount + 1;
 
-      // Handle the response, e.g., show a success message
-      console.log("Plan saved successfully:", response.data);
-    } catch (error) {
-      console.error("Error saving plan:", error);
-    }
-  };
+    // Create the plan object with the generated planId
+    const planData = {
+      planId: newPlanId, // Include the generated planId
+      from: placesTextFrom,
+      to: placesTextTo,
+      startDate: startDate,
+      endDate: endDate,
+      days: nodes,
+      userPhoneNumber: storedPhone, // Include the user's phone number
+    };
+
+    // Make a POST request to save the plan with the generated planId
+    const saveResponse = await axios.post('http://localhost:3001/save-plan', planData);
+
+    // Handle the response, e.g., show a success message
+    console.log("Plan saved successfully:", saveResponse.data);
+  } catch (error) {
+    console.error("Error saving plan:", error);
+  }
+};
 
 
 
@@ -168,13 +179,17 @@ const BuildPlanMyself = () => {
   const handleTravelingWithChange = (event) => {
     setTravelingWith(event.target.value);
   };
-  const handleAddPlaceNode = (e) => {
-    // e.preventDefault();
-    // if (e.target.value.trim() !== "") {
-    //   setNodes((prevNodes) => [...prevNodes, { name: e.target.value.trim() }]);
-    //   setPlaceToAdd("");
-    // }
+  const handleAddPlaceNode = (node) => {
+    // Get the day of the node
+    const day = node.day;
+
+    // Update the dayNodesMapping to include the new node
+    setDayNodesMapping((prevMapping) => ({
+      ...prevMapping,
+      [day]: [...(prevMapping[day] || []), node],
+    }));
   };
+
 
 
 
@@ -244,9 +259,8 @@ const BuildPlanMyself = () => {
           <DayCard
             key={i}
             day={i + 1}
-            nodes={nodes}
+            nodes={dayNodesMapping[i + 1] || []} // Pass the nodes for the specific day
             onAddPlaceNode={handleAddPlaceNode}
-            // onclick={openModal}
           />
         ))}
       </div>
