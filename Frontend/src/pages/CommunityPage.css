@@ -1,0 +1,63 @@
+.community-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+  
+  .post-form {
+    margin-bottom: 20px;
+  }
+  
+  .post-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+  }
+  
+  .file-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .file-label input {
+    display: none;
+  }
+  
+  .button {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 3%;
+  }
+  
+  .post-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333;
+  }
+  
+  .post-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  

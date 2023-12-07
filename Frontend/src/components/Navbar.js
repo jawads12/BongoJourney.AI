@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className="navbar">
                 <div className="nav-buttons">
                     <button onClick={() => navigate("/dashboard/ashol-dashboard")} className="navbar-button">Home</button>
-                    <button className="navbar-button">Community</button>
+                    <button onClick={() => navigate("/community")} className="navbar-button">Community</button>
                     <button onClick={() => navigate("/my-plan")}       className="navbar-button">My Plans</button>
                 </div>
                 <div className="nav-image" onClick={toggleSidebar}>

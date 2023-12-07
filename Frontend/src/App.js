@@ -17,6 +17,7 @@ import { useEffect } from "react";
 import AIPage from "./components/AIPage.js";
 import PlacesDisplay from "./components/PlacesDisplay.js"
 import DashboardAdmin from "./pages/admin/index.jsx";
+import CommunityPage from "./pages/CommunityPage.js";
 
 function App() {
   const action = useNavigationType();
@@ -73,6 +74,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/my-plan" element={<MyPlan />} />
+        <Route path="/community" element={<CommunityPage />} />
 
         <Route path="/dashboard" element={<DashboardNew />} >
           <Route path="ashol-dashboard" element={<Dashboard />} />
